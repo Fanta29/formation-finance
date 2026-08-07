@@ -1,0 +1,423 @@
+[
+ {
+  "id": "apport-001",
+  "q": "L'apport de titres à une holding CONTRÔLÉE par l'apporteur entraîne :",
+  "o": [
+   "Une taxation immédiate de la plus-value",
+   "Un report d'imposition de la plus-value (art. 150-0 B ter)",
+   "Une exonération définitive",
+   "Un sursis automatique"
+  ],
+  "c": 1,
+  "e": "Apport à une holding contrôlée = report d'imposition (150-0 B ter). La plus-value est constatée mais son imposition est différée."
+ },
+ {
+  "id": "apport-002",
+  "q": "Depuis la LF 2026 (cessions à compter du 21/02/2026), si la holding cède les titres apportés dans les 3 ans, le report tombe sauf réinvestissement d'au moins :",
+  "o": [
+   "30 %",
+   "50 %",
+   "70 % du produit dans une activité économique",
+   "100 %"
+  ],
+  "c": 2,
+  "e": "La LF 2026 a relevé le quota de remploi de 60 % à 70 % du produit de cession pour les cessions réalisées à compter du 21 février 2026 (60 % pour les cessions antérieures)."
+ },
+ {
+  "id": "apport-003",
+  "q": "Le délai pour procéder à ce réinvestissement (70 % du produit) est, depuis la LF 2026, de :",
+  "o": [
+   "6 mois",
+   "1 an",
+   "3 ans à compter de la cession",
+   "5 ans"
+  ],
+  "c": 2,
+  "e": "En contrepartie du relèvement à 70 %, la LF 2026 a porté le délai de réinvestissement de 2 à 3 ans (36 mois) pour les cessions à compter du 21/02/2026. Les biens réinvestis doivent ensuite être conservés 5 ans."
+ },
+ {
+  "id": "apport-004",
+  "q": "Le sursis d'imposition (art. 150-0 B) s'applique lorsque :",
+  "o": [
+   "La holding est contrôlée par l'apporteur",
+   "La holding bénéficiaire N'est PAS contrôlée par l'apporteur",
+   "L'apport porte sur un immeuble",
+   "Il n'y a aucune plus-value"
+  ],
+  "c": 1,
+  "e": "Sursis (automatique) = holding non contrôlée ; report (déclaratif) = holding contrôlée par l'apporteur. La distinction commande le régime applicable."
+ },
+ {
+  "id": "apport-005",
+  "q": "Le report d'imposition prend fin notamment en cas de :",
+  "o": [
+   "Distribution d'un dividende",
+   "Cession des titres reçus en rémunération de l'apport",
+   "Changement de gérant",
+   "Passage à l'IR"
+  ],
+  "c": 1,
+  "e": "La cession, le rachat ou l'annulation des titres reçus lors de l'apport met fin au report et rend la plus-value exigible."
+ },
+ {
+  "id": "apport-006",
+  "q": "L'apport de titres à une société que l'on CONTRÔLE relève du mécanisme de :",
+  "o": [
+   "Sursis d'imposition (150-0 B)",
+   "Report d'imposition (150-0 B ter)",
+   "Exonération définitive",
+   "Abattement de 85 %"
+  ],
+  "c": 1,
+  "e": "L'apport à une société contrôlée par l'apporteur place la plus-value en REPORT (art. 150-0 B ter). L'apport à une société non contrôlée bénéficie du SURSIS (150-0 B)."
+ },
+ {
+  "id": "apport-007",
+  "q": "Sous le report 150-0 B ter, si la holding cède les titres apportés moins de 3 ans après l'apport, le maintien du report suppose de réinvestir (règles en vigueur depuis le 21/02/2026) :",
+  "o": [
+   "30 % du produit en 5 ans",
+   "70 % du produit dans un délai de 3 ans dans une activité économique",
+   "100 % immédiatement",
+   "Aucun réinvestissement"
+  ],
+  "c": 1,
+  "e": "Depuis la LF 2026 : au moins 70 % du prix de cession réinvesti dans les 3 ans dans une activité éligible (contre 60 % en 2 ans auparavant)."
+ },
+ {
+  "id": "apport-008",
+  "q": "La différence essentielle entre sursis (150-0 B) et report (150-0 B ter) est que :",
+  "o": [
+   "Le report est automatique, le sursis sur option",
+   "Le sursis est automatique ; le report vise l'apport à une société contrôlée et impose un suivi",
+   "Ils sont identiques",
+   "Le sursis exonère définitivement"
+  ],
+  "c": 1,
+  "e": "Le sursis (société non contrôlée) est automatique et « invisible » ; le report (société contrôlée) suit la plus-value et peut être remis en cause (cession, réinvestissement)."
+ },
+ {
+  "id": "apport-009",
+  "q": "Le report d'imposition (150-0 B ter) prend fin notamment lors de :",
+  "o": [
+   "La cession des titres reçus en rémunération de l'apport",
+   "La perception d'un dividende de la holding",
+   "Le changement de gérant",
+   "La revalorisation des titres"
+  ],
+  "c": 0,
+  "e": "Le report tombe à la cession (ou au rachat, remboursement, annulation) des titres reçus lors de l'apport, ou en cas de cession des titres apportés sans réinvestissement suffisant."
+ },
+ {
+  "id": "apport-010",
+  "q": "L'objectif du schéma « apport-cession » est :",
+  "o": [
+   "D'échapper définitivement à l'impôt",
+   "De reporter l'imposition de la plus-value pour réinvestir la trésorerie via la holding",
+   "De payer plus d'impôt",
+   "D'éviter la TVA"
+  ],
+  "c": 1,
+  "e": "On reporte l'imposition de la plus-value latente afin de réinvestir le produit dans un cadre sociétaire, sans frottement fiscal immédiat."
+ },
+ {
+  "id": "apport-011",
+  "q": "Parmi ces réinvestissements, lesquels sont en principe éligibles au maintien du report (150-0 B ter) ?",
+  "o": [
+   "Le financement d'une activité commerciale/industrielle",
+   "L'acquisition d'une fraction du capital d'une société opérationnelle (contrôle)",
+   "La souscription au capital de sociétés éligibles",
+   "L'achat d'un portefeuille de titres cotés à but purement patrimonial"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le réinvestissement doit être « économique » : financement d'une activité, prise de contrôle, souscriptions éligibles. Le placement financier purement patrimonial n'est pas éligible."
+ },
+ {
+  "id": "apport-012",
+  "q": "Faire donation des titres reçus après un apport-cession :",
+  "o": [
+   "Purge toujours l'impôt sans condition",
+   "Peut transférer le report au donataire, avec une durée de conservation à respecter",
+   "Est interdit",
+   "Déclenche la TVA"
+  ],
+  "c": 1,
+  "e": "La donation peut transférer la charge du report aux donataires, qui doivent conserver les titres un certain délai (durci par les lois récentes) pour éviter la taxation."
+ },
+ {
+  "id": "apport-013",
+  "q": "Sous le sursis d'imposition (150-0 B), l'imposition de la plus-value d'apport intervient :",
+  "o": [
+   "Immédiatement",
+   "Lors de la cession ultérieure des titres reçus en échange",
+   "Jamais",
+   "À la constitution de la société"
+  ],
+  "c": 1,
+  "e": "Le sursis diffère automatiquement l'imposition : elle ne sera calculée qu'au moment où l'on cédera les titres reçus en rémunération de l'apport."
+ },
+ {
+  "id": "apport-014",
+  "q": "Un montage apport-cession dépourvu de réinvestissement économique réel peut être :",
+  "o": [
+   "Validé sans risque",
+   "Requalifié en abus de droit",
+   "Exonéré",
+   "Soumis à la TVA"
+  ],
+  "c": 1,
+  "e": "Le report 150-0 B ter suppose un réinvestissement économique effectif ; un schéma purement fiscal, sans substance, expose à la procédure d'abus de droit."
+ },
+ {
+  "id": "apport-015",
+  "q": "Le « contrôle » de la société bénéficiaire de l'apport (déclenchant le report) s'apprécie notamment par :",
+  "o": [
+   "La détention de la majorité des droits de vote",
+   "La détention avec son groupe familial",
+   "L'exercice en fait du pouvoir de décision",
+   "Le simple fait d'être salarié"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le contrôle résulte de la majorité des droits (seul ou avec le groupe familial) ou de l'exercice de fait du pouvoir de décision. Être salarié ne caractérise pas un contrôle."
+ },
+ {
+  "id": "apport-016",
+  "q": "Le report d'imposition de l'article 150-0 B ter s'applique lorsqu'un particulier apporte des titres à :",
+  "o": [
+   "Une société qu'il contrôle, soumise à l'IS",
+   "Une association",
+   "Une SCI à l'IR",
+   "Un trust étranger"
+  ],
+  "c": 0,
+  "e": "L'apport à une société contrôlée par l'apporteur et soumise à l'IS place la plus-value en report automatique (art. 150-0 B ter), sans imposition immédiate."
+ },
+ {
+  "id": "apport-017",
+  "q": "Le report tombe (imposition immédiate) si la holding cède les titres apportés dans les 3 ans, sauf réinvestissement d'au moins (LF 2026) :",
+  "o": [
+   "50 % du produit dans un an",
+   "70 % du produit dans un délai de 3 ans dans une activité économique",
+   "100 % immédiatement",
+   "30 % dans 5 ans"
+  ],
+  "c": 1,
+  "e": "Pour les cessions à compter du 21/02/2026, le maintien du report exige de réinvestir au moins 70 % du produit de cession dans les 3 ans dans une activité économique éligible (auparavant 60 % en 2 ans)."
+ },
+ {
+  "id": "apport-018",
+  "q": "Quels réinvestissements sont, en principe, éligibles au maintien du report (150-0 B ter) ?",
+  "o": [
+   "Le financement d'une activité opérationnelle",
+   "L'achat de titres donnant le contrôle d'une société opérationnelle",
+   "La souscription à des fonds éligibles (FCPR/FPCI qualifiants)",
+   "L'acquisition d'un immeuble de rapport en location nue"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Sont éligibles le financement d'une activité économique, la prise de contrôle d'une société opérationnelle et certains fonds qualifiants. La location nue patrimoniale est exclue car non opérationnelle."
+ },
+ {
+  "id": "apport-019",
+  "q": "Quelles évolutions la LF 2026 a-t-elle apportées au 150-0 B ter (cessions à compter du 21/02/2026) ?",
+  "o": [
+   "Réinvestissement porté de 60 % à 70 % du produit",
+   "Délai de réinvestissement porté de 2 à 3 ans",
+   "Exclusion des activités immobilières et de marchand de biens du remploi",
+   "Conservation des actifs réinvestis pendant 5 ans"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "La LF 2026 durcit le dispositif : remploi de 70 % (au lieu de 60 %) dans un délai de 3 ans (au lieu de 2), conservation des réinvestissements 5 ans, et exclusion explicite de l'immobilier et du marchand de biens des activités éligibles."
+ },
+ {
+  "id": "apport-020",
+  "q": "Dans un apport de titres, une soulte est admise sans faire tomber le report à condition qu'elle n'excède pas :",
+  "o": [
+   "5 % de la valeur nominale des titres reçus",
+   "10 % de la valeur nominale des titres reçus",
+   "25 %",
+   "La moitié de la plus-value"
+  ],
+  "c": 1,
+  "e": "La soulte ne doit pas dépasser 10 % de la valeur nominale des titres reçus. Même dans cette limite, la fraction de plus-value correspondant à la soulte est imposée immédiatement, l'année de l'apport."
+ },
+ {
+  "id": "apport-021",
+  "q": "Au décès de l'apporteur, la plus-value placée en report d'imposition (150-0 B ter) :",
+  "o": [
+   "Est transmise et due par les héritiers",
+   "Est en principe définitivement purgée",
+   "Est imposée au taux de 30 %",
+   "Devient un revenu foncier"
+  ],
+  "c": 1,
+  "e": "Le décès de l'apporteur purge en principe définitivement la plus-value en report (l'impôt latent n'est pas transmissible). Exception : titres attribués au conjoint via un avantage matrimonial, où le report peut subsister."
+ },
+ {
+  "id": "apport-022",
+  "q": "En cas de donation des titres de la holding (donations depuis le 21/02/2026), la purge du report suppose une conservation par le donataire de :",
+  "o": [
+   "6 ans (11 ans si remploi via fonds de capital-investissement)",
+   "2 ans",
+   "6 mois",
+   "Aucune durée"
+  ],
+  "c": 0,
+  "e": "La LF 2026 a allongé la conservation post-donation à 6 ans (remploi direct) ou 11 ans (remploi indirect via fonds), contre 5 et 10 ans auparavant. Une cession anticipée fait tomber le report."
+ },
+ {
+  "id": "apport-023",
+  "q": "La plus-value placée en report, lorsqu'elle devient imposable, est calculée :",
+  "o": [
+   "Sur la valeur des titres au jour où le report prend fin",
+   "Selon l'assiette figée à la date de l'apport initial",
+   "Après abattement pour durée de détention",
+   "Au taux réduit d'IS"
+  ],
+  "c": 1,
+  "e": "L'assiette de la plus-value en report est figée au montant constaté lors de l'apport ; c'est ce montant qui devient imposable à l'événement mettant fin au report, selon les règles applicables à cette date."
+ },
+ {
+  "id": "apport-024",
+  "q": "Si la holding cède les titres apportés MOINS de 2 ans après l'apport, quelle conséquence s'ajoute (au niveau de la société) ?",
+  "o": [
+   "Aucune, tant que le report est maintenu",
+   "La plus-value réalisée depuis l'apport est imposée à l'IS (25 %) chez la holding",
+   "Une exonération totale",
+   "Un remboursement d'impôt"
+  ],
+  "c": 1,
+  "e": "Deux chronomètres à ne pas confondre : la holding a 3 ans pour céder sans obligation de remploi ; mais une cession dans les 2 ans de l'apport fait apparaître, au niveau de la holding, une plus-value taxable à l'IS (25 %) sur la valorisation depuis l'apport."
+ },
+ {
+  "id": "apport-025",
+  "q": "Le réinvestissement du produit de cession via des fonds de capital-investissement (FPCI, FCPR) suppose notamment :",
+  "o": [
+   "Un engagement de souscription et de conservation des parts",
+   "Un quota d'investissement du fonds dans des sociétés éligibles",
+   "Une libération progressive des sommes dans un délai encadré",
+   "Une revente immédiate autorisée"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le remploi indirect via fonds éligibles impose un engagement de souscription/conservation, un quota d'actifs éligibles au niveau du fonds, et une libération des versements dans le délai légal — d'où la durée de conservation allongée (11 ans post-donation depuis la LF 2026)."
+ },
+ {
+  "id": "apport-026",
+  "q": "L'exit tax (art. 167 bis) frappe les plus-values latentes sur titres au transfert du domicile hors de France lorsque, notamment :",
+  "o": [
+   "La valeur globale des titres dépasse 800 000 €",
+   "Le contribuable détient ≥ 50 % des bénéfices d'une société",
+   "Il a été résident fiscal français ≥ 6 des 10 dernières années",
+   "Le patrimoine immobilier excède 1,3 M€"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'exit tax vise les titres (pas l'immobilier ni l'assurance-vie) : seuil de 800 000 € OU participation ≥ 50 %, et résidence française ≥ 6 des 10 dernières années. Un sursis est automatique vers l'UE/EEE ; l'impôt (PFU 31,4 %) est dégrevé après 2 ans (titres ≤ 2 570 000 €) ou 5 ans au-delà."
+ },
+ {
+  "id": "apport-027",
+  "q": "L'apport de titres à une société soumise à l'IS que l'apporteur NE contrôle PAS :",
+  "o": [
+   "Bénéficie du report de l'art. 150-0 B ter",
+   "Rend en principe la plus-value d'apport immédiatement imposable (sauf sursis 150-0 B en cas d'échange)",
+   "Est toujours exonéré",
+   "Relève des droits de succession"
+  ],
+  "c": 1,
+  "e": "Le report de l'art. 150-0 B ter suppose le contrôle de la société bénéficiaire. À défaut de contrôle et hors opération d'échange éligible au sursis (150-0 B), la plus-value d'apport est imposable immédiatement."
+ },
+ {
+  "id": "apport-028",
+  "q": "Cas : vous vendez votre société et souhaitez RÉINVESTIR le produit dans une nouvelle activité économique en différant l'imposition de la plus-value. Mécanisme adapté ?",
+  "o": [
+   "L'abattement fixe de 500 000 € (départ à la retraite)",
+   "L'apport-cession (report d'imposition, art. 150-0 B ter)",
+   "Le PFU classique",
+   "La donation avant cession"
+  ],
+  "c": 1,
+  "e": "L'apport-cession convient à celui qui veut poursuivre une activité : en apportant les titres à une holding contrôlée avant la vente, la plus-value est mise en report, maintenu si l'on réinvestit au moins 70 % du produit dans les 3 ans (règles LF 2026). L'abattement retraite viserait, lui, un retrait définitif."
+ },
+ {
+  "id": "apport-029",
+  "q": "Cas : dirigeant, vous voulez récupérer une partie de la valeur de votre société en cash tout en en gardant le contrôle. Montage adapté ?",
+  "o": [
+   "Vendre à un tiers",
+   "Un OBO (Owner Buy-Out) : vente à une holding que vous contrôlez, qui s'endette",
+   "Donner l'entreprise",
+   "Fermer la société"
+  ],
+  "c": 1,
+  "e": "L'OBO consiste à vendre sa société à une holding de reprise que l'on contrôle : on encaisse un prix (« cash-out ») tout en restant maître de l'affaire via la holding, qui rembourse sa dette grâce aux dividendes. À manier avec une vraie logique économique (risque d'abus de droit sinon)."
+ },
+ {
+  "id": "apport-030",
+  "q": "Définition : qu'est-ce que l'« apport-cession » ?",
+  "o": [
+   "La vente directe de titres avec paiement immédiat de l'impôt",
+   "L'apport de titres à une holding que l'on contrôle avant leur cession, plaçant la plus-value en report d'imposition",
+   "Un don de titres à une association",
+   "Un échange de biens immobiliers"
+  ],
+  "c": 1,
+  "e": "L'apport-cession (art. 150-0 B ter) consiste à apporter ses titres à une holding contrôlée avant de les vendre : la plus-value d'apport est mise en report, maintenu si l'on réinvestit une partie du produit dans une activité économique."
+ },
+ {
+  "id": "apport-031",
+  "q": "Définition : quelle différence entre « report » et « sursis » d'imposition ?",
+  "o": [
+   "Aucune, les termes sont synonymes",
+   "Le sursis reporte l'imposition sans figer la plus-value (opération neutre) ; le report constate et gèle la plus-value, imposée à un événement ultérieur",
+   "Le report est une exonération définitive",
+   "Le sursis double l'impôt"
+  ],
+  "c": 1,
+  "e": "En sursis (ex. échange de titres, 150-0 B), l'opération est neutre : on ne calcule la plus-value qu'à la cession ultérieure. En report (ex. apport-cession, 150-0 B ter), la plus-value est constatée et figée, puis imposée lorsqu'un événement met fin au report."
+ },
+ {
+  "id": "apport-032",
+  "q": "Définition : qu'est-ce que l'« exit tax » ?",
+  "o": [
+   "Une taxe à la sortie d'un parking",
+   "L'imposition des plus-values latentes sur titres lors du transfert du domicile fiscal hors de France",
+   "Une taxe sur les exportations",
+   "Un droit de douane"
+  ],
+  "c": 1,
+  "e": "L'exit tax (art. 167 bis) taxe, lors d'un départ à l'étranger, les plus-values latentes sur des titres importants (valeur > 800 000 € ou participation ≥ 50 %). Un sursis (automatique vers l'UE) et un dégrèvement après un délai de détention en atténuent la portée."
+ },
+ {
+  "id": "apport-033",
+  "q": "Cas : vous vendez votre société et souhaitez DIFFÉRER l'impôt sur la plus-value en réinvestissant dans une activité économique. Mécanisme ?",
+  "o": [
+   "Le PFU classique",
+   "L'apport-cession (report d'imposition, 150-0 B ter)",
+   "Une donation aux enfants",
+   "Le Livret A"
+  ],
+  "c": 1,
+  "e": "L'apport-cession met la plus-value en report : en apportant les titres à une holding contrôlée avant la vente, l'impôt est différé, et maintenu si l'on réinvestit au moins 70 % du produit dans une activité éligible (dans les 3 ans, règles LF 2026)."
+ }
+]

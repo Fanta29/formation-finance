@@ -1,0 +1,461 @@
+[
+ {
+  "id": "ifi-001",
+  "q": "On devient redevable de l'IFI lorsque le patrimoine immobilier net taxable dépasse :",
+  "o": [
+   "800 000 €",
+   "1 300 000 €",
+   "2 570 000 €",
+   "10 000 000 €"
+  ],
+  "c": 1,
+  "e": "Le seuil d'assujettissement à l'IFI est de 1,3 M€ de patrimoine immobilier net."
+ },
+ {
+  "id": "ifi-002",
+  "q": "Une fois le seuil franchi, le barème de l'IFI s'applique à partir de :",
+  "o": [
+   "0 €",
+   "800 000 €",
+   "1 300 000 €",
+   "1 400 000 €"
+  ],
+  "c": 1,
+  "e": "Le patrimoine est taxé dès 800 000 € une fois le seuil de 1,3 M€ atteint ; le barème va de 0,5 % à 1,5 %."
+ },
+ {
+  "id": "ifi-003",
+  "q": "Pour l'IFI, la résidence principale bénéficie d'un abattement de :",
+  "o": [
+   "10 %",
+   "30 %",
+   "50 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "La résidence principale est retenue pour 70 % de sa valeur (abattement de 30 %)."
+ },
+ {
+  "id": "ifi-004",
+  "q": "Les biens affectés à l'activité professionnelle :",
+  "o": [
+   "Sont taxés à l'IFI",
+   "Sont exonérés d'IFI",
+   "Bénéficient d'un abattement de 50 %",
+   "Sont taxés à 0,5 %"
+  ],
+  "c": 1,
+  "e": "Les biens immobiliers professionnels (nécessaires à l'activité) sont exonérés d'IFI."
+ },
+ {
+  "id": "ifi-005",
+  "q": "Sont déductibles de l'assiette de l'IFI :",
+  "o": [
+   "Les dettes personnelles de consommation",
+   "Les dettes afférentes aux actifs imposables (emprunts immobiliers)",
+   "L'impôt sur le revenu",
+   "Les dettes de jeu"
+  ],
+  "c": 1,
+  "e": "Seules les dettes se rapportant aux actifs immobiliers imposables (prêts d'acquisition, travaux, taxes foncières) sont déductibles."
+ },
+ {
+  "id": "ifi-006",
+  "q": "L'IFI a remplacé l'ISF en :",
+  "o": [
+   "2013",
+   "2018",
+   "2020",
+   "2015"
+  ],
+  "c": 1,
+  "e": "L'ISF a été remplacé par l'IFI en 2018, recentrant l'imposition sur le seul patrimoine immobilier (les actifs financiers en sont sortis)."
+ },
+ {
+  "id": "ifi-007",
+  "q": "L'IFI est dû lorsque le patrimoine immobilier net taxable dépasse :",
+  "o": [
+   "800 000 €",
+   "1 300 000 €",
+   "1 000 000 €",
+   "500 000 €"
+  ],
+  "c": 1,
+  "e": "Le seuil d'assujettissement est de 1,3 M€ ; mais une fois franchi, le barème s'applique dès 800 000 € (tranches)."
+ },
+ {
+  "id": "ifi-008",
+  "q": "L'IFI a remplacé, depuis 2018 :",
+  "o": [
+   "La taxe foncière",
+   "L'ISF (impôt de solidarité sur la fortune)",
+   "La CSG",
+   "Les droits de succession"
+  ],
+  "c": 1,
+  "e": "L'IFI s'est substitué à l'ISF en 2018, en restreignant l'assiette au seul patrimoine immobilier (le patrimoine financier en est sorti)."
+ },
+ {
+  "id": "ifi-009",
+  "q": "La résidence principale bénéficie, pour l'IFI, d'un abattement de :",
+  "o": [
+   "10 %",
+   "30 %",
+   "50 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "La valeur vénale de la résidence principale est retenue après un abattement de 30 %."
+ },
+ {
+  "id": "ifi-010",
+  "q": "Les biens immobiliers affectés à l'activité professionnelle sont :",
+  "o": [
+   "Taxables à l'IFI",
+   "Exonérés d'IFI (biens professionnels)",
+   "Taxés à 50 %",
+   "Soumis au PFU"
+  ],
+  "c": 1,
+  "e": "L'immobilier professionnel (affecté à l'activité opérationnelle du redevable) est exonéré d'IFI, sous conditions."
+ },
+ {
+  "id": "ifi-011",
+  "q": "Le plafonnement de l'IFI limite le total IFI + IR à :",
+  "o": [
+   "50 % des revenus",
+   "75 % des revenus de l'année précédente",
+   "100 %",
+   "Sans plafond"
+  ],
+  "c": 1,
+  "e": "Le total IFI + impôt sur le revenu ne peut excéder 75 % des revenus de l'année précédente ; l'excédent vient réduire l'IFI."
+ },
+ {
+  "id": "ifi-012",
+  "q": "Les parts de SCI ou de SCPI sont, à l'IFI :",
+  "o": [
+   "Totalement exonérées",
+   "Taxables à hauteur de la valeur représentative d'immobilier",
+   "Taxées comme des valeurs mobilières",
+   "Hors champ"
+  ],
+  "c": 1,
+  "e": "On retient la fraction de la valeur des parts correspondant à des actifs immobiliers imposables (transparence de l'assiette)."
+ },
+ {
+  "id": "ifi-013",
+  "q": "Parmi ces éléments, lesquels sont dans l'assiette de l'IFI ?",
+  "o": [
+   "Une résidence secondaire",
+   "Des parts de SCPI (pour leur part immobilière)",
+   "Un portefeuille d'actions cotées",
+   "Un immeuble locatif détenu en direct"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "L'IFI ne vise que l'immobilier : résidence secondaire, part immobilière des SCPI et immeuble locatif sont taxables. Les actions cotées relèvent du patrimoine financier, exclu."
+ },
+ {
+  "id": "ifi-014",
+  "q": "En cas de démembrement (hors cas légaux), l'IFI est en principe supporté par :",
+  "o": [
+   "Le nu-propriétaire",
+   "L'usufruitier, pour la valeur en pleine propriété (art. 968)",
+   "Les deux à parts égales",
+   "Personne"
+  ],
+  "c": 1,
+  "e": "L'usufruitier déclare l'immeuble pour sa valeur en pleine propriété ; le nu-propriétaire n'est pas imposé (sauf démembrement d'origine légale)."
+ },
+ {
+  "id": "ifi-015",
+  "q": "Le barème de l'IFI comporte des taux allant de :",
+  "o": [
+   "0 % à 1,5 %",
+   "0,5 % à 1,5 %",
+   "1 % à 3 %",
+   "Un taux unique de 1 %"
+  ],
+  "c": 1,
+  "e": "Le barème progressif de l'IFI va de 0,5 % (fraction 800 000-1,3 M€) jusqu'à 1,5 % (fraction supérieure à 10 M€)."
+ },
+ {
+  "id": "ifi-016",
+  "q": "Certaines dettes ne sont que partiellement déductibles à l'IFI pour :",
+  "o": [
+   "Éviter les montages (prêts in fine, prêts familiaux)",
+   "Favoriser l'endettement",
+   "Simplifier le calcul",
+   "Aucune raison"
+  ],
+  "c": 0,
+  "e": "Des règles anti-abus limitent la déduction de certaines dettes (prêts in fine amortis fictivement, prêts entre proches) afin d'empêcher la minoration artificielle de l'assiette."
+ },
+ {
+  "id": "ifi-017",
+  "q": "L'IFI est dû lorsque le patrimoine immobilier net taxable du foyer dépasse :",
+  "o": [
+   "800 000 €",
+   "1 300 000 €",
+   "2 570 000 €",
+   "1 000 000 €"
+  ],
+  "c": 1,
+  "e": "Le seuil d'assujettissement à l'IFI est de 1 300 000 € de patrimoine immobilier net. Le barème s'applique toutefois dès 800 000 €, une fois le seuil franchi."
+ },
+ {
+  "id": "ifi-018",
+  "q": "Quels biens ou dispositifs échappent (en tout ou partie) à l'assiette de l'IFI ?",
+  "o": [
+   "La résidence principale, après abattement de 30 %",
+   "Les biens immobiliers affectés à l'activité professionnelle",
+   "Les parts de SCI détenant des immeubles loués",
+   "Les bois et forêts (partiellement, sous engagement)"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "La RP bénéficie d'un abattement de 30 %, les biens professionnels sont exonérés, les bois et forêts le sont à 75 % sous engagement de gestion. Les parts de SCI restent, elles, dans l'assiette."
+ },
+ {
+  "id": "ifi-019",
+  "q": "Le mécanisme de plafonnement de l'IFI limite le total IFI + IR + PS à :",
+  "o": [
+   "50 % des revenus",
+   "75 % des revenus du foyer",
+   "100 % du patrimoine",
+   "Aucune limite"
+  ],
+  "c": 1,
+  "e": "L'IFI cumulé à l'IR et aux prélèvements sociaux ne peut excéder 75 % des revenus de l'année précédente ; l'excédent vient réduire l'IFI."
+ },
+ {
+  "id": "ifi-020",
+  "q": "Le fait générateur de l'IFI (appréciation du patrimoine) est fixé au :",
+  "o": [
+   "31 décembre",
+   "1er janvier de l'année d'imposition",
+   "Jour de la déclaration",
+   "Dernier jour du trimestre"
+  ],
+  "c": 1,
+  "e": "Le patrimoine immobilier net taxable s'apprécie au 1er janvier de l'année d'imposition. Les acquisitions ou cessions postérieures ne jouent que pour l'année suivante."
+ },
+ {
+  "id": "ifi-021",
+  "q": "La réduction d'IFI au titre des dons à certains organismes d'intérêt général est de :",
+  "o": [
+   "66 % des versements",
+   "75 % des versements, dans la limite de 50 000 €",
+   "50 % sans plafond",
+   "100 %"
+  ],
+  "c": 1,
+  "e": "Les dons éligibles ouvrent droit à une réduction d'IFI de 75 % des versements, plafonnée à 50 000 € de réduction par an (art. 978 CGI)."
+ },
+ {
+  "id": "ifi-022",
+  "q": "Quels actifs bénéficient d'une exonération partielle (75 %) à l'IFI, sous engagement ?",
+  "o": [
+   "Les bois et forêts",
+   "Les parts de groupements fonciers agricoles (GFA) donnés à bail long terme",
+   "La résidence principale",
+   "Un immeuble de rapport en location nue"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Bois, forêts et parts de GFA bénéficient d'une exonération de 75 % sous engagement de gestion/conservation. La RP relève, elle, d'un abattement de 30 % (et non 75 %) ; l'immeuble de rapport est pleinement taxable."
+ },
+ {
+  "id": "ifi-023",
+  "q": "L'assurance-vie entre dans l'assiette de l'IFI :",
+  "o": [
+   "Jamais",
+   "À hauteur de la fraction des unités de compte représentative d'actifs immobiliers",
+   "Pour sa totalité",
+   "Seulement au décès"
+  ],
+  "c": 1,
+  "e": "La fraction de la valeur d'un contrat correspondant à des unités de compte immobilières (SCPI, OPCI, SCI) est intégrée à l'assiette de l'IFI, contrairement au fonds euros classique."
+ },
+ {
+  "id": "ifi-024",
+  "q": "Un non-résident fiscal français est redevable de l'IFI :",
+  "o": [
+   "Sur son patrimoine immobilier mondial",
+   "Sur ses seuls biens immobiliers situés en France",
+   "Jamais",
+   "Uniquement sur ses revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Le non-résident n'est imposable à l'IFI que sur ses biens et droits immobiliers situés en France (sous réserve des conventions fiscales)."
+ },
+ {
+  "id": "ifi-025",
+  "q": "Pour un immeuble détenu via une société, l'assiette IFI retient :",
+  "o": [
+   "La totalité de la valeur des titres",
+   "La seule fraction de la valeur des titres représentative des immeubles",
+   "Rien, les sociétés étant exclues",
+   "La valeur nette comptable"
+  ],
+  "c": 1,
+  "e": "On applique aux titres un coefficient immobilier : seule la part de leur valeur correspondant à des immeubles taxables entre dans l'assiette, non les actifs professionnels ou d'exploitation."
+ },
+ {
+  "id": "ifi-026",
+  "q": "Le dispositif de décote de l'IFI vise :",
+  "o": [
+   "Tous les redevables",
+   "Les patrimoines compris entre 1,3 M€ et 1,4 M€, pour lisser l'entrée dans l'impôt",
+   "Les seuls non-résidents",
+   "Les patrimoines supérieurs à 10 M€"
+  ],
+  "c": 1,
+  "e": "Une décote atténue l'effet de seuil pour les patrimoines entre 1,3 et 1,4 M€ : réduction = 17 500 € − 1,25 % de la valeur nette taxable."
+ },
+ {
+  "id": "ifi-027",
+  "q": "En cas de démembrement, qui est en principe redevable de l'IFI sur la valeur en pleine propriété ?",
+  "o": [
+   "Le nu-propriétaire",
+   "L'usufruitier (art. 968 CGI)",
+   "Les deux à parts égales",
+   "Personne"
+  ],
+  "c": 1,
+  "e": "Par principe, l'usufruitier déclare le bien pour sa valeur en pleine propriété (art. 968). Par exception, certains démembrements légaux (ex. succession au profit du conjoint) sont répartis selon le barème de l'art. 669."
+ },
+ {
+  "id": "ifi-028",
+  "q": "Pour un bien financé par un prêt in fine, la dette déductible à l'IFI :",
+  "o": [
+   "Est déductible pour son montant total chaque année",
+   "Est déduite de façon dégressive, comme si elle était amortie linéairement sur la durée du prêt",
+   "N'est jamais déductible",
+   "Est déductible à 50 %"
+  ],
+  "c": 1,
+  "e": "Pour éviter de figer une dette constante face à un capital non amorti, l'art. 974 III retient une déduction dégressive du prêt in fine : chaque année, on ne déduit que le montant qui resterait dû si le prêt était amorti par fractions égales."
+ },
+ {
+  "id": "ifi-029",
+  "q": "Les dettes contractées auprès d'un membre du cercle familial pour acquérir un bien imposable à l'IFI :",
+  "o": [
+   "Sont toujours déductibles",
+   "Ne sont en principe pas déductibles (dispositif anti-abus), sauf conditions normales prouvées",
+   "Doublent l'abattement",
+   "Sont exonérées"
+  ],
+  "c": 1,
+  "e": "Pour contrer les montages, l'art. 974 II écarte en principe la déduction des dettes envers le foyer ou le cercle familial (ascendants, descendants, frères/sœurs), sauf à démontrer le caractère normal des conditions du prêt (terme, taux, remboursement effectif)."
+ },
+ {
+  "id": "ifi-030",
+  "q": "En cas de démembrement issu d'une succession où le conjoint survivant recueille l'usufruit légal, l'IFI est :",
+  "o": [
+   "Dû par le seul usufruitier sur la pleine propriété",
+   "Réparti entre usufruitier et nu-propriétaire selon le barème de l'art. 669",
+   "Dû par le seul nu-propriétaire",
+   "Non applicable"
+  ],
+  "c": 1,
+  "e": "Par dérogation au principe (usufruitier taxé sur la pleine propriété), certains démembrements d'origine légale — dont l'usufruit du conjoint survivant issu de la succession — sont répartis entre usufruitier et nu-propriétaire selon le barème de l'art. 669."
+ },
+ {
+  "id": "ifi-031",
+  "q": "Mini-cas : patrimoine immobilier net taxable de 1 500 000 €. IFI dû (barème 0,5 % de 800 k à 1,3 M€, 0,7 % de 1,3 M à 2,57 M€) ?",
+  "o": [
+   "7 500 €",
+   "3 900 €",
+   "2 500 €",
+   "10 500 €"
+  ],
+  "c": 1,
+  "e": "0,5 % × (1 300 000 − 800 000) = 2 500 € ; 0,7 % × (1 500 000 − 1 300 000) = 1 400 €. Total : 3 900 €. La 1re tranche (jusqu'à 800 000 €) est à 0 %, mais le barème s'applique dès le seuil d'assujettissement de 1,3 M€ franchi."
+ },
+ {
+  "id": "ifi-032",
+  "q": "Cas : vous êtes redevable de l'IFI et cherchez à en réduire le montant. Leviers pertinents ?",
+  "o": [
+   "Réaliser des dons ouvrant la réduction d'IFI de 75 %",
+   "Investir dans des actifs hors assiette (biens professionnels, bois et forêts)",
+   "Recourir au démembrement (donner la nue-propriété)",
+   "Souscrire un PEA"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Pour alléger l'IFI : les dons éligibles réduisent l'impôt de 75 % (plafond 50 000 €) ; orienter le patrimoine vers des actifs exonérés (biens professionnels, forêts à 75 %) ; ou démembrer (l'usufruitier étant taxé, donner la nue-propriété sort la valeur de votre patrimoine). Le PEA (actifs financiers) est déjà hors IFI mais ne le réduit pas."
+ },
+ {
+  "id": "ifi-033",
+  "q": "Définition : qu'est-ce que l'IFI (impôt sur la fortune immobilière) ?",
+  "o": [
+   "Un impôt sur tous les revenus",
+   "Un impôt annuel sur le patrimoine immobilier net supérieur à 1,3 M€",
+   "Une taxe sur les plus-values boursières",
+   "Un impôt sur les successions"
+  ],
+  "c": 1,
+  "e": "L'IFI frappe le patrimoine immobilier net des foyers dont la valeur dépasse 1,3 M€ au 1er janvier. Il a remplacé l'ISF en 2018 en restreignant l'assiette à l'immobilier (les actifs financiers en sont exclus)."
+ },
+ {
+  "id": "ifi-034",
+  "q": "Mini-cas : patrimoine immobilier net de 1 350 000 €. Montant de la décote d'IFI (17 500 − 1,25 % × valeur) ?",
+  "o": [
+   "625 €",
+   "1 250 €",
+   "0 €",
+   "2 500 €"
+  ],
+  "c": 0,
+  "e": "Décote = 17 500 − (1,25 % × 1 350 000) = 17 500 − 16 875 = 625 €. Cette décote vient réduire l'IFI calculé, pour lisser l'entrée dans l'impôt entre 1,3 et 1,4 M€."
+ },
+ {
+  "id": "ifi-035",
+  "q": "Mini-cas : patrimoine immobilier net de 2 000 000 €. IFI dû (0,5 % de 0,8 à 1,3 M€ ; 0,7 % de 1,3 à 2,57 M€) ?",
+  "o": [
+   "10 000 €",
+   "7 400 €",
+   "2 500 €",
+   "14 000 €"
+  ],
+  "c": 1,
+  "e": "0,5 % × (1 300 000 − 800 000) = 2 500 € ; 0,7 % × (2 000 000 − 1 300 000) = 4 900 €. Total : 7 400 €."
+ },
+ {
+  "id": "ifi-036",
+  "q": "La donation temporaire d'usufruit (par exemple à un enfant étudiant) permet, côté donateur :",
+  "o": [
+   "Rien de particulier",
+   "De sortir le bien de son assiette IFI pendant la durée, et de transférer les revenus au bénéficiaire",
+   "De doubler ses revenus",
+   "D'être exonéré d'IR à vie"
+  ],
+  "c": 1,
+  "e": "En donnant l'usufruit d'un bien pour une durée déterminée, le donateur en transfère les revenus (au bénéficiaire, imposé selon sa propre situation) et sort la valeur du bien de son assiette IFI pendant la période — sous réserve d'une réelle justification (pas d'abus de droit)."
+ },
+ {
+  "id": "ifi-037",
+  "q": "Cas : votre patrimoine comprend une résidence principale, un bien locatif et un peu d'épargne. Serez-vous redevable de l'IFI ?",
+  "o": [
+   "Oui, dès le premier euro d'immobilier",
+   "Seulement si votre patrimoine immobilier NET (après dettes, abattement de 30 % sur la RP) dépasse 1,3 M€ au 1er janvier",
+   "Oui, à cause de l'épargne",
+   "Jamais"
+  ],
+  "c": 1,
+  "e": "L'IFI ne frappe que les foyers dont le patrimoine immobilier net excède 1,3 M€ au 1er janvier. On déduit les dettes afférentes et l'on applique un abattement de 30 % sur la résidence principale. L'épargne financière n'entre pas dans l'assiette."
+ }
+]

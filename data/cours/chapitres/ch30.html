@@ -1,0 +1,35 @@
+<p>Le chapitre 16 a introduit les options ; on les approfondit ici. Comment fixer le prix (la prime) d'une option ? Quels facteurs le déterminent ? Le modèle de Black-Scholes a révolutionné la finance en répondant à cette question. Ce chapitre en présente les déterminants, la fameuse parité call-put, l'intuition de Black-Scholes, les « grecques » et les stratégies optionnelles.</p>
+<h3 id="s30-1"><span class="num">30.1</span> Les déterminants de la valeur d'une option</h3>
+<p>La prime d'une option (call ou put) dépend de cinq paramètres. Comprendre leur sens, c'est comprendre l'essentiel :</p>
+<ul><li><strong>Le cours du sous-jacent</strong> : un call vaut d'autant plus que le sous-jacent est élevé (et inversement pour un put).</li></ul>
+<ul><li><strong>Le prix d'exercice (strike)</strong> : plus le strike d'un call est bas, plus le call est précieux.</li></ul>
+<ul><li><strong>La durée jusqu'à l'échéance</strong> : plus il reste de temps, plus le sous-jacent peut évoluer favorablement, donc plus l'option vaut (valeur temps).</li></ul>
+<ul><li><strong>La volatilité</strong> : c'est le paramètre clé. Plus le sous-jacent est volatil, plus l'option a de chances de finir « dans la monnaie » — la volatilité augmente la valeur des calls comme des puts.</li></ul>
+<ul><li><strong>Le taux d'intérêt sans risque</strong> : il intervient via l'actualisation du prix d'exercice.</li></ul>
+<aside class="encadre"><strong>À retenir</strong> Contre-intuition fondamentale : la <strong>volatilité augmente la valeur d'une option</strong>, qu'il s'agisse d'un call ou d'un put. Car le détenteur d'une option a une perte plafonnée (la prime) et un gain ouvert : il bénéficie des grands mouvements favorables sans subir symétriquement les défavorables. Plus ça bouge, mieux c'est pour lui. La volatilité est donc une variable centrale — on parle même de « trader la volatilité ».</aside>
+<h3 id="s30-2"><span class="num">30.2</span> La parité call-put</h3>
+<p>Une relation d'arbitrage incontournable lie le prix d'un call et d'un put de mêmes strike (K) et échéance (T) sur le même sous-jacent (S) :</p>
+<p>C − P = S − K × <em>e</em>−rT</p>
+<p>Cette <strong>parité call-put</strong> signifie qu'on peut recréer n'importe lequel des quatre instruments (call, put, sous-jacent, obligation sans risque) à partir des trois autres. Si elle est violée, un arbitragiste réalise un profit sans risque — ce qui, en pratique, la maintient vérifiée. Elle permet aussi de déduire le prix d'un put de celui du call, et réciproquement.</p>
+<h3 id="s30-3"><span class="num">30.3</span> Le modèle de Black-Scholes</h3>
+<p>En 1973, Black, Scholes et Merton (prix Nobel) publient une formule fermée donnant le prix théorique d'une option européenne. Pour un call, elle s'écrit :</p>
+<p>C = S × N(d1) − K × <em>e</em>−rT × N(d2)</p>
+<p>où N(·) est la fonction de répartition de la loi normale, et d1, d2 dépendent de S, K, T, du taux <em>r</em> et de la volatilité <em>σ</em>. Sans entrer dans la démonstration, retenons l'essentiel : le modèle <strong>relie le prix de l'option à la volatilité du sous-jacent</strong>, et il repose sur l'idée de <strong>couverture dynamique</strong> — on peut, en théorie, répliquer une option en détenant une fraction (variable) du sous-jacent. Sa portée a été immense ; ses limites (volatilité supposée constante, rendements normaux) ont nourri toute la recherche ultérieure.</p>
+<h3 id="s30-4"><span class="num">30.4</span> Les « grecques »</h3>
+<p>Les « grecques » mesurent la sensibilité du prix d'une option à chacun de ses paramètres — outils quotidiens des traders pour piloter le risque d'un portefeuille d'options :</p>
+<div class="tbl"><table><thead><tr><th><strong>Grecque</strong></th><th><strong>Mesure la sensibilité du prix à…</strong></th></tr></thead><tbody><tr><td>Delta (Δ)</td><td>une variation du cours du sous-jacent (la plus suivie).</td></tr><tr><td>Gamma (Γ)</td><td>la variation du delta lui-même (convexité).</td></tr><tr><td>Vega</td><td>une variation de la volatilité.</td></tr><tr><td>Theta (Θ)</td><td>l'écoulement du temps (érosion de la valeur temps).</td></tr><tr><td>Rho (ρ)</td><td>une variation du taux d'intérêt.</td></tr></tbody></table></div>
+<p>Le <strong>delta</strong> est le plus utilisé : il indique de combien varie la prime quand le sous-jacent bouge d'une unité, et sert à « couvrir » une position (être <em>delta-neutre</em>). Le <strong>theta</strong> rappelle que, toutes choses égales, une option perd de la valeur chaque jour qui passe — le temps joue contre l'acheteur d'option.</p>
+<h3 id="s30-5"><span class="num">30.5</span> Les stratégies optionnelles</h3>
+<p>En combinant options et sous-jacent, on construit des profils de gain sur mesure. Quelques classiques :</p>
+<ul><li><strong>Le call couvert</strong> : détenir l'action et vendre un call dessus, pour encaisser une prime en renonçant à la hausse au-delà du strike.</li></ul>
+<ul><li><strong>Le put de protection</strong> : détenir l'action et acheter un put, comme une assurance contre la baisse (vu au chapitre 16).</li></ul>
+<ul><li><strong>Le spread</strong> : acheter et vendre deux options de strikes différents pour parier sur une direction à coût réduit, en plafonnant gain et perte.</li></ul>
+<ul><li><strong>Le straddle</strong> : acheter simultanément un call et un put de même strike, pour parier sur un fort mouvement — dans n'importe quel sens (donc sur la volatilité).</li></ul>
+<h3 id="s30-6"><span class="num">30.6</span> Exercices</h3>
+<ul><li><strong>Volatilité. </strong>Deux actions ont le même cours et le même dividende, mais l'une est deux fois plus volatile que l'autre. Sur laquelle un call de même strike et échéance vaut-il le plus cher ? Pourquoi ?</li></ul>
+<ul><li><strong>Parité call-put. </strong>Un call vaut 8 €, le sous-jacent cote 100 €, le strike actualisé K·e^(−rT) vaut 95 €. Quelle est, par la parité, la valeur du put de mêmes caractéristiques ?</li></ul>
+<ul><li><strong>Theta. </strong>Pourquoi dit-on que « le temps joue contre l'acheteur d'option » ? Quelle grecque mesure cet effet ?</li></ul>
+<h4>Corrigés</h4>
+<p><strong>1.  </strong>Sur l'action <strong>la plus volatile</strong>. Une volatilité supérieure augmente la probabilité de mouvements amples ; comme la perte de l'acheteur est plafonnée à la prime et son gain ouvert, davantage de volatilité accroît la valeur de l'option. Le call vaut donc plus cher sur le sous-jacent le plus volatil.</p>
+<p><strong>2.  </strong>Parité : C − P = S − K·e^(−rT), donc P = C − S + K·e^(−rT) = 8 − 100 + 95 = <strong>3 €</strong>.</p>
+<p><strong>3.  </strong>Parce qu'une part de la valeur d'une option est sa <strong>valeur temps</strong>, liée à la probabilité que le sous-jacent évolue favorablement d'ici l'échéance. Cette valeur temps <strong>s'érode</strong> à mesure qu'on approche du terme et disparaît à l'échéance. La grecque qui mesure cette perte quotidienne est le <strong>theta</strong>.</p>

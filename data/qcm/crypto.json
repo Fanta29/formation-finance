@@ -1,0 +1,701 @@
+[
+ {
+  "id": "crypto-001",
+  "q": "Les plus-values occasionnelles sur crypto-actifs sont imposées, en 2026, à :",
+  "o": [
+   "30 %",
+   "PFU 31,4 % (ou barème sur option)",
+   "19 %",
+   "Exonération"
+  ],
+  "c": 1,
+  "e": "Les crypto-actifs relèvent du PFU et sont concernés par la hausse : 12,8 % + 18,6 % = 31,4 %, sauf option pour le barème."
+ },
+ {
+  "id": "crypto-002",
+  "q": "Le seuil annuel de cessions en dessous duquel la plus-value crypto est exonérée est de :",
+  "o": [
+   "305 €",
+   "5 000 €",
+   "1 500 €",
+   "0 €"
+  ],
+  "c": 0,
+  "e": "Si le total des cessions imposables de l'année n'excède pas 305 €, la plus-value est exonérée d'impôt."
+ },
+ {
+  "id": "crypto-003",
+  "q": "Le fait générateur de l'imposition d'une plus-value crypto est :",
+  "o": [
+   "La simple détention",
+   "La cession contre une monnaie ayant cours légal ou un bien/service",
+   "Chaque échange crypto-crypto",
+   "La réception d'un airdrop"
+  ],
+  "c": 1,
+  "e": "L'imposition est déclenchée par la conversion en euros (ou l'achat d'un bien). Les échanges crypto-crypto sont en principe neutres tant qu'on reste en crypto."
+ },
+ {
+  "id": "crypto-004",
+  "q": "Depuis 2023, pour ses plus-values crypto, le particulier peut opter pour :",
+  "o": [
+   "L'IS",
+   "Le barème progressif de l'IR",
+   "Une exonération totale",
+   "Le régime foncier"
+  ],
+  "c": 1,
+  "e": "Depuis l'imposition des revenus 2023, l'option pour le barème progressif est possible, avantageuse pour les TMI faibles."
+ },
+ {
+  "id": "crypto-005",
+  "q": "Une activité d'achat-revente HABITUELLE de cryptos relève de la catégorie :",
+  "o": [
+   "Revenus fonciers",
+   "BNC (depuis 2023)",
+   "RCM",
+   "Plus-values de particuliers"
+  ],
+  "c": 1,
+  "e": "Depuis 2023, l'activité habituelle de trading est imposée en BNC (auparavant BIC). L'activité occasionnelle reste au régime des plus-values de particuliers."
+ },
+ {
+  "id": "crypto-006",
+  "q": "Les revenus tirés du minage de cryptomonnaies sont imposés en :",
+  "o": [
+   "Revenus fonciers",
+   "BNC",
+   "RCM",
+   "Plus-values immobilières"
+  ],
+  "c": 1,
+  "e": "Le minage génère des revenus imposables dans la catégorie des BNC (bénéfices non commerciaux)."
+ },
+ {
+  "id": "crypto-007",
+  "q": "Depuis 2026, la plus-value de cession d'actifs numériques par un particulier (occasionnel) est imposée à :",
+  "o": [
+   "30 %",
+   "31,4 % (PFU) ou barème sur option",
+   "19 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Comme les autres revenus mobiliers, la plus-value crypto suit le PFU passé à 31,4 % (12,8 % IR + 18,6 % PS), avec option barème possible."
+ },
+ {
+  "id": "crypto-008",
+  "q": "En dessous de quel montant annuel de cessions la plus-value crypto est-elle exonérée ?",
+  "o": [
+   "305 €",
+   "3 000 €",
+   "5 000 €",
+   "Aucun seuil"
+  ],
+  "c": 0,
+  "e": "Si le total des cessions imposables de l'année n'excède pas 305 €, la plus-value est exonérée."
+ },
+ {
+  "id": "crypto-009",
+  "q": "Un échange crypto-contre-crypto (sans passage en euros) est :",
+  "o": [
+   "Immédiatement imposable",
+   "En principe neutre (sursis, art. 150 VH bis)",
+   "Soumis à la TVA",
+   "Interdit"
+  ],
+  "c": 1,
+  "e": "Tant que l'on reste en actifs numériques, l'échange est neutre : l'imposition n'intervient qu'à la conversion en monnaie ayant cours légal ou à l'achat d'un bien/service."
+ },
+ {
+  "id": "crypto-010",
+  "q": "La détention d'un compte d'actifs numériques ouvert à l'ÉTRANGER doit :",
+  "o": [
+   "Rester secrète",
+   "Être déclarée à l'administration fiscale (imprimé dédié)",
+   "N'être déclarée qu'au-delà de 50 000 €",
+   "Faire l'objet d'une TVA"
+  ],
+  "c": 1,
+  "e": "Les comptes d'actifs numériques détenus à l'étranger doivent être déclarés (formulaire n° 3916-bis) ; l'omission est sanctionnée par une amende."
+ },
+ {
+  "id": "crypto-011",
+  "q": "Quels revenus crypto relèvent des BNC (et non des plus-values de particuliers) ?",
+  "o": [
+   "Les gains d'une activité de trading habituelle (depuis 2023)",
+   "Les revenus de minage",
+   "La plus-value d'un investisseur occasionnel",
+   "Les récompenses d'une activité professionnelle de staking exercée à titre habituel"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Trading habituel, minage et staking exercés à titre professionnel/habituel relèvent des BNC. La plus-value de l'investisseur occasionnel reste au régime des particuliers (PFU)."
+ },
+ {
+  "id": "crypto-012",
+  "q": "Les moins-values de cession d'actifs numériques :",
+  "o": [
+   "Ne sont jamais imputables",
+   "S'imputent sur les plus-values de même nature réalisées la même année",
+   "S'imputent sur le revenu global",
+   "Sont reportables 10 ans"
+  ],
+  "c": 1,
+  "e": "Les moins-values crypto s'imputent uniquement sur les plus-values d'actifs numériques de la MÊME année ; elles ne sont pas reportables sur les années suivantes."
+ },
+ {
+  "id": "crypto-013",
+  "q": "Le détail des plus-values d'actifs numériques se déclare via :",
+  "o": [
+   "Le formulaire 2086",
+   "La déclaration 2044",
+   "Le formulaire 2035",
+   "Aucune déclaration"
+  ],
+  "c": 0,
+  "e": "L'annexe n° 2086 sert à détailler chaque cession imposable ; le résultat est reporté sur la déclaration de revenus."
+ },
+ {
+  "id": "crypto-014",
+  "q": "Un stablecoin (jeton indexé sur une monnaie) est, au sens fiscal :",
+  "o": [
+   "Une monnaie ayant cours légal",
+   "Un actif numérique (sa conversion en euros est imposable)",
+   "Exonéré par nature",
+   "Un revenu foncier"
+  ],
+  "c": 1,
+  "e": "Un stablecoin reste un actif numérique : le passer en euros constitue un fait générateur d'imposition comme toute autre cryptomonnaie."
+ },
+ {
+  "id": "crypto-015",
+  "q": "La plus-value de cession d'actifs numériques par un particulier « occasionnel » relève de :",
+  "o": [
+   "L'article 150 VH bis du CGI",
+   "Des BIC",
+   "Des revenus fonciers",
+   "Des traitements et salaires"
+  ],
+  "c": 0,
+  "e": "L'investisseur occasionnel est imposé selon le régime spécifique de l'article 150 VH bis (plus-values sur actifs numériques). L'activité habituelle bascule, elle, en BNC."
+ },
+ {
+  "id": "crypto-016",
+  "q": "Quels événements NE déclenchent PAS d'imposition immédiate en crypto (particulier) ?",
+  "o": [
+   "L'échange d'une cryptomonnaie contre une autre",
+   "La conversion de crypto en euros",
+   "L'achat d'un bien réglé en crypto",
+   "La simple détention (HODL) sans cession"
+  ],
+  "c": [
+   0,
+   3
+  ],
+  "e": "L'échange crypto-contre-crypto bénéficie d'un sursis (pas de fait générateur) et la simple détention n'est pas taxée. En revanche, la conversion en monnaie ayant cours légal et l'achat d'un bien avec des cryptos sont des cessions imposables."
+ },
+ {
+  "id": "crypto-017",
+  "q": "Le détail des cessions imposables d'actifs numériques se reporte via :",
+  "o": [
+   "Le formulaire 2086",
+   "La déclaration 2044",
+   "Le formulaire 2035",
+   "La déclaration 2072"
+  ],
+  "c": 0,
+  "e": "L'annexe 2086 sert à détailler chaque cession imposable ; le résultat net est reporté sur la déclaration de revenus. Les comptes détenus à l'étranger se déclarent en outre via le formulaire 3916-bis."
+ },
+ {
+  "id": "crypto-018",
+  "q": "Régler un achat de bien ou de service directement en cryptomonnaie :",
+  "o": [
+   "N'a aucune conséquence fiscale",
+   "Constitue une cession imposable de l'actif numérique",
+   "Est exonéré s'il s'agit d'un bien personnel",
+   "Relève des revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Utiliser des cryptos pour payer un bien ou un service transforme l'actif en avantage économique : c'est une cession imposable au même titre qu'une conversion en euros (au-delà de 305 € de cessions annuelles)."
+ },
+ {
+  "id": "crypto-019",
+  "q": "La plus-value crypto d'un particulier se calcule :",
+  "o": [
+   "Cession par cession, isolément",
+   "Selon la valeur globale du portefeuille (formule proportionnelle)",
+   "Uniquement sur l'actif vendu, au premier entré-premier sorti",
+   "Forfaitairement à 30 % du prix de vente"
+  ],
+  "c": 1,
+  "e": "La formule retient la valeur globale du portefeuille : PV = prix de cession − (prix total d'acquisition × prix de cession / valeur globale du portefeuille). On ne raisonne pas actif par actif."
+ },
+ {
+  "id": "crypto-020",
+  "q": "Quelles affirmations sur l'option pour le barème (crypto, depuis 2023) sont exactes ?",
+  "o": [
+   "Elle est globale et s'exerce chaque année",
+   "Elle n'a d'intérêt qu'aux TMI faibles (0 % ou 11 %)",
+   "Elle supprime les prélèvements sociaux",
+   "Les PS de 18,6 % restent dus dans les deux cas"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Depuis 2023, le particulier peut opter, chaque année, pour le barème plutôt que le PFU de 12,8 %. Utile surtout à TMI bas. Les prélèvements sociaux (18,6 %) sont dus quel que soit le choix."
+ },
+ {
+  "id": "crypto-021",
+  "q": "Les intérêts perçus en prêtant ses cryptomonnaies (lending) sont, en principe :",
+  "o": [
+   "Exonérés",
+   "Imposés comme des revenus de capitaux mobiliers",
+   "Des revenus fonciers",
+   "Non déclarables"
+  ],
+  "c": 1,
+  "e": "Les gains de lending (rémunération d'un prêt de cryptos) sont assimilés à des revenus de capitaux mobiliers, soumis au PFU (12,8 % + 18,6 %). Le régime de certaines rémunérations (staking) reste plus discuté."
+ },
+ {
+  "id": "crypto-022",
+  "q": "Un NFT (jeton non fongible), au sens fiscal, est :",
+  "o": [
+   "Une œuvre d'art par nature",
+   "Un actif numérique suivant les mêmes règles que les cryptos",
+   "Un bien meuble exonéré",
+   "Un revenu foncier"
+  ],
+  "c": 1,
+  "e": "Les NFT sont traités comme des actifs numériques : leur cession contre euros ou contre un bien suit les règles de l'article 150 VH bis (formulaire 2086, méthode proportionnelle)."
+ },
+ {
+  "id": "crypto-023",
+  "q": "Comment se détermine la plus-value nette crypto imposable de l'année (particulier) ?",
+  "o": [
+   "La compensation des plus-values et moins-values de l'année",
+   "Au niveau de l'ensemble du foyer fiscal",
+   "Le report des moins-values sur les années suivantes",
+   "L'imputation sur le revenu global"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "La plus-value nette résulte de la compensation, au sein du foyer, des plus et moins-values d'actifs numériques de la même année. Aucun report sur les années suivantes ni imputation sur le revenu global n'est possible."
+ },
+ {
+  "id": "crypto-024",
+  "q": "Transmettre des cryptomonnaies par donation :",
+  "o": [
+   "Déclenche l'imposition de la plus-value latente",
+   "Purge la plus-value latente (pas de cession imposable)",
+   "Est interdit",
+   "Relève des BIC"
+  ],
+  "c": 1,
+  "e": "La donation est une transmission à titre gratuit, non une cession : elle purge la plus-value latente. Le donataire repart avec une valeur d'acquisition égale à la valeur retenue pour la donation."
+ },
+ {
+  "id": "crypto-025",
+  "q": "La directive DAC8, entrée en vigueur au 1er janvier 2026 :",
+  "o": [
+   "Modifie le taux d'imposition des plus-values crypto",
+   "Impose aux plateformes de déclarer automatiquement les opérations de leurs utilisateurs",
+   "Supprime le seuil des 305 €",
+   "Exonère les revenus de staking"
+  ],
+  "c": 1,
+  "e": "DAC8 (transposée à l'art. 1649 AC bis CGI) organise l'échange automatique d'informations : les plateformes déclarent les opérations. Elle ne change pas le régime d'imposition. Premier échange entre administrations : au plus tard le 30 septembre 2027 sur les opérations 2026."
+ },
+ {
+  "id": "crypto-026",
+  "q": "Selon la position dominante, les récompenses de staking (ou de minage) perçues par un particulier sont :",
+  "o": [
+   "Exonérées",
+   "Imposables dès leur réception, en principe dans la catégorie des BNC",
+   "Des plus-values de cession",
+   "Des revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Les jetons reçus en récompense de staking/minage sont, en principe, imposables dès leur attribution, pour leur valeur au jour de la réception, dans la catégorie des BNC (l'ultérieure cession relevant alors du régime des plus-values)."
+ },
+ {
+  "id": "crypto-027",
+  "q": "Emprunter des liquidités en garantissant le prêt par ses cryptomonnaies (prêt collatéralisé) :",
+  "o": [
+   "Constitue une cession imposable",
+   "N'est pas une cession : aucune imposition tant qu'il n'y a pas de vente",
+   "Purge la plus-value",
+   "Relève des BIC"
+  ],
+  "c": 1,
+  "e": "Nantir ses cryptos en garantie d'un emprunt n'emporte pas transfert de propriété : ce n'est pas une cession et cela ne déclenche pas d'imposition (d'où l'intérêt patrimonial du levier sans vente)."
+ },
+ {
+  "id": "crypto-028",
+  "q": "Concernant les obligations déclaratives crypto, lesquelles sont exactes ?",
+  "o": [
+   "Les comptes ouverts à l'étranger se déclarent via le formulaire 3916-bis",
+   "L'oubli d'un compte étranger expose à une amende de 750 €",
+   "Les wallets en self-custody sont soumis à la déclaration automatique DAC8 par un tiers",
+   "Le détail des cessions se porte sur le formulaire 2086"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Comptes étrangers : 3916-bis (amende de 750 € par compte omis) ; cessions : 2086. En revanche, les wallets auto-hébergés (self-custody) n'ont pas de tiers déclarant sous DAC8 — mais le particulier reste tenu de déclarer ses opérations."
+ },
+ {
+  "id": "crypto-029",
+  "q": "Lorsqu'un particulier réalise des opérations sur actifs numériques dans des conditions analogues à un professionnel (activité habituelle), il relève :",
+  "o": [
+   "Toujours du régime des plus-values des particuliers (150 VH bis)",
+   "Des BNC (ou BIC selon les cas), avec possibilité du micro-BNC (abattement 34 %)",
+   "Des revenus fonciers",
+   "D'une exonération"
+  ],
+  "c": 1,
+  "e": "Sorti du régime « occasionnel » de l'art. 150 VH bis, le trader habituel est imposé en BNC (art. 92) — ou en BIC si l'activité est commerciale par nature. Sous le seuil du micro-BNC (83 600 € en 2026), un abattement forfaitaire de 34 % s'applique."
+ },
+ {
+  "id": "crypto-030",
+  "q": "En matière de TVA et d'événements crypto, lesquelles sont exactes ?",
+  "o": [
+   "L'échange d'une cryptomonnaie contre des euros est exonéré de TVA (jurisprudence CJUE)",
+   "Les airdrops « passifs » ne sont imposables qu'à la revente",
+   "Un airdrop reçu en contrepartie d'une action est imposable dès réception (BNC)",
+   "La détention de cryptos est soumise à la TVA"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La CJUE (Hedqvist) a jugé le change crypto/monnaie exonéré de TVA. Un airdrop purement passif n'est taxé qu'à la cession ; reçu en contrepartie d'une action de l'utilisateur, il est imposable en BNC dès réception. La simple détention n'est pas un fait générateur."
+ },
+ {
+  "id": "crypto-031",
+  "q": "Mini-cas : plus-value nette d'actifs numériques de 5 000 €, imposition au PFU. Montant total dû ?",
+  "o": [
+   "1 500 €",
+   "1 570 €",
+   "640 €",
+   "930 €"
+  ],
+  "c": 1,
+  "e": "Le PFU sur les actifs numériques est de 31,4 % en 2026 (12,8 % d'IR + 18,6 % de PS) : 5 000 × 31,4 % = 1 570 €."
+ },
+ {
+  "id": "crypto-032",
+  "q": "Recevoir des cryptomonnaies en paiement d'une activité (freelance, commerce) est imposé :",
+  "o": [
+   "Selon le régime des plus-values (150 VH bis)",
+   "Comme un revenu d'activité (BNC ou BIC), à la valeur du jour de réception",
+   "En exonération",
+   "En revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Encaisser des cryptos en rémunération d'une activité professionnelle est un revenu d'activité (BNC ou BIC selon la nature), imposé pour sa valeur en euros au jour de la réception — distinct du régime des plus-values de cession de l'investisseur occasionnel."
+ },
+ {
+  "id": "crypto-033",
+  "q": "Cas : vous avez acheté des cryptomonnaies il y a deux ans et ne les avez jamais revendues ni converties. Que devez-vous à l'impôt cette année ?",
+  "o": [
+   "Le PFU sur la valeur actuelle",
+   "Rien : sans cession, il n'y a pas de plus-value imposable (mais déclarez vos comptes de plateforme étrangère)",
+   "Les prélèvements sociaux sur la plus-value latente",
+   "Le barème sur la valeur d'achat"
+  ],
+  "c": 1,
+  "e": "La simple détention (« HODL ») n'est pas un fait générateur : tant que vous ne vendez pas contre des euros et n'achetez pas de bien avec, rien n'est imposable, même si la valeur a grimpé. Pensez toutefois à déclarer vos comptes ouverts sur des plateformes étrangères (formulaire 3916-bis)."
+ },
+ {
+  "id": "crypto-034",
+  "q": "Mini-cas : plus-value nette de 2 000 € réalisée en convertissant des cryptos en euros. Impôt (PFU) ?",
+  "o": [
+   "600 €",
+   "628 €",
+   "344 €",
+   "256 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % (12,8 % IR + 18,6 % PS) : 2 000 × 31,4 % = 628 €. La déclaration se fait via le formulaire 2086, sauf si le total de vos cessions de l'année reste sous 305 € (exonération)."
+ },
+ {
+  "id": "crypto-035",
+  "q": "Concernant la fiscalité crypto d'un particulier, lesquelles sont exactes ?",
+  "o": [
+   "La plus-value de conversion en euros est imposée au PFU (31,4 %)",
+   "L'échange d'une crypto contre une autre bénéficie d'un sursis (non imposable)",
+   "En dessous de 305 € de cessions annuelles, on est exonéré",
+   "Les cessions se déclarent via le formulaire 2086"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Les quatre sont exactes : PFU sur la conversion en euros, sursis sur les échanges crypto-crypto, exonération sous 305 € de cessions annuelles, et déclaration détaillée via le formulaire 2086 (plus le 3916-bis pour les comptes étrangers)."
+ },
+ {
+  "id": "crypto-036",
+  "q": "Mini-cas : plus-value nette de 3 500 € en convertissant des cryptos en euros. Imposition au PFU ?",
+  "o": [
+   "1 050 €",
+   "1 099 €",
+   "602 €",
+   "448 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % : 3 500 × 31,4 % = 1 099 € (448 € d'IR + 651 € de PS). Rappel : sous 305 € de cessions totales dans l'année, on est exonéré."
+ },
+ {
+  "id": "crypto-037",
+  "q": "Cas : durant l'année, vous avez multiplié les échanges entre cryptomonnaies (BTC contre ETH…) sans jamais convertir en euros. Êtes-vous imposable ?",
+  "o": [
+   "Oui, à chaque échange",
+   "Non : les échanges crypto-crypto bénéficient d'un sursis ; l'impôt n'intervient qu'à la conversion en euros (ou l'achat d'un bien)",
+   "Oui, au barème",
+   "Oui, sur la valeur du portefeuille"
+  ],
+  "c": 1,
+  "e": "Les échanges d'un actif numérique contre un autre bénéficient d'un sursis : ils ne sont pas un fait générateur. Le calcul de la plus-value imposable ne se déclenche qu'à la sortie en euros (ou à l'achat d'un bien/service en crypto)."
+ },
+ {
+  "id": "crypto-038",
+  "q": "Définition : que sont les « funding fees » sur les contrats à terme perpétuels (perpetual futures) ?",
+  "o": [
+   "Des frais de courtage fixes",
+   "Des paiements périodiques échangés entre positions longues et courtes, pour arrimer le prix du perpétuel au prix au comptant",
+   "Un impôt",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Les contrats perpétuels (très répandus en crypto) n'ont pas d'échéance : pour maintenir leur prix proche du comptant, un « funding » est échangé régulièrement entre longs et shorts. Quand le funding est positif, les longs paient les shorts (et inversement) — un coût à intégrer dans toute position à effet de levier."
+ },
+ {
+  "id": "crypto-039",
+  "q": "Mini-cas : capital de 1 000 €, levier x5 (exposition 5 000 €). Le sous-jacent monte de 4 %. Gain, et variation du capital ?",
+  "o": [
+   "40 € (+4 %)",
+   "200 € (+20 %)",
+   "1 000 € (+100 %)",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Exposition = 1 000 × 5 = 5 000 €. Gain = 5 000 × 4 % = 200 €, soit +20 % du capital. Le levier amplifie : une baisse de 4 % aurait fait perdre 200 € (−20 %), et une baisse de 20 % aurait liquidé la position."
+ },
+ {
+  "id": "crypto-040",
+  "q": "Définition : qu'est-ce qu'un « short squeeze » ?",
+  "o": [
+   "Une baisse progressive",
+   "Une hausse brutale du cours qui force les vendeurs à découvert à racheter en urgence, amplifiant encore la hausse",
+   "Un dividende exceptionnel",
+   "Un type d'impôt"
+  ],
+  "c": 1,
+  "e": "Lors d'un short squeeze, une hausse inattendue met en difficulté les positions vendeuses (short) : pour limiter leurs pertes, les vendeurs rachètent massivement, ce qui pousse le cours encore plus haut — un effet d'emballement fréquent sur les actifs très shortés et volatils."
+ },
+ {
+  "id": "crypto-041",
+  "q": "Cas : vous convertissez vos bitcoins en stablecoin (ex. USDC) sans repasser en euros. Est-ce imposable ?",
+  "o": [
+   "Oui, comme une vente en euros",
+   "Non : un stablecoin est un actif numérique, donc c'est un échange crypto-crypto en sursis d'imposition",
+   "Oui, au barème",
+   "Oui, sur la valeur totale"
+  ],
+  "c": 1,
+  "e": "Un stablecoin reste un actif numérique : convertir du BTC en USDC est un échange crypto-crypto, qui bénéficie du sursis (non imposable). L'imposition n'interviendra qu'à la conversion en euros (ou à l'achat d'un bien). Attention toutefois au risque propre du stablecoin (perte d'ancrage)."
+ },
+ {
+  "id": "crypto-042",
+  "q": "Mini-cas : plus-value nette de 4 500 € en convertissant des cryptos en euros. Imposition au PFU ?",
+  "o": [
+   "1 350 €",
+   "1 413 €",
+   "774 €",
+   "576 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % : 4 500 × 31,4 % = 1 413 € (576 € d'IR + 837 € de PS). À déclarer via le formulaire 2086."
+ },
+ {
+  "id": "crypto-043",
+  "q": "Cas : vous placez des cryptos en staking et recevez régulièrement des récompenses (jetons). Comment sont-elles imposées ?",
+  "o": [
+   "Jamais imposées",
+   "En principe dès leur réception, comme un revenu (BNC), à leur valeur du jour",
+   "Seulement à la revente des cryptos initiales",
+   "En revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Selon la position dominante, les récompenses de staking sont imposables dès leur attribution, pour leur valeur en euros au jour de la réception (catégorie BNC). Leur cession ultérieure relèvera ensuite du régime des plus-values d'actifs numériques."
+ },
+ {
+  "id": "crypto-044",
+  "q": "Mini-cas : sur l'année, vos cessions de cryptos en euros totalisent 250 €, avec une petite plus-value. Imposition ?",
+  "o": [
+   "31,4 % de la plus-value",
+   "0 € : exonération, car le total des cessions annuelles ne dépasse pas 305 €",
+   "Le barème",
+   "17,2 %"
+  ],
+  "c": 1,
+  "e": "Tant que le total de vos cessions imposables de l'année reste sous 305 €, la plus-value est exonérée : ici 250 € < 305 €, donc 0 € d'impôt. Ce seuil s'apprécie sur le montant des cessions (pas sur le gain)."
+ },
+ {
+  "id": "crypto-045",
+  "q": "Cas : vous voulez conserver vos cryptomonnaies vous-même, sans dépendre d'une plateforme, en gardant le contrôle de vos clés privées. Solution ?",
+  "o": [
+   "Tout laisser sur l'exchange",
+   "Utiliser un portefeuille auto-hébergé (wallet non-custodial, ex. cold wallet)",
+   "Un PEA",
+   "Une SCPI"
+  ],
+  "c": 1,
+  "e": "Un wallet auto-hébergé (non-custodial, idéalement « froid »/hors ligne) vous donne la maîtrise de vos clés privées : « not your keys, not your coins ». Contrepartie : vous êtes seul responsable de leur sécurité (perte des clés = perte des fonds). Laisser sur une plateforme, c'est en déléguer la garde (risque de faillite/piratage)."
+ },
+ {
+  "id": "crypto-046",
+  "q": "Mini-cas : au cours de l'année, vos cessions de cryptos en euros totalisent 320 € et dégagent 200 € de plus-value. Imposition ?",
+  "o": [
+   "0 € (exonéré)",
+   "62,80 € (PFU sur la plus-value)",
+   "La totalité au barème",
+   "320 €"
+  ],
+  "c": 1,
+  "e": "Le total des cessions (320 €) dépasse le seuil de 305 € : l'exonération ne s'applique donc pas. La plus-value de 200 € est imposée au PFU : 200 × 31,4 % = 62,80 €."
+ },
+ {
+  "id": "crypto-047",
+  "q": "Définition : qu'est-ce qu'un « stablecoin » ?",
+  "o": [
+   "Une action stable",
+   "Une cryptomonnaie dont la valeur est arrimée à un actif stable (souvent le dollar), pour limiter la volatilité",
+   "Un livret d'épargne",
+   "Une obligation d'État"
+  ],
+  "c": 1,
+  "e": "Un stablecoin vise une parité fixe (ex. 1 USDC ≈ 1 dollar), généralement adossée à des réserves. Il sert à se « mettre à l'abri » de la volatilité sans repasser en euros. Risque à connaître : la perte d'ancrage (« depeg ») si les réserves ou le mécanisme faillissent."
+ },
+ {
+  "id": "crypto-048",
+  "q": "Définition : quelle différence entre une plateforme centralisée (CEX) et décentralisée (DEX) ?",
+  "o": [
+   "Aucune",
+   "Le CEX est un intermédiaire qui garde vos fonds (KYC, comme une banque) ; le DEX permet d'échanger en pair-à-pair via des smart contracts, en gardant ses clés",
+   "Le DEX garde vos fonds",
+   "Le CEX est décentralisé"
+  ],
+  "c": 1,
+  "e": "Un CEX (Binance, Coinbase…) est une plateforme centralisée : simple d'usage, mais elle détient vos cryptos (risque de faillite/piratage). Un DEX (Uniswap…) fonctionne sans intermédiaire, via des contrats automatiques : vous gardez la main sur vos clés, au prix d'une prise en main plus technique."
+ },
+ {
+  "id": "crypto-049",
+  "q": "Cas : vous débutez et voulez acheter facilement des cryptos avec des euros, via une interface simple. Vers quel type d'acteur vous tourner ?",
+  "o": [
+   "Un DEX (plateforme décentralisée)",
+   "Une plateforme centralisée régulée (CEX), avec vérification d'identité",
+   "Un notaire",
+   "Une SCPI"
+  ],
+  "c": 1,
+  "e": "Pour un débutant, une plateforme centralisée régulée (CEX enregistrée PSAN en France) offre l'achat en euros, une interface simple et un support. Contrepartie : elle détient vos cryptos (pensez, à terme, à en transférer une partie sur un wallet personnel). Le DEX est plus technique."
+ },
+ {
+  "id": "crypto-050",
+  "q": "Définition : qu'est-ce que la réglementation MiCA (et le statut PSAN/PSCA) ?",
+  "o": [
+   "Une cryptomonnaie",
+   "Le cadre européen qui encadre les crypto-actifs et leurs prestataires (émetteurs de stablecoins, plateformes), avec un enregistrement/agrément auprès du régulateur",
+   "Un impôt sur les cryptos",
+   "Un wallet"
+  ],
+  "c": 1,
+  "e": "MiCA est le règlement européen (appliqué depuis 2024-2025) qui régule les crypto-actifs et impose un agrément aux prestataires (CASP/PSCA). En France, les plateformes doivent être enregistrées (PSAN) auprès de l'AMF, statut appelé à évoluer vers l'agrément MiCA. Objectif : protéger les investisseurs et lutter contre le blanchiment."
+ },
+ {
+  "id": "crypto-051",
+  "q": "Définition : qu'est-ce qu'un NFT (jeton non fongible) ?",
+  "o": [
+   "Une cryptomonnaie comme le bitcoin",
+   "Un jeton unique et non interchangeable, représentant la propriété d'un actif numérique (œuvre, objet de collection) sur une blockchain",
+   "Un stablecoin",
+   "Un compte bancaire"
+  ],
+  "c": 1,
+  "e": "Un NFT (Non-Fungible Token) est un jeton unique : contrairement au bitcoin (fongible, chaque unité en vaut une autre), chaque NFT est distinct et certifie la propriété d'un actif numérique précis. Marché spéculatif et très volatil, à la liquidité incertaine."
+ },
+ {
+  "id": "crypto-052",
+  "q": "Définition : quelle différence entre un wallet « chaud » (hot) et « froid » (cold) ?",
+  "o": [
+   "Aucune",
+   "Le hot wallet est connecté à internet (pratique, plus exposé) ; le cold wallet est hors ligne (plus sûr pour conserver sur le long terme)",
+   "Le cold wallet est en ligne",
+   "Le hot wallet est plus sûr"
+  ],
+  "c": 1,
+  "e": "Le wallet chaud (application, plateforme) est connecté au web : pratique pour transiger, mais plus exposé au piratage. Le wallet froid (clé physique hors ligne) protège mieux les avoirs conservés durablement. Beaucoup combinent les deux : peu sur le chaud, l'essentiel sur le froid."
+ },
+ {
+  "id": "crypto-053",
+  "q": "Cas : vous conservez vos cryptos sur un wallet personnel et perdez votre phrase de récupération (seed). Conséquence ?",
+  "o": [
+   "Le support client vous la renvoie",
+   "Les fonds sont irrécupérables : personne ne peut restaurer un wallet auto-hébergé sans la seed",
+   "Vous récupérez la moitié",
+   "Aucune, c'est sauvegardé automatiquement"
+  ],
+  "c": 1,
+  "e": "En auto-conservation, vous êtes seul détenteur des clés : la phrase de récupération EST l'accès aux fonds. La perdre (sans sauvegarde) rend les cryptos définitivement inaccessibles. D'où l'importance de sauvegarder la seed hors ligne, en lieu sûr."
+ },
+ {
+  "id": "crypto-054",
+  "q": "Mini-cas : plus-value nette de 6 000 € en convertissant des cryptos en euros, au PFU. Imposition ?",
+  "o": [
+   "1 800 €",
+   "1 884 €",
+   "1 032 €",
+   "768 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % : 6 000 × 31,4 % = 1 884 € (768 € d'IR + 1 116 € de PS). À déclarer via le formulaire 2086."
+ },
+ {
+  "id": "crypto-055",
+  "q": "Définition : qu'est-ce qu'une « blockchain » ?",
+  "o": [
+   "Une banque",
+   "Un registre distribué et infalsifiable, partagé sur un réseau, où les transactions sont enregistrées par blocs chaînés",
+   "Un compte bancaire",
+   "Un logiciel de trading"
+  ],
+  "c": 1,
+  "e": "La blockchain est un grand registre partagé et sécurisé par la cryptographie : les transactions y sont regroupées en blocs, validés par le réseau et chaînés de façon quasi inaltérable. C'est la technologie sous-jacente des cryptomonnaies."
+ },
+ {
+  "id": "crypto-056",
+  "q": "Cas : on vous propose de « prêter » vos cryptos via un protocole DeFi contre un rendement élevé. Principal risque à connaître ?",
+  "o": [
+   "Aucun, c'est garanti",
+   "Le risque de faille du smart contract (piratage) et de défaut/illiquidité du protocole, sans garantie des dépôts",
+   "Un simple risque de change",
+   "La fiscalité"
+  ],
+  "c": 1,
+  "e": "Le lending DeFi peut offrir des rendements attractifs, mais sans filet : un bug ou un piratage du smart contract, un protocole défaillant ou un « bank run » peuvent entraîner la perte des fonds déposés. Aucune garantie publique ne couvre ces dépôts."
+ }
+]

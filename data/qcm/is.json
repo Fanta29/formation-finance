@@ -1,0 +1,820 @@
+[
+ {
+  "id": "is-001",
+  "q": "Le taux normal de l'impôt sur les sociétés est de :",
+  "o": [
+   "15 %",
+   "25 %",
+   "28 %",
+   "33,1/3 %"
+  ],
+  "c": 1,
+  "e": "Le taux normal de l'IS est de 25 % depuis 2022 (après une baisse progressive depuis 33,1/3 %)."
+ },
+ {
+  "id": "is-002",
+  "q": "Le taux réduit d'IS de 15 % s'applique dans la limite d'un bénéfice de :",
+  "o": [
+   "38 120 €",
+   "42 500 €",
+   "50 000 €",
+   "100 000 €"
+  ],
+  "c": 1,
+  "e": "Le taux réduit de 15 % vise les 42 500 premiers euros de bénéfice (seuil relevé de 38 120 € par la LF 2023). Au-delà : 25 %."
+ },
+ {
+  "id": "is-003",
+  "q": "Pour bénéficier du taux réduit d'IS, le chiffre d'affaires HT doit être :",
+  "o": [
+   "Inférieur à 7,63 M€",
+   "Inférieur à 10 M€",
+   "Inférieur à 50 M€",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "Le plafond de CA HT est de 10 M€ (relevé de 7,63 M€ par la LF 2021)."
+ },
+ {
+  "id": "is-004",
+  "q": "Autre condition du taux réduit d'IS : le capital doit être :",
+  "o": [
+   "Supérieur à 37 000 €",
+   "Entièrement libéré et détenu à ≥ 75 % par des personnes physiques",
+   "Détenu par une seule personne",
+   "Coté en bourse"
+  ],
+  "c": 1,
+  "e": "Capital entièrement libéré et détenu à au moins 75 % par des personnes physiques (ou par une société elle-même éligible)."
+ },
+ {
+  "id": "is-005",
+  "q": "L'option d'une société de personnes (ex. SCI) pour l'IS est :",
+  "o": [
+   "Irrévocable dès l'exercice de l'option",
+   "Révocable jusqu'au 5e exercice suivant, puis irrévocable",
+   "Révocable à tout moment",
+   "Renouvelable chaque année"
+  ],
+  "c": 1,
+  "e": "Depuis 2019, l'option pour l'IS peut être révoquée jusqu'au 5e exercice suivant celui où elle s'applique. Passé ce délai, elle devient définitive."
+ },
+ {
+  "id": "is-006",
+  "q": "À l'IS, la plus-value de cession d'un immeuble par la société :",
+  "o": [
+   "Bénéficie des abattements pour durée de détention",
+   "Est nette après réintégration des amortissements, sans abattement de durée",
+   "Est totalement exonérée après 22 ans",
+   "Relève du régime des particuliers"
+  ],
+  "c": 1,
+  "e": "C'est une plus-value professionnelle : la valeur nette comptable étant réduite par les amortissements pratiqués, la plus-value imposable est majorée. Aucun abattement pour durée de détention."
+ },
+ {
+  "id": "is-007",
+  "q": "Le déficit constaté à l'IS peut être :",
+  "o": [
+   "Reporté en avant sans limite de durée (plafonné annuellement)",
+   "Reporté seulement 5 ans",
+   "Imputé sur le revenu personnel du dirigeant",
+   "Uniquement remboursé"
+  ],
+  "c": 0,
+  "e": "Report en avant sans limite de durée (imputation plafonnée à 1 M€ + 50 % de la fraction au-delà). Le carry-back (report en arrière) sur l'exercice précédent est aussi possible."
+ },
+ {
+  "id": "is-008",
+  "q": "L'IS donne lieu, en principe, au versement de :",
+  "o": [
+   "1 acompte annuel",
+   "2 acomptes",
+   "4 acomptes",
+   "Aucun acompte"
+  ],
+  "c": 2,
+  "e": "L'IS est payé via 4 acomptes trimestriels (15 mars, 15 juin, 15 septembre, 15 décembre) puis un solde."
+ },
+ {
+  "id": "is-009",
+  "q": "La contribution économique territoriale (CET) regroupe :",
+  "o": [
+   "La CFE et la CVAE",
+   "La TVA et l'IS",
+   "La CSG et la CRDS",
+   "La taxe foncière et la taxe d'habitation"
+  ],
+  "c": 0,
+  "e": "La CET = cotisation foncière des entreprises (CFE) + cotisation sur la valeur ajoutée des entreprises (CVAE)."
+ },
+ {
+  "id": "is-010",
+  "q": "La suppression totale de la CVAE est désormais prévue pour :",
+  "o": [
+   "2024",
+   "2027",
+   "2030",
+   "Jamais"
+  ],
+  "c": 2,
+  "e": "Plusieurs fois reportée, la suppression de la CVAE est fixée à 2030 (LF 2025, art. 62) ; le PLF 2026 n'a pas avancé ce calendrier."
+ },
+ {
+  "id": "is-011",
+  "q": "La CFE est assise principalement sur :",
+  "o": [
+   "Le chiffre d'affaires",
+   "La valeur locative des biens immobiliers utilisés",
+   "Les salaires versés",
+   "Le bénéfice"
+  ],
+  "c": 1,
+  "e": "La CFE est calculée sur la valeur locative foncière des biens passibles de taxe foncière dont l'entreprise dispose pour son activité."
+ },
+ {
+  "id": "is-012",
+  "q": "À l'IS, la rémunération versée au dirigeant :",
+  "o": [
+   "N'est pas déductible du résultat",
+   "Est déductible du résultat imposable (si non excessive)",
+   "Est un dividende",
+   "Est exonérée d'IR"
+  ],
+  "c": 1,
+  "e": "Le salaire du dirigeant est une charge déductible du résultat de la société (contrairement au dividende), sous réserve qu'il ne soit pas manifestement excessif."
+ },
+ {
+  "id": "is-013",
+  "q": "Le report en arrière du déficit (carry-back) permet de l'imputer :",
+  "o": [
+   "Sur les 3 exercices précédents",
+   "Sur le seul exercice précédent, dans la limite de 1 M€",
+   "Sur le revenu du dirigeant",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "Le carry-back impute le déficit sur le bénéfice du seul exercice précédent (plafond 1 M€) et fait naître une créance sur l'État."
+ },
+ {
+  "id": "is-014",
+  "q": "Le report en avant du déficit à l'IS est :",
+  "o": [
+   "Limité à 5 ans",
+   "Illimité dans le temps, mais plafonné à 1 M€ + 50 % de la fraction au-delà chaque année",
+   "Interdit",
+   "Imputable sur le revenu personnel"
+  ],
+  "c": 1,
+  "e": "Report en avant sans limite de durée, mais l'imputation annuelle est plafonnée à 1 M€ majoré de 50 % du bénéfice excédant ce seuil."
+ },
+ {
+  "id": "is-015",
+  "q": "Parmi ces charges, lesquelles ne sont PAS déductibles du résultat imposable à l'IS ?",
+  "o": [
+   "L'IS lui-même",
+   "Les amendes et pénalités",
+   "Les dépenses somptuaires (chasse, pêche, résidences d'agrément)",
+   "Les intérêts d'emprunt professionnels"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'IS, les amendes/pénalités et les dépenses somptuaires sont réintégrés. Les intérêts d'emprunt professionnels restent déductibles (sous plafonds)."
+ },
+ {
+  "id": "is-016",
+  "q": "Une contribution sociale de 3,3 % sur l'IS s'applique :",
+  "o": [
+   "À toutes les sociétés",
+   "À la fraction d'IS excédant 763 000 € (CA ≥ 7,63 M€)",
+   "Aux seules SCI",
+   "Aux micro-entreprises"
+  ],
+  "c": 1,
+  "e": "Cette contribution additionnelle de 3,3 % vise la fraction d'IS supérieure à 763 000 €, pour les entreprises réalisant au moins 7,63 M€ de CA."
+ },
+ {
+  "id": "is-017",
+  "q": "Réunir toutes les conditions du taux réduit d'IS à 15 % suppose :",
+  "o": [
+   "Un CA HT < 10 M€",
+   "Un capital entièrement libéré",
+   "Une détention ≥ 75 % par des personnes physiques",
+   "Une cotation en bourse"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les trois premières conditions sont cumulatives ; le taux de 15 % s'applique dans la limite de 42 500 € de bénéfice. La cotation n'est pas requise (elle serait plutôt un obstacle à la condition de détention)."
+ },
+ {
+  "id": "is-018",
+  "q": "L'IS donne lieu, en cours d'exercice, au versement de :",
+  "o": [
+   "Un paiement unique",
+   "Quatre acomptes trimestriels, régularisés par un solde",
+   "Douze mensualités",
+   "Aucun acompte"
+  ],
+  "c": 1,
+  "e": "L'IS est payé via 4 acomptes trimestriels (15 mars, juin, septembre, décembre), le solde étant versé après la clôture."
+ },
+ {
+  "id": "is-019",
+  "q": "Le régime réel simplifié (BIC) se distingue du réel normal essentiellement par :",
+  "o": [
+   "Un taux d'IS différent",
+   "Des obligations comptables et déclaratives allégées sous certains seuils de CA",
+   "L'absence d'impôt",
+   "L'interdiction d'amortir"
+  ],
+  "c": 1,
+  "e": "Le réel simplifié allège les obligations (bilan simplifié, TVA annuelle) sous des seuils de CA ; au-delà, le réel normal s'impose."
+ },
+ {
+  "id": "is-020",
+  "q": "L'amortissement comptable d'une immobilisation :",
+  "o": [
+   "N'est jamais déductible",
+   "Constitue une charge déductible étalant le coût sur la durée d'usage",
+   "S'applique au terrain",
+   "Est un produit imposable"
+  ],
+  "c": 1,
+  "e": "L'amortissement traduit la dépréciation d'un actif et se déduit du résultat. Le terrain, non amortissable, en est exclu."
+ },
+ {
+  "id": "is-021",
+  "q": "L'arbitrage rémunération / dividendes pour un dirigeant de société à l'IS met en balance :",
+  "o": [
+   "IS uniquement",
+   "Charges sociales (rémunération) contre PFU et non-déductibilité (dividendes)",
+   "TVA contre CFE",
+   "Rien de fiscal"
+  ],
+  "c": 1,
+  "e": "La rémunération est déductible mais génère des cotisations sociales ; le dividende n'est pas déductible (double imposition IS + flat tax) mais supporte des prélèvements sociaux, pas de cotisations (sauf gérant majoritaire au-delà de 10 %)."
+ },
+ {
+  "id": "is-022",
+  "q": "Pour bénéficier du taux réduit d'IS à 15 %, quelles conditions doivent être réunies ?",
+  "o": [
+   "Chiffre d'affaires HT < 10 M€",
+   "Capital entièrement libéré",
+   "Capital détenu à 75 % au moins par des personnes physiques",
+   "Effectif inférieur à 5 salariés"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Trois conditions cumulatives : CA HT < 10 M€, capital intégralement libéré et détenu pour 75 % au moins par des personnes physiques (ou sociétés y répondant). Aucune condition d'effectif."
+ },
+ {
+  "id": "is-023",
+  "q": "Mini-cas : une société a un bénéfice fiscal de 60 000 € et remplit les conditions du taux réduit. L'IS dû est d'environ :",
+  "o": [
+   "9 000 €",
+   "15 000 €",
+   "10 750 €",
+   "6 375 €"
+  ],
+  "c": 2,
+  "e": "15 % sur 42 500 € = 6 375 €, puis 25 % sur 17 500 € = 4 375 €, soit 10 750 € au total. Le taux réduit ne s'applique qu'à la première tranche de bénéfice."
+ },
+ {
+  "id": "is-024",
+  "q": "Quels éléments sont, en principe, déductibles du résultat imposable à l'IS ?",
+  "o": [
+   "Les rémunérations des dirigeants (si non excessives)",
+   "Les intérêts d'emprunt (dans les limites légales)",
+   "L'impôt sur les sociétés lui-même",
+   "Les dotations aux amortissements"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Salaires normaux, intérêts (sous plafonds) et amortissements sont déductibles. L'IS n'est jamais déductible de son propre résultat."
+ },
+ {
+  "id": "is-025",
+  "q": "Le report en avant d'un déficit à l'IS :",
+  "o": [
+   "Est limité à 3 ans",
+   "Est illimité dans le temps, mais plafonné par exercice (1 M€ + 50 % au-delà)",
+   "Est interdit",
+   "Se fait uniquement en arrière"
+  ],
+  "c": 1,
+  "e": "Le déficit IS se reporte en avant sans limite de durée, mais son imputation annuelle est plafonnée à 1 M€ majoré de 50 % de la fraction du bénéfice excédant ce seuil."
+ },
+ {
+  "id": "is-026",
+  "q": "L'option d'une société à l'IS quand elle relevait de l'IR :",
+  "o": [
+   "Est toujours réversible sans condition",
+   "Peut être révoquée jusqu'au 5e exercice suivant, puis devient irrévocable",
+   "Est immédiatement définitive",
+   "N'existe pas"
+  ],
+  "c": 1,
+  "e": "La renonciation à l'option IS est possible jusqu'au 5e exercice suivant celui de l'option ; passé ce délai, le choix de l'IS devient irrévocable."
+ },
+ {
+  "id": "is-027",
+  "q": "Le report en arrière du déficit (carry-back) à l'IS :",
+  "o": [
+   "S'impute sur les bénéfices des 3 exercices précédents",
+   "S'impute sur le seul bénéfice de l'exercice précédent, dans la limite de 1 M€",
+   "Est remboursé immédiatement en totalité",
+   "Est interdit depuis 2022"
+  ],
+  "c": 1,
+  "e": "Le carry-back (art. 220 quinquies) reporte le déficit sur le seul bénéfice de l'exercice précédent, plafonné à 1 M€. Il fait naître une créance sur le Trésor, imputable sur l'IS des 5 années suivantes puis remboursable."
+ },
+ {
+  "id": "is-028",
+  "q": "Le crédit d'impôt recherche (CIR) est, en principe, égal à :",
+  "o": [
+   "10 % des dépenses de R&D",
+   "30 % des dépenses de R&D éligibles (jusqu'à 100 M€)",
+   "50 % du chiffre d'affaires",
+   "100 % des salaires"
+  ],
+  "c": 1,
+  "e": "Le CIR représente 30 % des dépenses de recherche éligibles jusqu'à 100 M€ (5 % au-delà). C'est un crédit d'impôt imputable sur l'IS, l'excédent étant remboursable sous conditions."
+ },
+ {
+  "id": "is-029",
+  "q": "Pour être déductible, une provision doit notamment :",
+  "o": [
+   "Correspondre à une perte ou charge nettement précisée",
+   "Être probable, non simplement éventuelle, à la clôture",
+   "Résulter d'événements en cours à la clôture",
+   "Concerner une charge elle-même déductible"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Une provision n'est déductible que si la perte/charge est nettement précisée, probable (pas éventuelle), rendue probable par des événements en cours à la clôture, et porte sur une charge déductible par nature."
+ },
+ {
+  "id": "is-030",
+  "q": "Mini-cas : une société réalise 900 000 € d'IS. La contribution sociale de 3,3 % :",
+  "o": [
+   "Est due sur la totalité",
+   "N'est pas due (IS inférieur à 763 000 € ? non : elle porte sur la fraction excédant 763 000 €)",
+   "Est due sur 137 000 €, soit environ 4 521 €",
+   "Est de 29 700 €"
+  ],
+  "c": 2,
+  "e": "La contribution sociale de 3,3 % (art. 235 ter ZC) frappe la fraction d'IS excédant 763 000 € : (900 000 − 763 000) × 3,3 % ≈ 4 521 €. Les PME (CA < 7,63 M€, capital détenu à 75 % par des personnes physiques) en sont exonérées."
+ },
+ {
+  "id": "is-031",
+  "q": "Les revenus nets tirés de la concession ou cession de brevets (« IP box », art. 238) peuvent être imposés à l'IS au taux réduit de :",
+  "o": [
+   "25 %",
+   "15 %",
+   "10 %",
+   "0 %"
+  ],
+  "c": 2,
+  "e": "Sur option, le résultat net de cession/concession de brevets et actifs incorporels assimilés est imposé à 10 % (au lieu de 25 %), sous réserve du respect du ratio « nexus » liant l'avantage aux dépenses de R&D engagées."
+ },
+ {
+  "id": "is-032",
+  "q": "Quelles charges sont, par nature, exclues des charges déductibles à l'IS (dépenses somptuaires, art. 39-4) ?",
+  "o": [
+   "Les dépenses de chasse et de pêche",
+   "L'amortissement des résidences d'agrément",
+   "Les charges liées aux yachts / bateaux de plaisance",
+   "La part somptuaire de l'amortissement des voitures particulières"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "L'art. 39-4 exclut de la déduction les dépenses somptuaires : chasse, pêche, résidences d'agrément, bateaux de plaisance et la fraction de l'amortissement des véhicules de tourisme excédant les plafonds."
+ },
+ {
+  "id": "is-033",
+  "q": "À l'IS, les plus-values de cession d'éléments d'actif sont en principe :",
+  "o": [
+   "Exonérées",
+   "Imposées au taux normal de l'IS, sauf régimes particuliers (titres de participation, IP box)",
+   "Soumises aux abattements pour durée",
+   "Taxées au PFU"
+  ],
+  "c": 1,
+  "e": "Contrairement aux particuliers, une société à l'IS n'a pas de régime général de plus-values à long terme : la plus-value entre dans le résultat au taux normal, sauf exceptions (titres de participation à ~3 %, brevets à 10 %)."
+ },
+ {
+  "id": "is-034",
+  "q": "L'IS est en principe acquitté :",
+  "o": [
+   "En une seule fois à la clôture",
+   "Par quatre acomptes trimestriels, puis un solde après la clôture",
+   "Uniquement l'année suivante",
+   "Par prélèvement à la source"
+  ],
+  "c": 1,
+  "e": "L'IS donne lieu à quatre acomptes trimestriels (calculés sur le bénéfice de référence), régularisés par le versement d'un solde après la clôture de l'exercice. Les petites sociétés dont l'IS de référence est faible en sont dispensées."
+ },
+ {
+  "id": "is-035",
+  "q": "La franchise en base de TVA permet à une entreprise sous les seuils :",
+  "o": [
+   "De facturer sans TVA et de ne pas la déclarer",
+   "De récupérer néanmoins la TVA sur ses achats",
+   "De déduire la TVA sur ses dépenses (contrepartie exclue)",
+   "De mentionner « TVA non applicable, art. 293 B du CGI »"
+  ],
+  "c": [
+   0,
+   3
+  ],
+  "e": "Sous les seuils (environ 37 500 € pour les services, 85 000 € pour les ventes en 2026), la franchise dispense de collecter et déclarer la TVA ; en contrepartie, l'entreprise ne déduit pas la TVA de ses achats. La mention « TVA non applicable, art. 293 B » figure sur les factures."
+ },
+ {
+  "id": "is-036",
+  "q": "La TVA nette due par une entreprise assujettie correspond :",
+  "o": [
+   "À la seule TVA collectée",
+   "À la TVA collectée sur les ventes diminuée de la TVA déductible sur les achats",
+   "À un forfait de 20 %",
+   "À la TVA déductible uniquement"
+  ],
+  "c": 1,
+  "e": "Mécanisme des paiements fractionnés : l'entreprise reverse la différence entre la TVA collectée auprès de ses clients et la TVA déductible qu'elle a supportée sur ses achats et investissements. Un solde négatif ouvre un crédit de TVA."
+ },
+ {
+  "id": "is-037",
+  "q": "En comptabilité/fiscalité, un terrain (support d'une construction) :",
+  "o": [
+   "S'amortit comme le bâtiment",
+   "Ne s'amortit pas, sa durée d'utilisation étant illimitée",
+   "S'amortit sur 20 ans",
+   "S'amortit en dégressif"
+  ],
+  "c": 1,
+  "e": "Contrairement au bâti, le terrain ne se déprécie pas par l'usage : il n'est pas amortissable. Seule la construction fait l'objet d'un amortissement, d'où l'intérêt de ventiler la valeur entre terrain et bâti."
+ },
+ {
+  "id": "is-038",
+  "q": "La contribution économique territoriale (CET) se compose :",
+  "o": [
+   "De la seule taxe foncière",
+   "De la cotisation foncière des entreprises (CFE) et de la cotisation sur la valeur ajoutée (CVAE)",
+   "De l'IS et de la TVA",
+   "De la CSG"
+  ],
+  "c": 1,
+  "e": "La CET regroupe la CFE (assise sur la valeur locative des biens) et la CVAE (assise sur la valeur ajoutée). La CVAE, en voie de suppression, doit disparaître d'ici 2030. La CET est plafonnée en fonction de la valeur ajoutée."
+ },
+ {
+  "id": "is-039",
+  "q": "La location de locaux NUS à usage professionnel est en principe exonérée de TVA, mais :",
+  "o": [
+   "Aucune option n'est possible",
+   "Le bailleur peut opter pour la TVA (ce qui lui ouvre le droit à déduction)",
+   "Elle est toujours soumise à la TVA",
+   "L'option est automatique"
+  ],
+  "c": 1,
+  "e": "La location de locaux nus professionnels est exonérée de plein droit, mais le bailleur peut opter pour la TVA : il facture alors la TVA aux locataires et récupère la TVA sur ses travaux et charges. La location de locaux nus d'habitation reste, elle, exonérée sans option."
+ },
+ {
+  "id": "is-040",
+  "q": "En 2026, le régime réel SIMPLIFIÉ des BIC s'applique (au lieu du réel normal) sous un CA HT n'excédant pas :",
+  "o": [
+   "945 000 € (commerce/hébergement) / 286 000 € (services)",
+   "188 700 € / 77 700 €",
+   "10 M€",
+   "Sans limite"
+  ],
+  "c": 0,
+  "e": "Un arrêté du 27/01/2026 a relevé les limites du réel simplifié à 945 000 € (ventes/restauration/hébergement) et 286 000 € (services). Au-delà, c'est le réel normal, aux obligations comptables et déclaratives plus lourdes."
+ },
+ {
+  "id": "is-041",
+  "q": "L'option d'un exploitant (micro) pour le régime réel :",
+  "o": [
+   "Est révocable à tout moment",
+   "Est irrévocable pendant 2 ans, puis reconduite tacitement",
+   "Interdit tout amortissement",
+   "Empêche la déduction des charges"
+  ],
+  "c": 1,
+  "e": "L'option pour le réel (afin de déduire charges et amortissements et, le cas échéant, constater un déficit) est irrévocable pendant 2 ans, puis reconduite tacitement par période. Elle se formule dans les délais légaux."
+ },
+ {
+  "id": "is-042",
+  "q": "S'agissant de la détermination du résultat, lesquelles sont exactes ?",
+  "o": [
+   "Les BIC retiennent les créances acquises et les dettes engagées",
+   "Les BNC sont en principe tenus en recettes encaissées / dépenses payées (trésorerie)",
+   "Les BNC peuvent opter pour la comptabilité d'engagement",
+   "Les BIC se tiennent uniquement en trésorerie"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les BIC appliquent la comptabilité d'engagement (créances acquises, dettes certaines) ; les BNC relèvent par défaut d'une comptabilité de trésorerie (recettes encaissées, dépenses payées), avec possibilité d'opter pour les créances/dettes."
+ },
+ {
+  "id": "is-043",
+  "q": "Mini-cas : bénéfice fiscal de 100 000 €, PME éligible au taux réduit. IS total ?",
+  "o": [
+   "25 000 €",
+   "20 750 €",
+   "15 000 €",
+   "18 500 €"
+  ],
+  "c": 1,
+  "e": "15 % sur la tranche de 42 500 € = 6 375 €, puis 25 % sur 57 500 € = 14 375 €. Total : 20 750 € (taux moyen ≈ 20,75 %)."
+ },
+ {
+  "id": "is-044",
+  "q": "Cas : vous lancez une activité et voulez limiter votre responsabilité aux apports tout en pouvant déduire votre rémunération. Structure adaptée ?",
+  "o": [
+   "L'entreprise individuelle",
+   "Une société (EURL/SASU), le plus souvent à l'IS",
+   "L'indivision",
+   "L'association"
+  ],
+  "c": 1,
+  "e": "La société (EURL, SASU…) crée une personne morale distincte : responsabilité limitée aux apports et, à l'IS, rémunération du dirigeant déductible du résultat. L'entreprise individuelle est plus simple mais confond, en principe, le patrimoine et n'a pas cette souplesse (sauf option et régimes récents)."
+ },
+ {
+  "id": "is-045",
+  "q": "Cas : dirigeant, vous voulez minimiser les cotisations sociales pesant sur votre rémunération, en acceptant une protection sociale moindre. Statut adapté ?",
+  "o": [
+   "Président de SASU (assimilé salarié)",
+   "Gérant majoritaire d'EURL (travailleur non salarié)",
+   "Salarié classique",
+   "Fonctionnaire"
+  ],
+  "c": 1,
+  "e": "Le gérant majoritaire (TNS, régime des indépendants) supporte des cotisations globalement plus faibles que le président de SASU (assimilé salarié), au prix d'une protection sociale moindre (retraite, prévoyance). L'arbitrage se fait entre coût des charges et niveau de couverture."
+ },
+ {
+  "id": "is-046",
+  "q": "Cas : votre société dégage un déficit cette année après plusieurs exercices bénéficiaires. Comment récupérer de la trésorerie rapidement ?",
+  "o": [
+   "Reporter le déficit en avant uniquement",
+   "Opter pour le report en arrière (carry-back), qui fait naître une créance sur le Trésor",
+   "Distribuer un dividende",
+   "Augmenter le capital"
+  ],
+  "c": 1,
+  "e": "Le carry-back impute le déficit sur le bénéfice de l'exercice précédent (dans la limite de 1 M€) et génère une créance sur le Trésor, imputable puis remboursable au bout de 5 ans : un levier de trésorerie, là où le report en avant n'aide qu'en cas de bénéfices futurs."
+ },
+ {
+  "id": "is-047",
+  "q": "Définition : qu'est-ce qu'un amortissement ?",
+  "o": [
+   "Un remboursement de dette uniquement",
+   "La constatation comptable de la dépréciation d'un bien sur sa durée d'usage, déductible du résultat",
+   "Une plus-value",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "L'amortissement traduit l'usure/l'obsolescence d'une immobilisation (bâti, matériel, mobilier) répartie sur sa durée d'utilisation. Déductible du résultat, il réduit l'imposition — c'est le levier central du LMNP au réel et de la SCI à l'IS."
+ },
+ {
+  "id": "is-048",
+  "q": "Définition : qu'est-ce que l'« abus de droit » fiscal ?",
+  "o": [
+   "Une simple erreur de déclaration",
+   "Un montage à but exclusivement (ou principalement) fiscal, fictif ou contraire à l'intention du législateur, sanctionné par l'administration",
+   "Un avantage fiscal légal",
+   "Un contrôle fiscal"
+  ],
+  "c": 1,
+  "e": "L'abus de droit vise les actes fictifs ou recherchant le bénéfice d'une règle à l'encontre de son intention, dans un but exclusivement ou principalement fiscal. L'administration peut les écarter et appliquer des majorations (jusqu'à 80 %)."
+ },
+ {
+  "id": "is-049",
+  "q": "Définition : qu'est-ce qu'un « assujetti » à la TVA ?",
+  "o": [
+   "Un salarié",
+   "Une personne qui réalise de manière indépendante une activité économique, redevable et collecteur de la TVA",
+   "Un retraité",
+   "Un non-résident"
+  ],
+  "c": 1,
+  "e": "Est assujetti celui qui exerce, de façon indépendante, une activité économique : il collecte la TVA sur ses ventes et déduit celle de ses achats, ne reversant que la différence. La franchise en base peut toutefois en dispenser sous certains seuils."
+ },
+ {
+  "id": "is-050",
+  "q": "Définition : qu'est-ce que le « fait générateur » d'un impôt ?",
+  "o": [
+   "Le paiement de l'impôt",
+   "L'événement qui fait naître la dette d'impôt (ex. la cession pour une plus-value)",
+   "La déclaration annuelle",
+   "Le contrôle fiscal"
+  ],
+  "c": 1,
+  "e": "Le fait générateur est l'événement qui rend l'impôt exigible : la vente pour une plus-value, la distribution pour un dividende, le décès pour les droits de succession. Il détermine le moment et souvent les règles applicables."
+ },
+ {
+  "id": "is-051",
+  "q": "Définition : qu'est-ce que l'« assiette » d'un impôt ?",
+  "o": [
+   "Le taux d'imposition",
+   "La base (le montant) sur laquelle l'impôt est calculé",
+   "L'impôt final à payer",
+   "La date limite de déclaration"
+  ],
+  "c": 1,
+  "e": "L'assiette est la base imposable : le montant auquel on applique le taux ou le barème. Un abattement réduit l'assiette ; une réduction ou un crédit d'impôt agissent, eux, sur l'impôt une fois calculé."
+ },
+ {
+  "id": "is-052",
+  "q": "Définition : qu'est-ce que la « franchise en base » de TVA ?",
+  "o": [
+   "Une exonération d'impôt sur les bénéfices",
+   "Un régime dispensant les petites entreprises (sous seuils) de facturer et déclarer la TVA",
+   "Un crédit de TVA",
+   "Un taux réduit de TVA"
+  ],
+  "c": 1,
+  "e": "La franchise en base dispense l'entreprise, sous certains seuils de chiffre d'affaires, de collecter et déclarer la TVA (mention « TVA non applicable, art. 293 B »). En contrepartie, elle ne récupère pas la TVA sur ses achats."
+ },
+ {
+  "id": "is-053",
+  "q": "Définition : qu'est-ce que l'« autoliquidation » de la TVA ?",
+  "o": [
+   "Le paiement en plusieurs fois",
+   "Un mécanisme où c'est le client (et non le fournisseur) qui déclare et paie la TVA",
+   "Une exonération de TVA",
+   "Un remboursement automatique"
+  ],
+  "c": 1,
+  "e": "En autoliquidation, l'acquéreur assujetti déclare lui-même la TVA due (et la déduit simultanément) au lieu que le fournisseur la facture. Fréquent dans les opérations intracommunautaires ou la sous-traitance du bâtiment, pour lutter contre la fraude."
+ },
+ {
+  "id": "is-054",
+  "q": "Quels sont les principaux taux de TVA en France ?",
+  "o": [
+   "20 % (taux normal)",
+   "10 % (taux intermédiaire : restauration, travaux…)",
+   "5,5 % (taux réduit : alimentation, livres, énergie…)",
+   "2,1 % (taux super-réduit : médicaments remboursables, presse)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Quatre taux coexistent : 20 % (normal), 10 % (intermédiaire), 5,5 % (réduit) et 2,1 % (super-réduit). Le taux dépend de la nature du bien ou du service, selon des listes fixées par la loi."
+ },
+ {
+  "id": "is-055",
+  "q": "Mini-cas : TVA collectée sur les ventes 10 000 €, TVA déductible sur les achats 4 000 €. TVA à reverser ?",
+  "o": [
+   "10 000 €",
+   "6 000 €",
+   "4 000 €",
+   "14 000 €"
+  ],
+  "c": 1,
+  "e": "TVA nette due = TVA collectée − TVA déductible = 10 000 − 4 000 = 6 000 €. Si la TVA déductible dépassait la collectée, l'entreprise disposerait d'un crédit de TVA (imputable ou remboursable)."
+ },
+ {
+  "id": "is-056",
+  "q": "Mini-cas : PME au taux réduit, bénéfice fiscal de 30 000 € (inférieur au plafond de 42 500 €). IS dû ?",
+  "o": [
+   "7 500 €",
+   "4 500 €",
+   "6 375 €",
+   "3 000 €"
+  ],
+  "c": 1,
+  "e": "L'intégralité du bénéfice reste sous le plafond de 42 500 € : il est donc taxé à 15 %. IS = 30 000 × 15 % = 4 500 €."
+ },
+ {
+  "id": "is-057",
+  "q": "Définition : qu'est-ce qu'un « rescrit fiscal » ?",
+  "o": [
+   "Un redressement",
+   "Une prise de position formelle de l'administration sur une situation donnée, qui l'engage",
+   "Une amende",
+   "Une déclaration rectificative"
+  ],
+  "c": 1,
+  "e": "Le rescrit permet d'interroger l'administration sur l'application d'une règle à sa situation : la réponse (ou l'absence de réponse dans le délai) l'engage et sécurise le contribuable, qui peut s'en prévaloir en cas de contrôle ultérieur."
+ },
+ {
+  "id": "is-058",
+  "q": "Le délai de reprise de droit commun de l'administration (IR, IS) court en principe jusqu'à :",
+  "o": [
+   "La fin de l'année en cours",
+   "La fin de la 3e année suivant celle de l'imposition",
+   "10 ans systématiquement",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "L'administration peut en principe rectifier jusqu'à la fin de la 3e année suivant celle au titre de laquelle l'impôt est dû. Ce délai est allongé (6 ans, voire 10 ans) en cas d'activité occulte ou d'avoirs étrangers non déclarés."
+ },
+ {
+  "id": "is-059",
+  "q": "Définition : qu'est-ce que le crédit-bail (leasing) ?",
+  "o": [
+   "Un prêt classique",
+   "Un contrat de location d'un bien assorti d'une option d'achat en fin de contrat",
+   "Une vente à tempérament",
+   "Une donation"
+  ],
+  "c": 1,
+  "e": "Le crédit-bail permet à une entreprise d'utiliser un bien (matériel, immeuble) moyennant des loyers déductibles, avec la faculté de l'acheter en fin de contrat pour une valeur résiduelle. Il évite d'immobiliser la trésorerie à l'achat."
+ },
+ {
+  "id": "is-060",
+  "q": "La cession d'une petite entreprise individuelle ou d'un fonds de commerce peut être exonérée de plus-value (art. 238 quindecies) si sa valeur est :",
+  "o": [
+   "Illimitée",
+   "Inférieure à 500 000 € (exonération totale), avec exonération dégressive jusqu'à 1 M€",
+   "Supérieure à 2 M€",
+   "Comprise entre 1 et 5 M€"
+  ],
+  "c": 1,
+  "e": "L'art. 238 quindecies exonère la plus-value de cession d'une entreprise/branche complète d'activité si la valeur transmise est inférieure à 500 000 € (exonération totale), l'exonération devenant partielle jusqu'à 1 M€. Une durée d'activité de 5 ans est requise."
+ },
+ {
+  "id": "is-061",
+  "q": "Définition : qu'est-ce que la « valeur vénale » d'un bien ?",
+  "o": [
+   "Son prix d'achat d'origine",
+   "Le prix auquel il pourrait être vendu sur le marché à un instant donné",
+   "Sa valeur comptable nette",
+   "Sa valeur assurée"
+  ],
+  "c": 1,
+  "e": "La valeur vénale est le prix de marché : celui qu'un acheteur accepterait de payer dans des conditions normales. Elle sert de référence pour l'assiette de nombreux impôts (droits de succession/donation, IFI) et en cas de contrôle."
+ },
+ {
+  "id": "is-062",
+  "q": "Avant de saisir le juge d'un litige fiscal, le contribuable doit en principe :",
+  "o": [
+   "Saisir directement le tribunal",
+   "Adresser une réclamation préalable à l'administration fiscale",
+   "Payer une caution",
+   "Attendre 10 ans"
+  ],
+  "c": 1,
+  "e": "Le contentieux fiscal suppose une réclamation préalable auprès de l'administration (dans des délais déterminés). Ce n'est qu'en cas de rejet (ou d'absence de réponse) que le contribuable peut porter l'affaire devant le tribunal compétent."
+ },
+ {
+  "id": "is-063",
+  "q": "L'exonération de plus-value professionnelle de l'art. 151 septies suppose notamment que l'activité soit exercée depuis au moins :",
+  "o": [
+   "1 an",
+   "5 ans",
+   "10 ans",
+   "22 ans"
+  ],
+  "c": 1,
+  "e": "L'art. 151 septies exige une activité exercée depuis au moins 5 ans ; l'exonération est totale si les recettes n'excèdent pas certains seuils (ex. 90 000 € pour les prestations de services), dégressive au-delà."
+ },
+ {
+  "id": "is-064",
+  "q": "Mini-cas : sur la période, TVA collectée 3 000 €, TVA déductible 5 000 €. Situation de l'entreprise ?",
+  "o": [
+   "Elle doit 2 000 €",
+   "Elle dispose d'un crédit de TVA de 2 000 € (imputable ou remboursable)",
+   "Elle doit 8 000 €",
+   "Elle ne doit rien et ne récupère rien"
+  ],
+  "c": 1,
+  "e": "Quand la TVA déductible (5 000 €) dépasse la TVA collectée (3 000 €), l'entreprise a un crédit de TVA de 2 000 € : elle peut l'imputer sur les périodes suivantes ou en demander le remboursement. Fréquent en phase d'investissement."
+ },
+ {
+  "id": "is-065",
+  "q": "Mini-cas : PME au taux réduit, bénéfice de 42 500 € (au niveau du plafond). IS dû ?",
+  "o": [
+   "10 625 €",
+   "6 375 €",
+   "4 250 €",
+   "8 500 €"
+  ],
+  "c": 1,
+  "e": "L'intégralité du bénéfice (42 500 €) est dans la tranche à 15 % : IS = 42 500 × 15 % = 6 375 €. Au-delà de 42 500 €, la fraction supérieure passerait à 25 %."
+ }
+]

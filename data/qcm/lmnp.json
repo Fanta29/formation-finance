@@ -1,0 +1,556 @@
+[
+ {
+  "id": "lmnp-001",
+  "q": "Le seuil de recettes séparant le LMNP du LMP est de :",
+  "o": [
+   "15 000 €",
+   "23 000 €",
+   "72 600 €",
+   "77 700 €"
+  ],
+  "c": 1,
+  "e": "On bascule en LMP si les recettes dépassent 23 000 € ET excèdent les autres revenus d'activité du foyer. Les deux conditions sont cumulatives."
+ },
+ {
+  "id": "lmnp-002",
+  "q": "Les revenus de location meublée relèvent de la catégorie :",
+  "o": [
+   "Revenus fonciers",
+   "BIC (bénéfices industriels et commerciaux)",
+   "BNC",
+   "RCM"
+  ],
+  "c": 1,
+  "e": "La location meublée est une activité commerciale : les loyers sont imposés en BIC, non en revenus fonciers."
+ },
+ {
+  "id": "lmnp-003",
+  "q": "L'abattement du micro-BIC pour un meublé de longue durée est de :",
+  "o": [
+   "30 %",
+   "50 %",
+   "71 %",
+   "30 % puis 50 %"
+  ],
+  "c": 1,
+  "e": "Pour un meublé classique (longue durée), l'abattement micro-BIC est de 50 %, dans la limite du seuil applicable."
+ },
+ {
+  "id": "lmnp-004",
+  "q": "Depuis la loi Le Meur, un meublé de tourisme NON classé bénéficie d'un abattement micro-BIC de :",
+  "o": [
+   "50 %, seuil 77 700 €",
+   "30 %, seuil 15 000 €",
+   "71 %, seuil 188 700 €",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "La loi Le Meur (nov. 2024) a abaissé l'abattement de 50 % à 30 % et le plafond de 77 700 € à 15 000 € pour les meublés de tourisme non classés (« loi anti-Airbnb »)."
+ },
+ {
+  "id": "lmnp-005",
+  "q": "Au régime réel LMNP, l'amortissement du bien et du mobilier :",
+  "o": [
+   "Est interdit",
+   "Permet de réduire, voire annuler, le résultat imposable",
+   "Génère un crédit d'impôt",
+   "N'est possible qu'en LMP"
+  ],
+  "c": 1,
+  "e": "L'amortissement comptable (hors terrain) vient en déduction du résultat BIC, permettant souvent de neutraliser l'imposition des loyers pendant des années."
+ },
+ {
+  "id": "lmnp-006",
+  "q": "Depuis la LF 2025, à la revente d'un bien LMNP amorti au réel :",
+  "o": [
+   "Rien ne change",
+   "Les amortissements déduits sont réintégrés dans le calcul de la plus-value",
+   "La plus-value est exonérée",
+   "Le bien passe à l'IS"
+  ],
+  "c": 1,
+  "e": "Réforme majeure (art. 84 LF 2025, depuis le 15 février 2025) : le prix d'acquisition est minoré des amortissements, ce qui augmente la plus-value imposable. Exceptions : résidences étudiantes, seniors, médico-sociales."
+ },
+ {
+  "id": "lmnp-007",
+  "q": "La plus-value de cession d'un bien LMNP (non professionnel) relève :",
+  "o": [
+   "Du régime des plus-values professionnelles",
+   "Du régime des plus-values immobilières des particuliers",
+   "D'une exonération",
+   "De l'IS"
+  ],
+  "c": 1,
+  "e": "Malgré la réintégration des amortissements, la plus-value du LMNP suit le régime des particuliers (abattements 22 ans / 30 ans)."
+ },
+ {
+  "id": "lmnp-008",
+  "q": "En LMP (loueur professionnel), les déficits d'activité :",
+  "o": [
+   "Ne sont pas imputables",
+   "S'imputent sur le revenu global sans limitation",
+   "S'imputent seulement sur les BIC de location",
+   "Sont perdus"
+  ],
+  "c": 1,
+  "e": "Différence clé : en LMP, les déficits s'imputent sur le revenu global (activité professionnelle). En LMNP, ils ne s'imputent que sur les BIC de location meublée."
+ },
+ {
+  "id": "lmnp-009",
+  "q": "Le micro-BIC classique du meublé longue durée reste ouvert jusqu'à :",
+  "o": [
+   "15 000 €",
+   "32 900 €",
+   "77 700 € (83 600 € pour les revenus 2026)",
+   "188 700 €"
+  ],
+  "c": 2,
+  "e": "Le seuil du micro-BIC pour le meublé classique est de 77 700 € (revalorisé à 83 600 € pour les revenus 2026). Au-delà, régime réel."
+ },
+ {
+  "id": "lmnp-010",
+  "q": "Le seuil du micro-BIC pour une location meublée « classique » (longue durée) est de :",
+  "o": [
+   "15 000 €",
+   "77 700 € (abattement 50 %)",
+   "188 700 €",
+   "23 000 €"
+  ],
+  "c": 1,
+  "e": "La location meublée de longue durée relève du micro-BIC jusqu'à 77 700 € de recettes, avec un abattement de 50 %."
+ },
+ {
+  "id": "lmnp-011",
+  "q": "Depuis la loi Le Meur, un meublé de tourisme NON classé relève du micro-BIC avec :",
+  "o": [
+   "50 % d'abattement jusqu'à 77 700 €",
+   "30 % d'abattement jusqu'à 15 000 €",
+   "71 % jusqu'à 188 700 €",
+   "Aucun abattement"
+  ],
+  "c": 1,
+  "e": "La loi Le Meur a durci le régime des meublés de tourisme non classés : abattement ramené à 30 % et plafond à 15 000 €."
+ },
+ {
+  "id": "lmnp-012",
+  "q": "Au régime réel LMNP, on peut déduire :",
+  "o": [
+   "Un amortissement du bâti (hors terrain) et du mobilier",
+   "Un abattement forfaitaire de 50 %",
+   "Rien",
+   "Uniquement les intérêts"
+  ],
+  "c": 0,
+  "e": "Le réel permet de déduire les charges réelles ET les amortissements (bâti par composants, hors terrain, et mobilier), ce qui neutralise souvent l'impôt sur les loyers."
+ },
+ {
+  "id": "lmnp-013",
+  "q": "L'amortissement en LMNP :",
+  "o": [
+   "Peut créer un déficit imputable sur le revenu global",
+   "Ne peut pas créer de déficit ; l'excédent est reportable sans limite de durée",
+   "Est plafonné à 10 700 €",
+   "Est interdit"
+  ],
+  "c": 1,
+  "e": "L'amortissement ne peut pas générer de déficit : la fraction non déduite (car excédant le résultat) est reportée indéfiniment sur les bénéfices futurs de l'activité."
+ },
+ {
+  "id": "lmnp-014",
+  "q": "Réforme de la LF 2025 (depuis le 15/02/2025) : à la revente d'un bien LMNP, les amortissements déduits sont :",
+  "o": [
+   "Sans effet",
+   "Réintégrés dans le calcul de la plus-value imposable",
+   "Remboursés",
+   "Déductibles à nouveau"
+  ],
+  "c": 1,
+  "e": "Les amortissements pratiqués viennent minorer le prix d'acquisition retenu, augmentant ainsi la plus-value imposable à la revente — la sortie est moins « indolore » qu'avant."
+ },
+ {
+  "id": "lmnp-015",
+  "q": "Cette réintégration des amortissements dans la plus-value LMNP ne s'applique PAS :",
+  "o": [
+   "Aux locations classiques",
+   "Aux résidences étudiantes, seniors et établissements médico-sociaux",
+   "À aucun bien",
+   "Aux meublés de tourisme"
+  ],
+  "c": 1,
+  "e": "Le législateur a exclu de la mesure les résidences services relevant du secteur étudiant/senior/médico-social."
+ },
+ {
+  "id": "lmnp-016",
+  "q": "Malgré la réintégration des amortissements, la plus-value du LOUEUR NON professionnel (LMNP) relève :",
+  "o": [
+   "Des plus-values professionnelles",
+   "Du régime des plus-values immobilières des particuliers",
+   "Des BIC",
+   "De l'IFI"
+  ],
+  "c": 1,
+  "e": "Le LMNP conserve le régime des plus-values immobilières des particuliers (abattements de durée), mais avec une base majorée par la réintégration."
+ },
+ {
+  "id": "lmnp-017",
+  "q": "Le statut de loueur en meublé PROFESSIONNEL (LMP) suppose des recettes annuelles :",
+  "o": [
+   "Supérieures à 23 000 € ET excédant les autres revenus d'activité du foyer",
+   "Supérieures à 77 700 €",
+   "Inférieures à 15 000 €",
+   "Supérieures à 100 000 €"
+  ],
+  "c": 0,
+  "e": "Deux conditions cumulatives : recettes > 23 000 € ET supérieures aux autres revenus d'activité (salaires, BIC, BNC...) du foyer."
+ },
+ {
+  "id": "lmnp-018",
+  "q": "Quels avantages distinguent le LMP du LMNP ?",
+  "o": [
+   "Les déficits sont imputables sur le revenu global",
+   "Une exonération possible des plus-values professionnelles (art. 151 septies) après 5 ans",
+   "L'assujettissement aux cotisations sociales des indépendants",
+   "L'application d'un abattement de durée sur la plus-value"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le LMP permet l'imputation des déficits sur le revenu global et une exonération de PV pro (151 septies), mais entraîne des cotisations sociales. L'abattement de durée est propre au LMNP (particuliers)."
+ },
+ {
+  "id": "lmnp-019",
+  "q": "La CFE (cotisation foncière des entreprises) est due :",
+  "o": [
+   "Uniquement par les sociétés à l'IS",
+   "Par le loueur en meublé (activité professionnelle) sauf exonérations locales",
+   "Par personne",
+   "Uniquement en LMP"
+  ],
+  "c": 1,
+  "e": "La location meublée est une activité professionnelle : le loueur (LMNP comme LMP) est en principe redevable de la CFE, sous réserve d'exonérations."
+ },
+ {
+  "id": "lmnp-020",
+  "q": "Récupérer la TVA sur l'achat d'un logement en résidence services suppose :",
+  "o": [
+   "Une location nue",
+   "La fourniture de prestations para-hôtelières (au moins 3 sur 4) et un bail commercial à l'exploitant",
+   "Un régime micro",
+   "Rien de particulier"
+  ],
+  "c": 1,
+  "e": "La TVA (20 %) est récupérable lorsque la location s'accompagne de services para-hôteliers (accueil, ménage, petit-déjeuner, linge), typiquement via un bail commercial en résidence services."
+ },
+ {
+  "id": "lmnp-021",
+  "q": "En résidence de services (étudiante, senior, tourisme), le propriétaire loue en principe :",
+  "o": [
+   "Directement aux occupants",
+   "Via un bail commercial à un exploitant qui sous-loue",
+   "Sans bail",
+   "En location nue"
+  ],
+  "c": 1,
+  "e": "Le modèle repose sur un bail commercial conclu avec l'exploitant de la résidence, qui gère l'exploitation et verse un loyer au propriétaire (souvent avec récupération de TVA)."
+ },
+ {
+  "id": "lmnp-022",
+  "q": "Au régime micro-BIC, l'abattement forfaitaire d'un meublé de tourisme NON classé est de :",
+  "o": [
+   "50 % jusqu'à 77 700 €",
+   "30 % jusqu'à 15 000 €",
+   "71 % jusqu'à 188 700 €",
+   "40 %"
+  ],
+  "c": 1,
+  "e": "Depuis la loi Le Meur, le meublé de tourisme non classé relève d'un micro-BIC à 30 % d'abattement, plafonné à 15 000 € de recettes. Le classé conserve 50 % jusqu'à 77 700 €."
+ },
+ {
+  "id": "lmnp-023",
+  "q": "Depuis la LF 2025 (cessions depuis le 15/02/2025), la plus-value d'un LMNP au réel :",
+  "o": [
+   "Ignore les amortissements",
+   "Réintègre les amortissements déduits dans le calcul de la plus-value",
+   "Bénéficie d'une exonération totale",
+   "Relève de l'IS"
+  ],
+  "c": 1,
+  "e": "Les amortissements pratiqués sont désormais réintégrés (déduits du prix d'acquisition) pour le calcul de la plus-value de cession, alignant partiellement le LMNP sur le régime professionnel."
+ },
+ {
+  "id": "lmnp-024",
+  "q": "Le statut de loueur en meublé PROFESSIONNEL (LMP) suppose :",
+  "o": [
+   "Des recettes annuelles > 23 000 €",
+   "Des recettes supérieures aux autres revenus d'activité du foyer",
+   "Une inscription au RCS obligatoire",
+   "Un agrément préfectoral"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le LMP requiert des recettes de location meublée > 23 000 € ET supérieures aux autres revenus d'activité du foyer. L'inscription au RCS n'est plus une condition depuis la censure du Conseil constitutionnel."
+ },
+ {
+  "id": "lmnp-025",
+  "q": "Quels avantages distinguent le LMNP au réel du régime foncier de la location nue ?",
+  "o": [
+   "Possibilité d'amortir le bien et le mobilier",
+   "Déduction des charges réelles",
+   "Abattement de 30 % automatique",
+   "Imputation illimitée sur le revenu global"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le LMNP au réel permet d'amortir l'immeuble et le mobilier (BIC) et de déduire les charges réelles, ce qui neutralise souvent l'imposition des loyers. L'abattement de 30 % (micro-foncier) et l'imputation foncière relèvent d'un autre régime."
+ },
+ {
+  "id": "lmnp-026",
+  "q": "Mini-cas : recettes meublées 10 000 €, régime micro-BIC classé (abattement 50 %). Le résultat imposable est de :",
+  "o": [
+   "10 000 €",
+   "5 000 €",
+   "3 000 €",
+   "7 100 €"
+  ],
+  "c": 1,
+  "e": "Micro-BIC classé : abattement de 50 %, soit 5 000 € imposables. Le contribuable peut opter pour le réel si ses charges + amortissements dépassent cet abattement."
+ },
+ {
+  "id": "lmnp-027",
+  "q": "En LMNP au réel, l'amortissement du bien :",
+  "o": [
+   "Peut créer ou aggraver un déficit imputable sur le revenu global",
+   "Ne peut pas créer de déficit ; la fraction non déduite est reportable sans limite de durée",
+   "Est plafonné à 10 ans",
+   "N'est pas admis"
+  ],
+  "c": 1,
+  "e": "L'amortissement ne peut pas générer de déficit : il n'est déductible que dans la limite du bénéfice (loyers − autres charges). La fraction non utilisée est reportable indéfiniment sur les résultats futurs de l'activité."
+ },
+ {
+  "id": "lmnp-028",
+  "q": "Les déficits d'un LMNP (non professionnel) s'imputent :",
+  "o": [
+   "Sur le revenu global",
+   "Sur les bénéfices de location meublée non professionnelle des 10 années suivantes",
+   "Sur les revenus fonciers",
+   "Sans limite sur tous les revenus"
+  ],
+  "c": 1,
+  "e": "Le déficit du loueur en meublé NON professionnel n'est imputable que sur les bénéfices de même nature (location meublée non pro) des 10 années suivantes — à la différence du LMP, dont les déficits s'imputent sur le revenu global."
+ },
+ {
+  "id": "lmnp-029",
+  "q": "En LMP, la plus-value professionnelle de cession peut être exonérée (art. 151 septies) si l'activité est exercée depuis 5 ans et que les recettes n'excèdent pas :",
+  "o": [
+   "90 000 € (exonération totale), 126 000 € (exonération partielle)",
+   "23 000 €",
+   "250 000 €",
+   "Aucun plafond"
+  ],
+  "c": 0,
+  "e": "Le LMP relève des plus-values professionnelles. L'exonération de l'art. 151 septies joue si l'activité dure depuis ≥ 5 ans : totale sous 90 000 € de recettes, dégressive entre 90 000 € et 126 000 €."
+ },
+ {
+  "id": "lmnp-030",
+  "q": "Quelles différences distinguent le LMP du LMNP ?",
+  "o": [
+   "Les déficits LMP s'imputent sur le revenu global",
+   "Le LMP relève des plus-values professionnelles (et non des PV des particuliers)",
+   "Le LMP peut être assujetti aux cotisations sociales (SSI)",
+   "Le LMNP peut amortir le bien, pas le LMP"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "LMP : déficits sur le revenu global, plus-values professionnelles (avec 151 septies/238 quindecies), affiliation aux cotisations sociales des indépendants. L'amortissement est possible dans les deux statuts au réel."
+ },
+ {
+  "id": "lmnp-031",
+  "q": "Le loueur en meublé exerçant une activité de para-hôtellerie (petit-déjeuner, ménage, accueil…) :",
+  "o": [
+   "Est exonéré de TVA comme la location nue",
+   "Peut être assujetti à la TVA sur ses prestations (et récupérer la TVA sur ses investissements)",
+   "Relève des revenus fonciers",
+   "Ne paie jamais de CFE"
+  ],
+  "c": 1,
+  "e": "La location nue et la location meublée « simple » sont exonérées de TVA ; en revanche, la para-hôtellerie (au moins trois services para-hôteliers) est une prestation d'hébergement soumise à la TVA, ouvrant en contrepartie un droit à déduction. Le loueur en meublé est par ailleurs redevable de la CFE."
+ },
+ {
+  "id": "lmnp-032",
+  "q": "Mini-cas : meublé de tourisme NON classé, micro-BIC, recettes 10 000 €. Bénéfice imposable ?",
+  "o": [
+   "10 000 €",
+   "7 000 €",
+   "5 000 €",
+   "2 900 €"
+  ],
+  "c": 1,
+  "e": "Le meublé de tourisme non classé bénéficie d'un abattement de 30 % : 10 000 × 70 % = 7 000 €. Un meublé classé aurait eu 50 % d'abattement, soit 5 000 €."
+ },
+ {
+  "id": "lmnp-033",
+  "q": "Mini-cas : meublé de tourisme CLASSÉ, micro-BIC, recettes 30 000 €. Bénéfice imposable ?",
+  "o": [
+   "30 000 €",
+   "15 000 €",
+   "9 000 €",
+   "21 300 €"
+  ],
+  "c": 1,
+  "e": "Le meublé classé bénéficie d'un abattement de 50 % : 30 000 × 50 % = 15 000 € imposables. Le régime réel (avec amortissement) est souvent plus favorable au-delà d'un certain niveau de charges."
+ },
+ {
+  "id": "lmnp-034",
+  "q": "Cas : vous achetez un appartement pour le louer MEUBLÉ, sans gros travaux, avec pour objectif des loyers peu fiscalisés pendant la détention. Régime le plus adapté ?",
+  "o": [
+   "Location nue au micro-foncier",
+   "LMNP au réel (amortissement du bien et du mobilier)",
+   "LMNP au micro-BIC",
+   "SCI à l'IS"
+  ],
+  "c": 1,
+  "e": "Le LMNP au réel amortit l'immeuble et le mobilier : l'amortissement absorbe le plus souvent la totalité des loyers, qui ressortent alors peu ou pas imposés pendant des années. Le micro-BIC (abattement forfaitaire) est plus simple mais souvent moins avantageux dès que l'amortissement dépasse l'abattement."
+ },
+ {
+  "id": "lmnp-035",
+  "q": "Cas : vos recettes de location meublée dépassent 23 000 € et excèdent vos autres revenus d'activité ; vous voulez imputer d'éventuels déficits sur votre revenu global. Statut applicable ?",
+  "o": [
+   "LMNP (non professionnel)",
+   "LMP (loueur en meublé professionnel)",
+   "Revenus fonciers",
+   "Micro-BIC"
+  ],
+  "c": 1,
+  "e": "Ces deux conditions (recettes > 23 000 € ET supérieures aux autres revenus d'activité) caractérisent le LMP : ses déficits s'imputent sur le revenu global (contre 10 ans sur les seuls bénéfices meublés en LMNP) et ses plus-values relèvent du régime professionnel (exonérations 151 septies possibles)."
+ },
+ {
+  "id": "lmnp-036",
+  "q": "Cas : vous achetez un studio pour le louer à un étudiant et voulez optimiser la fiscalité des loyers. Mode de location le plus adapté ?",
+  "o": [
+   "Location nue (revenus fonciers)",
+   "Location meublée (LMNP)",
+   "Location saisonnière non déclarée",
+   "Mise à disposition gratuite"
+  ],
+  "c": 1,
+  "e": "La location meublée (LMNP) répond bien à la demande étudiante et, au réel, l'amortissement du bien et du mobilier réduit fortement — souvent à zéro — l'imposition des loyers, là où la location nue serait taxée en revenus fonciers à votre TMI + prélèvements sociaux."
+ },
+ {
+  "id": "lmnp-037",
+  "q": "Cas : à 15 ans de la retraite, vous voulez vous constituer des revenus complémentaires FUTURS peu fiscalisés. Option immobilière adaptée ?",
+  "o": [
+   "Location nue au micro-foncier",
+   "LMNP au réel (amortissement lissant l'imposition des loyers)",
+   "Achat de la nue-propriété d'un bien",
+   "Résidence secondaire"
+  ],
+  "c": 1,
+  "e": "Le LMNP au réel permet de percevoir, une fois l'emprunt remboursé, des loyers peu ou pas fiscalisés grâce à l'amortissement — un complément de revenu efficace à la retraite. On peut aussi combiner avec un PER (déduction pendant la vie active, TMI élevé)."
+ },
+ {
+  "id": "lmnp-038",
+  "q": "Définition : que désigne le statut « LMNP » ?",
+  "o": [
+   "Un régime réservé aux résidences principales",
+   "Le loueur en meublé non professionnel (location de logements meublés à titre non professionnel)",
+   "Un dispositif de réduction d'impôt pour le neuf",
+   "Un type de crédit immobilier"
+  ],
+  "c": 1,
+  "e": "Le LMNP (loueur en meublé non professionnel) désigne la location de logements meublés relevant des BIC, sans que les seuils du statut professionnel (LMP) soient atteints. Au réel, l'amortissement du bien réduit fortement l'imposition des loyers."
+ },
+ {
+  "id": "lmnp-039",
+  "q": "Définition : qu'est-ce que le statut LMP (loueur en meublé professionnel) ?",
+  "o": [
+   "Un loueur de locaux nus",
+   "Un loueur en meublé dont les recettes dépassent 23 000 € ET excèdent les autres revenus d'activité du foyer",
+   "Un marchand de biens",
+   "Un gestionnaire de SCPI"
+  ],
+  "c": 1,
+  "e": "Le LMP est le statut professionnel de la location meublée, atteint lorsque les recettes dépassent 23 000 € et sont supérieures aux autres revenus d'activité du foyer. Il permet d'imputer les déficits sur le revenu global et relève des plus-values professionnelles."
+ },
+ {
+  "id": "lmnp-040",
+  "q": "La location meublée de tourisme (type Airbnb) relève :",
+  "o": [
+   "Des revenus fonciers",
+   "Des BIC, avec un micro-BIC dont l'abattement dépend du classement (50 % si classé, 30 % sinon)",
+   "Des BNC",
+   "D'une exonération"
+  ],
+  "c": 1,
+  "e": "La location meublée de courte durée relève des BIC. Au micro-BIC, l'abattement est de 50 % (meublé de tourisme classé, jusqu'à 77 700 €) ou 30 % (non classé, jusqu'à 15 000 €) depuis la loi Le Meur. Le réel (avec amortissement) reste possible sur option."
+ },
+ {
+  "id": "lmnp-041",
+  "q": "Cas : vous louez un bien MEUBLÉ et vos charges + amortissements dépassent l'abattement du micro-BIC. Quel régime choisir ?",
+  "o": [
+   "Le micro-BIC",
+   "Le régime réel (déduction des charges réelles et amortissement du bien)",
+   "Les revenus fonciers",
+   "Aucun"
+  ],
+  "c": 1,
+  "e": "En location meublée, dès que charges et amortissements dépassent l'abattement du micro-BIC (50 %), le régime réel devient plus intéressant : l'amortissement du bien et du mobilier réduit fortement, voire annule, l'imposition des loyers."
+ },
+ {
+  "id": "lmnp-042",
+  "q": "Cas : location meublée, vos loyers annuels sont de 12 000 € et vos charges + amortissements atteignent 9 000 €. Micro-BIC ou réel ?",
+  "o": [
+   "Micro-BIC",
+   "Le régime réel : il déduit 9 000 € (contre un abattement micro de 50 %, soit 6 000 €)",
+   "Revenus fonciers",
+   "Aucune imposition"
+  ],
+  "c": 1,
+  "e": "Au micro-BIC, l'abattement de 50 % laisserait 6 000 € imposables. Au réel, on déduit les charges et amortissements réels (9 000 €), ne laissant que 3 000 € imposables : le réel est ici nettement plus avantageux."
+ },
+ {
+  "id": "lmnp-043",
+  "q": "Mini-cas : meublé de tourisme CLASSÉ au micro-BIC, recettes 40 000 €. Bénéfice imposable ?",
+  "o": [
+   "40 000 €",
+   "20 000 €",
+   "12 000 €",
+   "28 400 €"
+  ],
+  "c": 1,
+  "e": "Meublé classé : abattement de 50 % → 40 000 × 50 % = 20 000 € imposables. Au-delà d'un certain niveau de charges/amortissements, le régime réel devient plus intéressant."
+ },
+ {
+  "id": "lmnp-044",
+  "q": "Mini-cas : location meublée au réel, loyers 15 000 €, charges + amortissements déductibles 15 000 €. Bénéfice imposable ?",
+  "o": [
+   "15 000 €",
+   "0 €",
+   "7 500 €",
+   "3 000 €"
+  ],
+  "c": 1,
+  "e": "Au réel, on déduit les charges et amortissements réels : 15 000 − 15 000 = 0 € imposable. C'est tout l'intérêt du LMNP au réel : l'amortissement du bien neutralise l'imposition des loyers, souvent pendant de nombreuses années."
+ },
+ {
+  "id": "lmnp-045",
+  "q": "Cas : vous achetez un studio pour le louer. La location meublée (LMNP) plutôt que nue, pourquoi ?",
+  "o": [
+   "Aucune différence",
+   "Au réel, l'amortissement du bien et du mobilier réduit fortement l'imposition des loyers ; la demande étudiante est aussi plus forte en meublé",
+   "La location nue est toujours mieux",
+   "Le meublé est exonéré"
+  ],
+  "c": 1,
+  "e": "Le meublé (LMNP) relève des BIC : au réel, l'amortissement neutralise souvent l'imposition des loyers, là où la location nue serait taxée en revenus fonciers au TMI. Le meublé répond en outre bien à la demande étudiante, cœur de cible d'un studio."
+ }
+]

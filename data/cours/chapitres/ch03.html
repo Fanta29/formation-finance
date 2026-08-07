@@ -1,0 +1,52 @@
+<p>Voici le théorème fondamental de la finance, dont découle presque tout le reste : un euro aujourd'hui vaut plus qu'un euro demain. Non par impatience psychologique seulement, mais parce qu'un euro disponible aujourd'hui peut être placé et produire des intérêts. Tout l'art de la finance consiste à comparer des sommes disponibles à des dates différentes — et pour cela, il faut les ramener à une même date. Ce chapitre construit cet outillage.</p>
+<h3 id="s3-1"><span class="num">3.1</span> Capitalisation et actualisation</h3>
+<aside class="encadre"><strong>Définition</strong> <strong>Capitaliser</strong>, c'est projeter une somme présente vers le futur en y ajoutant les intérêts : on calcule une <em>valeur future</em> (ou valeur acquise). <strong>Actualiser</strong>, c'est l'opération inverse : ramener une somme future à sa <em>valeur présente</em> (ou valeur actuelle), en retirant les intérêts qu'elle aurait pu produire.</aside>
+<p>Le taux qui sert à ces conversions est le <strong>taux d'actualisation</strong> (ou taux d'intérêt). Il incarne le « prix du temps » : plus il est élevé, plus le futur est déprécié par rapport au présent.</p>
+<h3 id="s3-2"><span class="num">3.2</span> Intérêts simples et intérêts composés</h3>
+<h4 id="s3-2-1"><span class="num">3.2.1</span> Intérêts simples</h4>
+<p>En intérêts simples, l'intérêt est calculé à chaque période sur le seul capital initial <em>C</em>0. Les intérêts ne produisent pas eux-mêmes d'intérêts. Au bout de <em>n</em> périodes au taux <em>i</em> :</p>
+<p><em>C</em>n = <em>C</em>0 × (1 + <em>n</em> × <em>i</em>)</p>
+<p>Les intérêts simples se rencontrent surtout pour les opérations courtes (placements de trésorerie, escompte d'effets de commerce à court terme).</p>
+<h4 id="s3-2-2"><span class="num">3.2.2</span> Intérêts composés</h4>
+<p>En intérêts composés, les intérêts de chaque période s'ajoutent au capital et produisent à leur tour des intérêts : c'est la fameuse « intérêt sur intérêt ». La valeur acquise devient :</p>
+<p><em>C</em>n = <em>C</em>0 × (1 + <em>i</em>)n</p>
+<p>Symétriquement, la valeur actuelle d'une somme future <em>C</em>n s'obtient par actualisation :</p>
+<p><em>C</em>0 = <em>C</em>n ⁄ (1 + <em>i</em>)n  =  <em>C</em>n × (1 + <em>i</em>)−n</p>
+<aside class="encadre"><strong>Exemple — la puissance de la composition</strong> Placez 1 000 € à 5 % pendant 30 ans. Intérêts simples : 1 000 × (1 + 30 × 0,05) = 1 000 × 2,5 = <strong>2 500 €</strong>. Intérêts composés : 1 000 × (1,05)30 ≈ 1 000 × 4,322 = <strong>4 322 €</strong>. Le même taux, la même durée, le même capital — mais la composition fait presque doubler le résultat. Sur de longues durées, l'écart devient vertigineux : c'est le moteur de toute constitution de patrimoine.</aside>
+<aside class="encadre"><strong>À retenir</strong> <strong>La règle des 72. </strong>Pour estimer mentalement le temps de doublement d'un capital placé à taux composé <em>i</em> (en %), divisez 72 par <em>i</em>. À 6 %, un capital double en ≈ 72 ⁄ 6 = 12 ans. La règle vient de ln(2) ⁄ ln(1 + i) ≈ 0,72 ⁄ i pour les taux usuels.</aside>
+<h3 id="s3-3"><span class="num">3.3</span> Taux proportionnel, équivalent et continu</h3>
+<p>Un taux annuel peut être décliné sur des périodes plus courtes (mois, trimestre). Deux conventions coexistent, et les confondre est une erreur fréquente.</p>
+<h4 id="s3-3-1"><span class="num">3.3.1</span> Taux proportionnel</h4>
+<p>Le <strong>taux proportionnel</strong> divise simplement le taux annuel par le nombre de périodes : un taux annuel de 12 % donne un taux mensuel proportionnel de 12 % ⁄ 12 = 1 %. C'est la convention des intérêts simples, retenue par exemple pour le calcul du TAEG sur certains produits.</p>
+<h4 id="s3-3-2"><span class="num">3.3.2</span> Taux équivalent</h4>
+<p>Le <strong>taux équivalent</strong> <em>i</em>m est celui qui, capitalisé <em>m</em> fois, redonne exactement le taux annuel — c'est la convention rigoureuse des intérêts composés :</p>
+<p>(1 + <em>i</em>m)m = 1 + <em>i</em>     ⇒     <em>i</em>m = (1 + <em>i</em>)1/m − 1</p>
+<aside class="encadre"><strong>Exemple</strong> Taux annuel de 12 %. Taux mensuel <em>proportionnel</em> = 1,000 %. Taux mensuel <em>équivalent</em> = (1,12)1/12 − 1 = <strong>0,949 %</strong>. Le taux équivalent est inférieur, car la composition mensuelle « rattrape » la différence pour aboutir au même 12 % annuel.</aside>
+<h4 id="s3-3-3"><span class="num">3.3.3</span> Capitalisation continue</h4>
+<p>Lorsque la fréquence de composition <em>m</em> tend vers l'infini, on obtient la <strong>capitalisation continue</strong>, omniprésente en finance de marché (modèles d'options, mathématiques financières). La valeur acquise s'écrit alors avec l'exponentielle :</p>
+<p><em>C</em>n = <em>C</em>0 × <em>e</em>i·n        car        limm→∞ (1 + i/m)m = <em>e</em>i</p>
+<h3 id="s3-4"><span class="num">3.4</span> Suites de flux : annuités et perpétuités</h3>
+<p>Jusqu'ici, un seul flux. Mais la plupart des situations financières — un emprunt, une rente, le dividende d'une action — mettent en jeu une suite de flux. Savoir les évaluer est essentiel.</p>
+<h4 id="s3-4-1"><span class="num">3.4.1</span> Valeur actuelle d'une suite de flux</h4>
+<p>La valeur actuelle d'une suite de flux <em>F</em>1, <em>F</em>2, …, <em>F</em>n est la somme des flux actualisés. C'est la formule mère de toute la finance :</p>
+<p>VA = Σt=1..n  <em>F</em>t ⁄ (1 + <em>i</em>)t</p>
+<h4 id="s3-4-2"><span class="num">3.4.2</span> Annuité constante (rente certaine)</h4>
+<p>Si tous les flux sont égaux à <em>F</em> et versés pendant <em>n</em> périodes, la somme géométrique se met sous forme close :</p>
+<p>VA = <em>F</em> × [ 1 − (1 + <em>i</em>)−n ] ⁄ <em>i</em></p>
+<p>Cette formule est le cœur du calcul des <strong>mensualités d'emprunt</strong> : connaissant le capital emprunté (la VA), on en déduit la mensualité <em>F</em>.</p>
+<aside class="encadre"><strong>Exemple — mensualité d'un crédit</strong> Emprunt de 200 000 € sur 20 ans (240 mois), taux annuel 3 %, soit un taux mensuel équivalent <em>i</em>m = (1,03)1/12 − 1 ≈ 0,2466 %. On résout 200 000 = F × [1 − (1 + im)−240] ⁄ im, d'où F ≈ <strong>1 108 €</strong> par mois. Sur 240 mois, on rembourse ≈ 265 900 €, dont près de 66 000 € d'intérêts.</aside>
+<h4 id="s3-4-3"><span class="num">3.4.3</span> Perpétuité</h4>
+<p>Une <strong>perpétuité</strong> verse un flux constant <em>F</em> indéfiniment. En faisant tendre <em>n</em> vers l'infini dans la formule de l'annuité, le terme (1 + i)−n s'annule et il reste un résultat d'une élégance remarquable :</p>
+<p>VAperpétuité = <em>F</em> ⁄ <em>i</em></p>
+<p>Si le flux croît à un taux constant <em>g</em> (inférieur à <em>i</em>), on obtient la <strong>formule de Gordon-Shapiro</strong>, pierre angulaire de la valorisation des actions (Partie 3) :</p>
+<p>VA = <em>F</em>1 ⁄ (<em>i</em> − <em>g</em>)</p>
+<h3 id="s3-5"><span class="num">3.5</span> Exercices</h3>
+<ul><li><strong>Capitalisation. </strong>Vous placez 5 000 € à 4 % composé. Quelle est la valeur acquise au bout de 15 ans ? Combien de temps faut-il (environ, règle des 72) pour doubler le capital ?</li></ul>
+<ul><li><strong>Actualisation. </strong>On vous promet 10 000 € dans 8 ans. Quelle est leur valeur actuelle à un taux d'actualisation de 6 % ?</li></ul>
+<ul><li><strong>Taux équivalent. </strong>Une carte de crédit affiche un taux mensuel de 1,5 %. Quel est le taux annuel équivalent réellement supporté ?</li></ul>
+<ul><li><strong>Perpétuité. </strong>Une obligation perpétuelle verse 40 € de coupon chaque année à l'infini. Le taux de marché exigé est de 5 %. Quelle est sa valeur ? Que devient-elle si le taux exigé monte à 8 % ?</li></ul>
+<h4>Corrigés</h4>
+<p><strong>1.  </strong>5 000 × (1,04)15 = 5 000 × 1,8009 ≈ <strong>9 005 €</strong>. Doublement : 72 ⁄ 4 = <strong>18 ans</strong> environ (valeur exacte ln 2 ⁄ ln 1,04 ≈ 17,7 ans).</p>
+<p><strong>2.  </strong>10 000 ⁄ (1,06)8 = 10 000 ⁄ 1,5938 ≈ <strong>6 274 €</strong>. Autrement dit, 6 274 € aujourd'hui équivalent à 10 000 € dans 8 ans à 6 %.</p>
+<p><strong>3.  </strong>Taux annuel équivalent = (1,015)12 − 1 = 1,1956 − 1 = <strong>19,56 %</strong>. Bien au-delà du « 18 % » qu'on obtiendrait par simple multiplication 1,5 × 12 — c'est l'effet de la composition, souvent sous-estimé par l'emprunteur.</p>
+<p><strong>4.  </strong>À 5 % : 40 ⁄ 0,05 = <strong>800 €</strong>. À 8 % : 40 ⁄ 0,08 = <strong>500 €</strong>. Leçon fondamentale : <strong>quand les taux montent, la valeur des titres à revenu fixe baisse</strong>. Cette relation inverse prix/taux est au cœur du marché obligataire (Partie 3).</p>

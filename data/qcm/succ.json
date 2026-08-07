@@ -1,0 +1,800 @@
+[
+ {
+  "id": "succ-001",
+  "q": "L'abattement en ligne directe (chaque parent vers chaque enfant) est de :",
+  "o": [
+   "31 865 €",
+   "100 000 €",
+   "152 500 €",
+   "159 325 €"
+  ],
+  "c": 1,
+  "e": "Chaque parent peut transmettre 100 000 € à chaque enfant en franchise de droits (donation ou succession)."
+ },
+ {
+  "id": "succ-002",
+  "q": "L'abattement en ligne directe se reconstitue tous les :",
+  "o": [
+   "6 ans",
+   "10 ans",
+   "15 ans",
+   "30 ans"
+  ],
+  "c": 2,
+  "e": "L'abattement se renouvelle tous les 15 ans : on peut donc redonner 100 000 € en franchise après ce délai."
+ },
+ {
+  "id": "succ-003",
+  "q": "Le barème des droits de succession en ligne directe s'échelonne de :",
+  "o": [
+   "5 % à 45 %",
+   "10 % à 40 %",
+   "20 % à 60 %",
+   "0 % à 30 %"
+  ],
+  "c": 0,
+  "e": "Après abattement, le barème progressif en ligne directe va de 5 % à 45 % selon la valeur transmise."
+ },
+ {
+  "id": "succ-004",
+  "q": "Le don familial de somme d'argent (art. 790 G) ouvre un abattement supplémentaire de :",
+  "o": [
+   "31 865 €",
+   "100 000 €",
+   "152 500 €",
+   "30 500 €"
+  ],
+  "c": 0,
+  "e": "Abattement de 31 865 € sur les dons de sommes d'argent, sous conditions d'âge (donateur < 80 ans, donataire majeur), cumulable et renouvelable tous les 15 ans."
+ },
+ {
+  "id": "succ-005",
+  "q": "Entre époux ou partenaires de PACS, les successions sont :",
+  "o": [
+   "Taxées à 20 %",
+   "Totalement exonérées de droits",
+   "Soumises à un abattement de 80 724 €",
+   "Taxées comme en ligne directe"
+  ],
+  "c": 1,
+  "e": "Depuis la loi TEPA (2007), le conjoint survivant et le partenaire de PACS sont exonérés de droits de succession (attention : les donations entre époux restent taxables)."
+ },
+ {
+  "id": "succ-006",
+  "q": "Le pacte Dutreil permet, sous engagement de conservation, une exonération de droits à hauteur de :",
+  "o": [
+   "30 %",
+   "50 %",
+   "75 % de la valeur des titres transmis",
+   "100 %"
+  ],
+  "c": 2,
+  "e": "Le pacte Dutreil exonère 75 % de la valeur des titres d'entreprise transmis, sous conditions d'engagement collectif puis individuel de conservation et de fonctions."
+ },
+ {
+  "id": "succ-007",
+  "q": "Une donation consentie moins de 15 ans avant le décès :",
+  "o": [
+   "Est ignorée",
+   "Est rapportée fiscalement à la succession (rappel fiscal)",
+   "Annule l'abattement",
+   "Est retaxée intégralement"
+  ],
+  "c": 1,
+  "e": "Le rappel fiscal réintègre les donations de moins de 15 ans pour apprécier les abattements et tranches applicables à la succession."
+ },
+ {
+  "id": "succ-008",
+  "q": "L'abattement applicable à une transmission grand-parent → petit-enfant est de :",
+  "o": [
+   "100 000 €",
+   "31 865 €",
+   "152 500 €",
+   "1 594 €"
+  ],
+  "c": 1,
+  "e": "L'abattement en faveur d'un petit-enfant est de 31 865 € (contre 100 000 € en ligne directe parent-enfant)."
+ },
+ {
+  "id": "succ-009",
+  "q": "L'abattement en ligne directe (parent vers chaque enfant) est de :",
+  "o": [
+   "31 865 €",
+   "100 000 €, renouvelable tous les 15 ans",
+   "152 500 €",
+   "1 594 €"
+  ],
+  "c": 1,
+  "e": "Chaque parent peut transmettre 100 000 € à chaque enfant en franchise de droits, abattement se reconstituant tous les 15 ans."
+ },
+ {
+  "id": "succ-010",
+  "q": "Entre époux ou partenaires de PACS, les droits de SUCCESSION sont :",
+  "o": [
+   "De 20 %",
+   "Nuls : exonération totale (loi TEPA)",
+   "De 45 %",
+   "Plafonnés à 100 000 €"
+  ],
+  "c": 1,
+  "e": "Depuis 2007, le conjoint survivant et le partenaire de PACS sont totalement exonérés de droits de succession."
+ },
+ {
+  "id": "succ-011",
+  "q": "Le barème des droits de succession en ligne directe est :",
+  "o": [
+   "Un taux unique de 20 %",
+   "Progressif, de 5 % à 45 %",
+   "Un forfait de 30 %",
+   "Nul"
+  ],
+  "c": 1,
+  "e": "Après abattement, le barème progressif va de 5 % (première tranche) jusqu'à 45 % (fraction la plus élevée) en ligne directe."
+ },
+ {
+  "id": "succ-012",
+  "q": "Le don familial de somme d'argent (art. 790 G) est exonéré jusqu'à 31 865 € si :",
+  "o": [
+   "Le donateur a moins de 80 ans et le donataire est majeur",
+   "Le donateur a plus de 80 ans",
+   "Le donataire est mineur",
+   "Sans condition"
+  ],
+  "c": 0,
+  "e": "Exonération de 31 865 € tous les 15 ans, sous condition d'âge (donateur < 80 ans) et de capacité (donataire majeur ou émancipé)."
+ },
+ {
+  "id": "succ-013",
+  "q": "Le don familial d'argent (790 G) et l'abattement de 100 000 € en ligne directe :",
+  "o": [
+   "Ne sont pas cumulables",
+   "Sont cumulables",
+   "S'excluent",
+   "Sont plafonnés ensemble à 100 000 €"
+  ],
+  "c": 1,
+  "e": "Ils se cumulent : un parent de moins de 80 ans peut donner 100 000 € + 31 865 € à un enfant majeur, en franchise, tous les 15 ans."
+ },
+ {
+  "id": "succ-014",
+  "q": "L'abattement applicable à une donation à un PETIT-ENFANT est de :",
+  "o": [
+   "100 000 €",
+   "31 865 €",
+   "5 310 €",
+   "1 594 €"
+  ],
+  "c": 1,
+  "e": "Un grand-parent bénéficie d'un abattement de 31 865 € par petit-enfant (donation), renouvelable tous les 15 ans."
+ },
+ {
+  "id": "succ-015",
+  "q": "Entre FRÈRES et SŒURS, l'abattement sur les successions/donations est de :",
+  "o": [
+   "100 000 €",
+   "15 932 €",
+   "7 967 €",
+   "1 594 €"
+  ],
+  "c": 1,
+  "e": "L'abattement entre frères et sœurs est de 15 932 € (avec un barème à 35 % puis 45 %), sauf exonération sous conditions pour un frère/sœur vivant avec le défunt."
+ },
+ {
+  "id": "succ-016",
+  "q": "Une personne en situation de handicap bénéficie d'un abattement supplémentaire de :",
+  "o": [
+   "159 325 €, cumulable avec les autres abattements",
+   "31 865 €",
+   "100 000 €",
+   "Aucun"
+  ],
+  "c": 0,
+  "e": "L'abattement handicap de 159 325 € se cumule avec l'abattement personnel (ex. 100 000 € pour un enfant)."
+ },
+ {
+  "id": "succ-017",
+  "q": "Le dispositif Dutreil (art. 787 B) permet, sous conditions, une exonération de droits à hauteur de :",
+  "o": [
+   "50 %",
+   "75 % de la valeur des titres transmis",
+   "100 %",
+   "30 %"
+  ],
+  "c": 1,
+  "e": "Le pacte Dutreil exonère 75 % de la valeur des titres d'entreprise transmis, sous réserve d'engagements de conservation et d'exercice d'une fonction de direction."
+ },
+ {
+  "id": "succ-018",
+  "q": "Les engagements du pacte Dutreil comprennent :",
+  "o": [
+   "Un engagement collectif de conservation (2 ans minimum)",
+   "Un engagement individuel de conservation (4 ans) à la suite",
+   "L'exercice d'une fonction de direction",
+   "Une cotation obligatoire des titres"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Engagement collectif (≥ 2 ans) + engagement individuel (4 ans) + fonction de direction : la durée totale de conservation avoisine 6 ans. Aucune cotation n'est exigée."
+ },
+ {
+  "id": "succ-019",
+  "q": "Le « rappel fiscal » des donations antérieures joue sur une période de :",
+  "o": [
+   "6 ans",
+   "15 ans",
+   "10 ans",
+   "30 ans"
+  ],
+  "c": 1,
+  "e": "Les donations de moins de 15 ans sont rapportées pour le calcul des abattements et du barème : c'est pourquoi les abattements se « rechargent » tous les 15 ans."
+ },
+ {
+  "id": "succ-020",
+  "q": "La donation-partage présente l'intérêt de :",
+  "o": [
+   "Figer la valeur des biens au jour de la donation (pas de réévaluation au décès)",
+   "Doubler les abattements",
+   "Exonérer de droits",
+   "Éviter tout acte notarié"
+  ],
+  "c": 0,
+  "e": "La donation-partage fige les valeurs transmises au jour de l'acte (sous conditions), évitant les réévaluations et les conflits lors du règlement de la succession."
+ },
+ {
+  "id": "succ-021",
+  "q": "La quotité disponible désigne :",
+  "o": [
+   "La part réservée aux héritiers réservataires",
+   "La part du patrimoine dont on peut librement disposer, au-delà de la réserve",
+   "La totalité du patrimoine",
+   "Les seules dettes"
+  ],
+  "c": 1,
+  "e": "La réserve héréditaire protège les descendants (ou le conjoint à défaut) ; la quotité disponible est la fraction librement transmissible (par testament ou donation)."
+ },
+ {
+  "id": "succ-022",
+  "q": "Parmi ces transmissions, lesquelles sont exonérées ou fortement allégées de droits ?",
+  "o": [
+   "Succession au profit du conjoint survivant",
+   "Donation de 100 000 € par parent à chaque enfant (tous les 15 ans)",
+   "Transmission d'entreprise sous pacte Dutreil (75 %)",
+   "Legs à un neveu au-delà de l'abattement de 7 967 €"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Conjoint (exonéré), abattement de 100 000 € par enfant et Dutreil (75 %) allègent fortement. Le legs à un neveu au-delà de 7 967 € est taxé lourdement (55 %)."
+ },
+ {
+  "id": "succ-023",
+  "q": "Les legs consentis aux associations et fondations reconnues d'utilité publique sont :",
+  "o": [
+   "Taxés à 60 %",
+   "Exonérés de droits de mutation",
+   "Taxés à 20 %",
+   "Soumis à l'IFI"
+  ],
+  "c": 1,
+  "e": "Les libéralités au profit d'organismes d'intérêt général reconnus d'utilité publique bénéficient d'une exonération de droits de mutation."
+ },
+ {
+  "id": "succ-024",
+  "q": "Le paiement des droits de succession peut être, sous conditions :",
+  "o": [
+   "Uniquement immédiat",
+   "Fractionné (sur plusieurs années) ou différé (ex. démembrement, jusqu'au décès de l'usufruitier)",
+   "Supprimé sur demande",
+   "Réglé en actions"
+  ],
+  "c": 1,
+  "e": "L'administration admet, sous garanties, le paiement fractionné (échelonné) ou différé (notamment en cas de transmission en nue-propriété : différé jusqu'à l'extinction de l'usufruit)."
+ },
+ {
+  "id": "succ-025",
+  "q": "L'abattement en ligne directe (parent → enfant) applicable aux donations et successions est de :",
+  "o": [
+   "100 000 € par parent et par enfant, renouvelable tous les 15 ans",
+   "31 865 €",
+   "159 325 €",
+   "Sans limite"
+  ],
+  "c": 0,
+  "e": "Chaque parent peut transmettre 100 000 € à chaque enfant en franchise de droits, l'abattement se reconstituant tous les 15 ans."
+ },
+ {
+  "id": "succ-026",
+  "q": "Le don familial de sommes d'argent (art. 790 G) :",
+  "o": [
+   "Est plafonné à 31 865 € par donateur et par bénéficiaire",
+   "Suppose un donateur de moins de 80 ans et un bénéficiaire majeur",
+   "Se cumule avec l'abattement de 100 000 €",
+   "Est réservé aux conjoints"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le don Sarkozy (art. 790 G) permet 31 865 € en argent, sous condition d'âge (donateur < 80 ans, bénéficiaire majeur), et se cumule avec l'abattement de droit commun de 100 000 €."
+ },
+ {
+  "id": "succ-027",
+  "q": "Au décès, le conjoint survivant (ou partenaire de PACS) :",
+  "o": [
+   "Est totalement exonéré de droits de succession",
+   "Bénéficie d'un abattement de 80 724 €",
+   "Paie les droits au barème en ligne directe",
+   "N'a aucun droit"
+  ],
+  "c": 0,
+  "e": "Depuis la loi TEPA, le conjoint survivant et le partenaire de PACS sont totalement exonérés de droits de SUCCESSION (l'abattement de 80 724 € ne joue qu'en cas de DONATION entre époux)."
+ },
+ {
+  "id": "succ-028",
+  "q": "Quels abattements successoraux/donation existent selon le lien de parenté ?",
+  "o": [
+   "Petit-enfant : 31 865 € (donation)",
+   "Frère/sœur : 15 932 €",
+   "Personne handicapée : abattement spécifique de 159 325 € cumulable",
+   "Neveu/nièce : 100 000 €"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Petit-enfant : 31 865 € en donation ; frère/sœur : 15 932 € ; personne handicapée : 159 325 € cumulables avec les autres abattements. Neveu/nièce : 7 967 €, pas 100 000 €."
+ },
+ {
+  "id": "succ-029",
+  "q": "Le pacte Dutreil permet, sous conditions d'engagement de conservation, une exonération de droits de transmission d'entreprise de :",
+  "o": [
+   "50 %",
+   "75 % de la valeur des titres",
+   "100 %",
+   "30 %"
+  ],
+  "c": 1,
+  "e": "Le pacte Dutreil exonère 75 % de la valeur des titres transmis, moyennant des engagements collectifs et individuels de conservation et une fonction de direction."
+ },
+ {
+  "id": "succ-030",
+  "q": "Le « rappel fiscal » des donations impose de tenir compte, pour le calcul des abattements et du barème :",
+  "o": [
+   "De toutes les donations antérieures, sans limite",
+   "Des donations consenties depuis moins de 15 ans",
+   "Des seules donations de l'année en cours",
+   "Uniquement des successions"
+  ],
+  "c": 1,
+  "e": "Les donations de moins de 15 ans sont rapportées fiscalement : elles s'imputent sur les abattements et poussent la nouvelle transmission dans les tranches supérieures du barème. Au-delà de 15 ans, l'abattement se reconstitue intégralement."
+ },
+ {
+  "id": "succ-031",
+  "q": "En cas de représentation (un enfant prédécédé), ses propres enfants (petits-enfants du défunt) :",
+  "o": [
+   "N'héritent pas",
+   "Viennent à la succession en représentation et se partagent la part ET l'abattement qu'aurait eus leur parent",
+   "Bénéficient chacun d'un abattement de 100 000 €",
+   "Sont taxés comme des tiers"
+  ],
+  "c": 1,
+  "e": "Par le mécanisme de la représentation, les descendants d'un héritier prédécédé recueillent sa part ; ils se partagent aussi l'abattement de 100 000 € qui lui aurait bénéficié (et non un abattement plein chacun)."
+ },
+ {
+  "id": "succ-032",
+  "q": "Le barème des droits de succession/donation en ligne directe (après abattement) est :",
+  "o": [
+   "Un taux unique de 20 %",
+   "Progressif, de 5 % à 45 % selon les tranches",
+   "De 60 % comme pour les tiers",
+   "Nul"
+  ],
+  "c": 1,
+  "e": "En ligne directe, après l'abattement de 100 000 €, le barème est progressif par tranches, de 5 % à 45 %. Entre personnes non parentes, le taux est de 60 %."
+ },
+ {
+  "id": "succ-033",
+  "q": "La réduction de droits de 50 % (art. 790) s'applique à une donation :",
+  "o": [
+   "En pleine propriété, par un donateur de moins de 70 ans, sous pacte Dutreil",
+   "En démembrement, quel que soit l'âge",
+   "À tout donataire sans condition",
+   "Après 70 ans du donateur"
+  ],
+  "c": 0,
+  "e": "La réduction de 50 % des droits vise les donations en PLEINE PROPRIÉTÉ de titres sous pacte Dutreil, par un donateur de moins de 70 ans. Le démembrement (nue-propriété) ou une donation après 70 ans font perdre cette réduction, mais l'abattement Dutreil de 75 % reste acquis."
+ },
+ {
+  "id": "succ-034",
+  "q": "La LF 2026 a durci le pacte Dutreil (transmissions depuis le 21/02/2026) en :",
+  "o": [
+   "Supprimant l'abattement de 75 %",
+   "Portant l'engagement individuel de conservation de 4 à 6 ans",
+   "Excluant les actifs non professionnels (somptuaires) de l'assiette exonérée",
+   "Ramenant l'exonération à 50 %"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "La LF 2026 (art. 8) maintient l'abattement de 75 % mais resserre le dispositif : engagement individuel de conservation allongé (4 → 6 ans) et exclusion des biens non professionnels/somptuaires de la base exonérée."
+ },
+ {
+  "id": "succ-035",
+  "q": "Les primes d'assurance-vie « manifestement exagérées » au regard des facultés du souscripteur :",
+  "o": [
+   "Sont toujours hors succession",
+   "Peuvent être réintégrées à l'actif successoral (appréciation au cas par cas)",
+   "Bénéficient d'un abattement doublé",
+   "Sont exonérées de PS"
+  ],
+  "c": 1,
+  "e": "Lorsque les primes sont manifestement exagérées eu égard à l'âge, au patrimoine et aux revenus du souscripteur, elles peuvent être réintégrées dans la succession (et donc soumises aux droits), le juge appréciant au cas par cas l'utilité de l'opération."
+ },
+ {
+  "id": "succ-036",
+  "q": "La donation entre époux (« au dernier vivant ») permet au conjoint survivant de choisir, au décès, entre :",
+  "o": [
+   "La quotité disponible ordinaire en pleine propriété",
+   "Un quart en pleine propriété et trois quarts en usufruit",
+   "La totalité en usufruit",
+   "Rien de tout cela"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La donation au dernier vivant élargit les droits du conjoint : il opte, selon son intérêt, pour la quotité disponible en pleine propriété, ou 1/4 en PP + 3/4 en usufruit, ou la totalité en usufruit — au-delà de ses droits légaux."
+ },
+ {
+  "id": "succ-037",
+  "q": "La réserve héréditaire des enfants (quotité disponible) est de :",
+  "o": [
+   "1/2 réservé avec 1 enfant (disponible 1/2)",
+   "2/3 réservé avec 2 enfants (disponible 1/3)",
+   "3/4 réservé avec 3 enfants ou plus (disponible 1/4)",
+   "Nulle : on peut tout léguer librement"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La quotité disponible dépend du nombre d'enfants : 1/2 (1 enfant), 1/3 (2 enfants), 1/4 (3 enfants ou plus), le reste étant réservé. On ne peut léguer librement que la quotité disponible."
+ },
+ {
+  "id": "succ-038",
+  "q": "Pour la transmission d'une entreprise, les droits de mutation peuvent bénéficier :",
+  "o": [
+   "D'aucun aménagement",
+   "D'un paiement différé (jusqu'à 5 ans) puis fractionné (sur 10 ans)",
+   "D'une exonération automatique et totale",
+   "D'un report illimité sans intérêts"
+  ],
+  "c": 1,
+  "e": "Le paiement des droits sur une transmission d'entreprise peut être différé pendant 5 ans (intérêts seuls), puis fractionné sur 10 ans, moyennant garanties et intérêts — un soutien de trésorerie, distinct de l'exonération Dutreil."
+ },
+ {
+  "id": "succ-039",
+  "q": "Parmi ces legs, lequel appréhende l'ensemble ou une quote-part de la succession ?",
+  "o": [
+   "Le legs universel (vocation à toute la succession)",
+   "Le legs à titre universel (une quote-part ou une catégorie de biens)",
+   "Le legs particulier (un bien déterminé)",
+   "Aucun"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le legs universel donne vocation à recueillir toute la succession ; le legs à titre universel, une quote-part ou une catégorie (ex. tous les immeubles). Le legs particulier ne porte que sur un bien déterminé et ne confère pas la qualité d'héritier."
+ },
+ {
+  "id": "succ-040",
+  "q": "L'héritier qui dissimule sciemment un bien ou un héritier de la succession (recel successoral) :",
+  "o": [
+   "N'encourt aucune sanction",
+   "Est privé de sa part sur les biens recelés (qu'il doit rapporter)",
+   "Double sa part",
+   "Paie une simple amende"
+  ],
+  "c": 1,
+  "e": "Le recel successoral prive l'héritier de mauvaise foi de tout droit sur les biens ou droits qu'il a dissimulés : il doit les rapporter à la masse sans pouvoir y prétendre, et perd le bénéfice d'une éventuelle option (renonciation impossible)."
+ },
+ {
+  "id": "succ-041",
+  "q": "Les frais funéraires :",
+  "o": [
+   "Ne sont pas déductibles de la succession",
+   "Sont déductibles de l'actif successoral dans la limite d'un forfait (1 500 €)",
+   "Doublent l'abattement",
+   "Sont exonérés de tout"
+  ],
+  "c": 1,
+  "e": "Les frais funéraires sont déduits de l'actif successoral, sans justificatif, dans la limite d'un forfait de 1 500 € (prélevés en priorité sur les comptes du défunt)."
+ },
+ {
+  "id": "succ-042",
+  "q": "Le droit de partage dû lors de la sortie d'indivision successorale est de :",
+  "o": [
+   "5 %",
+   "2,5 % de l'actif net partagé",
+   "1,1 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Le partage d'une succession supporte un droit de partage de 2,5 % de l'actif net partagé, exigible dès qu'un acte de partage est établi (même sans soulte). Un taux réduit de 1,1 % vise les partages de divorce/dissolution de PACS."
+ },
+ {
+  "id": "succ-043",
+  "q": "Concernant l'indivision successorale, lesquelles sont exactes ?",
+  "o": [
+   "Nul ne peut être contraint de rester dans l'indivision",
+   "Un indivisaire peut provoquer le partage à tout moment",
+   "Les actes de disposition (vente du bien) requièrent en principe l'unanimité",
+   "Chaque indivisaire peut vendre seul le bien entier"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "« Nul n'est contraint de rester dans l'indivision » : un indivisaire peut demander le partage. Les actes de disposition exigent l'unanimité (les actes de gestion courante, une majorité des 2/3). Aucun indivisaire ne peut vendre seul le bien indivis entier."
+ },
+ {
+  "id": "succ-044",
+  "q": "Mini-cas : un parent donne 130 000 € à son enfant (aucune donation dans les 15 ans). Base taxable après abattement ?",
+  "o": [
+   "130 000 €",
+   "30 000 €",
+   "13 000 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "L'abattement en ligne directe est de 100 000 € par parent et par enfant (tous les 15 ans) : 130 000 − 100 000 = 30 000 € soumis au barème progressif."
+ },
+ {
+  "id": "succ-045",
+  "q": "Mini-cas : deux parents donnent chacun 100 000 € à leur enfant (aucune donation antérieure sur 15 ans). Droits dus ?",
+  "o": [
+   "Sur 100 000 €",
+   "0 € (deux abattements de 100 000 €)",
+   "Sur 200 000 €",
+   "Sur 50 000 €"
+  ],
+  "c": 1,
+  "e": "L'abattement de 100 000 € s'apprécie par parent et par enfant : chaque donation de 100 000 € est intégralement absorbée par l'abattement. Aucun droit n'est dû (200 000 € transmis en franchise)."
+ },
+ {
+  "id": "succ-046",
+  "q": "Cas : vous souhaitez transmettre de l'argent à vos petits-enfants de votre vivant, en franchise de droits. Leviers cumulables ?",
+  "o": [
+   "L'abattement grand-parent / petit-enfant de 31 865 €",
+   "Le don familial de sommes d'argent (art. 790 G) de 31 865 €, si vous avez moins de 80 ans",
+   "L'abattement de 100 000 €",
+   "Une exonération totale sans limite"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "On cumule l'abattement de donation grand-parent → petit-enfant (31 865 €) et le don familial de sommes d'argent de l'art. 790 G (31 865 €, donateur < 80 ans, petit-enfant majeur). L'abattement de 100 000 € vise, lui, la ligne parent → enfant."
+ },
+ {
+  "id": "succ-047",
+  "q": "Cas : votre patrimoine est appelé à fortement s'apprécier et vous voulez transmettre à vos enfants au moindre coût. Stratégie temporelle adaptée ?",
+  "o": [
+   "Attendre la succession",
+   "Donner tôt (valeur figée au jour du don, abattements renouvelés tous les 15 ans)",
+   "Ne rien anticiper",
+   "Vendre puis donner le cash"
+  ],
+  "c": 1,
+  "e": "Donner tôt fige la valeur transmise au jour de la donation (l'appréciation future échappe aux droits) et permet de réutiliser l'abattement de 100 000 € tous les 15 ans. Combiné à une réserve d'usufruit, on garde même les revenus. Attendre la succession expose à une base plus élevée."
+ },
+ {
+  "id": "succ-048",
+  "q": "Cas : parent de jeunes enfants, vous voulez leur garantir un capital si vous décédez prématurément, sans immobiliser d'épargne. Outil adapté ?",
+  "o": [
+   "Un contrat d'assurance-vie richement doté immédiatement",
+   "Une assurance DÉCÈS (temporaire décès) : capital garanti aux bénéficiaires en cas de décès",
+   "Un PEA",
+   "Une SCI"
+  ],
+  "c": 1,
+  "e": "L'assurance temporaire décès verse un capital défini aux bénéficiaires si le décès survient pendant la période couverte, pour une cotisation modique — idéale pour protéger des proches sans avoir déjà constitué le capital. L'assurance-vie « épargne », elle, suppose d'y avoir versé des fonds."
+ },
+ {
+  "id": "succ-049",
+  "q": "Cas : vous transmettez votre entreprise à l'un de vos enfants (repreneur), en compensant les autres. Montage adapté ?",
+  "o": [
+   "Une vente pure et simple",
+   "Un family buy-out : donation-partage avec pacte Dutreil + holding de reprise versant une soulte aux autres enfants",
+   "Une simple donation à tous",
+   "Une liquidation"
+  ],
+  "c": 1,
+  "e": "Le family buy-out combine la donation-partage (avec pacte Dutreil, exonération de 75 %) au profit de l'enfant repreneur et une holding qui s'endette pour verser une soulte aux enfants non-repreneurs — transmettant l'entreprise tout en préservant l'équité familiale."
+ },
+ {
+  "id": "succ-050",
+  "q": "Définition : qu'est-ce que le pacte Dutreil ?",
+  "o": [
+   "Un contrat de mariage",
+   "Un engagement de conservation de titres ouvrant une exonération de 75 % des droits sur la transmission d'une entreprise",
+   "Une réduction d'impôt sur les dons aux associations",
+   "Un régime d'imposition des loyers"
+  ],
+  "c": 1,
+  "e": "Le pacte Dutreil permet de transmettre une entreprise (donation/succession) avec une exonération de 75 % de la valeur des titres, en contrepartie d'engagements collectif et individuel de conservation et d'une fonction de direction."
+ },
+ {
+  "id": "succ-051",
+  "q": "Définition : qu'est-ce qu'un « abattement » fiscal ?",
+  "o": [
+   "Un montant déduit de la base imposable avant calcul de l'impôt",
+   "Une réduction directe de l'impôt à payer",
+   "Un crédit remboursable",
+   "Une majoration de l'impôt"
+  ],
+  "c": 0,
+  "e": "Un abattement réduit l'assiette (la base) sur laquelle l'impôt est calculé — à distinguer d'une réduction ou d'un crédit d'impôt, qui diminuent l'impôt lui-même. Exemple : l'abattement de 100 000 € en ligne directe pour les donations/successions."
+ },
+ {
+  "id": "succ-052",
+  "q": "Définition : qu'est-ce que la « réserve héréditaire » et la « quotité disponible » ?",
+  "o": [
+   "Des comptes bancaires",
+   "La réserve est la part des biens revenant obligatoirement aux héritiers réservataires ; la quotité disponible est la part dont on peut librement disposer",
+   "Un abattement fiscal",
+   "Une assurance"
+  ],
+  "c": 1,
+  "e": "La réserve héréditaire est la fraction du patrimoine qui revient de droit aux enfants (héritiers réservataires) : 1/2 (1 enfant), 1/3 (2), 1/4 (3+). La quotité disponible est le reste, dont on peut librement gratifier qui l'on veut (legs, donation)."
+ },
+ {
+  "id": "succ-053",
+  "q": "Définition : qu'est-ce que l'« indivision » ?",
+  "o": [
+   "Une société commerciale",
+   "La situation où plusieurs personnes détiennent ensemble un même bien, sans division matérielle des parts",
+   "Un démembrement",
+   "Une location"
+  ],
+  "c": 1,
+  "e": "En indivision, plusieurs personnes sont propriétaires d'un même bien par quotes-parts abstraites (fréquent après une succession). Nul n'étant tenu d'y rester, chacun peut provoquer le partage ; les actes de disposition requièrent l'unanimité."
+ },
+ {
+  "id": "succ-054",
+  "q": "Définition : qu'est-ce qu'un « présent d'usage » ?",
+  "o": [
+   "Un legs",
+   "Un cadeau offert à l'occasion d'un événement (anniversaire, mariage…), proportionné aux revenus, non taxable et non rapportable",
+   "Une donation notariée",
+   "Un abattement fiscal"
+  ],
+  "c": 1,
+  "e": "Le présent d'usage est un cadeau d'usage lié à un événement, d'une valeur raisonnable au regard du patrimoine et des revenus du donateur. Contrairement à une donation, il n'est ni taxé ni rapportable à la succession — sous réserve de rester proportionné."
+ },
+ {
+  "id": "succ-055",
+  "q": "Définition : qu'est-ce qu'une donation « graduelle » ou « résiduelle » ?",
+  "o": [
+   "Une donation annulable",
+   "Une donation à charge, pour le premier bénéficiaire, de transmettre le bien (ou ce qu'il en reste) à un second bénéficiaire désigné",
+   "Un présent d'usage",
+   "Une donation entre époux"
+  ],
+  "c": 1,
+  "e": "La donation graduelle (le donataire doit conserver puis transmettre le bien) et la donation résiduelle (il transmet ce qui en reste) permettent d'organiser une transmission sur deux générations, utile pour protéger un héritier vulnérable tout en fléchant le bien ensuite."
+ },
+ {
+  "id": "succ-056",
+  "q": "Mini-cas : donation de 150 000 € d'un parent à son enfant (aucune donation dans les 15 ans). Base taxable après abattement ?",
+  "o": [
+   "150 000 €",
+   "50 000 €",
+   "15 000 €",
+   "100 000 €"
+  ],
+  "c": 1,
+  "e": "Abattement en ligne directe de 100 000 € : 150 000 − 100 000 = 50 000 € soumis au barème progressif des droits de donation."
+ },
+ {
+  "id": "succ-057",
+  "q": "Mini-cas : un grand-parent donne 50 000 € à son petit-enfant (abattement de 31 865 €, aucune donation dans les 15 ans). Base taxable ?",
+  "o": [
+   "50 000 €",
+   "18 135 €",
+   "31 865 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Abattement grand-parent → petit-enfant : 31 865 €. Base taxable = 50 000 − 31 865 = 18 135 € (avant barème). On pourrait ajouter le don familial de somme d'argent de 31 865 € (art. 790 G) pour effacer totalement l'imposition."
+ },
+ {
+  "id": "succ-058",
+  "q": "Définition : qu'est-ce qu'une « donation avant cession » (donation-cession) ?",
+  "o": [
+   "Vendre puis donner le prix",
+   "Donner un bien ou des titres AVANT de les vendre, ce qui purge la plus-value latente",
+   "Un prêt familial",
+   "Une vente à soi-même"
+  ],
+  "c": 1,
+  "e": "Donner un bien avant sa vente purge la plus-value latente : le donataire, nouveau propriétaire, le revend avec une valeur d'acquisition égale à celle retenue pour la donation (peu ou pas de plus-value). Attention à ce que la donation soit réelle et antérieure (pas d'abus de droit)."
+ },
+ {
+  "id": "succ-059",
+  "q": "Définition : qu'est-ce qu'un « trust » ?",
+  "o": [
+   "Un contrat d'assurance",
+   "Un dispositif juridique anglo-saxon par lequel un constituant transfère des biens à un administrateur (trustee) au profit de bénéficiaires",
+   "Une société civile",
+   "Un compte bancaire"
+  ],
+  "c": 1,
+  "e": "Le trust est une institution étrangère : le constituant (settlor) confie des biens à un trustee qui les gère pour des bénéficiaires. En France, il n'a pas d'équivalent : il fait l'objet d'obligations déclaratives strictes et d'une fiscalité spécifique (droits de mutation, IFI)."
+ },
+ {
+  "id": "succ-060",
+  "q": "Une succession comportant des biens situés en France (art. 750 ter) :",
+  "o": [
+   "N'est jamais taxable en France si le défunt est non-résident",
+   "Rend ces biens français taxables en France, même si le défunt résidait à l'étranger",
+   "Est exonérée",
+   "Relève uniquement du pays de résidence"
+  ],
+  "c": 1,
+  "e": "Les biens situés en France sont imposables aux droits de succession français, même si le défunt était non-résident. Si le défunt OU l'héritier est résident de France (≥ 6 des 10 dernières années pour l'héritier), c'est le patrimoine mondial qui est taxé (sous réserve des conventions)."
+ },
+ {
+  "id": "succ-061",
+  "q": "Mini-cas : donation de 50 000 € à un frère (abattement de 15 932 €, aucune donation dans les 15 ans). Base taxable ?",
+  "o": [
+   "50 000 €",
+   "34 068 €",
+   "15 932 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "L'abattement entre frères et sœurs est de 15 932 € : 50 000 − 15 932 = 34 068 € soumis au barème (35 % puis 45 % entre frères et sœurs)."
+ },
+ {
+  "id": "succ-062",
+  "q": "Mini-cas : au décès, le conjoint survivant hérite de 300 000 €. Droits de succession dus ?",
+  "o": [
+   "Sur 300 000 €",
+   "0 € (le conjoint survivant est exonéré)",
+   "Sur 200 000 €",
+   "Sur 100 000 €"
+  ],
+  "c": 1,
+  "e": "Le conjoint survivant (comme le partenaire de PACS) est totalement exonéré de droits de succession, quel que soit le montant reçu : 0 € de droits sur les 300 000 €. L'abattement de 80 724 € ne joue qu'en cas de donation entre époux du vivant."
+ },
+ {
+  "id": "succ-063",
+  "q": "Concernant les donations et successions, lesquelles sont exactes ?",
+  "o": [
+   "Abattement de 100 000 € par parent et par enfant, renouvelable tous les 15 ans",
+   "Le conjoint survivant est exonéré de droits de succession",
+   "Un don familial de 31 865 € (art. 790 G) est possible si le donateur a moins de 80 ans",
+   "Les frais funéraires sont déductibles (forfait 1 500 €)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Toutes exactes : abattement de 100 000 € en ligne directe (tous les 15 ans), exonération totale du conjoint survivant, don familial de sommes d'argent de 31 865 €, et déduction forfaitaire des frais funéraires (1 500 €). Ce sont les leviers de base de la transmission."
+ }
+]

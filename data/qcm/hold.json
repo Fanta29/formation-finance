@@ -1,0 +1,515 @@
+[
+ {
+  "id": "hold-001",
+  "q": "Le régime mère-fille exonère les dividendes reçus de la filiale à hauteur de :",
+  "o": [
+   "100 %",
+   "95 %",
+   "50 %",
+   "5 %"
+  ],
+  "c": 1,
+  "e": "Les dividendes remontés sont exonérés, sauf une quote-part de frais et charges de 5 % réintégrée. Coût effectif ≈ 1,25 % (5 % × 25 %)."
+ },
+ {
+  "id": "hold-002",
+  "q": "Le régime mère-fille suppose une détention d'au moins :",
+  "o": [
+   "1 %",
+   "5 %",
+   "50 %",
+   "95 %"
+  ],
+  "c": 1,
+  "e": "La société mère doit détenir au moins 5 % du capital de la filiale."
+ },
+ {
+  "id": "hold-003",
+  "q": "La durée minimale de conservation des titres pour le régime mère-fille est de :",
+  "o": [
+   "6 mois",
+   "1 an",
+   "2 ans",
+   "5 ans"
+  ],
+  "c": 2,
+  "e": "Les titres doivent être conservés au moins 2 ans pour bénéficier du régime."
+ },
+ {
+  "id": "hold-004",
+  "q": "L'intégration fiscale requiert une détention de la filiale d'au moins :",
+  "o": [
+   "5 %",
+   "50 %",
+   "75 %",
+   "95 %"
+  ],
+  "c": 3,
+  "e": "L'intégration fiscale exige une détention d'au moins 95 % du capital de chaque filiale intégrée."
+ },
+ {
+  "id": "hold-005",
+  "q": "L'intérêt principal de l'intégration fiscale est :",
+  "o": [
+   "D'exonérer tous les dividendes",
+   "De compenser bénéfices et déficits entre sociétés du groupe",
+   "De réduire le taux d'IS à 15 %",
+   "D'éviter la TVA"
+  ],
+  "c": 1,
+  "e": "L'intégration consolide les résultats : les déficits de certaines filiales viennent en réduction des bénéfices des autres, sur un résultat d'ensemble."
+ },
+ {
+  "id": "hold-006",
+  "q": "Une « holding animatrice » se distingue d'une holding passive car elle :",
+  "o": [
+   "Ne détient qu'une filiale",
+   "Participe activement à la conduite de la politique du groupe",
+   "Est cotée en bourse",
+   "Est soumise à l'IR"
+  ],
+  "c": 1,
+  "e": "L'animation effective (définition de la stratégie, services aux filiales) ouvre des régimes de faveur : pacte Dutreil, exonération d'IFI des titres, apport-cession."
+ },
+ {
+  "id": "hold-007",
+  "q": "Sous le régime mère-fille, la holding est imposée à l'IS :",
+  "o": [
+   "Sur la totalité des dividendes reçus",
+   "Sur la seule quote-part de frais et charges de 5 %",
+   "Sur rien",
+   "À 15 % sur les dividendes"
+  ],
+  "c": 1,
+  "e": "Seuls 5 % des dividendes (quote-part de frais et charges) sont réintégrés dans le résultat imposable de la holding."
+ },
+ {
+  "id": "hold-008",
+  "q": "L'empilement holding + filiales permet notamment :",
+  "o": [
+   "D'échapper totalement à l'impôt",
+   "De faire remonter la trésorerie à faible coût fiscal pour la réinvestir",
+   "De supprimer l'IS des filiales",
+   "D'éviter toute déclaration"
+  ],
+  "c": 1,
+  "e": "Grâce au régime mère-fille, la trésorerie remonte quasi sans frottement fiscal vers la holding, qui peut la réinvestir (effet de levier patrimonial)."
+ },
+ {
+  "id": "hold-009",
+  "q": "Sous le régime mère-fille, la quote-part de frais et charges réintégrée est de :",
+  "o": [
+   "1 %",
+   "5 %",
+   "12 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Une quote-part forfaitaire de 5 % du dividende reste imposable : 95 % est donc exonéré (frottement effectif d'environ 1,25 % à l'IS)."
+ },
+ {
+  "id": "hold-010",
+  "q": "L'intégration fiscale exige une détention de la mère dans les filiales d'au moins :",
+  "o": [
+   "75 %",
+   "95 %",
+   "51 %",
+   "5 %"
+  ],
+  "c": 1,
+  "e": "Le périmètre d'intégration suppose une détention d'au moins 95 %, directement ou indirectement."
+ },
+ {
+  "id": "hold-011",
+  "q": "Quels avantages procure l'intégration fiscale ?",
+  "o": [
+   "La compensation des résultats bénéficiaires et déficitaires du groupe",
+   "La neutralisation de certaines opérations intragroupe",
+   "Le paiement d'un IS unique par la mère (tête de groupe)",
+   "L'exonération totale d'IS"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'intégration permet de compenser bénéfices et déficits, de neutraliser des opérations internes et de payer un IS de groupe. Elle n'exonère pas d'IS."
+ },
+ {
+  "id": "hold-012",
+  "q": "Une holding est dite « animatrice » lorsqu'elle :",
+  "o": [
+   "Se contente de détenir des titres",
+   "Participe activement à la conduite de la politique du groupe et rend des services",
+   "N'a aucun salarié",
+   "Est cotée"
+  ],
+  "c": 1,
+  "e": "La holding animatrice participe à la stratégie et fournit des services à ses filiales. Cette qualification ouvre des avantages (IFI biens pro, Dutreil, réinvestissement 150-0 B ter)."
+ },
+ {
+  "id": "hold-013",
+  "q": "Les « management fees » facturés par une holding à ses filiales :",
+  "o": [
+   "Sont toujours déductibles sans condition",
+   "Doivent correspondre à des prestations réelles avec une contrepartie, sous peine de rejet (acte anormal de gestion)",
+   "Sont exonérés d'IS",
+   "Constituent un dividende"
+  ],
+  "c": 1,
+  "e": "Une convention et une contrepartie réelle sont indispensables : à défaut de substance, l'administration peut refuser la déduction (voire y voir un acte anormal de gestion)."
+ },
+ {
+  "id": "hold-014",
+  "q": "À l'IS, la plus-value de cession de titres de participation détenus depuis plus de 2 ans est :",
+  "o": [
+   "Totalement imposée",
+   "Exonérée sauf une quote-part de frais et charges de 12 % du montant brut",
+   "Soumise au PFU",
+   "Exonérée à 100 %"
+  ],
+  "c": 1,
+  "e": "Régime du long terme : exonération sous réserve de la réintégration d'une quote-part de 12 % de la plus-value BRUTE."
+ },
+ {
+  "id": "hold-015",
+  "q": "Une holding « pure » (simple détention de titres) est, au regard de la TVA :",
+  "o": [
+   "Toujours assujettie",
+   "En principe non assujettie (activité non économique)",
+   "Redevable de la CVAE majorée",
+   "Exonérée d'IS"
+  ],
+  "c": 1,
+  "e": "La holding pure n'exerce pas d'activité économique : elle n'est pas assujettie à la TVA (à la différence d'une holding animatrice facturant des prestations)."
+ },
+ {
+  "id": "hold-016",
+  "q": "L'effet de levier d'une holding de reprise repose sur :",
+  "o": [
+   "L'exonération d'IS",
+   "La remontée des dividendes de la cible pour rembourser l'emprunt d'acquisition (LBO)",
+   "La TVA sur la marge",
+   "Le régime micro"
+  ],
+  "c": 1,
+  "e": "Dans un LBO, la holding s'endette pour acheter la cible, puis fait remonter ses dividendes (quasi-exonérés en mère-fille) afin de rembourser la dette."
+ },
+ {
+  "id": "hold-017",
+  "q": "Le régime mère-fille est :",
+  "o": [
+   "Automatique",
+   "Applicable sur option (mention expresse) si les conditions sont remplies",
+   "Interdit aux SAS",
+   "Réservé aux sociétés cotées"
+  ],
+  "c": 1,
+  "e": "Le régime mère-fille n'est pas automatique : il s'exerce sur option, sous réserve des conditions (5 % du capital, conservation 2 ans)."
+ },
+ {
+  "id": "hold-018",
+  "q": "Une convention de trésorerie intragroupe permet :",
+  "o": [
+   "De centraliser et prêter la trésorerie entre sociétés liées",
+   "De supprimer l'IS",
+   "D'éviter la TVA",
+   "De distribuer sans impôt"
+  ],
+  "c": 0,
+  "e": "La convention de trésorerie (ou cash pooling) organise les avances entre sociétés d'un même groupe, dérogeant au monopole bancaire dans un cadre légal encadré."
+ },
+ {
+  "id": "hold-019",
+  "q": "Quels dispositifs bénéficient à la holding ANIMATRICE mais pas à la holding passive ?",
+  "o": [
+   "L'exonération d'IFI au titre des biens professionnels",
+   "Le pacte Dutreil (transmission)",
+   "Le réinvestissement éligible au report 150-0 B ter",
+   "Le régime mère-fille sur dividendes"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "IFI biens pro, Dutreil et réinvestissement 150-0 B ter supposent une holding animatrice. Le régime mère-fille, lui, s'applique aussi à une holding passive."
+ },
+ {
+  "id": "hold-020",
+  "q": "Le régime mère-fille suppose notamment :",
+  "o": [
+   "Une détention d'au moins 5 % du capital de la filiale",
+   "Une conservation des titres pendant 2 ans",
+   "Une détention de 95 % minimum",
+   "Que la mère soit à l'IR"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Il faut détenir ≥ 5 % du capital et conserver les titres 2 ans. La mère doit être à l'IS. Les dividendes sont alors exonérés, sauf une quote-part de frais et charges de 5 %."
+ },
+ {
+  "id": "hold-021",
+  "q": "Sous le régime mère-fille, la quote-part de frais et charges taxable est de :",
+  "o": [
+   "5 % des dividendes",
+   "10 %",
+   "1 %",
+   "0 %"
+  ],
+  "c": 0,
+  "e": "La QPFC est de 5 % des dividendes reçus. Taxée à 25 %, elle laisse un frottement effectif d'environ 1,25 % (25 % × 5 %)."
+ },
+ {
+  "id": "hold-022",
+  "q": "Dans un groupe intégré fiscalement, la quote-part de frais et charges sur dividendes intra-groupe est ramenée à :",
+  "o": [
+   "5 %",
+   "1 %",
+   "0 %",
+   "10 %"
+  ],
+  "c": 1,
+  "e": "En intégration fiscale (détention ≥ 95 %), la QPFC est réduite à 1 %, ce qui réduit encore le frottement sur les remontées de dividendes."
+ },
+ {
+  "id": "hold-023",
+  "q": "Quels intérêts présente une holding animatrice par rapport à une holding passive ?",
+  "o": [
+   "Éligibilité au pacte Dutreil",
+   "Éligibilité à l'exonération IFI des biens professionnels",
+   "Exclusion automatique du régime mère-fille",
+   "Application du taux d'IS à 15 % sans condition"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le caractère animateur (participation active à la conduite du groupe, services rendus aux filiales) conditionne l'accès au pacte Dutreil et à l'exonération d'IFI au titre des biens professionnels. Il ne change ni le régime mère-fille ni le taux d'IS."
+ },
+ {
+  "id": "hold-024",
+  "q": "À l'IS, la plus-value à long terme sur cession de titres de participation (« niche Copé ») est exonérée, sauf réintégration d'une quote-part de frais et charges de :",
+  "o": [
+   "5 % de la plus-value nette",
+   "12 % de la plus-value brute",
+   "10 % du prix de cession",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Régime de l'art. 219 I a quinquies : exonération d'IS, mais réintégration d'une QPFC de 12 % de la plus-value BRUTE, taxée à 25 % → imposition effective d'environ 3 %. Détention des titres ≥ 2 ans exigée."
+ },
+ {
+  "id": "hold-025",
+  "q": "Attention au piège classique : quelle quote-part de frais et charges s'applique à chaque situation ?",
+  "o": [
+   "Dividendes en régime mère-fille : 5 %",
+   "Plus-value de cession de titres de participation : 12 %",
+   "Dividendes intra-groupe intégré : 1 %",
+   "Plus-value de titres de participation : 5 %"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Ne pas confondre : mère-fille (dividendes) = QPFC de 5 % (1 % en intégration) ; niche Copé (plus-values de titres de participation) = QPFC de 12 % sur la PV brute. La dernière proposition est fausse."
+ },
+ {
+  "id": "hold-026",
+  "q": "Dans un groupe fiscalement intégré, quels retraitements caractérisent le résultat d'ensemble ?",
+  "o": [
+   "Neutralisation de certaines opérations internes",
+   "Imputation des déficits d'une filiale sur les bénéfices des autres",
+   "Sommation des résultats individuels des sociétés du groupe",
+   "Exonération totale d'IS du groupe"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'intégration additionne les résultats, permet la compensation bénéfices/déficits au sein du groupe et neutralise certaines opérations intra-groupe. Elle ne crée aucune exonération d'IS."
+ },
+ {
+  "id": "hold-027",
+  "q": "Le « rabot » de déductibilité des charges financières nettes (art. 212 bis) plafonne celles-ci à :",
+  "o": [
+   "30 % de l'EBITDA fiscal ou 3 M€, le plus élevé des deux",
+   "100 % sans limite",
+   "50 % du résultat",
+   "Un montant fixe de 1 M€"
+  ],
+  "c": 0,
+  "e": "Les charges financières nettes ne sont déductibles qu'à hauteur du plus élevé de 30 % de l'EBITDA fiscal ou 3 M€ ; l'excédent est reportable. Le dispositif limite l'effet de levier d'endettement excessif."
+ },
+ {
+  "id": "hold-028",
+  "q": "Le régime mère-fille est écarté (dividendes taxables) notamment lorsque :",
+  "o": [
+   "La filiale est établie dans un État ou territoire non coopératif (ETNC)",
+   "La mère détient moins de 5 % du capital",
+   "Les titres sont conservés moins de 2 ans",
+   "La mère relève de l'IR"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Le régime suppose une mère à l'IS détenant ≥ 5 % pendant ≥ 2 ans. Il est notamment exclu pour les dividendes de filiales situées dans un ETNC (sauf preuve de substance)."
+ },
+ {
+  "id": "hold-029",
+  "q": "La déductibilité de « management fees » facturés par la holding à ses filiales suppose :",
+  "o": [
+   "Une contrepartie réelle et un service effectivement rendu",
+   "L'absence de double emploi avec les fonctions du mandataire social",
+   "Rien de particulier, la seule convention suffit",
+   "Un taux forfaitaire imposé par la loi"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "La jurisprudence exige une contrepartie réelle (services effectifs et distincts du mandat social) pour admettre la déduction des management fees ; à défaut, la charge est réintégrée (acte anormal de gestion, voire convention sans cause)."
+ },
+ {
+  "id": "hold-030",
+  "q": "Lors d'une fusion, le régime de faveur (art. 210 A) permet notamment :",
+  "o": [
+   "Le sursis d'imposition des plus-values sur les biens apportés",
+   "La reprise, par l'absorbante, des engagements de l'absorbée",
+   "L'exonération définitive et sans condition de tout impôt",
+   "La distribution automatique d'un boni"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le régime de faveur des fusions (210 A) place les plus-values d'apport en sursis : l'absorbante s'engage à reprendre les valeurs et provisions, à calculer les plus-values ultérieures d'après les valeurs d'origine et à réintégrer les plus-values sur biens amortissables. Ce n'est pas une exonération inconditionnelle."
+ },
+ {
+  "id": "hold-031",
+  "q": "Lorsqu'une société sort du périmètre d'intégration fiscale :",
+  "o": [
+   "Rien ne se passe",
+   "Les résultats et plus-values internes neutralisés pendant l'intégration sont, en principe, réintégrés (« déneutralisés »)",
+   "Le groupe est dissous automatiquement",
+   "Les déficits sont remboursés"
+  ],
+  "c": 1,
+  "e": "La sortie d'une filiale (cession, franchissement de seuil…) entraîne la déneutralisation : les opérations intra-groupe qui avaient été neutralisées (plus-values de cessions internes, subventions…) sont réintégrées au résultat d'ensemble."
+ },
+ {
+  "id": "hold-032",
+  "q": "Mini-cas : une holding perçoit 80 000 € de dividendes d'une filiale (régime mère-fille). Impôt (IS 25 %) sur la remontée ?",
+  "o": [
+   "20 000 €",
+   "1 000 €",
+   "4 000 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Seule la quote-part de frais et charges de 5 % est taxable : 80 000 × 5 % = 4 000 €, imposés à 25 % = 1 000 € (frottement effectif d'environ 1,25 %)."
+ },
+ {
+  "id": "hold-033",
+  "q": "Cas : vous voulez racheter une société cible en finançant l'opération par emprunt, remboursé grâce aux bénéfices de la cible. Montage adapté ?",
+  "o": [
+   "Un achat en direct",
+   "Une holding de rachat (effet de levier / LBO)",
+   "Une SCI",
+   "Une assurance-vie"
+  ],
+  "c": 1,
+  "e": "La holding contracte la dette et rachète la cible ; les dividendes de la cible remontent en quasi-franchise (mère-fille) pour rembourser l'emprunt, et l'intégration fiscale peut permettre d'imputer les intérêts sur le résultat du groupe. C'est le schéma classique du LBO."
+ },
+ {
+  "id": "hold-034",
+  "q": "Cas : un groupe de sociétés veut simplifier sa gestion de la TVA et compenser crédits et dettes de TVA entre ses membres. Régime possible depuis 2023 ?",
+  "o": [
+   "L'intégration fiscale",
+   "Le régime de groupe TVA (assujetti unique)",
+   "Le régime mère-fille",
+   "La franchise en base"
+  ],
+  "c": 1,
+  "e": "Depuis 2023, un groupe peut opter pour le régime de l'« assujetti unique » : les membres forment un seul redevable de TVA, ce qui neutralise la TVA sur les flux internes et compense automatiquement crédits et dettes. C'est distinct de l'intégration fiscale (qui concerne l'IS)."
+ },
+ {
+  "id": "hold-035",
+  "q": "Cas : vous détenez des participations dans plusieurs sociétés et voulez capitaliser les dividendes pour réinvestir, sans les faire remonter à votre patrimoine personnel taxé. Structure adaptée ?",
+  "o": [
+   "La détention en direct",
+   "Une holding patrimoniale à l'IS (remontée des dividendes en quasi-franchise mère-fille)",
+   "Une SCI",
+   "Un PEA"
+  ],
+  "c": 1,
+  "e": "Une holding à l'IS permet de faire remonter les dividendes des filiales en quasi-franchise (mère-fille, ~1,25 % de frottement) et de les réinvestir sans passer par votre imposition personnelle : idéal pour capitaliser. L'impôt personnel n'intervient que si vous vous versez ensuite des dividendes."
+ },
+ {
+  "id": "hold-036",
+  "q": "Cas : vous venez de céder votre société via une holding (apport-cession) et devez réinvestir 70 % du produit dans les 3 ans. Support éligible et rentable ?",
+  "o": [
+   "Un livret bancaire",
+   "Un FPCI éligible (investi majoritairement dans des sociétés opérationnelles)",
+   "Un bien locatif nu",
+   "De l'or"
+  ],
+  "c": 1,
+  "e": "Un FPCI investissant à 75 %+ dans des sociétés opérationnelles éligibles satisfait à l'obligation de remploi du 150-0 B ter tout en offrant un potentiel de rendement. Un livret ou un bien locatif nu ne sont pas des réinvestissements « économiques » éligibles."
+ },
+ {
+  "id": "hold-037",
+  "q": "Définition : qu'est-ce qu'une holding ?",
+  "o": [
+   "Une société qui détient des participations dans d'autres sociétés",
+   "Une société qui vend des marchandises au détail",
+   "Un compte bancaire d'entreprise",
+   "Un fonds immobilier"
+  ],
+  "c": 0,
+  "e": "Une holding est une société dont l'objet est de détenir des titres d'autres sociétés (filiales). Elle sert à structurer un groupe, remonter des dividendes (mère-fille), financer des rachats (LBO) ou organiser une transmission."
+ },
+ {
+  "id": "hold-038",
+  "q": "Définition : qu'est-ce que le régime « mère-fille » ?",
+  "o": [
+   "Un régime de transmission familiale",
+   "Un régime exonérant d'IS les dividendes reçus par une société mère de ses filiales (hors quote-part de 5 %)",
+   "Un dispositif de réduction d'IR",
+   "Une aide sociale"
+  ],
+  "c": 1,
+  "e": "Le régime mère-fille exonère d'IS les dividendes remontés d'une filiale (détenue ≥ 5 %, titres conservés 2 ans), sauf une quote-part de frais et charges de 5 % (1 % en intégration). Il évite la double imposition des bénéfices dans un groupe."
+ },
+ {
+  "id": "hold-039",
+  "q": "Définition : qu'est-ce que l'intégration fiscale ?",
+  "o": [
+   "La fusion de deux sociétés",
+   "Un régime permettant à un groupe (détention ≥ 95 %) de consolider ses résultats et de compenser bénéfices et déficits",
+   "Une exonération d'IS",
+   "Un contrôle fiscal renforcé"
+  ],
+  "c": 1,
+  "e": "L'intégration fiscale permet à une société tête de groupe (détenant ≥ 95 % de ses filiales) de faire masse des résultats : les déficits des unes s'imputent sur les bénéfices des autres, et certaines opérations internes sont neutralisées. La mère est seule redevable de l'IS d'ensemble."
+ },
+ {
+  "id": "hold-040",
+  "q": "Définition : qu'est-ce qu'une holding « animatrice » ?",
+  "o": [
+   "Une holding qui ne fait que détenir des titres passivement",
+   "Une holding qui participe activement à la conduite de son groupe et rend des services à ses filiales",
+   "Une société cotée en bourse",
+   "Une association"
+  ],
+  "c": 1,
+  "e": "La holding animatrice ne se contente pas de détenir : elle définit la politique du groupe et rend des services (administratifs, financiers) à ses filiales. Ce caractère conditionne des avantages majeurs : pacte Dutreil, exonération d'IFI au titre des biens professionnels, apport-cession."
+ }
+]

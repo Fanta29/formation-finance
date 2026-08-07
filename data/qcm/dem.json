@@ -1,0 +1,545 @@
+[
+ {
+  "id": "dem-001",
+  "q": "Le démembrement de propriété sépare :",
+  "o": [
+   "Le capital et les intérêts",
+   "L'usufruit et la nue-propriété",
+   "Le foncier et le bâti",
+   "Le civil et le fiscal"
+  ],
+  "c": 1,
+  "e": "La pleine propriété se scinde en usufruit (usage + revenus) et nue-propriété (le « mur », qui récupère l'usufruit au terme)."
+ },
+ {
+  "id": "dem-002",
+  "q": "Le barème fiscal de l'article 669 du CGI évalue l'usufruit selon :",
+  "o": [
+   "La valeur du bien",
+   "L'âge de l'usufruitier",
+   "La durée du prêt",
+   "Le nombre d'héritiers"
+  ],
+  "c": 1,
+  "e": "Le barème 669 fixe la répartition usufruit / nue-propriété par tranches de 10 ans d'âge de l'usufruitier : plus il est âgé, plus l'usufruit vaut peu."
+ },
+ {
+  "id": "dem-003",
+  "q": "Pour un usufruitier âgé de 61 à 70 ans, l'usufruit est évalué à :",
+  "o": [
+   "30 %",
+   "40 %",
+   "50 %",
+   "60 %"
+  ],
+  "c": 1,
+  "e": "Barème 669 : 61-70 ans → usufruit 40 %, nue-propriété 60 %. (51-60 ans : 50/50 ; 71-80 ans : 30/70.)"
+ },
+ {
+  "id": "dem-004",
+  "q": "Donner la nue-propriété d'un bien plutôt que la pleine propriété permet :",
+  "o": [
+   "D'augmenter les droits de donation",
+   "De calculer les droits sur la seule valeur de la nue-propriété",
+   "D'éviter tout impôt",
+   "De conserver l'IFI sur le bien"
+  ],
+  "c": 1,
+  "e": "Les droits de donation ne portent que sur la nue-propriété transmise. Donner tôt (usufruitier jeune) minore fortement l'assiette taxable."
+ },
+ {
+  "id": "dem-005",
+  "q": "Au décès de l'usufruitier, le nu-propriétaire :",
+  "o": [
+   "Paie des droits sur la valeur de l'usufruit",
+   "Devient plein propriétaire sans droits de succession (art. 1133 CGI)",
+   "Doit racheter l'usufruit",
+   "Perd le bien"
+  ],
+  "c": 1,
+  "e": "La reconstitution de la pleine propriété au décès de l'usufruitier s'opère en franchise de droits (art. 1133 CGI) — le cœur de l'optimisation par démembrement."
+ },
+ {
+  "id": "dem-006",
+  "q": "Le quasi-usufruit porte sur :",
+  "o": [
+   "Un bien immobilier",
+   "Un bien consomptible (ex. une somme d'argent)",
+   "Un usufruit temporaire",
+   "Un portefeuille non liquide"
+  ],
+  "c": 1,
+  "e": "Le quasi-usufruit (art. 587) vise les biens qui se consomment par l'usage, typiquement les liquidités : l'usufruitier peut en disposer librement."
+ },
+ {
+  "id": "dem-007",
+  "q": "Le quasi-usufruitier :",
+  "o": [
+   "Ne peut pas toucher au bien",
+   "Peut disposer du bien mais doit une créance de restitution à l'extinction",
+   "Devient propriétaire définitif",
+   "Est exonéré de toute obligation"
+  ],
+  "c": 1,
+  "e": "Il peut dépenser la somme, mais une créance de restitution naît au profit du nu-propriétaire ; sa déductibilité de la succession est désormais encadrée (art. 774 bis)."
+ },
+ {
+  "id": "dem-008",
+  "q": "En cas de démembrement d'un bien loué, la taxe foncière et l'imposition des loyers incombent :",
+  "o": [
+   "Au nu-propriétaire",
+   "À l'usufruitier (qui a la jouissance et perçoit les fruits)",
+   "Aux deux à parts égales",
+   "Au locataire"
+  ],
+  "c": 1,
+  "e": "L'usufruitier jouit du bien et en perçoit les revenus : il déclare les loyers et supporte la taxe foncière."
+ },
+ {
+  "id": "dem-009",
+  "q": "La pleine propriété se décompose en :",
+  "o": [
+   "Usus et fructus seulement",
+   "Usufruit (usus + fructus) et nue-propriété (abusus)",
+   "Deux usufruits",
+   "Trois droits distincts cessibles séparément par tiers"
+  ],
+  "c": 1,
+  "e": "Le démembrement sépare l'usufruit (droit d'user et de percevoir les fruits) de la nue-propriété (droit de disposer du bien)."
+ },
+ {
+  "id": "dem-010",
+  "q": "La valeur de l'usufruit et de la nue-propriété se détermine, en fiscalité, selon :",
+  "o": [
+   "La libre estimation des parties",
+   "Le barème de l'article 669 du CGI, fonction de l'âge de l'usufruitier",
+   "La valeur vénale seule",
+   "Un forfait de 50/50"
+  ],
+  "c": 1,
+  "e": "Le barème de l'article 669 fixe la répartition selon l'âge de l'usufruitier : plus il est âgé, plus la valeur de l'usufruit diminue (et celle de la nue-propriété augmente)."
+ },
+ {
+  "id": "dem-011",
+  "q": "Selon le barème 669, pour un usufruitier âgé de 61 à 70 ans, l'usufruit vaut :",
+  "o": [
+   "30 %",
+   "40 %",
+   "50 %",
+   "60 %"
+  ],
+  "c": 1,
+  "e": "Entre 61 et 70 ans révolus, l'usufruit est évalué à 40 % (et la nue-propriété à 60 %) de la valeur en pleine propriété."
+ },
+ {
+  "id": "dem-012",
+  "q": "Au décès de l'usufruitier, la réunion de l'usufruit à la nue-propriété :",
+  "o": [
+   "Donne lieu à des droits de succession sur la pleine valeur",
+   "S'opère sans nouveaux droits pour le nu-propriétaire (art. 1133 CGI)",
+   "Est taxée au PFU",
+   "Nécessite une donation"
+  ],
+  "c": 1,
+  "e": "L'usufruit s'éteint et le nu-propriétaire devient plein propriétaire sans droits de succession sur la consolidation : c'est le cœur de l'intérêt du démembrement transmissif."
+ },
+ {
+  "id": "dem-013",
+  "q": "Donner la NUE-PROPRIÉTÉ d'un bien en se réservant l'usufruit permet :",
+  "o": [
+   "De ne calculer les droits de donation que sur la valeur de la nue-propriété",
+   "D'exonérer totalement la donation",
+   "De transmettre l'usufruit",
+   "D'éviter tout formalisme"
+  ],
+  "c": 0,
+  "e": "Les droits sont assis sur la seule valeur de la nue-propriété (barème 669), plus faible que la pleine propriété : la transmission est allégée, et l'usufruit s'éteint au décès sans droits."
+ },
+ {
+  "id": "dem-014",
+  "q": "Le quasi-usufruit (art. 587) porte sur :",
+  "o": [
+   "Un immeuble",
+   "Des biens consomptibles (typiquement une somme d'argent)",
+   "Un usufruit temporaire",
+   "Un fonds de commerce"
+  ],
+  "c": 1,
+  "e": "Le quasi-usufruit concerne les biens qui se consomment par l'usage (argent) : l'usufruitier peut en disposer, à charge de restituer l'équivalent (créance de restitution)."
+ },
+ {
+  "id": "dem-015",
+  "q": "L'article 774 bis (LF 2024) prévoit que la dette de restitution issue d'un quasi-usufruit sur une somme d'argent donnée :",
+  "o": [
+   "Est toujours déductible de l'actif successoral",
+   "N'est en principe pas déductible de l'actif successoral (mesure anti-abus)",
+   "Double les droits",
+   "Exonère la succession"
+  ],
+  "c": 1,
+  "e": "Pour contrer les donations de somme d'argent avec réserve de quasi-usufruit, la dette de restitution n'est plus déductible de l'actif successoral (sauf exceptions)."
+ },
+ {
+  "id": "dem-016",
+  "q": "En matière d'IFI, en cas de démembrement, l'immeuble est en principe déclaré :",
+  "o": [
+   "Par le nu-propriétaire pour la pleine valeur",
+   "Par l'usufruitier pour la pleine valeur (art. 968)",
+   "À parts égales",
+   "Par personne"
+  ],
+  "c": 1,
+  "e": "Par principe, l'usufruitier déclare le bien pour sa pleine valeur à l'IFI (art. 968), sauf cas de démembrement légal où la répartition suit le barème 669."
+ },
+ {
+  "id": "dem-017",
+  "q": "La répartition des charges entre usufruitier et nu-propriétaire veut que les GROSSES réparations (art. 606) incombent :",
+  "o": [
+   "À l'usufruitier",
+   "Au nu-propriétaire",
+   "À parts égales",
+   "Au locataire"
+  ],
+  "c": 1,
+  "e": "Les grosses réparations (gros murs, toiture, structure) relèvent du nu-propriétaire ; l'usufruitier assume l'entretien courant."
+ },
+ {
+  "id": "dem-018",
+  "q": "Un usufruit à durée fixe (usufruit temporaire) est évalué à :",
+  "o": [
+   "10 % par tranche de 10 ans",
+   "23 % de la pleine propriété par période de 10 ans",
+   "40 %",
+   "50 %"
+  ],
+  "c": 1,
+  "e": "L'usufruit temporaire vaut 23 % de la valeur en pleine propriété par période de 10 ans (sans dépasser la valeur de l'usufruit viager du barème 669)."
+ },
+ {
+  "id": "dem-019",
+  "q": "Parmi ces effets, lesquels résultent d'une transmission en démembrement bien conçue ?",
+  "o": [
+   "Assiette de droits réduite à la nue-propriété",
+   "Extinction de l'usufruit sans droits au décès",
+   "Conservation des revenus par le donateur usufruitier",
+   "Exonération d'IFI systématique"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Assiette réduite, extinction sans droits et conservation des revenus par l'usufruitier sont les atouts classiques. L'IFI n'est pas exonéré (l'usufruitier reste imposable)."
+ },
+ {
+  "id": "dem-020",
+  "q": "Selon le barème de l'article 669 du CGI, pour un usufruitier de 71 à 80 ans, l'usufruit vaut :",
+  "o": [
+   "40 %",
+   "30 %",
+   "20 %",
+   "50 %"
+  ],
+  "c": 1,
+  "e": "71-80 ans : usufruit 30 %, nue-propriété 70 %. Le barème décroît de 10 points par tranche d'âge de 10 ans."
+ },
+ {
+  "id": "dem-021",
+  "q": "Quels sont les atouts fiscaux d'une donation de la nue-propriété avec réserve d'usufruit ?",
+  "o": [
+   "Droits calculés sur la seule nue-propriété",
+   "Reconstitution de la pleine propriété en franchise de droits au décès",
+   "Conservation des revenus par le donateur usufruitier",
+   "Exonération totale et immédiate de tout impôt"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "On taxe la seule nue-propriété (valeur réduite selon l'âge), le donateur garde les revenus via l'usufruit, et l'extinction de l'usufruit au décès se fait sans droits (art. 1133). Il n'y a pas d'exonération intégrale : des droits sont dus sur la nue-propriété."
+ },
+ {
+  "id": "dem-022",
+  "q": "Le quasi-usufruit sur une somme d'argent :",
+  "o": [
+   "Empêche l'usufruitier d'utiliser les fonds",
+   "Permet à l'usufruitier de disposer des fonds, à charge de restitution",
+   "Transfère la propriété définitive au nu-propriétaire",
+   "Est exonéré de toute créance"
+  ],
+  "c": 1,
+  "e": "Sur un bien consomptible (liquidités), l'usufruitier peut disposer des fonds (art. 587), mais une créance de restitution naît au profit du nu-propriétaire, dont la déductibilité successorale est encadrée (art. 774 bis)."
+ },
+ {
+  "id": "dem-023",
+  "q": "En cas de vente d'un bien détenu en démembrement (sans convention particulière), le prix :",
+  "o": [
+   "Revient intégralement à l'usufruitier",
+   "Se répartit entre usufruitier et nu-propriétaire selon le barème de l'art. 669",
+   "Revient au seul nu-propriétaire",
+   "Est bloqué jusqu'au décès"
+  ],
+  "c": 1,
+  "e": "À défaut de convention (quasi-usufruit ou remploi), le prix de cession se répartit entre usufruitier et nu-propriétaire selon la valeur respective de leurs droits (barème 669), chacun étant imposé sur sa quote-part de plus-value."
+ },
+ {
+  "id": "dem-024",
+  "q": "La cession à titre onéreux d'un usufruit temporaire (ex. à une société) est imposée :",
+  "o": [
+   "Comme une plus-value classique",
+   "Dans la catégorie de revenus à laquelle se rattachent les fruits procurés (art. 13, 5°)",
+   "En totale exonération",
+   "Aux droits de succession"
+  ],
+  "c": 1,
+  "e": "Depuis 2012, le produit de la première cession à titre onéreux d'un usufruit temporaire est imposé, par un dispositif anti-abus (art. 13, 5° CGI), dans la catégorie des revenus que l'usufruit est susceptible de procurer (ex. revenus fonciers), et non en plus-value."
+ },
+ {
+  "id": "dem-025",
+  "q": "Une clause de réversion d'usufruit (usufruit successif) au profit du conjoint :",
+  "o": [
+   "Est sans effet civil",
+   "Permet, au décès du premier usufruitier, la continuation de l'usufruit au profit du bénéficiaire désigné",
+   "Transfère la nue-propriété",
+   "Est toujours taxée à 60 %"
+  ],
+  "c": 1,
+  "e": "L'usufruit successif prévoit qu'au décès du premier usufruitier, l'usufruit se poursuit au profit d'un second bénéficiaire (souvent le conjoint), qui bénéficie du régime successoral applicable entre lui et le donateur."
+ },
+ {
+  "id": "dem-026",
+  "q": "La renonciation d'un usufruitier à son usufruit, au profit du nu-propriétaire, est en principe :",
+  "o": [
+   "Sans conséquence fiscale",
+   "Analysée comme une donation taxable aux droits de mutation à titre gratuit",
+   "Une cession soumise au PFU",
+   "Exonérée dans tous les cas"
+  ],
+  "c": 1,
+  "e": "Une renonciation à usufruit à titre gratuit anticipant la consolidation de la pleine propriété est requalifiable en donation, soumise aux droits de mutation à titre gratuit selon le lien de parenté — à distinguer de l'extinction au décès (franchise de l'art. 1133)."
+ },
+ {
+  "id": "dem-027",
+  "q": "Dans une vente en viager, la rente viagère perçue par le crédirentier est imposable à l'IR :",
+  "o": [
+   "En totalité",
+   "Pour une fraction fonction de son âge au premier versement (ex. 30 % si ≥ 70 ans)",
+   "Jamais",
+   "Comme un revenu foncier"
+  ],
+  "c": 1,
+  "e": "La rente viagère à titre onéreux n'est imposable que pour une fraction déterminée par l'âge du crédirentier lors de l'entrée en jouissance : 70 % (< 50 ans), 50 % (50-59), 40 % (60-69), 30 % (≥ 70 ans). Le bouquet suit, lui, le régime des plus-values immobilières."
+ },
+ {
+  "id": "dem-028",
+  "q": "En cas de démembrement d'un portefeuille de valeurs mobilières, en principe :",
+  "o": [
+   "L'usufruitier perçoit les dividendes et revenus courants",
+   "Le nu-propriétaire a vocation au capital et aux titres eux-mêmes",
+   "Les arbitrages relèvent d'une gestion partagée / conventionnelle",
+   "L'usufruitier peut librement vendre les titres et conserver le prix sans restitution"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'usufruitier d'un portefeuille perçoit les fruits (dividendes, coupons) ; le nu-propriétaire a vocation au capital. Les cessions-remplois supposent en pratique une convention ; à défaut de quasi-usufruit, l'usufruitier ne peut disposer du prix sans obligation de restitution."
+ },
+ {
+  "id": "dem-029",
+  "q": "Une donation-partage avec réserve d'usufruit présente l'intérêt civil de :",
+  "o": [
+   "Figer la valeur des biens donnés au jour de la donation (pas de réévaluation au décès)",
+   "Répartir les biens entre héritiers du vivant du donateur",
+   "Priver définitivement les héritiers de tout droit",
+   "Échapper à tout droit de donation"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "La donation-partage fige la valeur des lots au jour de l'acte (sous conditions : lots composés de biens existants, partage entre tous les présomptifs héritiers), évitant la réévaluation successorale et prévenant les conflits. Des droits de donation restent dus sur la nue-propriété."
+ },
+ {
+  "id": "dem-030",
+  "q": "Une donation de somme d'argent avec réserve d'un « quasi-usufruit » au profit du donateur :",
+  "o": [
+   "Est impossible",
+   "Permet au donateur de continuer à disposer des fonds, le donataire recevant une créance de restitution",
+   "Transfère immédiatement la jouissance au donataire",
+   "Est exonérée de droits"
+  ],
+  "c": 1,
+  "e": "Le donateur donne la nue-propriété d'une somme et s'en réserve le quasi-usufruit : il peut continuer à utiliser les fonds. Le donataire détient une créance de restitution, dont la déductibilité successorale est encadrée par l'art. 774 bis."
+ },
+ {
+  "id": "dem-031",
+  "q": "Mini-cas : donation de la nue-propriété d'un bien de 300 000 €, usufruitier âgé de 68 ans (barème 669 : usufruit 40 %). Base taxable de la donation ?",
+  "o": [
+   "300 000 €",
+   "180 000 €",
+   "120 000 €",
+   "150 000 €"
+  ],
+  "c": 1,
+  "e": "Pour un usufruitier de 61 à 70 ans, l'usufruit vaut 40 %, donc la nue-propriété 60 % : base de la donation = 300 000 × 60 % = 180 000 €."
+ },
+ {
+  "id": "dem-032",
+  "q": "Cas : vous voulez transmettre un immeuble à vos enfants tout en continuant à en percevoir les loyers de votre vivant. Stratégie la plus adaptée ?",
+  "o": [
+   "Donation en pleine propriété",
+   "Donation de la nue-propriété avec réserve d'usufruit",
+   "Legs par testament",
+   "Vente à vos enfants"
+  ],
+  "c": 1,
+  "e": "La donation de la nue-propriété avec réserve d'usufruit : vous conservez l'usufruit (donc les loyers et une partie du contrôle), les droits ne sont calculés que sur la valeur de la nue-propriété (réduite selon votre âge), et l'usufruit s'éteint sans droits à votre décès (art. 1133)."
+ },
+ {
+  "id": "dem-033",
+  "q": "Cas : à la retraite, vous voulez transformer un capital en revenus. Entre rente viagère et retraits programmés, quel arbitrage ?",
+  "o": [
+   "La rente viagère garantit un revenu à vie mais aliène le capital ; les retraits programmés gardent la souplesse et la transmission",
+   "Les deux sont strictement équivalents",
+   "La rente est toujours préférable",
+   "Les retraits programmés garantissent un revenu à vie"
+  ],
+  "c": 0,
+  "e": "La rente viagère sécurise un revenu jusqu'au décès mais fait perdre le capital (sauf réversion/annuités garanties). Les retraits programmés (ex. sur une assurance-vie) laissent le capital disponible et transmissible, au risque de l'épuiser. Le choix dépend du besoin de sécurité à vie vs de souplesse et de transmission."
+ },
+ {
+  "id": "dem-034",
+  "q": "Mini-cas : donation de la nue-propriété d'un bien de 400 000 €, usufruitier âgé de 75 ans (barème 669 : usufruit 30 %). Base taxable de la donation ?",
+  "o": [
+   "400 000 €",
+   "280 000 €",
+   "120 000 €",
+   "200 000 €"
+  ],
+  "c": 1,
+  "e": "Pour un usufruitier de 71 à 80 ans, l'usufruit vaut 30 %, la nue-propriété 70 % : base = 400 000 × 70 % = 280 000 €. Plus le donateur est âgé, plus la nue-propriété transmise est fortement valorisée (donc plus de droits)."
+ },
+ {
+  "id": "dem-035",
+  "q": "Mini-cas : donation de la nue-propriété d'un bien de 200 000 €, usufruitier âgé de 55 ans (barème 669 : usufruit 50 %). Base taxable de la donation ?",
+  "o": [
+   "200 000 €",
+   "100 000 €",
+   "150 000 €",
+   "50 000 €"
+  ],
+  "c": 1,
+  "e": "Entre 51 et 60 ans, l'usufruit vaut 50 % et la nue-propriété 50 % : base = 200 000 × 50 % = 100 000 €. Donner tôt permet de transmettre une nue-propriété peu valorisée (donc moins de droits)."
+ },
+ {
+  "id": "dem-036",
+  "q": "Définition : qu'est-ce que l'usufruit ?",
+  "o": [
+   "Le droit de disposer (vendre) d'un bien",
+   "Le droit d'utiliser un bien et d'en percevoir les revenus, sans en être pleinement propriétaire",
+   "La propriété du capital sans les revenus",
+   "Une dette garantie par un bien"
+  ],
+  "c": 1,
+  "e": "L'usufruit est le droit d'user d'un bien et d'en percevoir les fruits (loyers, dividendes). Il se distingue de la nue-propriété (vocation au capital). Réunis, usufruit + nue-propriété = pleine propriété."
+ },
+ {
+  "id": "dem-037",
+  "q": "Définition : qu'est-ce que le « quasi-usufruit » ?",
+  "o": [
+   "Un usufruit sur un immeuble",
+   "L'usufruit portant sur un bien consomptible (argent) : l'usufruitier peut en disposer, à charge de restitution",
+   "La pleine propriété",
+   "Un contrat de location"
+  ],
+  "c": 1,
+  "e": "Le quasi-usufruit vise les biens qui se consomment par l'usage (sommes d'argent) : l'usufruitier peut les utiliser librement (art. 587), mais une créance de restitution naît au profit du nu-propriétaire, exigible à la fin de l'usufruit."
+ },
+ {
+  "id": "dem-038",
+  "q": "Définition : qu'est-ce que la « nue-propriété » ?",
+  "o": [
+   "Le droit de percevoir les revenus d'un bien",
+   "Le droit sur le capital d'un bien, sans la jouissance ni les revenus (qui reviennent à l'usufruitier)",
+   "La pleine propriété",
+   "Un droit de passage"
+  ],
+  "c": 1,
+  "e": "Le nu-propriétaire détient le bien « en germe » : il a vocation à en récupérer la pleine propriété à l'extinction de l'usufruit, mais n'en perçoit ni les revenus ni la jouissance pendant le démembrement. Sa valeur augmente avec l'âge de l'usufruitier."
+ },
+ {
+  "id": "dem-039",
+  "q": "Définition : qu'est-ce qu'une vente en viager (bouquet et rente) ?",
+  "o": [
+   "Une location longue durée",
+   "Une vente où l'acquéreur verse un capital initial (bouquet) puis une rente viagère jusqu'au décès du vendeur",
+   "Un prêt hypothécaire",
+   "Une donation"
+  ],
+  "c": 1,
+  "e": "Dans un viager, le vendeur (crédirentier) cède son bien contre un bouquet (capital versé à la signature) et une rente viagère servie jusqu'à son décès. La rente n'est imposable que pour une fraction fonction de son âge ; le bouquet suit le régime des plus-values immobilières."
+ },
+ {
+  "id": "dem-040",
+  "q": "Définition : qu'est-ce qu'un « usufruit temporaire » ?",
+  "o": [
+   "Un usufruit qui dure toute la vie",
+   "Un usufruit consenti pour une durée fixe (ex. 10 ans), évalué à 23 % de la pleine propriété par tranche de 10 ans",
+   "La pleine propriété",
+   "Une location"
+  ],
+  "c": 1,
+  "e": "L'usufruit temporaire est accordé pour une durée déterminée. Fiscalement (art. 669 II), il vaut 23 % de la valeur de la pleine propriété par période de 10 ans (sans dépasser la valeur de l'usufruit viager). Sa cession à titre onéreux suit un régime anti-abus (art. 13, 5°)."
+ },
+ {
+  "id": "dem-041",
+  "q": "Mini-cas : donation de la nue-propriété d'un bien de 250 000 €, usufruitier âgé de 45 ans (barème 669 : usufruit 60 %). Base taxable de la donation ?",
+  "o": [
+   "250 000 €",
+   "100 000 €",
+   "150 000 €",
+   "62 500 €"
+  ],
+  "c": 1,
+  "e": "Entre 41 et 50 ans, l'usufruit vaut 60 % et la nue-propriété 40 % : base = 250 000 × 40 % = 100 000 €. Donner jeune transmet une nue-propriété faiblement valorisée (moins de droits), mais le donateur garde longtemps l'usufruit."
+ },
+ {
+  "id": "dem-042",
+  "q": "Cas : un bien détenu en démembrement est vendu. Usufruitier et nu-propriétaire veulent que l'usufruitier continue de disposer du prix. Solution ?",
+  "o": [
+   "Partager le prix selon l'art. 669",
+   "Convenir d'un quasi-usufruit sur le prix (l'usufruitier en dispose, à charge de restitution)",
+   "Bloquer le prix jusqu'au décès",
+   "Remployer dans un autre bien démembré"
+  ],
+  "c": 1,
+  "e": "Une convention de quasi-usufruit permet à l'usufruitier de disposer du prix de vente, le nu-propriétaire détenant une créance de restitution. Alternative : le remploi dans un nouveau bien démembré (le démembrement se reporte). À défaut, le prix se répartit selon l'art. 669."
+ },
+ {
+  "id": "dem-043",
+  "q": "Définition : qu'est-ce qu'une clause de « tontine » (clause d'accroissement) ?",
+  "o": [
+   "Un contrat de rente",
+   "Une clause où, entre coacquéreurs, le dernier survivant est réputé avoir été seul propriétaire depuis l'origine",
+   "Un démembrement classique",
+   "Une assurance décès"
+  ],
+  "c": 1,
+  "e": "Par la clause de tontine, insérée dans un acte d'achat en commun, le survivant est réputé propriétaire du bien depuis l'acquisition (l'autre étant censé n'avoir jamais rien détenu). Au décès, le transfert supporte en principe les droits de succession (sauf résidence principale sous un seuil de valeur)."
+ },
+ {
+  "id": "dem-044",
+  "q": "Cas : votre enfant est étudiant et vous possédez un studio locatif ; vous voulez l'aider tout en réduisant votre imposition. Solution adaptée ?",
+  "o": [
+   "Lui verser une pension imposable chez vous",
+   "Lui consentir une donation temporaire d'usufruit du studio (il perçoit les loyers, vous sortez le bien de votre IFI)",
+   "Vendre le studio",
+   "Le loger gratuitement"
+  ],
+  "c": 1,
+  "e": "La donation temporaire d'usufruit transfère les loyers à l'enfant (souvent peu ou pas imposé) le temps de ses études, et retire le bien de votre assiette IFI. À sécuriser par acte notarié et une durée justifiée (le fisc y est attentif)."
+ }
+]

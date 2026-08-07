@@ -1,0 +1,1219 @@
+[
+ {
+  "id": "ir-001",
+  "q": "Combien de tranches le barème progressif de l'IR comporte-t-il (barème 2026) ?",
+  "o": [
+   "4 tranches",
+   "5 tranches",
+   "6 tranches",
+   "3 tranches"
+  ],
+  "c": 1,
+  "e": "Le barème comporte 5 tranches : 0 %, 11 %, 30 %, 41 % et 45 %. Seule la fraction du revenu qui dépasse chaque seuil est imposée au taux supérieur."
+ },
+ {
+  "id": "ir-002",
+  "q": "Le taux marginal d'imposition (TMI) désigne :",
+  "o": [
+   "Le taux moyen sur l'ensemble du revenu",
+   "Le taux appliqué à la tranche la plus élevée atteinte",
+   "Le taux de prélèvement à la source",
+   "Un taux forfaitaire unique de 30 %"
+  ],
+  "c": 1,
+  "e": "Le TMI est le taux de la dernière tranche atteinte. Le taux moyen (impôt / revenu) est en pratique nettement plus faible car le barème est progressif."
+ },
+ {
+  "id": "ir-003",
+  "q": "Le mécanisme du quotient familial consiste à :",
+  "o": [
+   "Appliquer une réduction forfaitaire par enfant",
+   "Diviser le revenu par le nombre de parts, appliquer le barème, puis multiplier",
+   "Exonérer une part du revenu par personne à charge",
+   "Plafonner l'impôt à 45 % du revenu"
+  ],
+  "c": 1,
+  "e": "On divise le revenu net imposable par le nombre de parts, on applique le barème au quotient, puis on multiplie par le nombre de parts. L'avantage tiré des demi-parts est plafonné."
+ },
+ {
+  "id": "ir-004",
+  "q": "Chacun des deux premiers enfants à charge compte pour :",
+  "o": [
+   "0,25 part",
+   "0,5 part",
+   "1 part",
+   "1,5 part"
+  ],
+  "c": 1,
+  "e": "Les deux premiers enfants comptent chacun pour 0,5 part ; à partir du 3e enfant, chacun compte pour 1 part entière."
+ },
+ {
+  "id": "ir-005",
+  "q": "L'abattement de 10 % sur les traitements et salaires :",
+  "o": [
+   "Est cumulable avec les frais réels",
+   "Couvre les frais professionnels, sauf option pour les frais réels",
+   "S'applique aussi aux revenus fonciers",
+   "Est un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "L'abattement forfaitaire de 10 % est censé couvrir les frais professionnels. Le contribuable peut lui préférer la déduction des frais réels s'ils sont plus élevés (option exclusive)."
+ },
+ {
+  "id": "ir-006",
+  "q": "Quelle catégorie n'est PAS imposée au barème progressif par défaut ?",
+  "o": [
+   "Traitements et salaires",
+   "Revenus fonciers",
+   "Revenus de capitaux mobiliers (dividendes, intérêts)",
+   "BIC"
+  ],
+  "c": 2,
+  "e": "Les RCM relèvent du PFU (flat tax) par défaut. Le barème progressif n'est qu'une option globale, exercée via la case 2OP."
+ },
+ {
+  "id": "ir-007",
+  "q": "La décote sur l'IR bénéficie :",
+  "o": [
+   "À tous les contribuables",
+   "Aux contribuables faiblement imposés, pour réduire ou annuler l'impôt",
+   "Aux seuls foyers avec enfants",
+   "Aux revenus supérieurs à 100 000 €"
+  ],
+  "c": 1,
+  "e": "La décote réduit l'impôt des foyers dont la cotisation est faible, permettant de lisser l'entrée dans l'imposition."
+ },
+ {
+  "id": "ir-008",
+  "q": "Le prélèvement à la source des indépendants (BIC/BNC) et des revenus fonciers prend la forme :",
+  "o": [
+   "D'une retenue par un tiers",
+   "D'acomptes prélevés mensuellement ou trimestriellement",
+   "D'un paiement unique en fin d'année",
+   "D'une exonération"
+  ],
+  "c": 1,
+  "e": "Faute de tiers payeur, ces revenus donnent lieu à des acomptes contemporains prélevés par l'administration (mensuels ou trimestriels), régularisés l'année suivante."
+ },
+ {
+  "id": "ir-009",
+  "q": "Le PER (plan d'épargne retraite) individuel procure au versement volontaire :",
+  "o": [
+   "Une réduction d'impôt",
+   "Une déduction du revenu imposable",
+   "Un crédit d'impôt remboursable",
+   "Une exonération de CSG"
+  ],
+  "c": 1,
+  "e": "Le PER ouvre droit à une DÉDUCTION de l'assiette (on retranche le versement du revenu imposable). L'économie dépend donc du TMI : à 41 %, 1 000 € versés font gagner 410 €."
+ },
+ {
+  "id": "ir-010",
+  "q": "Le plafond de déduction des versements PER d'un salarié correspond, au choix, à :",
+  "o": [
+   "10 % des revenus professionnels de N-1 (dans la limite de 8 PASS) ou 10 % du PASS",
+   "20 % du revenu global",
+   "Un forfait fixe de 5 000 €",
+   "La totalité des revenus fonciers"
+  ],
+  "c": 0,
+  "e": "Plafond = 10 % des revenus pro de l'année précédente, retenus dans la limite de 8 PASS, avec un plancher de 10 % du PASS. Le plafond figure sur l'avis d'imposition."
+ },
+ {
+  "id": "ir-011",
+  "q": "Depuis les versements 2026, le report des plafonds PER non utilisés peut remonter sur :",
+  "o": [
+   "Les 3 années précédentes",
+   "Les 5 années précédentes",
+   "1 seule année",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "La durée de report des plafonds non consommés est passée de 3 à 5 ans pour les versements effectués à compter de 2026. La mutualisation entre conjoints reste possible."
+ },
+ {
+  "id": "ir-012",
+  "q": "Nouveauté 2026 : les versements volontaires sur un PER effectués après 70 ans :",
+  "o": [
+   "Restent déductibles sans changement",
+   "Ne sont plus déductibles du revenu imposable",
+   "Sont déductibles à 50 %",
+   "Ouvrent un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "Depuis le 1er janvier 2026 (application rétroactive), les versements réalisés après 70 ans ne sont plus déductibles. Avant 70 ans, la déduction reste acquise."
+ },
+ {
+  "id": "ir-013",
+  "q": "À la sortie en capital d'un PER, la part correspondant aux VERSEMENTS volontaires déduits est :",
+  "o": [
+   "Exonérée",
+   "Soumise au barème de l'IR, hors prélèvements sociaux",
+   "Soumise au PFU",
+   "Soumise aux seuls PS"
+  ],
+  "c": 1,
+  "e": "Le capital issu des versements déduits est réintégré au barème de l'IR (logique de report d'imposition), sans PS. Les gains, eux, subissent le PFU (31,4 % depuis 2026)."
+ },
+ {
+  "id": "ir-014",
+  "q": "La contribution exceptionnelle sur les hauts revenus (CEHR) s'applique, pour un célibataire, au-delà d'un revenu fiscal de référence de :",
+  "o": [
+   "100 000 €",
+   "250 000 € (3 %) puis 500 000 € (4 %)",
+   "1 000 000 €",
+   "150 000 €"
+  ],
+  "c": 1,
+  "e": "La CEHR est de 3 % sur la fraction de RFR entre 250 000 et 500 000 € et 4 % au-delà (seuils doublés pour un couple : 500 000 € et 1 000 000 €)."
+ },
+ {
+  "id": "ir-015",
+  "q": "La décote permet :",
+  "o": [
+   "De réduire ou d'annuler l'impôt des foyers faiblement imposés",
+   "D'augmenter le quotient familial",
+   "De reporter l'impôt",
+   "De transformer l'impôt en crédit"
+  ],
+  "c": 0,
+  "e": "La décote lisse l'entrée dans le barème en réduisant la cotisation des contribuables dont l'impôt brut est faible."
+ },
+ {
+  "id": "ir-016",
+  "q": "Parmi ces charges, lesquelles se déduisent du REVENU GLOBAL (et non d'une catégorie) ?",
+  "o": [
+   "Les versements PER déductibles",
+   "La pension alimentaire versée à un enfant majeur (plafonnée)",
+   "La CSG déductible (6,8 %) sur les revenus du capital soumis au barème",
+   "Les intérêts d'emprunt de la résidence principale"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "PER, pensions alimentaires et CSG déductible s'imputent sur le revenu global. Les intérêts d'emprunt de la RP ne sont plus déductibles depuis 2011."
+ },
+ {
+  "id": "ir-017",
+  "q": "L'avantage tiré du quotient familial :",
+  "o": [
+   "Est illimité",
+   "Est plafonné par demi-part additionnelle",
+   "Ne concerne que les revenus fonciers",
+   "Remplace la décote"
+  ],
+  "c": 1,
+  "e": "Le gain procuré par chaque demi-part (au-delà d'une part pour un célibataire ou deux pour un couple) est plafonné, afin de limiter l'avantage pour les hauts revenus."
+ },
+ {
+  "id": "ir-018",
+  "q": "Les pensions de retraite bénéficient :",
+  "o": [
+   "De l'abattement de 10 % réservé aux salaires",
+   "D'un abattement de 10 % spécifique, plafonné par foyer",
+   "D'aucun abattement",
+   "Du PFU"
+  ],
+  "c": 1,
+  "e": "Les pensions profitent d'un abattement de 10 % propre, avec un plafond apprécié au niveau du foyer fiscal."
+ },
+ {
+  "id": "ir-019",
+  "q": "Un crédit d'impôt se distingue d'une réduction d'impôt en ce qu'il :",
+  "o": [
+   "N'est jamais remboursable",
+   "Est restitué si son montant excède l'impôt dû",
+   "Diminue l'assiette",
+   "S'applique avant le barème"
+  ],
+  "c": 1,
+  "e": "Le crédit d'impôt est remboursé (ou l'excédent restitué) même en l'absence d'impôt ; la réduction ne peut qu'annuler l'impôt, sans restitution de l'excédent."
+ },
+ {
+  "id": "ir-020",
+  "q": "Le prélèvement à la source repose, pour un couple, sur un taux qui est désormais par défaut :",
+  "o": [
+   "Un taux commun au foyer",
+   "Un taux individualisé pour chaque conjoint",
+   "Un taux neutre systématique",
+   "Un taux nul"
+  ],
+  "c": 1,
+  "e": "Depuis septembre 2025, le taux individualisé (calculé selon les revenus propres de chacun) est appliqué par défaut aux couples ; ils peuvent opter pour le taux commun (foyer)."
+ },
+ {
+  "id": "ir-021",
+  "q": "Le taux « neutre » (non personnalisé) du prélèvement à la source :",
+  "o": [
+   "Tient compte de la situation de famille",
+   "Est fondé sur une grille selon le seul montant du salaire",
+   "Est toujours nul",
+   "N'existe plus"
+  ],
+  "c": 1,
+  "e": "Le taux neutre repose sur une grille officielle appliquée au montant de la rémunération, sans intégrer la situation familiale : utile pour préserver la confidentialité vis-à-vis de l'employeur."
+ },
+ {
+  "id": "ir-022",
+  "q": "Un enfant majeur de moins de 25 ans poursuivant ses études peut :",
+  "o": [
+   "Être rattaché au foyer fiscal des parents",
+   "Uniquement faire sa propre déclaration",
+   "Être rattaché sans limite d'âge",
+   "Ouvrir droit à un crédit d'impôt automatique"
+  ],
+  "c": 0,
+  "e": "Le rattachement est possible pour l'enfant de moins de 21 ans, ou de moins de 25 ans s'il poursuit des études. Alternative : déduction d'une pension alimentaire."
+ },
+ {
+  "id": "ir-023",
+  "q": "Parmi ces éléments, lesquels réduisent l'IMPÔT (et non l'assiette) ?",
+  "o": [
+   "Les versements PER déductibles",
+   "Le crédit d'impôt pour emploi d'un salarié à domicile",
+   "La réduction d'impôt Denormandie",
+   "L'abattement de 10 % sur salaires"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "Crédits et réductions d'impôt viennent en diminution de l'impôt calculé. Le PER et l'abattement de 10 % agissent, eux, sur l'assiette (le revenu imposable)."
+ },
+ {
+  "id": "ir-024",
+  "q": "La contribution exceptionnelle sur les hauts revenus (CEHR) :",
+  "o": [
+   "S'applique dès le premier euro de revenu",
+   "Vise le RFR au-delà de 250 000 € (célibataire) / 500 000 € (couple)",
+   "Est un impôt proportionnel de 3 % puis 4 %",
+   "A été supprimée en 2025"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "La CEHR (art. 223 sexies) frappe le RFR : 3 % de 250 000 à 500 000 € puis 4 % au-delà (célibataire), seuils doublés pour un couple. Elle coexiste avec la CDHR."
+ },
+ {
+  "id": "ir-025",
+  "q": "La contribution différentielle sur les hauts revenus (CDHR) garantit une imposition minimale de :",
+  "o": [
+   "15 %",
+   "20 %",
+   "24 %",
+   "30 %"
+  ],
+  "c": 1,
+  "e": "La CDHR (art. 224 CGI) assure un taux moyen d'imposition d'au moins 20 % du revenu de référence retraité. Instaurée par la LF 2025, elle a été pérennisée par la LF 2026 jusqu'au retour du déficit sous 3 % du PIB."
+ },
+ {
+  "id": "ir-026",
+  "q": "La CDHR concerne les foyers dont le revenu de référence corrigé dépasse :",
+  "o": [
+   "100 000 € / 200 000 €",
+   "250 000 € (seul) / 500 000 € (couple)",
+   "500 000 € / 1 000 000 €",
+   "1 000 000 € pour tous"
+  ],
+  "c": 1,
+  "e": "Seuils : 250 000 € pour une personne seule, 500 000 € pour une imposition commune. Elle cible surtout les revenus lourdement logés en flat tax, sous-imposés au regard du barème."
+ },
+ {
+  "id": "ir-027",
+  "q": "L'acompte de CDHR doit être versé :",
+  "o": [
+   "En janvier de l'année suivante",
+   "Entre le 1er et le 15 décembre, à hauteur de 95 % du montant estimé",
+   "En quatre acomptes trimestriels",
+   "Au moment de la déclaration au printemps"
+  ],
+  "c": 1,
+  "e": "Un acompte de 95 % est dû entre le 1er et le 15 décembre. La régularisation intervient à la déclaration ; une majoration de 20 % sanctionne le défaut ou l'insuffisance."
+ },
+ {
+  "id": "ir-028",
+  "q": "Mini-cas : un célibataire a un revenu net imposable de 40 000 € pour 1 part (barème 2026 : 0 % jusqu'à ~11 500, 11 % jusqu'à ~29 300, 30 % ensuite). Son TMI est :",
+  "o": [
+   "11 %",
+   "30 %",
+   "41 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "40 000 € dépasse le seuil d'entrée de la tranche à 30 % (~29 300 €) sans atteindre celui de 41 %. Le TMI est donc de 30 %, même si le taux moyen reste bien plus bas."
+ },
+ {
+  "id": "ir-029",
+  "q": "Lesquelles de ces sommes sont, par principe, exonérées d'IR ?",
+  "o": [
+   "Le Livret A",
+   "Le salaire net",
+   "Les intérêts d'un compte-titres ordinaire",
+   "Le LDDS"
+  ],
+  "c": [
+   0,
+   3
+  ],
+  "e": "Livret A et LDDS produisent des intérêts exonérés d'IR et de prélèvements sociaux. Salaires et intérêts d'un CTO sont imposables."
+ },
+ {
+  "id": "ir-030",
+  "q": "L'option pour l'imposition au barème des revenus de capitaux mobiliers (case 2OP) :",
+  "o": [
+   "Est partielle, revenu par revenu",
+   "Est globale : elle vaut pour l'ensemble des RCM et plus-values mobilières de l'année",
+   "Est irrévocable sur 5 ans",
+   "Interdit tout abattement"
+  ],
+  "c": 1,
+  "e": "L'option 2OP est GLOBALE et annuelle : elle s'applique à tous les revenus et gains concernés. Elle n'a d'intérêt que pour les TMI faibles, et ouvre l'abattement de 40 % sur dividendes."
+ },
+ {
+  "id": "ir-031",
+  "q": "Le plafonnement du quotient familial :",
+  "o": [
+   "Supprime tout avantage lié aux enfants",
+   "Limite l'économie d'impôt procurée par chaque demi-part supplémentaire",
+   "S'applique aux seuls revenus fonciers",
+   "Ne concerne que les couples mariés"
+  ],
+  "c": 1,
+  "e": "L'avantage tiré des demi-parts additionnelles est plafonné : au-delà, l'économie n'augmente plus. Le mécanisme profite surtout aux foyers à fort TMI."
+ },
+ {
+  "id": "ir-032",
+  "q": "Le système du quotient (art. 163-0 A) appliqué à un revenu exceptionnel ou différé :",
+  "o": [
+   "Exonère ce revenu",
+   "Atténue la progressivité en n'ajoutant qu'une fraction du revenu pour calculer le supplément d'impôt",
+   "Le taxe à un taux fixe de 30 %",
+   "Le reporte sur l'année suivante"
+  ],
+  "c": 1,
+  "e": "Le quotient évite que la progressivité ne frappe trop lourdement un revenu exceptionnel : on calcule l'impôt sur le revenu ordinaire, puis on y ajoute l'impôt correspondant à une fraction du revenu exceptionnel, multiplié en conséquence. Le revenu est bien imposé, mais l'à-coup de barème est lissé."
+ },
+ {
+  "id": "ir-033",
+  "q": "Concernant le prélèvement à la source (PAS), lesquelles sont exactes ?",
+  "o": [
+   "Le taux personnalisé du foyer s'applique par défaut",
+   "Le contribuable peut opter pour un taux « neutre » (non personnalisé)",
+   "Les couples peuvent demander un taux individualisé",
+   "Les revenus fonciers et des indépendants donnent lieu à des acomptes"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Le PAS applique par défaut le taux du foyer ; on peut opter pour un taux neutre (pour ne pas révéler sa situation à l'employeur) ou, en couple, pour un taux individualisé. Les revenus sans collecteur (fonciers, BIC/BNC) sont prélevés par acomptes."
+ },
+ {
+  "id": "ir-034",
+  "q": "Les dons aux œuvres et organismes d'intérêt général ouvrent une réduction d'IR de :",
+  "o": [
+   "66 % des versements, dans la limite de 20 % du revenu imposable",
+   "75 % pour les dons aux organismes d'aide aux personnes en difficulté (dans une limite spécifique)",
+   "100 % sans plafond",
+   "Aucune réduction"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Réduction de 66 % (plafond de 20 % du revenu imposable, excédent reportable 5 ans) pour les dons d'intérêt général ; 75 % pour les dons aux organismes d'aide aux personnes en difficulté (type « Coluche »), dans une limite annuelle spécifique, avant application du taux de 66 % au-delà."
+ },
+ {
+  "id": "ir-035",
+  "q": "Pour un enfant majeur, le foyer peut :",
+  "o": [
+   "Cumuler rattachement et déduction d'une pension",
+   "Choisir entre le rattachement au foyer fiscal OU la déduction d'une pension alimentaire",
+   "Toujours déduire une pension sans limite",
+   "Ni l'un ni l'autre"
+  ],
+  "c": 1,
+  "e": "Les deux options s'excluent : soit l'enfant majeur est rattaché (majoration de quotient familial), soit il est détaché et le parent déduit une pension alimentaire plafonnée. Il faut comparer l'avantage selon le TMI et le montant de l'aide."
+ },
+ {
+  "id": "ir-036",
+  "q": "Lorsqu'une convention prévoit la méthode du « taux effectif » pour des revenus de source étrangère :",
+  "o": [
+   "Les revenus étrangers sont imposés une seconde fois en France",
+   "Les revenus exonérés en France sont néanmoins pris en compte pour déterminer le taux d'imposition applicable aux autres revenus",
+   "Aucun impôt n'est dû",
+   "Les revenus étrangers échappent à toute déclaration"
+  ],
+  "c": 1,
+  "e": "La méthode du taux effectif : le revenu étranger, bien qu'exonéré en France, est ajouté pour calculer le taux moyen d'imposition, lequel s'applique ensuite aux seuls revenus imposables en France. Elle préserve la progressivité sans double imposition."
+ },
+ {
+  "id": "ir-037",
+  "q": "La réduction d'impôt IR-PME (« Madelin ») pour souscription directe au capital d'une PME est, en droit commun, de :",
+  "o": [
+   "25 %",
+   "18 % des versements",
+   "50 %",
+   "66 %"
+  ],
+  "c": 1,
+  "e": "Le taux de droit commun est de 18 % (art. 199 terdecies-0 A), dans la limite de 50 000 € de versements (célibataire) / 100 000 € (couple). Des taux majorés existent pour les ESUS (25 %), JEI (30 %) et JEIR (50 %)."
+ },
+ {
+  "id": "ir-038",
+  "q": "Concernant la réduction IR-PME et les fonds, lesquelles sont exactes ?",
+  "o": [
+   "Les versements en FCPI/FIP sont plafonnés à 12 000 € (seul) / 24 000 € (couple)",
+   "La réduction entre dans le plafonnement global des niches de 10 000 €",
+   "Les titres doivent être conservés 5 ans",
+   "La LF 2026 a exclu les FCPI « classiques » (hors JEI)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Les souscriptions FCPI/FIP ont un plafond propre (12 000/24 000 €) ; la réduction entre dans le plafond des niches de 10 000 € ; les titres se conservent 5 ans ; et la LF 2026 a restreint l'éligibilité des FCPI aux seuls fonds investis en JEI."
+ },
+ {
+  "id": "ir-039",
+  "q": "L'emploi d'un salarié à domicile ouvre droit à :",
+  "o": [
+   "Une déduction du revenu global",
+   "Un crédit d'impôt de 50 % des dépenses, dans la limite de 12 000 € (majorée)",
+   "Une réduction de 66 %",
+   "Aucun avantage"
+  ],
+  "c": 1,
+  "e": "Les services à la personne ouvrent un crédit d'impôt (restituable) de 50 % des dépenses, plafonnées à 12 000 € (majorations possibles jusqu'à 15 000-18 000 €). L'avantage entre dans le plafond global des niches de 10 000 €."
+ },
+ {
+  "id": "ir-040",
+  "q": "Les investissements outre-mer (Girardin) et les SOFICA relèvent d'un plafonnement global des niches majoré, fixé à :",
+  "o": [
+   "10 000 €",
+   "18 000 €",
+   "25 000 €",
+   "Aucun plafond"
+  ],
+  "c": 1,
+  "e": "Par dérogation au plafond de droit commun de 10 000 €, les réductions Girardin (outre-mer) et SOFICA bénéficient d'un plafond global majoré de 18 000 € par an et par foyer fiscal."
+ },
+ {
+  "id": "ir-041",
+  "q": "Le plafond de déduction des versements volontaires sur un PER (salarié) est le plus élevé de :",
+  "o": [
+   "10 % des revenus professionnels de N-1 (dans la limite de 8 PASS)",
+   "10 % du PASS (plancher pour les revenus modestes)",
+   "50 % du revenu global",
+   "Un montant illimité"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le plafond retient le plus favorable : 10 % des revenus professionnels de l'année précédente (plafonnés à 8 PASS), ou 10 % du PASS pour garantir un minimum de déduction. Le PASS 2026 est de 48 060 €."
+ },
+ {
+  "id": "ir-042",
+  "q": "Concernant les plafonds d'épargne retraite, lesquelles sont exactes ?",
+  "o": [
+   "Les plafonds non utilisés sont reportables sur 3 ans",
+   "Les couples mariés/pacsés peuvent mutualiser leurs plafonds",
+   "Depuis la LF 2026, les versements après 70 ans ne sont plus déductibles",
+   "La déduction est obligatoire"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les plafonds non consommés se reportent 3 ans ; les couples peuvent les mutualiser ; et la LF 2026 supprime la déductibilité des versements effectués à compter du 70e anniversaire. La déduction reste facultative (on peut y renoncer)."
+ },
+ {
+  "id": "ir-043",
+  "q": "Sortie du PER en CAPITAL, pour des versements qui ont été DÉDUITS à l'entrée :",
+  "o": [
+   "Tout est exonéré",
+   "La part des versements est imposée au barème (catégorie pensions, sans abattement 10 %) et les gains au PFU",
+   "Le capital est taxé à 60 %",
+   "Seuls les prélèvements sociaux sont dus"
+  ],
+  "c": 1,
+  "e": "Versements déduits + sortie en capital : la fraction correspondant aux versements est soumise au barème de l'IR (pensions, sans l'abattement de 10 %), tandis que les plus-values supportent le PFU (12,8 % + 18,6 % = 31,4 %)."
+ },
+ {
+  "id": "ir-044",
+  "q": "Sortie du PER en capital, pour des versements NON déduits à l'entrée :",
+  "o": [
+   "Le capital versé est exonéré d'IR ; seuls les gains sont taxés au PFU",
+   "Tout est imposé au barème",
+   "Rien n'est imposable",
+   "Le capital est taxé, pas les gains"
+  ],
+  "c": 0,
+  "e": "Si l'on a renoncé à la déduction à l'entrée, la part correspondant aux versements ressort en franchise d'impôt à la sortie en capital ; seules les plus-values sont imposées au PFU (31,4 %)."
+ },
+ {
+  "id": "ir-045",
+  "q": "Le déblocage anticipé d'un PER est possible, notamment, pour :",
+  "o": [
+   "L'acquisition de la résidence principale",
+   "Le décès du conjoint ou partenaire de PACS",
+   "L'invalidité, le surendettement, l'expiration des droits au chômage",
+   "Financer des vacances"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les cas de déblocage anticipé sont limitativement énumérés : achat de la RP et « accidents de la vie » (décès du conjoint/partenaire, invalidité, surendettement, fin de droits au chômage, liquidation judiciaire). Un motif de convenance ne suffit pas."
+ },
+ {
+  "id": "ir-046",
+  "q": "Les seuils du régime micro-BIC en 2026 (revalorisés) sont de :",
+  "o": [
+   "203 100 € pour la vente/hébergement, 83 600 € pour les services",
+   "72 600 € / 176 200 €",
+   "Aucun seuil",
+   "10 M€"
+  ],
+  "c": 0,
+  "e": "Pour 2026, le micro-BIC s'applique jusqu'à 203 100 € (ventes de marchandises, hébergement) et 83 600 € (prestations de services), avec abattement de 71 % ou 50 %. Les meublés de tourisme obéissent à des seuils propres (loi Le Meur)."
+ },
+ {
+  "id": "ir-047",
+  "q": "Mini-cas : revenus professionnels de 50 000 €, versement PER de 5 000 €, TMI de 30 %. Économie d'impôt ?",
+  "o": [
+   "5 000 €",
+   "1 500 €",
+   "550 €",
+   "2 500 €"
+  ],
+  "c": 1,
+  "e": "Le versement (dans la limite de 10 % de 50 000 € = 5 000 €) est déductible du revenu : l'économie d'impôt = 5 000 × 30 % (TMI) = 1 500 €."
+ },
+ {
+  "id": "ir-048",
+  "q": "Le régime des impatriés (art. 155 B) permet, sous conditions, d'exonérer d'IR :",
+  "o": [
+   "La prime d'impatriation (montant réel ou forfait de 30 % de la rémunération)",
+   "50 % des revenus passifs de source étrangère (dividendes, intérêts, plus-values)",
+   "La part de rémunération liée à l'activité exercée à l'étranger",
+   "La totalité des revenus mondiaux sans limite"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le régime exonère la prime d'impatriation (réelle ou forfait 30 %), la fraction de rémunération correspondant à l'activité à l'étranger, et 50 % de certains revenus passifs étrangers. Le tout est plafonné (50 % de la rémunération), et non illimité."
+ },
+ {
+  "id": "ir-049",
+  "q": "Pour bénéficier du régime des impatriés, le salarié doit notamment :",
+  "o": [
+   "Ne pas avoir été résident fiscal français les 5 années précédentes",
+   "Être recruté depuis l'étranger (ou appelé par une entreprise étrangère)",
+   "Installer son domicile fiscal en France",
+   "Avoir la nationalité française"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Conditions cumulatives : non-résidence fiscale les 5 ans précédents, recrutement depuis l'étranger (ou appel intragroupe), et établissement du domicile fiscal en France. La nationalité est indifférente. Le régime dure jusqu'à la 8e année suivant la prise de fonctions."
+ },
+ {
+  "id": "ir-050",
+  "q": "Selon l'article 4 B, une personne est domiciliée fiscalement en France si (un seul critère suffit) :",
+  "o": [
+   "Son foyer ou son lieu de séjour principal est en France",
+   "Elle exerce en France son activité professionnelle principale",
+   "Elle a en France le centre de ses intérêts économiques",
+   "Elle possède la nationalité française"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les critères de l'art. 4 B sont alternatifs : foyer/séjour principal, activité professionnelle principale, ou centre des intérêts économiques en France. Un seul suffit à caractériser la domiciliation. La nationalité n'est pas un critère."
+ },
+ {
+  "id": "ir-051",
+  "q": "Le taux minimum d'imposition applicable aux revenus de source française d'un non-résident est, en métropole, de :",
+  "o": [
+   "0 %",
+   "20 % jusqu'à un seuil, puis 30 % au-delà",
+   "31,4 %",
+   "45 % dès le premier euro"
+  ],
+  "c": 1,
+  "e": "Les revenus de source française d'un non-résident sont taxés à un taux minimum de 20 % (puis 30 % au-delà d'un seuil d'environ 29 000 €), sauf si le contribuable justifie que le taux moyen résultant de l'imposition de ses revenus mondiaux serait inférieur."
+ },
+ {
+  "id": "ir-052",
+  "q": "Mini-cas : impatrié, rémunération totale de 200 000 €, option pour le forfait de 30 %. Rémunération restant imposable (avant abattement de 10 %) ?",
+  "o": [
+   "200 000 €",
+   "140 000 €",
+   "60 000 €",
+   "180 000 €"
+  ],
+  "c": 1,
+  "e": "La prime forfaitaire exonérée = 30 % × 200 000 = 60 000 €. Reste imposable : 200 000 − 60 000 = 140 000 € (sous réserve que ce montant ne descende pas sous la rémunération de référence d'un poste comparable en France)."
+ },
+ {
+  "id": "ir-053",
+  "q": "Cas : TMI à 41 % aujourd'hui, vous anticipez un TMI plus faible à la retraite et voulez réduire votre impôt maintenant. Placement le plus adapté ?",
+  "o": [
+   "Assurance-vie (versements non déductibles)",
+   "PER (versements déductibles à l'entrée)",
+   "PEA",
+   "Livret A"
+  ],
+  "c": 1,
+  "e": "Le PER est pertinent quand le TMI d'entrée (41 %) est supérieur au TMI de sortie : la déduction procure une économie immédiate forte, et la reprise à la sortie se fait à un taux plus bas. Si le TMI devait rester identique, l'avantage se réduirait et l'assurance-vie (souplesse, transmission) pourrait primer."
+ },
+ {
+  "id": "ir-054",
+  "q": "Le mariage ou le PACS entraîne, en matière d'impôt sur le revenu :",
+  "o": [
+   "Deux déclarations distinctes obligatoires",
+   "Une imposition commune (une seule déclaration, 2 parts de quotient familial)",
+   "Aucun changement",
+   "Une majoration d'impôt automatique"
+  ],
+  "c": 1,
+  "e": "Les époux et partenaires de PACS font l'objet d'une imposition commune : une déclaration unique, avec 2 parts de quotient conjugal. L'année de l'union, ils peuvent toutefois opter, une fois, pour deux déclarations séparées."
+ },
+ {
+  "id": "ir-055",
+  "q": "L'année d'un divorce (ou d'une rupture de PACS), les ex-conjoints :",
+  "o": [
+   "Font une dernière déclaration commune",
+   "Déposent chacun leur propre déclaration pour l'année entière",
+   "Sont exonérés",
+   "Attendent l'année suivante"
+  ],
+  "c": 1,
+  "e": "L'année de la séparation, chacun est imposé séparément sur ses revenus de l'année entière (deux déclarations distinctes). En cas de décès, en revanche, deux déclarations sont établies : une pour le couple jusqu'au décès, une pour le survivant ensuite."
+ },
+ {
+  "id": "ir-056",
+  "q": "Mini-cas : couple marié sans enfant (2 parts), revenu net imposable de 60 000 €. Revenu servant de base au calcul de l'impôt par part (quotient) ?",
+  "o": [
+   "60 000 €",
+   "30 000 €",
+   "15 000 €",
+   "45 000 €"
+  ],
+  "c": 1,
+  "e": "Le quotient familial divise le revenu par le nombre de parts : 60 000 / 2 = 30 000 €. On calcule l'impôt sur ce montant (barème), puis on le multiplie par 2. Le quotient conjugal atténue la progressivité."
+ },
+ {
+  "id": "ir-057",
+  "q": "Définition : qu'est-ce que le PER (Plan d'Épargne Retraite) ?",
+  "o": [
+   "Un livret d'épargne de précaution",
+   "Un produit d'épargne retraite dont les versements sont, en principe, déductibles du revenu imposable",
+   "Une assurance décès",
+   "Un compte-titres ordinaire"
+  ],
+  "c": 1,
+  "e": "Le PER est une enveloppe dédiée à la préparation de la retraite : les versements volontaires sont déductibles du revenu (dans des plafonds), l'épargne étant bloquée jusqu'à la retraite (sauf déblocages anticipés), avec sortie en capital ou en rente."
+ },
+ {
+  "id": "ir-058",
+  "q": "Définition : qu'est-ce que le TMI (taux marginal d'imposition) ?",
+  "o": [
+   "Le taux moyen d'imposition de tous vos revenus",
+   "Le taux de la tranche la plus élevée atteinte par vos revenus (celui qui frappe le dernier euro)",
+   "Un taux fixe de 30 %",
+   "Le taux des prélèvements sociaux"
+  ],
+  "c": 1,
+  "e": "Le TMI est le taux de la tranche du barème la plus haute atteinte : il s'applique à l'euro supplémentaire de revenu. Il est supérieur au taux moyen (impôt total / revenu total) et sert à évaluer l'intérêt d'une déduction."
+ },
+ {
+  "id": "ir-059",
+  "q": "Définition : qu'est-ce que le quotient familial ?",
+  "o": [
+   "Un plafond de dépenses déductibles",
+   "Le système de parts (selon la composition du foyer) qui divise le revenu pour atténuer la progressivité",
+   "Un crédit d'impôt pour enfants",
+   "Une taxe sur les hauts revenus"
+  ],
+  "c": 1,
+  "e": "Le quotient familial attribue des parts selon la situation de famille (2 parts pour un couple, +0,5 par enfant…). Le revenu est divisé par le nombre de parts, l'impôt calculé, puis remultiplié : les foyers avec charges de famille voient leur progressivité atténuée (avantage plafonné)."
+ },
+ {
+  "id": "ir-060",
+  "q": "Définition : qu'est-ce que le « foyer fiscal » ?",
+  "o": [
+   "Le logement principal",
+   "L'ensemble des personnes dont les revenus font l'objet d'une même déclaration (contribuable, conjoint, personnes à charge)",
+   "Le lieu de travail",
+   "Un compte bancaire commun"
+  ],
+  "c": 1,
+  "e": "Le foyer fiscal regroupe les personnes soumises à une imposition commune : le contribuable, son conjoint/partenaire de PACS et les personnes à charge. C'est l'unité de calcul de l'impôt sur le revenu."
+ },
+ {
+  "id": "ir-061",
+  "q": "Définition : qu'est-ce que le prélèvement à la source (PAS) ?",
+  "o": [
+   "Un impôt supplémentaire",
+   "Le mode de collecte de l'IR au fil de la perception des revenus (retenue par l'employeur ou acomptes)",
+   "Une taxe sur l'eau",
+   "Une cotisation retraite"
+  ],
+  "c": 1,
+  "e": "Le PAS n'est pas un impôt nouveau : c'est un mode de recouvrement de l'IR, prélevé en temps réel sur les salaires/pensions (par le tiers payeur) ou via des acomptes (revenus fonciers, indépendants). La régularisation intervient à la déclaration."
+ },
+ {
+  "id": "ir-062",
+  "q": "Définition : qu'est-ce que le domicile fiscal en France (art. 4 B) ?",
+  "o": [
+   "Le lieu où l'on possède un bien immobilier",
+   "Une situation caractérisée par le foyer, le séjour principal, l'activité professionnelle ou le centre des intérêts économiques en France",
+   "La nationalité française",
+   "Le lieu de naissance"
+  ],
+  "c": 1,
+  "e": "Est domicilié fiscalement en France celui qui y a son foyer ou séjour principal, y exerce son activité professionnelle principale, ou y a le centre de ses intérêts économiques. Ces critères sont alternatifs : un seul suffit. Le domicilié est imposé sur ses revenus mondiaux."
+ },
+ {
+  "id": "ir-063",
+  "q": "Définition : qu'est-ce qu'une « niche fiscale » et son plafonnement ?",
+  "o": [
+   "Un compte épargne",
+   "Un avantage fiscal (réduction/crédit) ; l'ensemble est en principe plafonné à 10 000 € par an et par foyer",
+   "Une exonération totale et illimitée",
+   "Une pénalité fiscale"
+  ],
+  "c": 1,
+  "e": "Une niche fiscale est un avantage (réduction ou crédit d'impôt) accordé pour orienter les comportements. La plupart sont soumises à un plafonnement global de 10 000 € par an et par foyer (18 000 € pour l'outre-mer/SOFICA ; certains dispositifs en sont exclus)."
+ },
+ {
+  "id": "ir-064",
+  "q": "Définition : qu'est-ce qu'un barème « progressif » ?",
+  "o": [
+   "Un taux unique appliqué à tous",
+   "Un barème par tranches, où le taux augmente au fur et à mesure que le revenu s'élève",
+   "Un impôt forfaitaire",
+   "Un taux qui diminue avec le revenu"
+  ],
+  "c": 1,
+  "e": "Dans un barème progressif (celui de l'IR : 0/11/30/41/45 %), chaque tranche de revenu est taxée à son propre taux, croissant. Seule la fraction dépassant un seuil subit le taux supérieur — d'où la distinction entre taux marginal et taux moyen."
+ },
+ {
+  "id": "ir-065",
+  "q": "Définition : qu'est-ce que la « décote » à l'impôt sur le revenu ?",
+  "o": [
+   "Une majoration d'impôt",
+   "Un mécanisme réduisant l'impôt des foyers modestes situés juste au-dessus du seuil d'imposition",
+   "Un crédit d'impôt pour enfants",
+   "Un abattement sur les salaires"
+  ],
+  "c": 1,
+  "e": "La décote atténue l'entrée dans l'impôt : pour les foyers dont l'impôt calculé reste faible, elle vient le réduire, voire l'annuler, évitant un ressaut trop brutal juste au-dessus du seuil de non-imposition."
+ },
+ {
+  "id": "ir-066",
+  "q": "Définition : quelle différence entre « réduction » et « crédit » d'impôt ?",
+  "o": [
+   "Aucune",
+   "La réduction s'impute sur l'impôt (perdue si elle l'excède) ; le crédit est remboursé si son montant dépasse l'impôt dû",
+   "La réduction est remboursable, pas le crédit",
+   "Le crédit réduit l'assiette"
+  ],
+  "c": 1,
+  "e": "Réduction et crédit diminuent tous deux l'impôt (et non l'assiette). Différence clé : une réduction excédant l'impôt est perdue, tandis qu'un crédit d'impôt excédentaire est restitué au contribuable (ex. emploi à domicile, garde d'enfants)."
+ },
+ {
+  "id": "ir-067",
+  "q": "Définition : que sont la CEHR et la CDHR ?",
+  "o": [
+   "Des cotisations retraite",
+   "Deux contributions frappant les hauts revenus : la CEHR (3-4 %) et la CDHR (imposition minimale de 20 %)",
+   "Des taxes locales",
+   "Des réductions d'impôt"
+  ],
+  "c": 1,
+  "e": "La CEHR (contribution exceptionnelle sur les hauts revenus) ajoute 3 % puis 4 % au-delà de 250 000 €/500 000 € de RFR. La CDHR (contribution différentielle) garantit, pour ces mêmes foyers, une imposition minimale de 20 % du revenu de référence."
+ },
+ {
+  "id": "ir-068",
+  "q": "Définition : qu'est-ce que la « prime d'impatriation » ?",
+  "o": [
+   "Une prime de départ à la retraite",
+   "Le supplément de rémunération lié à l'installation en France d'un salarié impatrié, exonéré d'IR sous conditions (régime de l'art. 155 B)",
+   "Une indemnité de licenciement",
+   "Une prime d'ancienneté"
+  ],
+  "c": 1,
+  "e": "La prime d'impatriation rémunère le surcoût lié à la prise de fonctions en France d'un salarié venu de l'étranger. Sous le régime des impatriés (art. 155 B), elle est exonérée d'IR pour son montant réel ou, sur option, un forfait de 30 % de la rémunération."
+ },
+ {
+  "id": "ir-069",
+  "q": "Définition : qu'est-ce que le « versement libératoire » de la micro-entreprise ?",
+  "o": [
+   "Le paiement de la TVA",
+   "Une option permettant à l'auto-entrepreneur de payer son IR par un pourcentage fixe du chiffre d'affaires, en même temps que ses cotisations",
+   "Une exonération d'impôt",
+   "Un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "Sur option (sous condition de RFR), le micro-entrepreneur règle son impôt sur le revenu via un pourcentage forfaitaire de son chiffre d'affaires, prélevé en même temps que ses cotisations sociales — au lieu d'intégrer le bénéfice au barème."
+ },
+ {
+  "id": "ir-070",
+  "q": "La pension alimentaire versée à un enfant majeur non rattaché au foyer :",
+  "o": [
+   "N'est jamais déductible",
+   "Est déductible du revenu global du parent, dans la limite d'un plafond annuel",
+   "Ouvre un crédit d'impôt de 50 %",
+   "Est déductible sans aucune limite"
+  ],
+  "c": 1,
+  "e": "Le parent peut déduire de son revenu la pension versée à un enfant majeur détaché, dans la limite d'un plafond revalorisé chaque année (par enfant). En contrepartie, cette pension est imposable chez l'enfant. À arbitrer avec le rattachement au foyer."
+ },
+ {
+  "id": "ir-071",
+  "q": "L'indemnité de licenciement perçue par un salarié est :",
+  "o": [
+   "Toujours intégralement imposable",
+   "Exonérée d'IR dans certaines limites (montant légal/conventionnel, ou plafonds légaux)",
+   "Toujours totalement exonérée",
+   "Soumise au PFU"
+  ],
+  "c": 1,
+  "e": "L'indemnité de licenciement est exonérée d'IR à hauteur du montant légal ou conventionnel, ou selon des plafonds (ex. 2 fois la rémunération annuelle ou 50 % de l'indemnité, dans la limite de plafonds). La fraction excédentaire est imposable (avec possibilité de quotient)."
+ },
+ {
+  "id": "ir-072",
+  "q": "Définition : que sont les « bénéfices agricoles » (BA) ?",
+  "o": [
+   "Les revenus d'un commerce",
+   "La catégorie de revenus tirés de l'exploitation de biens ruraux (culture, élevage…)",
+   "Des revenus fonciers",
+   "Des plus-values"
+  ],
+  "c": 1,
+  "e": "Les bénéfices agricoles regroupent les revenus des activités d'exploitation agricole (cultures, élevage, sylviculture). Ils relèvent d'un micro-BA (abattement forfaitaire) ou d'un régime réel, avec des dispositifs propres (moyenne triennale, déduction pour épargne de précaution)."
+ },
+ {
+  "id": "ir-073",
+  "q": "Mini-cas : couple, revenu fiscal de référence de 600 000 €. Montant de la CEHR (3 % de 500 000 à 1 M€ pour un couple) ?",
+  "o": [
+   "18 000 €",
+   "3 000 €",
+   "6 000 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Pour un couple, la CEHR frappe à 3 % la fraction de RFR entre 500 000 € et 1 M€ : 3 % × (600 000 − 500 000) = 3 000 €. La tranche à 4 % ne concerne que la part au-delà de 1 M€."
+ },
+ {
+  "id": "ir-074",
+  "q": "Pour la déduction des frais professionnels, un salarié :",
+  "o": [
+   "Doit toujours utiliser l'abattement de 10 %",
+   "Peut choisir entre l'abattement forfaitaire de 10 % et la déduction de ses frais réels (le plus favorable)",
+   "N'a droit à aucune déduction",
+   "Déduit 50 % de son salaire"
+  ],
+  "c": 1,
+  "e": "Par défaut, l'abattement forfaitaire de 10 % s'applique sur les salaires. Le salarié peut opter pour les frais réels (trajets, repas, etc., justifiés) si ceux-ci dépassent l'abattement — un arbitrage à faire chaque année."
+ },
+ {
+  "id": "ir-075",
+  "q": "Un compte bancaire ou un contrat détenu à l'étranger doit être :",
+  "o": [
+   "Ignoré",
+   "Déclaré chaque année (formulaire 3916), sous peine d'amende",
+   "Fermé",
+   "Déclaré une seule fois à l'ouverture"
+  ],
+  "c": 1,
+  "e": "Tout compte (bancaire, de cryptos, contrat d'assurance-vie) ouvert, détenu ou clos à l'étranger doit être déclaré chaque année (formulaire 3916/3916-bis). L'omission expose à une amende par compte (1 500 €, portée à 10 000 € pour un État non coopératif)."
+ },
+ {
+  "id": "ir-076",
+  "q": "Définition : qu'est-ce que le régime « micro-BNC » ?",
+  "o": [
+   "Un régime pour les commerçants",
+   "Un régime simplifié pour les professions libérales, avec un abattement forfaitaire de 34 % sur les recettes",
+   "Un régime foncier",
+   "Un régime agricole"
+  ],
+  "c": 1,
+  "e": "Le micro-BNC s'applique aux titulaires de bénéfices non commerciaux (professions libérales, prestations intellectuelles) sous un seuil de recettes (83 600 € en 2026) : le bénéfice imposable est déterminé après un abattement forfaitaire de 34 % (représentatif des charges)."
+ },
+ {
+  "id": "ir-077",
+  "q": "Les FIP « Corse » et « Outre-mer » offrent une réduction d'IR à taux majoré de :",
+  "o": [
+   "18 %",
+   "30 % (sous réserve de validation européenne)",
+   "50 %",
+   "66 %"
+  ],
+  "c": 1,
+  "e": "Contrairement aux FIP classiques (dont l'avantage a été restreint), les FIP investis en Corse ou en Outre-mer conservent un taux de réduction d'IR majoré de 30 %, dans les limites de versement propres aux FIP et sous réserve du feu vert européen."
+ },
+ {
+  "id": "ir-078",
+  "q": "Définition : qu'est-ce que le dispositif Girardin (industriel/social) ?",
+  "o": [
+   "Un placement garanti",
+   "Un investissement outre-mer procurant une réduction d'IR « one-shot » (l'année suivante), supérieure à la mise, en contrepartie d'un risque",
+   "Un livret d'épargne",
+   "Une assurance-vie"
+  ],
+  "c": 1,
+  "e": "Le Girardin finance des investissements productifs ou du logement social outre-mer : il procure une réduction d'IR l'année suivante, généralement supérieure à la somme investie (à fonds perdus). Avantage « one-shot » puissant, mais risqué (requalification possible) et plafonné à 18 000 € de niches."
+ },
+ {
+  "id": "ir-079",
+  "q": "Le « cumul emploi-retraite » permet à un retraité :",
+  "o": [
+   "De ne jamais toucher sa retraite",
+   "De reprendre une activité tout en percevant sa pension (sous conditions), les revenus d'activité restant imposables",
+   "D'être exonéré d'impôt",
+   "De doubler sa pension automatiquement"
+  ],
+  "c": 1,
+  "e": "Le cumul emploi-retraite autorise, sous conditions (liquidation de toutes les pensions, âge/taux plein pour le cumul intégral), à percevoir sa retraite tout en travaillant. Les revenus d'activité sont imposables comme des salaires/BIC/BNC selon le statut."
+ },
+ {
+  "id": "ir-080",
+  "q": "Un parent qui élève seul son enfant (parent isolé) bénéficie :",
+  "o": [
+   "D'aucun avantage",
+   "D'une demi-part supplémentaire de quotient familial (case T)",
+   "D'une exonération d'impôt",
+   "D'un crédit d'impôt de 50 %"
+  ],
+  "c": 1,
+  "e": "Le parent isolé (case T) qui assume seul la charge d'un enfant bénéficie d'une demi-part supplémentaire de quotient familial, ce qui réduit son impôt (avantage plafonné). Un parent seul avec un enfant compte ainsi 2 parts."
+ },
+ {
+  "id": "ir-081",
+  "q": "Mini-cas : parent isolé avec 1 enfant (2 parts au total), revenu net imposable de 30 000 €. Revenu par part (quotient) ?",
+  "o": [
+   "30 000 €",
+   "15 000 €",
+   "10 000 €",
+   "20 000 €"
+  ],
+  "c": 1,
+  "e": "Parent isolé : 1 part + 0,5 (enfant) + 0,5 (case T) = 2 parts. Quotient = 30 000 / 2 = 15 000 € par part, sur lequel on calcule l'impôt (avant de le multiplier par 2)."
+ },
+ {
+  "id": "ir-082",
+  "q": "Comment un revenu est-il imposé selon sa nature ?",
+  "o": [
+   "Les salaires et pensions : au barème progressif (après abattement de 10 %)",
+   "Les revenus du capital (dividendes, intérêts, plus-values) : au PFU par défaut, ou au barème sur option",
+   "Les loyers de location nue : en revenus fonciers",
+   "Tout est imposé au même taux fixe"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'imposition dépend de la catégorie : salaires/pensions au barème, revenus du capital au PFU (ou barème sur option), loyers nus en revenus fonciers, loyers meublés en BIC. Il n'existe pas de taux unique : c'est la nature du revenu qui commande son régime."
+ },
+ {
+  "id": "ir-083",
+  "q": "Le barème de l'impôt sur le revenu comporte les tranches suivantes :",
+  "o": [
+   "0 %, 11 %, 30 %, 41 %, 45 %",
+   "Un taux unique de 30 %",
+   "0 % puis 50 %",
+   "10 %, 20 %, 30 %"
+  ],
+  "c": 0,
+  "e": "Le barème progressif compte cinq tranches : 0 %, 11 %, 30 %, 41 % et 45 %, dont les seuils sont revalorisés chaque année. Seule la fraction de revenu dépassant un seuil est taxée au taux supérieur (d'où la distinction taux marginal / taux moyen)."
+ },
+ {
+  "id": "ir-084",
+  "q": "Mini-cas : célibataire, 1 part, revenu net imposable de 35 000 € (30 % au-delà de ~29 300 €). Quel est son TMI ?",
+  "o": [
+   "11 %",
+   "30 %",
+   "41 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "35 000 € dépasse le seuil d'entrée de la tranche à 30 % (~29 300 €) sans atteindre celui de 41 % : le TMI est de 30 %. Le taux moyen (impôt / revenu) reste, lui, nettement inférieur."
+ },
+ {
+  "id": "ir-085",
+  "q": "Le taux « neutre » (non personnalisé) du prélèvement à la source permet :",
+  "o": [
+   "De payer moins d'impôt",
+   "De ne pas transmettre son taux personnalisé à l'employeur (confidentialité), quitte à régulariser",
+   "D'être exonéré",
+   "De doubler le prélèvement"
+  ],
+  "c": 1,
+  "e": "Le taux neutre applique un barème standard, sans révéler à l'employeur la situation réelle du foyer (autres revenus…). S'il aboutit à prélever moins que le taux réel, le contribuable doit verser un complément ; s'il prélève plus, il est régularisé."
+ },
+ {
+  "id": "ir-086",
+  "q": "Cas : vous cumulez plusieurs réductions et crédits d'impôt (emploi à domicile, dons, FCPI…). Quelle limite globale s'applique ?",
+  "o": [
+   "Aucune",
+   "Un plafonnement global des niches de 10 000 € par an et par foyer (certains dispositifs exceptés)",
+   "50 % du revenu",
+   "1 000 € par niche"
+  ],
+  "c": 1,
+  "e": "La plupart des avantages fiscaux entrent dans un plafonnement global de 10 000 € par an et par foyer (18 000 € pour l'outre-mer/SOFICA). Certains dispositifs en sont exclus (Malraux, Monuments Historiques, déficit foncier). Au-delà, l'excédent est perdu."
+ },
+ {
+  "id": "ir-087",
+  "q": "Cas : vos revenus du capital sont modestes et votre TMI est de 0 % (non imposable). Barème ou PFU ?",
+  "o": [
+   "Le PFU (12,8 % d'IR)",
+   "L'option barème : à TMI 0 %, aucun IR n'est dû (seuls les PS restent), alors que le PFU prélèverait 12,8 %",
+   "Peu importe",
+   "Ni l'un ni l'autre"
+  ],
+  "c": 1,
+  "e": "À TMI nul, l'option pour le barème est gagnante : la part IR est à 0 %, alors que le PFU appliquerait 12,8 %. Les prélèvements sociaux (17,2 % ou 18,6 %) restent dus dans les deux cas. Pensez à cocher la case 2OP sur la déclaration."
+ },
+ {
+  "id": "ir-088",
+  "q": "Mini-cas : couple marié avec 2 enfants (3 parts), revenu net imposable de 60 000 €. Revenu par part (quotient) ?",
+  "o": [
+   "60 000 €",
+   "20 000 €",
+   "30 000 €",
+   "15 000 €"
+  ],
+  "c": 1,
+  "e": "Couple = 2 parts + 0,5 par enfant pour les deux premiers = 3 parts. Quotient = 60 000 / 3 = 20 000 € par part. L'impôt est calculé sur ce montant puis multiplié par 3 (avantage plafonné)."
+ },
+ {
+  "id": "ir-089",
+  "q": "Cas : fort TMI, vous voulez réduire votre revenu imposable dès cette année tout en préparant la retraite. Quel produit ?",
+  "o": [
+   "Un compte-titres",
+   "Le PER (versements déductibles)",
+   "Un Livret A",
+   "Un fonds obligataire"
+  ],
+  "c": 1,
+  "e": "Le PER permet de déduire les versements du revenu imposable : à fort TMI, l'économie d'impôt immédiate est forte, et la sortie interviendra (souvent à un TMI plus bas) à la retraite. Les autres supports n'offrent pas cette déduction à l'entrée."
+ },
+ {
+  "id": "ir-090",
+  "q": "Mini-cas : versement de 8 000 € sur un PER, TMI de 41 %. Économie d'impôt (plafond supposé respecté) ?",
+  "o": [
+   "8 000 €",
+   "3 280 €",
+   "1 024 €",
+   "2 400 €"
+  ],
+  "c": 1,
+  "e": "Le versement est déductible du revenu : économie = 8 000 × 41 % (TMI) = 3 280 €. Plus le TMI est élevé, plus la déduction est puissante — c'est ce qui rend le PER intéressant pour les hauts revenus."
+ },
+ {
+  "id": "ir-091",
+  "q": "Cas : vous louez un bien NU au régime réel et devez déclarer vos revenus fonciers. Quel formulaire ?",
+  "o": [
+   "La déclaration 2086 (crypto)",
+   "La déclaration 2044 (revenus fonciers au réel)",
+   "La déclaration 2074 (plus-values mobilières)",
+   "Aucun"
+  ],
+  "c": 1,
+  "e": "Les revenus fonciers au réel se déclarent via le formulaire 2044 (annexe à la déclaration principale). Le 2086 concerne les cryptos, le 2074 les plus-values de valeurs mobilières : à chaque revenu son imprimé."
+ },
+ {
+  "id": "ir-092",
+  "q": "Cas : vous avez réalisé des plus-values sur des actions dans un compte-titres. Quel formulaire pour les déclarer ?",
+  "o": [
+   "La 2044 (revenus fonciers)",
+   "La 2074 (plus-values de valeurs mobilières)",
+   "La 2086 (cryptos)",
+   "Aucun"
+  ],
+  "c": 1,
+  "e": "Les plus-values de cession de valeurs mobilières se déclarent via le formulaire 2074 (le courtier fournit souvent un IFU récapitulatif). Chaque type de gain a son imprimé : 2044 pour le foncier, 2086 pour les cryptos."
+ },
+ {
+  "id": "ir-093",
+  "q": "Mini-cas : célibataire, 1 part, revenu net imposable de 20 000 €. TMI (tranche à 11 % à partir d'environ 11 500 €) ?",
+  "o": [
+   "0 %",
+   "11 %",
+   "30 %",
+   "41 %"
+  ],
+  "c": 1,
+  "e": "20 000 € se situe dans la tranche à 11 % (au-delà d'environ 11 500 €, sous ~29 300 €) : le TMI est de 11 %. Le taux moyen effectif est plus faible, car les premiers euros ne sont pas imposés."
+ },
+ {
+  "id": "ir-094",
+  "q": "Définition : que trouve-t-on sur l'« avis d'imposition » ?",
+  "o": [
+   "Le solde de son compte bancaire",
+   "Le récapitulatif des revenus déclarés, l'impôt dû, le revenu fiscal de référence et le taux de prélèvement à la source",
+   "La liste de ses placements",
+   "Le montant de son épargne"
+  ],
+  "c": 1,
+  "e": "L'avis d'imposition récapitule les revenus, calcule l'impôt, indique le revenu fiscal de référence (RFR) et le taux du prélèvement à la source. C'est un document clé, souvent demandé comme justificatif (prêt, logement, aides)."
+ },
+ {
+  "id": "ir-095",
+  "q": "Cas : l'avantage du quotient familial (parts pour enfants) est-il illimité ?",
+  "o": [
+   "Oui, sans limite",
+   "Non : la réduction d'impôt procurée par chaque demi-part supplémentaire est plafonnée",
+   "Il n'existe pas",
+   "Il double l'impôt"
+  ],
+  "c": 1,
+  "e": "L'avantage lié aux demi-parts pour charges de famille est plafonné : au-delà d'un certain montant, la réduction d'impôt qu'apporte chaque demi-part est écrêtée. Le quotient réduit l'impôt, mais dans une limite fixée chaque année."
+ },
+ {
+  "id": "ir-096",
+  "q": "Cas : vous êtes indépendant (BIC/BNC) ; comment votre prélèvement à la source est-il opéré ?",
+  "o": [
+   "Par retenue sur salaire",
+   "Par des acomptes (mensuels ou trimestriels) prélevés par l'administration",
+   "Vous êtes exonéré",
+   "En une fois en fin d'année"
+  ],
+  "c": 1,
+  "e": "Sans employeur pour collecter l'impôt, les indépendants (comme les bailleurs) versent des acomptes calculés par l'administration, prélevés mensuellement ou trimestriellement, puis régularisés à la déclaration."
+ },
+ {
+  "id": "ir-097",
+  "q": "Cas : vos seuls revenus du capital et un TMI de 0 %. Quelle case cocher pour éviter le PFU ?",
+  "o": [
+   "Aucune",
+   "La case 2OP (option pour l'imposition au barème), plus favorable à TMI faible",
+   "La case 3VG",
+   "La case 8UU"
+  ],
+  "c": 1,
+  "e": "À TMI 0 ou 11 %, l'option pour le barème (case 2OP) est souvent gagnante : la part IR devient nulle ou faible, contre 12,8 % au PFU. L'option est globale (elle s'applique à tous les revenus du capital de l'année) : à évaluer avant de cocher."
+ }
+]

@@ -1,0 +1,578 @@
+[
+ {
+  "id": "pea-001",
+  "q": "Le plafond de versements du PEA classique est de :",
+  "o": [
+   "100 000 €",
+   "150 000 €",
+   "225 000 €",
+   "Sans plafond"
+  ],
+  "c": 1,
+  "e": "Le PEA classique est plafonné à 150 000 € de versements (les gains réinvestis ne comptent pas dans le plafond)."
+ },
+ {
+  "id": "pea-002",
+  "q": "Après 5 ans de détention, les gains du PEA sont :",
+  "o": [
+   "Exonérés d'IR (les PS restent dus)",
+   "Totalement exonérés",
+   "Taxés à 30 %",
+   "Taxés à 12,8 %"
+  ],
+  "c": 0,
+  "e": "Au-delà de 5 ans, les gains sont exonérés d'impôt sur le revenu, mais les prélèvements sociaux restent dus."
+ },
+ {
+  "id": "pea-003",
+  "q": "Les prélèvements sociaux sur les gains d'un PEA (acquis à partir de 2026) sont de :",
+  "o": [
+   "17,2 %",
+   "18,6 %",
+   "0 %",
+   "7,5 %"
+  ],
+  "c": 1,
+  "e": "Contrairement à l'assurance-vie, le PEA subit la hausse : 18,6 % de PS sur les gains acquis à compter de 2026 (l'écart avec l'assurance-vie se creuse)."
+ },
+ {
+  "id": "pea-004",
+  "q": "Un retrait avant 5 ans :",
+  "o": [
+   "N'a aucune conséquence",
+   "Entraîne en principe la clôture et l'imposition des gains au PFU",
+   "Est interdit",
+   "Exonère les gains"
+  ],
+  "c": 1,
+  "e": "Un retrait avant 5 ans entraîne en principe la clôture du plan et l'imposition des gains, hors quelques cas de force majeure prévus par la loi PACTE."
+ },
+ {
+  "id": "pea-005",
+  "q": "Depuis la loi PACTE, un retrait partiel après 5 ans :",
+  "o": [
+   "Ferme le plan",
+   "N'entraîne plus la clôture et permet de continuer les versements",
+   "Bloque les versements",
+   "Est taxé à 30 %"
+  ],
+  "c": 1,
+  "e": "Depuis 2019, un retrait après 5 ans ne clôture plus le plan et n'empêche plus de reprendre les versements dans la limite du plafond."
+ },
+ {
+  "id": "pea-006",
+  "q": "Le plafond du PEA-PME est de :",
+  "o": [
+   "75 000 €",
+   "150 000 €",
+   "225 000 € (cumul PEA + PEA-PME plafonné à 225 000 €)",
+   "Sans limite"
+  ],
+  "c": 2,
+  "e": "Le PEA-PME a un plafond de 225 000 €, mais le cumul PEA classique + PEA-PME ne peut excéder 225 000 €."
+ },
+ {
+  "id": "pea-007",
+  "q": "Le PEA peut accueillir :",
+  "o": [
+   "Toutes les obligations en direct",
+   "Des actions européennes et certains OPCVM éligibles",
+   "De l'immobilier physique",
+   "Des cryptomonnaies"
+  ],
+  "c": 1,
+  "e": "Le PEA est réservé aux actions de sociétés européennes et aux OPCVM éligibles ; obligations en direct, immobilier physique et cryptos en sont exclus."
+ },
+ {
+  "id": "pea-008",
+  "q": "Le plafond de versement d'un PEA « classique » est de :",
+  "o": [
+   "75 000 €",
+   "150 000 €",
+   "225 000 €",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "Le PEA bancaire classique est plafonné à 150 000 € de versements."
+ },
+ {
+  "id": "pea-009",
+  "q": "Le PEA-PME a un plafond de 225 000 €, mais :",
+  "o": [
+   "Il se cumule sans limite avec le PEA",
+   "Le total PEA + PEA-PME ne peut dépasser 225 000 €",
+   "Il remplace le PEA",
+   "Il est réservé aux sociétés"
+  ],
+  "c": 1,
+  "e": "On peut détenir les deux, mais la somme des versements sur PEA et PEA-PME est plafonnée globalement à 225 000 €."
+ },
+ {
+  "id": "pea-010",
+  "q": "Un retrait effectué AVANT 5 ans sur un PEA :",
+  "o": [
+   "N'a aucune conséquence",
+   "Entraîne en principe la clôture du plan (sauf exceptions)",
+   "Est exonéré",
+   "Est impossible"
+  ],
+  "c": 1,
+  "e": "Avant 5 ans, tout retrait entraîne en principe la clôture (sauf cas particuliers : licenciement, invalidité, création/reprise d'entreprise...)."
+ },
+ {
+  "id": "pea-011",
+  "q": "Après 5 ans, les gains retirés d'un PEA sont :",
+  "o": [
+   "Soumis au PFU",
+   "Exonérés d'impôt sur le revenu (mais soumis aux prélèvements sociaux)",
+   "Soumis au barème",
+   "Totalement exonérés"
+  ],
+  "c": 1,
+  "e": "Au-delà de 5 ans, les gains sont exonérés d'IR ; seuls les prélèvements sociaux restent dus."
+ },
+ {
+  "id": "pea-012",
+  "q": "Les prélèvements sociaux sur les gains de PEA acquis à compter de 2026 sont de :",
+  "o": [
+   "17,2 %",
+   "18,6 %",
+   "31,4 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Le PEA ne figure pas dans les exceptions : les gains constatés à compter de 2026 supportent les PS au nouveau taux de 18,6 %."
+ },
+ {
+  "id": "pea-013",
+  "q": "Quels titres sont éligibles au PEA ?",
+  "o": [
+   "Actions de sociétés ayant leur siège dans l'UE/EEE",
+   "Parts d'OPCVM éligibles (quota d'actions)",
+   "Obligations d'État",
+   "ETF éligibles actions"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Actions UE/EEE, OPCVM/ETF éligibles sont admis. Les obligations et produits de taux ne le sont pas (le PEA est un support « actions »)."
+ },
+ {
+  "id": "pea-014",
+  "q": "Après 5 ans, un retrait partiel sur un PEA :",
+  "o": [
+   "Entraîne toujours la clôture",
+   "N'entraîne plus la clôture et n'empêche plus de nouveaux versements (dans le plafond)",
+   "Bloque le plan 5 ans de plus",
+   "Est interdit"
+  ],
+  "c": 1,
+  "e": "Depuis la loi PACTE, un retrait partiel après 5 ans ne clôt pas le plan et n'interdit plus les versements ultérieurs (dans la limite du plafond)."
+ },
+ {
+  "id": "pea-015",
+  "q": "Transférer son PEA d'une banque à une autre :",
+  "o": [
+   "Fait perdre l'antériorité fiscale",
+   "Conserve l'antériorité (date d'ouverture)",
+   "Entraîne la clôture",
+   "Double les frais fiscaux"
+  ],
+  "c": 1,
+  "e": "Le transfert conserve la date d'ouverture, donc l'antériorité fiscale acquise : on ne « repart pas de zéro »."
+ },
+ {
+  "id": "pea-016",
+  "q": "Les dividendes de titres NON cotés logés dans un PEA sont exonérés :",
+  "o": [
+   "Sans limite",
+   "Dans la limite de 10 % par an de la valeur d'inscription de ces titres",
+   "À hauteur de 40 %",
+   "Jamais"
+  ],
+  "c": 1,
+  "e": "Pour éviter les abus, l'exonération des dividendes de titres non cotés est plafonnée à 10 % par an de la valeur de ces titres ; l'excédent est imposable."
+ },
+ {
+  "id": "pea-017",
+  "q": "Le « PEA jeunes » (destiné aux 18-25 ans rattachés au foyer) a un plafond de :",
+  "o": [
+   "20 000 €",
+   "150 000 €",
+   "75 000 €",
+   "225 000 €"
+  ],
+  "c": 0,
+  "e": "Le PEA jeunes, réservé aux majeurs de 18 à 25 ans rattachés au foyer fiscal des parents, est plafonné à 20 000 € (puis devient un PEA classique)."
+ },
+ {
+  "id": "pea-018",
+  "q": "Le plafond de versements sur un PEA « classique » est de :",
+  "o": [
+   "150 000 €",
+   "225 000 €",
+   "132 000 €",
+   "Sans limite"
+  ],
+  "c": 0,
+  "e": "Le PEA classique est plafonné à 150 000 € de versements. Le PEA-PME accepte 225 000 €, mais le total cumulé des deux enveloppes ne peut dépasser 225 000 €."
+ },
+ {
+  "id": "pea-019",
+  "q": "Un retrait sur un PEA avant 5 ans :",
+  "o": [
+   "Est sans conséquence",
+   "Entraîne en principe la clôture du plan",
+   "Double l'imposition",
+   "Est toujours exonéré"
+  ],
+  "c": 1,
+  "e": "Avant 5 ans, un retrait entraîne en principe la clôture du PEA (des exceptions existent : création/reprise d'entreprise, licenciement, invalidité...). Après 5 ans, les retraits sont libres et les gains exonérés d'IR."
+ },
+ {
+  "id": "pea-020",
+  "q": "Les versements sur un PEA se font :",
+  "o": [
+   "En espèces uniquement",
+   "Par transfert de titres depuis un compte-titres ordinaire",
+   "En nature (immeubles)",
+   "Par apport de cryptomonnaies"
+  ],
+  "c": 0,
+  "e": "On ne peut alimenter un PEA qu'en numéraire : impossible d'y transférer directement des titres d'un CTO. Il faut les vendre, verser le cash, puis éventuellement racheter les valeurs dans le plan."
+ },
+ {
+  "id": "pea-021",
+  "q": "Au décès du titulaire, le PEA :",
+  "o": [
+   "Se transmet tel quel aux héritiers",
+   "Est automatiquement clôturé",
+   "Continue sans changement",
+   "Devient un PEA-PME"
+  ],
+  "c": 1,
+  "e": "Le décès entraîne la clôture du PEA. Les gains sont exonérés d'IR (plan de plus de 5 ans) mais les prélèvements sociaux restent dus, et la valeur intègre l'actif successoral."
+ },
+ {
+  "id": "pea-022",
+  "q": "Après 8 ans, une sortie du PEA sous forme de rente viagère :",
+  "o": [
+   "Est imposée au barème",
+   "Est exonérée d'impôt sur le revenu",
+   "Double les prélèvements sociaux",
+   "Est impossible"
+  ],
+  "c": 1,
+  "e": "La sortie en rente viagère d'un PEA de plus de 8 ans est exonérée d'IR (la rente reste soumise aux prélèvements sociaux sur une fraction fonction de l'âge du crédirentier)."
+ },
+ {
+  "id": "pea-023",
+  "q": "Quelles personnes NE peuvent PAS ouvrir de PEA classique ?",
+  "o": [
+   "Les personnes morales (sociétés)",
+   "Les mineurs non émancipés",
+   "Un majeur déjà titulaire d'un autre PEA",
+   "Un non-résident fiscal français"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Le PEA est réservé aux personnes physiques majeures fiscalement domiciliées en France, à raison d'un seul PEA par personne. Sociétés, mineurs et non-résidents en sont exclus (les majeurs rattachés relèvent du PEA jeunes)."
+ },
+ {
+  "id": "pea-024",
+  "q": "Le dépassement volontaire du plafond de versements d'un PEA est sanctionné par :",
+  "o": [
+   "La clôture immédiate",
+   "Une amende de 2 % des versements excédentaires",
+   "Une majoration de 40 %",
+   "Aucune sanction"
+  ],
+  "c": 1,
+  "e": "Un dépassement effectué en connaissance de cause expose à une amende fiscale égale à 2 % du montant des versements excédentaires."
+ },
+ {
+  "id": "pea-025",
+  "q": "Quelles conditions un titre doit-il remplir pour être éligible au PEA-PME ?",
+  "o": [
+   "Émis par une PME/ETI de moins de 5 000 salariés",
+   "CA ≤ 1,5 Md€ ou total de bilan ≤ 2 Md€",
+   "Société cotée exclusivement",
+   "Sans aucune condition de taille"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le PEA-PME cible les PME et ETI de moins de 5 000 salariés dont le CA n'excède pas 1,5 Md€ (ou le total de bilan 2 Md€). Les grandes capitalisations (ETF World, CAC 40) en sont exclues."
+ },
+ {
+  "id": "pea-026",
+  "q": "Depuis la loi PACTE, après 5 ans, un retrait partiel :",
+  "o": [
+   "Clôture le plan",
+   "N'entraîne pas la clôture ET n'empêche plus de nouveaux versements",
+   "Bloque les versements futurs",
+   "Interdit tout nouveau retrait"
+  ],
+  "c": 1,
+  "e": "Avant PACTE, un retrait entre 5 et 8 ans figeait les versements. Désormais, après 5 ans, les retraits partiels sont libres, ne clôturent pas le plan et n'empêchent pas de reverser (dans la limite du plafond)."
+ },
+ {
+  "id": "pea-027",
+  "q": "Une perte constatée à la clôture d'un PEA de plus de 5 ans :",
+  "o": [
+   "N'est jamais imputable",
+   "Est imputable, sous conditions, sur les plus-values de valeurs mobilières de l'année (et reportable 10 ans)",
+   "S'impute sur le revenu global",
+   "Ouvre un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "Si le PEA est clôturé en moins-value (après liquidation complète des titres), la perte peut, sous conditions, s'imputer sur les plus-values de cession de valeurs mobilières de même nature réalisées la même année, l'excédent étant reportable 10 ans."
+ },
+ {
+  "id": "pea-028",
+  "q": "Quels titres peuvent être logés dans un PEA-PME (au-delà des actions de PME/ETI) ?",
+  "o": [
+   "Des obligations convertibles ou remboursables en actions de sociétés éligibles",
+   "Des titres participatifs",
+   "Des minibons / titres de financement participatif éligibles",
+   "Des bons du Trésor américains"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le PEA-PME accepte, outre les actions de PME/ETI éligibles, certaines obligations convertibles/remboursables en actions, titres participatifs et minibons de financement participatif. Les titres d'États étrangers en sont exclus."
+ },
+ {
+  "id": "pea-029",
+  "q": "La différence entre un PEA « bancaire » et un PEA « assurance » tient à ce que :",
+  "o": [
+   "Le PEA assurance est un contrat de capitalisation en unités de compte souscrit auprès d'un assureur",
+   "Le PEA bancaire repose sur un compte-titres et un compte espèces",
+   "Le PEA assurance échappe aux prélèvements sociaux",
+   "Le PEA bancaire n'a pas de plafond"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le PEA bancaire associe un compte-titres et un compte espèces ; le PEA assurance prend la forme d'un contrat de capitalisation en unités de compte chez un assureur. Mêmes règles fiscales, mêmes plafonds et mêmes prélèvements sociaux."
+ },
+ {
+  "id": "pea-030",
+  "q": "Ne peuvent PAS être logés dans un PEA les titres d'une société dans laquelle le titulaire (avec son groupe familial) détient ou a détenu :",
+  "o": [
+   "Plus de 25 % des droits dans les bénéfices",
+   "Moins de 5 %",
+   "Exactement 10 %",
+   "Aucune part"
+  ],
+  "c": 0,
+  "e": "Pour éviter l'auto-logement de sa propre société, sont exclus du PEA les titres de sociétés dont le titulaire détient (ou a détenu dans les 5 ans) plus de 25 % des droits aux bénéfices, seul ou avec son cercle familial."
+ },
+ {
+  "id": "pea-031",
+  "q": "Mini-cas : PEA de plus de 5 ans, retrait comprenant 8 000 € de gains. Prélèvements dus ?",
+  "o": [
+   "2 512 € (PFU)",
+   "1 488 € (PS seuls)",
+   "2 400 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Après 5 ans, les gains sont exonérés d'IR ; restent les prélèvements sociaux à 18,6 % (gains 2026) : 8 000 × 18,6 % = 1 488 €."
+ },
+ {
+  "id": "pea-032",
+  "q": "Cas : vous placez sur des actions européennes que vous n'aurez pas besoin de récupérer avant 5 ans et plus. Enveloppe la plus efficace fiscalement ?",
+  "o": [
+   "Compte-titres ordinaire (PFU 31,4 %)",
+   "PEA (exonération d'IR après 5 ans, hors PS)",
+   "Assurance-vie en fonds euros",
+   "Livret A"
+  ],
+  "c": 1,
+  "e": "Le PEA est taillé pour l'investissement actions à horizon ≥ 5 ans : au-delà, les gains sont exonérés d'IR (seuls les PS de 17,2 % restent dus). Le compte-titres, lui, taxe chaque gain au PFU. En contrepartie, le PEA impose des titres éligibles et un plafond de 150 000 €."
+ },
+ {
+  "id": "pea-033",
+  "q": "Cas : jeune actif, horizon long, vous voulez investir régulièrement sur un ETF « Monde » avec la fiscalité la plus douce. Enveloppe adaptée ?",
+  "o": [
+   "Un compte-titres ordinaire",
+   "Un PEA (via un ETF Monde éligible)",
+   "Un contrat d'assurance-vie en fonds euros",
+   "Un Livret A"
+  ],
+  "c": 1,
+  "e": "Il existe des ETF « Monde » éligibles au PEA : logés dans cette enveloppe, ils profitent de l'exonération d'IR après 5 ans (hors PS). Au-delà du plafond de 150 000 €, on complète par l'assurance-vie ou le compte-titres. Le fonds euros et le Livret A ne visent pas la performance actions."
+ },
+ {
+  "id": "pea-034",
+  "q": "Définition : qu'est-ce qu'un PEA (Plan d'Épargne en Actions) ?",
+  "o": [
+   "Un compte bancaire rémunéré sans risque",
+   "Une enveloppe permettant d'investir en actions européennes, exonérée d'IR sur les gains après 5 ans",
+   "Un contrat d'assurance en cas de décès",
+   "Un crédit immobilier à taux réduit"
+  ],
+  "c": 1,
+  "e": "Le PEA est une enveloppe fiscale dédiée aux actions de l'Union européenne (et fonds éligibles) : après 5 ans, les gains sont exonérés d'impôt sur le revenu (les prélèvements sociaux restant dus). Plafond de 150 000 €."
+ },
+ {
+  "id": "pea-035",
+  "q": "Définition : qu'est-ce qu'une « action » (au sens d'un actionnaire) ?",
+  "o": [
+   "Un prêt à une entreprise",
+   "Un titre de propriété représentant une part du capital d'une société, ouvrant droit aux dividendes et au vote",
+   "Une obligation d'État",
+   "Un contrat d'assurance"
+  ],
+  "c": 1,
+  "e": "Une action est une fraction du capital d'une société par actions : l'actionnaire est copropriétaire, perçoit une part des bénéfices (dividendes), vote en assemblée et supporte le risque de perte. C'est le support privilégié du PEA."
+ },
+ {
+  "id": "pea-036",
+  "q": "Cas : vous voulez investir dans des actions américaines et des obligations, non éligibles au PEA. Enveloppe adaptée ?",
+  "o": [
+   "Le PEA",
+   "Un compte-titres ordinaire (CTO), qui accepte tous les titres (gains au PFU)",
+   "Le LEP",
+   "Un PEA-PME"
+  ],
+  "c": 1,
+  "e": "Le compte-titres ordinaire accueille toutes les valeurs (actions hors UE, obligations, ETF non éligibles…), sans plafond, mais sans avantage fiscal : les gains sont taxés au PFU. Le PEA est réservé aux actions européennes éligibles."
+ },
+ {
+  "id": "pea-037",
+  "q": "Mini-cas : vous avez versé 150 000 € sur votre PEA. Combien pouvez-vous encore verser sur un PEA-PME (plafond cumulé de 225 000 €) ?",
+  "o": [
+   "225 000 €",
+   "75 000 €",
+   "150 000 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Le PEA-PME est plafonné à 225 000 €, mais le cumul PEA + PEA-PME ne peut dépasser 225 000 €. Avec 150 000 € déjà sur le PEA, il reste 225 000 − 150 000 = 75 000 € de capacité sur le PEA-PME."
+ },
+ {
+  "id": "pea-038",
+  "q": "Cas : vous investissez en actions/ETF pour le long terme (10 ans+) et voulez la meilleure fiscalité. Enveloppe à privilégier en premier ?",
+  "o": [
+   "Le compte-titres ordinaire",
+   "Le PEA (exonération d'IR après 5 ans), puis l'assurance-vie et le CTO en complément",
+   "Le Livret A",
+   "Un FPCI"
+  ],
+  "c": 1,
+  "e": "Pour des actions européennes à long terme, on remplit d'abord le PEA (exonéré d'IR après 5 ans, plafond 150 000 €), puis on complète avec l'assurance-vie (souplesse, transmission) et le compte-titres (sans plafond ni contrainte, mais gains au PFU)."
+ },
+ {
+  "id": "pea-039",
+  "q": "Concernant le PEA, lesquelles sont exactes ?",
+  "o": [
+   "Plafond de versements de 150 000 €",
+   "Gains exonérés d'impôt sur le revenu après 5 ans",
+   "Prélèvements sociaux (17,2 %) dus même après 5 ans",
+   "Réservé aux actions européennes éligibles"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Les quatre sont exactes : plafond 150 000 €, exonération d'IR des gains après 5 ans (les PS de 17,2 % restant dus), et univers limité aux actions/fonds européens éligibles. C'est l'enveloppe de référence pour investir en actions sur le long terme."
+ },
+ {
+  "id": "pea-040",
+  "q": "Cas : votre PEA a 3 ans et vous effectuez un retrait. Conséquence ?",
+  "o": [
+   "Aucune",
+   "La clôture du plan en principe (et l'imposition des gains), sauf cas particuliers",
+   "Un simple prélèvement social",
+   "Le doublement de l'avantage"
+  ],
+  "c": 1,
+  "e": "Avant 5 ans, un retrait entraîne en principe la clôture du PEA et l'imposition des gains. Des exceptions existent (création/reprise d'entreprise, licenciement, invalidité…). Après 5 ans, les retraits sont libres et n'ont plus cet effet."
+ },
+ {
+  "id": "pea-041",
+  "q": "Cas : vous débutez en bourse et voulez de la diversification sans choisir vous-même des actions. Solution simple adaptée ?",
+  "o": [
+   "Acheter une seule action",
+   "Investir dans un ETF « Monde » (diversification immédiate, frais réduits), logeable en PEA",
+   "Faire du trading quotidien",
+   "Acheter des obligations d'une seule entreprise"
+  ],
+  "c": 1,
+  "e": "Un ETF « Monde » réplique un indice large (des centaines d'entreprises mondiales) à frais réduits : c'est la solution de départ pour être diversifié sans expertise. Certains sont éligibles au PEA, cumulant diversification et fiscalité douce après 5 ans."
+ },
+ {
+  "id": "pea-042",
+  "q": "Cas : sur votre PEA, vous ne consommez pas les dividendes reçus. Bon réflexe pour le long terme ?",
+  "o": [
+   "Les retirer aussitôt",
+   "Les réinvestir (au sein du PEA, sans fiscalité) pour bénéficier des intérêts composés",
+   "Les laisser en liquidités non investies",
+   "Fermer le PEA"
+  ],
+  "c": 1,
+  "e": "Réinvestir les dividendes au sein du PEA (aucune imposition tant qu'on ne retire pas) fait jouer les intérêts composés : les gains produisent à leur tour des gains. Sur 10-20 ans, cette capitalisation fait une différence majeure sur le capital final."
+ },
+ {
+  "id": "pea-043",
+  "q": "Cas : vous voulez investir en actions européennes sur le long terme avec la meilleure fiscalité. Par quelle enveloppe commencer ?",
+  "o": [
+   "Le compte-titres",
+   "Le PEA (exonération d'IR après 5 ans), avant de compléter avec l'assurance-vie",
+   "Le Livret A",
+   "Le crowdfunding"
+  ],
+  "c": 1,
+  "e": "Pour des actions européennes long terme, on privilégie d'abord le PEA (exonéré d'IR après 5 ans, plafond 150 000 €). L'assurance-vie complète ensuite (souplesse, transmission, supports variés dont des UC actions internationales)."
+ },
+ {
+  "id": "pea-044",
+  "q": "Cas : vous voulez investir en actions européennes sur 10 ans, avec exonération d'IR des gains après 5 ans. Quelle enveloppe ?",
+  "o": [
+   "Le PEA",
+   "Un fonds euros d'assurance-vie",
+   "Le Livret A",
+   "Un fonds monétaire"
+  ],
+  "c": 0,
+  "e": "Le PEA est taillé pour cet objectif : actions/fonds européens éligibles, exonération d'IR après 5 ans (hors PS), plafond 150 000 €. Le fonds euros et le monétaire ne visent pas la performance actions ; le Livret A n'investit pas en bourse."
+ },
+ {
+  "id": "pea-045",
+  "q": "Mini-cas : PEA de plus de 5 ans, retrait comprenant 12 000 € de gains. Prélèvements dus ?",
+  "o": [
+   "3 768 € (PFU)",
+   "2 232 € (prélèvements sociaux à 18,6 %)",
+   "0 €",
+   "3 600 €"
+  ],
+  "c": 1,
+  "e": "Après 5 ans, les gains du PEA sont exonérés d'IR ; seuls les prélèvements sociaux (18,6 % sur les gains 2026) s'appliquent : 12 000 × 18,6 % = 2 232 €."
+ },
+ {
+  "id": "pea-046",
+  "q": "Cas : vous voulez changer de banque mais garder l'ancienneté de votre PEA. Que faire ?",
+  "o": [
+   "Le clôturer et en rouvrir un",
+   "Demander un TRANSFERT de PEA (la date d'ouverture, donc l'antériorité fiscale, est conservée)",
+   "Attendre 5 ans",
+   "Le transformer en assurance-vie"
+  ],
+  "c": 1,
+  "e": "Un transfert de PEA (et non une clôture) conserve la date d'ouverture d'origine : l'antériorité fiscale (le compteur des 5 ans) est préservée. Des frais de transfert peuvent s'appliquer, mais on évite de repartir de zéro."
+ }
+]

@@ -1,0 +1,91 @@
+{
+ "total": 1000,
+ "multi": 126,
+ "themes": [
+  {
+   "id": "ir",
+   "label": "Impôt sur le revenu",
+   "count": 97
+  },
+  {
+   "id": "is",
+   "label": "Impôt sur les sociétés",
+   "count": 65
+  },
+  {
+   "id": "pfu",
+   "label": "Flat tax · CSG/CRDS",
+   "count": 182
+  },
+  {
+   "id": "div",
+   "label": "Dividendes · dirigeant",
+   "count": 39
+  },
+  {
+   "id": "hold",
+   "label": "Holding · mère-fille",
+   "count": 40
+  },
+  {
+   "id": "apport",
+   "label": "Apport-cession",
+   "count": 33
+  },
+  {
+   "id": "sci",
+   "label": "SCI (IR / IS)",
+   "count": 36
+  },
+  {
+   "id": "foncier",
+   "label": "Revenus fonciers",
+   "count": 75
+  },
+  {
+   "id": "lmnp",
+   "label": "LMNP · LMP",
+   "count": 45
+  },
+  {
+   "id": "pvimmo",
+   "label": "Plus-values immo",
+   "count": 48
+  },
+  {
+   "id": "mdb",
+   "label": "Marchand de biens · TVA",
+   "count": 33
+  },
+  {
+   "id": "dem",
+   "label": "Démembrement",
+   "count": 44
+  },
+  {
+   "id": "av",
+   "label": "Assurance-vie",
+   "count": 61
+  },
+  {
+   "id": "pea",
+   "label": "PEA",
+   "count": 46
+  },
+  {
+   "id": "succ",
+   "label": "Succession · donation",
+   "count": 63
+  },
+  {
+   "id": "ifi",
+   "label": "IFI",
+   "count": 37
+  },
+  {
+   "id": "crypto",
+   "label": "Crypto-actifs",
+   "count": 56
+  }
+ ]
+}

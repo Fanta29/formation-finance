@@ -1,0 +1,418 @@
+[
+ {
+  "id": "mdb-001",
+  "q": "Le marchand de biens exerce une activité :",
+  "o": [
+   "Civile de gestion de patrimoine",
+   "Commerciale d'achat-revente, imposée à l'IR (BIC) ou à l'IS",
+   "Libérale",
+   "Agricole"
+  ],
+  "c": 1,
+  "e": "L'achat-revente habituel d'immeubles est une activité commerciale : imposition en BIC (à l'IR) ou à l'IS selon la structure."
+ },
+ {
+  "id": "mdb-002",
+  "q": "Le marchand de biens bénéficie-t-il des abattements pour durée de détention ?",
+  "o": [
+   "Oui, comme un particulier",
+   "Non : les biens sont des stocks, pas des plus-values de particuliers",
+   "Oui, après 5 ans",
+   "Seulement à l'IS"
+  ],
+  "c": 1,
+  "e": "Les biens achetés pour être revendus sont inscrits en stock. La marge est un résultat d'exploitation, sans aucun abattement pour durée de détention."
+ },
+ {
+  "id": "mdb-003",
+  "q": "La TVA sur la marge s'applique lorsque :",
+  "o": [
+   "Le bien est neuf",
+   "Le bien a été acquis sans droit à déduction de TVA (ex. auprès d'un particulier)",
+   "La revente est exonérée",
+   "Le vendeur est un particulier"
+  ],
+  "c": 1,
+  "e": "TVA sur la marge = TVA calculée sur (prix de vente − prix d'achat), et non sur le prix total, lorsque l'acquisition n'a pas ouvert droit à déduction."
+ },
+ {
+  "id": "mdb-004",
+  "q": "En achetant sous le régime marchand de biens avec engagement de revendre, les droits de mutation sont :",
+  "o": [
+   "Doublés",
+   "Réduits (sous engagement de revente dans 5 ans)",
+   "Supprimés définitivement",
+   "Inchangés"
+  ],
+  "c": 1,
+  "e": "L'engagement de revendre dans les 5 ans permet de bénéficier de droits d'enregistrement réduits à l'acquisition."
+ },
+ {
+  "id": "mdb-005",
+  "q": "La vente d'un immeuble neuf (achevé depuis moins de 5 ans) par un assujetti :",
+  "o": [
+   "Est soumise à la TVA sur le prix total (20 %)",
+   "Est exonérée de TVA",
+   "Relève de la TVA sur la marge",
+   "Est soumise aux droits de succession"
+  ],
+  "c": 0,
+  "e": "La cession d'un immeuble neuf par un assujetti est soumise de plein droit à la TVA sur le prix total (20 %)."
+ },
+ {
+  "id": "mdb-006",
+  "q": "La marge dégagée par le marchand de biens est imposée :",
+  "o": [
+   "Au régime des particuliers",
+   "Comme un résultat d'exploitation (IS ou IR/BIC)",
+   "À 36,2 %",
+   "À 7,5 %"
+  ],
+  "c": 1,
+  "e": "La marge intègre le résultat imposable de l'activité (IS à 25 %/15 %, ou BIC à l'IR), sans abattement."
+ },
+ {
+  "id": "mdb-007",
+  "q": "La TVA sur la marge concerne typiquement :",
+  "o": [
+   "Les immeubles neufs",
+   "Les terrains à bâtir et immeubles anciens achetés sans TVA puis revendus",
+   "Les locations nues",
+   "Les résidences principales"
+  ],
+  "c": 1,
+  "e": "Le régime de la marge vise notamment les terrains à bâtir et immeubles anciens acquis auprès de non-assujettis, puis revendus par le marchand."
+ },
+ {
+  "id": "mdb-008",
+  "q": "L'activité de marchand de biens relève, pour l'imposition des bénéfices, des :",
+  "o": [
+   "Plus-values des particuliers",
+   "BIC (bénéfices industriels et commerciaux)",
+   "Revenus fonciers",
+   "BNC"
+  ],
+  "c": 1,
+  "e": "L'achat-revente habituel d'immeubles avec intention spéculative est une activité commerciale imposée en BIC (ou à l'IS si société)."
+ },
+ {
+  "id": "mdb-009",
+  "q": "Chez un marchand de biens, les immeubles destinés à la revente sont comptabilisés :",
+  "o": [
+   "En immobilisations amortissables",
+   "En stock (pas d'amortissement)",
+   "En charges",
+   "Hors bilan"
+  ],
+  "c": 1,
+  "e": "Les biens sont inscrits en STOCK : ils ne sont pas amortissables et aucun abattement pour durée de détention ne s'applique à la revente."
+ },
+ {
+  "id": "mdb-010",
+  "q": "Le régime de la « TVA sur la marge » pour un marchand de biens s'applique typiquement lorsque :",
+  "o": [
+   "Le bien a ouvert droit à déduction de TVA lors de l'achat",
+   "L'acquisition n'a pas ouvert droit à déduction (ex. achat à un particulier)",
+   "Le bien est neuf",
+   "La revente porte sur un terrain à bâtir acheté avec TVA"
+  ],
+  "c": 1,
+  "e": "La TVA sur la marge (TVA calculée sur marge = prix de vente - prix d'achat) s'applique quand l'achat n'a pas ouvert droit à déduction ; sinon, TVA sur le prix total."
+ },
+ {
+  "id": "mdb-011",
+  "q": "En prenant l'engagement de REVENDRE dans les 5 ans, le marchand de biens bénéficie :",
+  "o": [
+   "D'une exonération d'IS",
+   "De droits de mutation réduits à l'acquisition",
+   "D'un amortissement",
+   "De la TVA sur la marge automatique"
+  ],
+  "c": 1,
+  "e": "L'engagement de revendre dans les 5 ans permet d'acquérir avec des droits d'enregistrement très réduits (~0,715 %) au lieu du taux normal (~5,8 %)."
+ },
+ {
+  "id": "mdb-012",
+  "q": "L'engagement de CONSTRUIRE (dans les 4 ans) pris par un marchand de biens ouvre droit à :",
+  "o": [
+   "Une exonération des droits de mutation à l'acquisition",
+   "Un amortissement accéléré",
+   "Le régime micro",
+   "Une exonération d'IS"
+  ],
+  "c": 0,
+  "e": "L'engagement de construire dans les 4 ans permet une exonération des droits de mutation (hors taxe de publicité foncière réduite), à condition de tenir l'engagement."
+ },
+ {
+  "id": "mdb-013",
+  "q": "Ce qui caractérise le marchand de biens (par opposition au particulier) est :",
+  "o": [
+   "L'intention spéculative dès l'achat",
+   "Le caractère habituel des opérations",
+   "L'inscription des biens en stock",
+   "La détention longue à but patrimonial"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Intention spéculative, habitude et inscription en stock caractérisent le MDB. La détention longue à but patrimonial est au contraire l'indice d'une gestion privée."
+ },
+ {
+  "id": "mdb-014",
+  "q": "Loger une activité de marchand de biens dans une SAS à l'IS permet :",
+  "o": [
+   "D'appliquer le régime des plus-values des particuliers",
+   "De bénéficier du taux réduit d'IS à 15 % (dans la limite de 42 500 €) puis 25 %",
+   "D'éviter la TVA",
+   "D'amortir les stocks"
+  ],
+  "c": 1,
+  "e": "À l'IS, le résultat de l'opération est taxé à 15 % jusqu'à 42 500 € puis 25 %, ce qui peut être plus favorable que le barème de l'IR pour un flux d'opérations."
+ },
+ {
+  "id": "mdb-015",
+  "q": "La franchise en base de TVA signifie que l'entreprise :",
+  "o": [
+   "Facture la TVA sans la reverser",
+   "Ne facture pas de TVA et ne récupère pas la TVA sur ses achats",
+   "Applique la TVA sur la marge",
+   "Est exonérée d'IS"
+  ],
+  "c": 1,
+  "e": "Sous la franchise en base, on ne facture pas de TVA (mention « TVA non applicable, art. 293 B du CGI ») mais on ne déduit pas la TVA d'amont."
+ },
+ {
+  "id": "mdb-016",
+  "q": "Les droits de mutation à titre onéreux « de droit commun » sur un immeuble ancien sont d'environ :",
+  "o": [
+   "0,715 %",
+   "5,80 %",
+   "2 %",
+   "20 %"
+  ],
+  "c": 1,
+  "e": "Les DMTO de droit commun avoisinent 5,80 % ; d'où l'intérêt, pour un marchand de biens, de l'engagement de revendre (droits réduits à ~0,715 %)."
+ },
+ {
+  "id": "mdb-017",
+  "q": "Un particulier qui enchaîne les opérations d'achat-revente peut :",
+  "o": [
+   "Rester au régime des particuliers sans risque",
+   "Être requalifié en marchand de biens (habitude + intention spéculative)",
+   "Bénéficier d'un abattement majoré",
+   "Être exonéré"
+  ],
+  "c": 1,
+  "e": "La répétition des opérations et l'intention spéculative peuvent conduire l'administration à requalifier l'activité en marchand de biens (imposition en BIC, TVA)."
+ },
+ {
+  "id": "mdb-018",
+  "q": "La base de la TVA sur la marge est égale :",
+  "o": [
+   "Au prix de vente total",
+   "À la différence entre le prix de vente et le prix d'achat",
+   "À la valeur locative",
+   "Au bénéfice net"
+  ],
+  "c": 1,
+  "e": "La marge (prix de vente - prix d'achat) constitue la base ; la TVA ne frappe que la valeur ajoutée par le marchand, et non l'intégralité du prix."
+ },
+ {
+  "id": "mdb-019",
+  "q": "L'activité de marchand de biens relève, sur le plan des bénéfices, des :",
+  "o": [
+   "Revenus fonciers",
+   "BIC",
+   "BNC",
+   "Plus-values des particuliers"
+  ],
+  "c": 1,
+  "e": "L'achat-revente habituel d'immeubles est une activité commerciale imposée dans la catégorie des BIC (ou à l'IS si société), et non en plus-value des particuliers."
+ },
+ {
+  "id": "mdb-020",
+  "q": "Le marchand de biens peut bénéficier de droits de mutation réduits en prenant :",
+  "o": [
+   "Un engagement de revendre dans les 5 ans",
+   "Un engagement de construire",
+   "Un agrément fiscal",
+   "Aucune formalité"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "L'engagement de revendre (dans les 5 ans) ouvre droit à des droits d'enregistrement réduits ; l'engagement de construire permet une exonération sous condition de construire dans un délai. Ce sont deux régimes distincts au choix."
+ },
+ {
+  "id": "mdb-021",
+  "q": "En matière de TVA, la revente par un marchand de biens :",
+  "o": [
+   "Est toujours exonérée",
+   "Peut relever de la TVA sur la marge (ancien acheté sans TVA)",
+   "Peut relever de la TVA sur le prix total (immeuble neuf)",
+   "N'est jamais soumise à TVA"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "La TVA sur la marge vise les immeubles anciens/terrains acquis sans TVA ; la TVA sur le prix total s'applique notamment aux immeubles neufs (achevés depuis moins de 5 ans)."
+ },
+ {
+  "id": "mdb-022",
+  "q": "Chez le marchand de biens, quelles charges viennent en déduction du résultat BIC ?",
+  "o": [
+   "Le prix d'acquisition des immeubles (via la variation de stock)",
+   "Les travaux et frais d'acquisition",
+   "Les intérêts d'emprunt",
+   "L'abattement pour durée de détention"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le résultat BIC déduit le coût de revient (prix, travaux, frais d'acquisition) et les intérêts. L'abattement pour durée de détention n'existe pas : c'est un régime professionnel, pas la plus-value des particuliers."
+ },
+ {
+  "id": "mdb-023",
+  "q": "La qualification de marchand de biens suppose la réunion de :",
+  "o": [
+   "Un caractère habituel des opérations d'achat-revente",
+   "Une intention spéculative dès l'acquisition",
+   "Une seule opération isolée",
+   "Une détention supérieure à 30 ans"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Deux critères cumulatifs : l'habitude (répétition des opérations) et l'intention spéculative de revendre, appréciée dès l'achat. Une opération unique et patrimoniale ne suffit pas à la qualification."
+ },
+ {
+  "id": "mdb-024",
+  "q": "L'application de la TVA sur la marge (et non sur le prix total) suppose notamment :",
+  "o": [
+   "Que le bien ait été acquis sans droit à déduction de TVA",
+   "Une identité entre le bien acquis et le bien revendu",
+   "Que l'immeuble soit neuf",
+   "Que la vente porte sur la résidence principale"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "La TVA sur la marge exige que l'acquisition n'ait pas ouvert droit à déduction (achat à un non-assujetti) et, selon la jurisprudence, une identité entre le bien acheté et le bien revendu (physique et juridique)."
+ },
+ {
+  "id": "mdb-025",
+  "q": "Le résultat du marchand de biens, sur le plan des plus-values, est :",
+  "o": [
+   "Une plus-value des particuliers avec abattement",
+   "Une marge commerciale imposée en BIC (ou à l'IS)",
+   "Exonéré après 22 ans",
+   "Soumis au régime des plus-values professionnelles à long terme"
+  ],
+  "c": 1,
+  "e": "Les immeubles sont des stocks, pas des immobilisations : leur revente dégage une marge commerciale imposée en BIC (ou à l'IS si société), sans abattement ni régime de plus-value à long terme."
+ },
+ {
+  "id": "mdb-026",
+  "q": "Si le marchand de biens ne respecte pas l'engagement de revendre dans les 5 ans :",
+  "o": [
+   "Rien ne se passe",
+   "Les droits de mutation dont il a été dispensé deviennent exigibles, avec intérêts de retard",
+   "Il perd le bien",
+   "Il est exonéré définitivement"
+  ],
+  "c": 1,
+  "e": "Le non-respect de l'engagement de revendre (comme de l'engagement de construire) entraîne la remise en cause de l'avantage : rappel des droits d'enregistrement dont il avait été dispensé, majoré d'intérêts de retard."
+ },
+ {
+  "id": "mdb-027",
+  "q": "Sur le plan de la TVA, le marchand de biens est :",
+  "o": [
+   "Exonéré de TVA par principe",
+   "Assujetti de plein droit, ses opérations relevant d'une activité économique",
+   "Soumis à la TVA uniquement sur option",
+   "Redevable de la seule TVA sur les loyers"
+  ],
+  "c": 1,
+  "e": "L'achat-revente habituel d'immeubles est une activité économique : le marchand de biens est assujetti à la TVA de plein droit (sur la marge ou sur le prix total selon les cas), ce qui lui ouvre corrélativement un droit à déduction."
+ },
+ {
+  "id": "mdb-028",
+  "q": "La TVA supportée par le marchand de biens sur ses travaux et frais :",
+  "o": [
+   "N'est jamais récupérable",
+   "Est en principe déductible, puisqu'il est assujetti",
+   "S'ajoute définitivement au coût de revient",
+   "Ouvre un crédit d'impôt sur le revenu"
+  ],
+  "c": 1,
+  "e": "Étant assujetti, le marchand de biens déduit en principe la TVA grevant ses dépenses (travaux, honoraires…) — sous réserve des règles propres aux opérations soumises à la TVA sur la marge, où le droit à déduction est encadré."
+ },
+ {
+  "id": "mdb-029",
+  "q": "La cession d'un terrain à bâtir par un assujetti (professionnel) est :",
+  "o": [
+   "Toujours exonérée de TVA",
+   "Soumise à la TVA (sur le prix total, ou sur la marge si acquis sans droit à déduction)",
+   "Soumise aux plus-values des particuliers",
+   "Hors champ de la TVA"
+  ],
+  "c": 1,
+  "e": "Vendu par un assujetti, un terrain à bâtir est dans le champ de la TVA : sur le prix total en principe, ou sur la seule marge lorsqu'il a été acquis sans droit à déduction (auprès d'un non-assujetti)."
+ },
+ {
+  "id": "mdb-030",
+  "q": "La construction d'un immeuble par une entreprise pour ses propres besoins peut donner lieu à :",
+  "o": [
+   "Aucune conséquence TVA",
+   "Une livraison à soi-même (LASM) soumise à la TVA",
+   "Une exonération d'IS",
+   "Un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "La LASM (livraison à soi-même) permet de taxer à la TVA un bien qu'une entreprise produit pour elle-même, afin de neutraliser l'avantage par rapport à un achat taxé — l'entreprise pouvant, selon son activité, déduire tout ou partie de cette TVA."
+ },
+ {
+  "id": "mdb-031",
+  "q": "Définition : qu'est-ce qu'un « marchand de biens » ?",
+  "o": [
+   "Un agent immobilier",
+   "Un professionnel qui achète des immeubles pour les revendre de manière habituelle et spéculative (activité commerciale, BIC)",
+   "Un notaire",
+   "Un gestionnaire locatif"
+  ],
+  "c": 1,
+  "e": "Le marchand de biens exerce une activité commerciale d'achat-revente habituel d'immeubles avec intention spéculative : ses gains relèvent des BIC (ou de l'IS), sans abattement pour durée, et il est assujetti à la TVA (sur la marge ou le prix total)."
+ },
+ {
+  "id": "mdb-032",
+  "q": "Définition : qu'est-ce qu'un « fonds de commerce » ?",
+  "o": [
+   "Un local commercial",
+   "Un ensemble d'éléments (clientèle, enseigne, droit au bail, matériel…) permettant d'exploiter une activité commerciale",
+   "Un stock de marchandises",
+   "Un compte bancaire professionnel"
+  ],
+  "c": 1,
+  "e": "Le fonds de commerce regroupe les éléments incorporels (clientèle, nom, droit au bail…) et corporels (matériel) affectés à l'exploitation. Sa cession dégage une plus-value professionnelle et supporte des droits d'enregistrement."
+ },
+ {
+  "id": "mdb-033",
+  "q": "Cas : marchand de biens, vous achetez un immeuble. Pour bénéficier de droits d'enregistrement réduits, quel engagement prendre ?",
+  "o": [
+   "Aucun",
+   "Un engagement de revendre dans les 5 ans (ou de construire dans les 4 ans)",
+   "Un engagement de louer 9 ans",
+   "Un engagement de conserver 30 ans"
+  ],
+  "c": 1,
+  "e": "L'engagement de revendre dans les 5 ans ouvre des droits d'enregistrement très réduits ; l'engagement de construire (dans les 4 ans) permet, lui, une quasi-exonération (droit fixe). Le non-respect entraîne le rappel des droits, majoré d'intérêts."
+ }
+]

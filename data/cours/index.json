@@ -1,0 +1,437 @@
+{
+ "parties": [
+  {
+   "num": 1,
+   "titre": "Les fondations"
+  },
+  {
+   "num": 2,
+   "titre": "Les finances personnelles"
+  },
+  {
+   "num": 3,
+   "titre": "Les marchés et l'investissement"
+  },
+  {
+   "num": 4,
+   "titre": "La finance d'entreprise"
+  },
+  {
+   "num": 5,
+   "titre": "Sujets avancés"
+  }
+ ],
+ "volumes": [
+  {
+   "cle": "A",
+   "partie": 3
+  },
+  {
+   "cle": "B",
+   "partie": 3
+  },
+  {
+   "cle": "C",
+   "partie": 3
+  }
+ ],
+ "sections": [
+  {
+   "type": "front",
+   "cle": "avant-propos",
+   "titre": "Avant-propos",
+   "fichier": "chapitres/front-avant-propos.html",
+   "mots": 204
+  },
+  {
+   "type": "synthese",
+   "cle": "p1",
+   "titre": "Ce qu'il faut retenir de la Partie 1",
+   "fichier": "chapitres/synthese-p1.html",
+   "mots": 180
+  },
+  {
+   "type": "intro",
+   "cle": "p2",
+   "titre": "Introduction à la Partie 2",
+   "fichier": "chapitres/intro-p2.html",
+   "mots": 196
+  },
+  {
+   "type": "synthese",
+   "cle": "p2",
+   "titre": "Ce qu'il faut retenir de la Partie 2",
+   "fichier": "chapitres/synthese-p2.html",
+   "mots": 189
+  },
+  {
+   "type": "intro",
+   "cle": "vA",
+   "titre": "Introduction au Volume A",
+   "fichier": "chapitres/intro-vA.html",
+   "mots": 181
+  },
+  {
+   "type": "synthese",
+   "cle": "vA",
+   "titre": "Ce qu'il faut retenir du Volume A",
+   "fichier": "chapitres/synthese-vA.html",
+   "mots": 164
+  },
+  {
+   "type": "intro",
+   "cle": "vB",
+   "titre": "Introduction au Volume B",
+   "fichier": "chapitres/intro-vB.html",
+   "mots": 211
+  },
+  {
+   "type": "synthese",
+   "cle": "vB",
+   "titre": "Ce qu'il faut retenir du Volume B",
+   "fichier": "chapitres/synthese-vB.html",
+   "mots": 195
+  },
+  {
+   "type": "intro",
+   "cle": "vC",
+   "titre": "Introduction au Volume C",
+   "fichier": "chapitres/intro-vC.html",
+   "mots": 170
+  },
+  {
+   "type": "synthese",
+   "cle": "vC",
+   "titre": "Ce qu'il faut retenir du Volume C",
+   "fichier": "chapitres/synthese-vC.html",
+   "mots": 166
+  },
+  {
+   "type": "intro",
+   "cle": "p4",
+   "titre": "Introduction à la Partie 4",
+   "fichier": "chapitres/intro-p4.html",
+   "mots": 210
+  },
+  {
+   "type": "synthese",
+   "cle": "p4",
+   "titre": "Ce qu'il faut retenir de la Partie 4",
+   "fichier": "chapitres/synthese-p4.html",
+   "mots": 187
+  },
+  {
+   "type": "intro",
+   "cle": "p5",
+   "titre": "Introduction à la Partie 5",
+   "fichier": "chapitres/intro-p5.html",
+   "mots": 171
+  },
+  {
+   "type": "synthese",
+   "cle": "p5",
+   "titre": "Ce qu'il faut retenir de la Partie 5",
+   "fichier": "chapitres/synthese-p5.html",
+   "mots": 147
+  }
+ ],
+ "chapitres": [
+  {
+   "num": 1,
+   "titre": "Le système financier",
+   "partie": 1,
+   "partieTitre": "Les fondations",
+   "volume": null,
+   "fichier": "chapitres/ch01.html",
+   "mots": 1218
+  },
+  {
+   "num": 2,
+   "titre": "La monnaie, l'inflation et les taux",
+   "partie": 1,
+   "partieTitre": "Les fondations",
+   "volume": null,
+   "fichier": "chapitres/ch02.html",
+   "mots": 1065
+  },
+  {
+   "num": 3,
+   "titre": "La valeur temps de l'argent",
+   "partie": 1,
+   "partieTitre": "Les fondations",
+   "volume": null,
+   "fichier": "chapitres/ch03.html",
+   "mots": 1180
+  },
+  {
+   "num": 4,
+   "titre": "Rendement et risque",
+   "partie": 1,
+   "partieTitre": "Les fondations",
+   "volume": null,
+   "fichier": "chapitres/ch04.html",
+   "mots": 1184
+  },
+  {
+   "num": 5,
+   "titre": "Le budget et le patrimoine net",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch05.html",
+   "mots": 897
+  },
+  {
+   "num": 6,
+   "titre": "L'épargne et le fonds d'urgence",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch06.html",
+   "mots": 1017
+  },
+  {
+   "num": 7,
+   "titre": "Le crédit et l'endettement",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch07.html",
+   "mots": 1059
+  },
+  {
+   "num": 8,
+   "titre": "La fiscalité des particuliers",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch08.html",
+   "mots": 1139
+  },
+  {
+   "num": 9,
+   "titre": "L'assurance et la protection",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch09.html",
+   "mots": 921
+  },
+  {
+   "num": 10,
+   "titre": "Préparer sa retraite",
+   "partie": 2,
+   "partieTitre": "Les finances personnelles",
+   "volume": null,
+   "fichier": "chapitres/ch10.html",
+   "mots": 955
+  },
+  {
+   "num": 11,
+   "titre": "Panorama des classes d'actifs et mécanique des marchés",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch11.html",
+   "mots": 1141
+  },
+  {
+   "num": 12,
+   "titre": "Les marchés d'actions",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch12.html",
+   "mots": 989
+  },
+  {
+   "num": 13,
+   "titre": "Les obligations et les marchés de taux",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch13.html",
+   "mots": 927
+  },
+  {
+   "num": 14,
+   "titre": "Le marché des changes (Forex)",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch14.html",
+   "mots": 1125
+  },
+  {
+   "num": 15,
+   "titre": "Les matières premières",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch15.html",
+   "mots": 852
+  },
+  {
+   "num": 16,
+   "titre": "Les produits dérivés",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "A",
+   "fichier": "chapitres/ch16.html",
+   "mots": 1100
+  },
+  {
+   "num": 17,
+   "titre": "L'immobilier et la pierre-papier",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "B",
+   "fichier": "chapitres/ch17.html",
+   "mots": 1345
+  },
+  {
+   "num": 18,
+   "titre": "Les crypto-actifs",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "B",
+   "fichier": "chapitres/ch18.html",
+   "mots": 1178
+  },
+  {
+   "num": 19,
+   "titre": "Les actifs de passion et alternatifs",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "B",
+   "fichier": "chapitres/ch19.html",
+   "mots": 1398
+  },
+  {
+   "num": 20,
+   "titre": "Les fonds, les ETF et l'accès aux marchés",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "C",
+   "fichier": "chapitres/ch20.html",
+   "mots": 1103
+  },
+  {
+   "num": 21,
+   "titre": "La théorie du portefeuille et le MEDAF",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "C",
+   "fichier": "chapitres/ch21.html",
+   "mots": 1143
+  },
+  {
+   "num": 22,
+   "titre": "Finance comportementale et stratégie",
+   "partie": 3,
+   "partieTitre": "Les marchés et l'investissement",
+   "volume": "C",
+   "fichier": "chapitres/ch22.html",
+   "mots": 1071
+  },
+  {
+   "num": 23,
+   "titre": "Lire les états financiers",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch23.html",
+   "mots": 774
+  },
+  {
+   "num": 24,
+   "titre": "L'analyse financière par les ratios",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch24.html",
+   "mots": 640
+  },
+  {
+   "num": 25,
+   "titre": "VAN, TRI et choix d'investissement",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch25.html",
+   "mots": 650
+  },
+  {
+   "num": 26,
+   "titre": "Le coût du capital (WACC)",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch26.html",
+   "mots": 545
+  },
+  {
+   "num": 27,
+   "titre": "La structure financière",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch27.html",
+   "mots": 690
+  },
+  {
+   "num": 28,
+   "titre": "La valorisation d'entreprise",
+   "partie": 4,
+   "partieTitre": "La finance d'entreprise",
+   "volume": null,
+   "fichier": "chapitres/ch28.html",
+   "mots": 663
+  },
+  {
+   "num": 29,
+   "titre": "Mathématiques financières",
+   "partie": 5,
+   "partieTitre": "Sujets avancés",
+   "volume": null,
+   "fichier": "chapitres/ch29.html",
+   "mots": 797
+  },
+  {
+   "num": 30,
+   "titre": "Le pricing des options et les dérivés avancés",
+   "partie": 5,
+   "partieTitre": "Sujets avancés",
+   "volume": null,
+   "fichier": "chapitres/ch30.html",
+   "mots": 986
+  },
+  {
+   "num": 31,
+   "titre": "Macroéconomie et banques centrales",
+   "partie": 5,
+   "partieTitre": "Sujets avancés",
+   "volume": null,
+   "fichier": "chapitres/ch31.html",
+   "mots": 738
+  },
+  {
+   "num": 32,
+   "titre": "Gestion de patrimoine et transmission",
+   "partie": 5,
+   "partieTitre": "Sujets avancés",
+   "volume": null,
+   "fichier": "chapitres/ch32.html",
+   "mots": 939
+  },
+  {
+   "num": 33,
+   "titre": "Risque, régulation et finance durable",
+   "partie": 5,
+   "partieTitre": "Sujets avancés",
+   "volume": null,
+   "fichier": "chapitres/ch33.html",
+   "mots": 898
+  }
+ ]
+}

@@ -1,0 +1,2272 @@
+[
+ {
+  "id": "pfu-001",
+  "q": "Depuis la LFSS 2026, le taux global du PFU sur les revenus mobiliers courants est de :",
+  "o": [
+   "30 %",
+   "31,4 %",
+   "33 %",
+   "17,2 %"
+  ],
+  "c": 1,
+  "e": "Depuis le 1er janvier 2026 : 12,8 % d'IR + 18,6 % de prélèvements sociaux = 31,4 % (contre 30 % auparavant)."
+ },
+ {
+  "id": "pfu-002",
+  "q": "La hausse du PFU en 2026 s'explique par :",
+  "o": [
+   "La hausse de la part IR",
+   "La hausse des prélèvements sociaux de 17,2 % à 18,6 %",
+   "La suppression de l'abattement de 40 %",
+   "Une nouvelle tranche à 45 %"
+  ],
+  "c": 1,
+  "e": "La CSG sur les revenus du capital est passée de 9,2 % à 10,6 % (contribution autonomie), portant les PS de 17,2 % à 18,6 %. La part IR (12,8 %) est inchangée."
+ },
+ {
+  "id": "pfu-003",
+  "q": "La composante « impôt sur le revenu » du PFU s'élève à :",
+  "o": [
+   "7,5 %",
+   "12,8 %",
+   "17,2 %",
+   "19 %"
+  ],
+  "c": 1,
+  "e": "La part IR forfaitaire du PFU est de 12,8 %, stable depuis 2018."
+ },
+ {
+  "id": "pfu-004",
+  "q": "Quels revenus conservent des PS à 17,2 % (donc un PFU à 30 %) en 2026 ?",
+  "o": [
+   "Les dividendes de compte-titres",
+   "Les plus-values sur crypto-actifs",
+   "L'assurance-vie, les revenus fonciers et les plus-values immobilières",
+   "Les intérêts de livrets fiscalisés"
+  ],
+  "c": 2,
+  "e": "L'assurance-vie, les revenus fonciers et les plus-values immobilières ont été explicitement exclus de la hausse : ils restent à 17,2 % de PS."
+ },
+ {
+  "id": "pfu-005",
+  "q": "Les prélèvements sociaux sur les revenus du capital se composent de :",
+  "o": [
+   "CSG uniquement",
+   "CSG + CRDS + prélèvement de solidarité",
+   "IR + CSG",
+   "TVA + CSG"
+  ],
+  "c": 1,
+  "e": "En 2026 : CSG 10,6 % + CRDS 0,5 % + prélèvement de solidarité 7,5 % = 18,6 %."
+ },
+ {
+  "id": "pfu-006",
+  "q": "En cas d'option pour le barème, la fraction de CSG déductible du revenu global est de :",
+  "o": [
+   "4,8 %",
+   "6,8 %",
+   "9,2 %",
+   "17,2 %"
+  ],
+  "c": 1,
+  "e": "6,8 points de CSG sont déductibles du revenu imposable de l'année suivante, uniquement lorsque le revenu est soumis au barème progressif (pas avec le PFU)."
+ },
+ {
+  "id": "pfu-007",
+  "q": "L'option pour le barème progressif (case 2OP) :",
+  "o": [
+   "S'applique produit par produit",
+   "Est globale : elle vaut pour tous les revenus de capitaux mobiliers et plus-values du foyer",
+   "Est définitive pour 5 ans",
+   "N'existe plus depuis 2018"
+  ],
+  "c": 1,
+  "e": "L'option 2OP est globale et annuelle : elle concerne l'ensemble des RCM et plus-values mobilières du foyer, et peut être remise en cause chaque année."
+ },
+ {
+  "id": "pfu-008",
+  "q": "La CSG + CRDS sur les revenus d'activité (salaires) s'élève à :",
+  "o": [
+   "9,7 %",
+   "17,2 %",
+   "18,6 %",
+   "10,6 %"
+  ],
+  "c": 0,
+  "e": "Sur les salaires : CSG 9,2 % + CRDS 0,5 % = 9,7 % (dont 6,8 % de CSG déductible). Le taux de 18,6 % ne concerne que les revenus du capital."
+ },
+ {
+  "id": "pfu-009",
+  "q": "Le PFU s'applique :",
+  "o": [
+   "De façon irrévocable",
+   "Par défaut, avec possibilité d'opter chaque année pour le barème",
+   "Uniquement sur demande",
+   "Seulement au-delà de 150 000 €"
+  ],
+  "c": 1,
+  "e": "Le PFU est le régime de droit commun ; le contribuable peut lui préférer le barème progressif, choix à réévaluer chaque année selon son TMI."
+ },
+ {
+  "id": "pfu-010",
+  "q": "Depuis la LFSS 2026, le PFU (flat tax) sur les revenus mobiliers s'élève à :",
+  "o": [
+   "30 %",
+   "31,4 %",
+   "33 %",
+   "17,2 %"
+  ],
+  "c": 1,
+  "e": "Le PFU passe à 31,4 % : 12,8 % d'IR + 18,6 % de PS (la CSG du capital ayant été portée à 10,6 %)."
+ },
+ {
+  "id": "pfu-011",
+  "q": "Malgré la hausse des PS à 18,6 %, quels revenus conservent des prélèvements sociaux à 17,2 % ?",
+  "o": [
+   "L'assurance-vie",
+   "Les revenus fonciers",
+   "Les plus-values immobilières",
+   "Les dividendes"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'assurance-vie, les revenus fonciers et les plus-values immobilières restent à 17,2 %. Les dividendes suivent le nouveau taux (PFU 31,4 %)."
+ },
+ {
+  "id": "pfu-012",
+  "q": "La CSG déductible (6,8 %) sur les revenus du capital :",
+  "o": [
+   "S'impute en toute hypothèse",
+   "N'est déductible qu'en cas d'option pour le barème progressif",
+   "Est de 10,6 %",
+   "N'existe plus"
+  ],
+  "c": 1,
+  "e": "En cas d'option barème, une fraction de CSG (6,8 %) est déductible du revenu global de l'année suivante. Au PFU, aucune CSG n'est déductible."
+ },
+ {
+  "id": "pfu-013",
+  "q": "Les abattements pour durée de détention (50 % / 65 %) sur les plus-values de titres :",
+  "o": [
+   "S'appliquent à tous les titres",
+   "Ne concernent, sur option barème, que les titres acquis avant le 1er janvier 2018",
+   "S'appliquent au PFU",
+   "Sont de 85 % pour tout titre"
+  ],
+  "c": 1,
+  "e": "Ce régime dérogatoire est réservé aux titres acquis avant 2018 et suppose l'option pour le barème : 50 % (2 à 8 ans), 65 % (au-delà de 8 ans)."
+ },
+ {
+  "id": "pfu-014",
+  "q": "L'abattement renforcé pour cession de titres de PME (souscrits dans les 10 ans) peut atteindre :",
+  "o": [
+   "40 %",
+   "65 %",
+   "85 %",
+   "100 %"
+  ],
+  "c": 2,
+  "e": "Sur option barème (titres avant 2018), l'abattement renforcé PME atteint 50 %, 65 % puis 85 % (au-delà de 8 ans)."
+ },
+ {
+  "id": "pfu-015",
+  "q": "Un dirigeant de PME partant à la retraite bénéficie, sous conditions, d'un abattement fixe de :",
+  "o": [
+   "150 000 €",
+   "300 000 €",
+   "500 000 €",
+   "1 000 000 €"
+  ],
+  "c": 2,
+  "e": "L'article 150-0 D ter prévoit un abattement fixe de 500 000 € sur la plus-value de cession, cumulable ni avec les abattements proportionnels et applicable sous conditions (durée, cessation de fonctions...)."
+ },
+ {
+  "id": "pfu-016",
+  "q": "Le prélèvement forfaitaire non libératoire (PFNL) de 12,8 % opéré à la source sur les dividendes :",
+  "o": [
+   "Est définitif",
+   "Est un acompte imputé sur l'impôt final, avec dispense possible sous condition de RFR",
+   "Remplace la CSG",
+   "Est de 30 %"
+  ],
+  "c": 1,
+  "e": "Le PFNL est un acompte : il s'impute sur l'impôt dû. Les foyers dont le RFR N-2 est inférieur à 50 000 € (75 000 € pour un couple) pour les dividendes peuvent en être dispensés."
+ },
+ {
+  "id": "pfu-017",
+  "q": "Les moins-values sur valeurs mobilières :",
+  "o": [
+   "Ne sont jamais imputables",
+   "S'imputent sur les plus-values de même nature de l'année, le reliquat étant reportable 10 ans",
+   "S'imputent sur le revenu global",
+   "S'imputent sur les revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Elles s'imputent d'abord sur les plus-values mobilières de l'année, l'excédent étant reportable pendant 10 ans."
+ },
+ {
+  "id": "pfu-018",
+  "q": "Les intérêts d'un livret A ou d'un LEP sont :",
+  "o": [
+   "Soumis au PFU",
+   "Exonérés (épargne réglementée)",
+   "Soumis au barème",
+   "Soumis à l'IFI"
+  ],
+  "c": 1,
+  "e": "Les produits des livrets réglementés (Livret A, LDDS, LEP) sont exonérés d'IR et de PS."
+ },
+ {
+  "id": "pfu-019",
+  "q": "Parmi ces produits, lesquels relèvent par défaut du PFU ?",
+  "o": [
+   "Les dividendes d'actions",
+   "Les intérêts d'obligations",
+   "Les plus-values de cession de valeurs mobilières",
+   "Les revenus fonciers"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Dividendes, intérêts et plus-values mobilières sont soumis par défaut au PFU. Les revenus fonciers relèvent du barème (catégorie des revenus fonciers)."
+ },
+ {
+  "id": "pfu-020",
+  "q": "En matière de plus-values mobilières, l'intérêt d'opter pour le barème plutôt que le PFU se rencontre surtout :",
+  "o": [
+   "Pour les TMI élevés",
+   "Pour les faibles TMI et/ou avec abattements pour durée de détention",
+   "Jamais",
+   "Pour les non-résidents"
+  ],
+  "c": 1,
+  "e": "L'option barème est pertinente pour les faibles TMI ou pour bénéficier des abattements (titres anciens), mais elle emporte imposition de tous les RCM au barème."
+ },
+ {
+  "id": "pfu-021",
+  "q": "Un contrat d'assurance-vie de MOINS de 8 ans (primes récentes) est imposé, en cas de rachat, à :",
+  "o": [
+   "7,5 %",
+   "30 % (PFU : 12,8 % + 17,2 % de PS)",
+   "31,4 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Avant 8 ans, les produits rachetés relèvent du PFU à 30 % ; l'assurance-vie conservant des PS à 17,2 %, le taux global reste 30 % (et non 31,4 %)."
+ },
+ {
+  "id": "pfu-022",
+  "q": "Les intérêts d'un compte courant d'associé perçus par une personne physique sont :",
+  "o": [
+   "Exonérés",
+   "Des revenus de capitaux mobiliers soumis au PFU (ou barème sur option)",
+   "Des revenus fonciers",
+   "Des BIC"
+  ],
+  "c": 1,
+  "e": "Ces intérêts constituent des RCM imposés au PFU (31,4 %) par défaut, avec option barème possible."
+ },
+ {
+  "id": "pfu-023",
+  "q": "Depuis la LFSS 2026, le prélèvement forfaitaire unique (flat tax) sur la plupart des revenus du capital s'établit à :",
+  "o": [
+   "30 %",
+   "31,4 %",
+   "32,5 %",
+   "17,2 %"
+  ],
+  "c": 1,
+  "e": "La hausse des prélèvements sociaux de 17,2 % à 18,6 % porte le PFU de 30 % à 31,4 % (12,8 % d'IR + 18,6 % de PS)."
+ },
+ {
+  "id": "pfu-024",
+  "q": "Quels revenus conservent des prélèvements sociaux à 17,2 % malgré la réforme LFSS 2026 ?",
+  "o": [
+   "Les dividendes",
+   "Les revenus fonciers",
+   "Les plus-values immobilières",
+   "L'assurance-vie"
+  ],
+  "c": [
+   1,
+   2,
+   3
+  ],
+  "e": "Revenus fonciers, plus-values immobilières et produits d'assurance-vie restent à 17,2 %. Les dividendes et autres RCM passent à 18,6 %."
+ },
+ {
+  "id": "pfu-025",
+  "q": "La CSG déductible sur les revenus du patrimoine soumis au barème :",
+  "o": [
+   "N'existe pas",
+   "Représente une fraction de la CSG imputable sur le revenu global de l'année suivante",
+   "Est un crédit d'impôt",
+   "Est de 100 % de la CSG"
+  ],
+  "c": 1,
+  "e": "Une fraction de la CSG (6,8 points) est déductible du revenu global l'année de son paiement, mais uniquement lorsque le revenu est soumis au barème progressif — pas au PFU."
+ },
+ {
+  "id": "pfu-026",
+  "q": "Mini-cas : 10 000 € de dividendes soumis au PFU. L'imposition totale (IR + PS) est de :",
+  "o": [
+   "3 000 €",
+   "3 140 €",
+   "1 720 €",
+   "1 280 €"
+  ],
+  "c": 1,
+  "e": "PFU = 31,4 % depuis 2026, soit 3 140 € (1 280 € d'IR + 1 860 € de PS). Sans abattement, contrairement à l'option barème."
+ },
+ {
+  "id": "pfu-027",
+  "q": "Le prélèvement forfaitaire non libératoire (acompte de 12,8 %) prélevé à la source sur les dividendes :",
+  "o": [
+   "Est définitif",
+   "Constitue un acompte imputable sur l'IR, restituable si excédentaire",
+   "Remplace les prélèvements sociaux",
+   "N'est jamais dû"
+  ],
+  "c": 1,
+  "e": "Ce PFNL de 12,8 % est un acompte prélevé lors du versement ; il s'impute sur l'impôt final. Les foyers modestes peuvent en demander la dispense sous conditions de RFR."
+ },
+ {
+  "id": "pfu-028",
+  "q": "La dispense de l'acompte de 12,8 % sur les INTÉRÊTS (produits de placement à revenu fixe) est ouverte si le RFR N-2 est inférieur à :",
+  "o": [
+   "25 000 € (seul) / 50 000 € (couple)",
+   "50 000 € / 75 000 €",
+   "10 000 € / 20 000 €",
+   "Aucune condition"
+  ],
+  "c": 0,
+  "e": "Attention au piège : pour les intérêts, le seuil de dispense est de 25 000 € (personne seule) / 50 000 € (couple) — plus bas que celui des dividendes (50 000 / 75 000 €). Demande à formuler avant le 30 novembre de l'année précédente."
+ },
+ {
+  "id": "pfu-029",
+  "q": "Les abattements pour durée de détention sur les plus-values de valeurs mobilières :",
+  "o": [
+   "S'appliquent au PFU",
+   "Ont été supprimés pour les titres acquis à compter de 2018",
+   "Subsistent, sur option barème, pour les seuls titres acquis avant 2018",
+   "Sont de 65 % après 8 ans"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "Depuis l'instauration du PFU (2018), les abattements pour durée de détention ne s'appliquent plus. Ils ne subsistent, sur option pour le barème, que pour les titres acquis avant le 1er janvier 2018 (abattement général ou renforcé)."
+ },
+ {
+  "id": "pfu-030",
+  "q": "L'abattement fixe de 500 000 € du dirigeant de PME partant à la retraite (art. 150-0 D ter) :",
+  "o": [
+   "S'applique quel que soit le mode d'imposition (PFU ou barème), avant l'IR",
+   "Ne neutralise pas les prélèvements sociaux",
+   "Est prorogé jusqu'au 31 décembre 2031",
+   "Se cumule avec l'apport-cession sur les mêmes titres"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Cet abattement fixe de 500 000 € s'impute avant l'IR (PFU ou barème), mais pas sur les prélèvements sociaux. Prorogé jusqu'au 31/12/2031, il est en revanche incompatible avec l'apport-cession (150-0 B ter) sur les mêmes titres — logiques opposées (retrait vs poursuite d'activité)."
+ },
+ {
+  "id": "pfu-031",
+  "q": "Mini-cas : 8 000 € de dividendes, option pour le barème. Quelle est la base imposable à l'IR après abattement ?",
+  "o": [
+   "8 000 €",
+   "4 800 €",
+   "3 200 €",
+   "5 600 €"
+  ],
+  "c": 1,
+  "e": "L'option barème ouvre l'abattement de 40 % : 8 000 × (1 − 0,40) = 4 800 €. Cette base s'ajoute au revenu global (les prélèvements sociaux de 18,6 %, eux, se calculent sur les 8 000 € bruts)."
+ },
+ {
+  "id": "pfu-032",
+  "q": "Cas : vous voulez placer votre épargne de précaution, disponible à tout moment et sans risque. Support adapté ?",
+  "o": [
+   "Un PEA",
+   "Le Livret A / LDDS (liquides et exonérés)",
+   "Des actions en direct",
+   "Un investissement Girardin"
+  ],
+  "c": 1,
+  "e": "Pour une épargne de précaution, priorité à la liquidité et à la sécurité : les livrets réglementés (Livret A, LDDS) sont disponibles immédiatement et leurs intérêts sont exonérés d'impôt et de prélèvements sociaux. Le PEA (horizon 5 ans) et les actions ne conviennent pas à ce besoin."
+ },
+ {
+  "id": "pfu-033",
+  "q": "Cas : vous avez un crédit immobilier à 1,5 % et une somme disponible. Rembourser par anticipation ou placer ? Raisonnement correct ?",
+  "o": [
+   "Toujours rembourser",
+   "Comparer le rendement net attendu du placement au coût du crédit (et garder de la liquidité)",
+   "Toujours placer",
+   "C'est indifférent"
+  ],
+  "c": 1,
+  "e": "Si le rendement net espéré d'un placement dépasse durablement le taux du crédit (ici 1,5 %), conserver le crédit et placer peut créer de la valeur, tout en gardant de la liquidité (et, en locatif, des intérêts déductibles). À mettre en balance avec le risque et l'aversion à la dette : ce n'est pas automatique."
+ },
+ {
+  "id": "pfu-034",
+  "q": "Quelle différence entre participation et intéressement ?",
+  "o": [
+   "La participation est obligatoire dans les entreprises d'au moins 50 salariés",
+   "L'intéressement est un dispositif facultatif lié aux performances",
+   "Tous deux peuvent être placés sur un PEE",
+   "La participation est réservée aux dirigeants"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La participation (partage des bénéfices) est obligatoire dès 50 salariés ; l'intéressement (lié aux résultats/performances) est facultatif. Les deux peuvent être versés ou placés sur un plan d'épargne salariale (PEE, PER collectif)."
+ },
+ {
+  "id": "pfu-035",
+  "q": "Concernant le Plan d'Épargne Entreprise (PEE), lesquelles sont exactes ?",
+  "o": [
+   "Les sommes sont bloquées 5 ans (sauf cas de déblocage)",
+   "Il peut recevoir versements volontaires, intéressement, participation et abondement",
+   "L'abondement de l'employeur est plafonné (8 % du PASS)",
+   "Il n'offre aucun avantage fiscal"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le PEE bloque l'épargne 5 ans (déblocages anticipés prévus : mariage, naissance du 3e enfant, achat RP…), se nourrit de plusieurs sources, et l'abondement employeur est plafonné à 8 % du PASS (3 844,80 € en 2026). Les gains à la sortie sont exonérés d'IR (PS dus)."
+ },
+ {
+  "id": "pfu-036",
+  "q": "Une prime d'intéressement ou de participation PLACÉE sur un plan d'épargne salariale (dans les 15 jours) est :",
+  "o": [
+   "Imposée au barème de l'IR",
+   "Exonérée d'IR (seules la CSG/CRDS de 9,7 % sont dues à l'entrée)",
+   "Soumise au PFU",
+   "Exonérée de tout prélèvement"
+  ],
+  "c": 1,
+  "e": "Placée à temps sur un PEE/PER, la prime échappe à l'impôt sur le revenu (dans la limite des plafonds) ; seules la CSG/CRDS (9,7 %) sont prélevées à l'entrée. Perçue directement, elle serait imposable (barème pour l'intéressement)."
+ },
+ {
+  "id": "pfu-037",
+  "q": "La prime de partage de la valeur (PPV) est plafonnée à :",
+  "o": [
+   "1 000 € par an",
+   "3 000 € par an (6 000 € en présence d'un accord d'intéressement/participation)",
+   "Un montant lié au PASS",
+   "Sans plafond"
+  ],
+  "c": 1,
+  "e": "La PPV est plafonnée à 3 000 € par bénéficiaire et par an, porté à 6 000 € si l'entreprise applique un accord d'intéressement ou de participation. La placer sur un PEE/PER permet d'en exonérer l'impôt sur le revenu."
+ },
+ {
+  "id": "pfu-038",
+  "q": "Cas : vous recevez une prime d'intéressement de 2 000 €, TMI 30 %, et vous n'avez pas besoin des fonds tout de suite. Choix le plus avantageux ?",
+  "o": [
+   "La percevoir directement (imposée au barème)",
+   "La placer sur le PEE (exonération d'IR + éventuel abondement employeur)",
+   "La laisser sur le compte de l'entreprise",
+   "La convertir en jours de congé"
+  ],
+  "c": 1,
+  "e": "Placée sur le PEE, la prime est exonérée d'IR (économie ≈ 600 € à 30 %), peut être abondée par l'employeur et fructifie ; les fonds sont récupérables après 5 ans ou lors d'un cas de déblocage. La percevoir la ferait taxer au barème."
+ },
+ {
+  "id": "pfu-039",
+  "q": "Le PERCO (plan d'épargne retraite collectif ancienne génération) :",
+  "o": [
+   "Peut encore être ouvert librement",
+   "N'est plus commercialisé depuis 2020 ; il est remplacé par le PER collectif (PERECO)",
+   "Est identique au PEE",
+   "Ne permet qu'une sortie en rente"
+  ],
+  "c": 1,
+  "e": "Depuis le 1er octobre 2020, on ne peut plus créer de PERCO : le PER collectif (PERECO) l'a remplacé. Ce dernier permet une sortie en capital ou en rente et accueille l'épargne salariale à horizon retraite."
+ },
+ {
+  "id": "pfu-040",
+  "q": "Pour émettre des BSPCE, la société doit notamment être :",
+  "o": [
+   "Une société par actions (SA, SAS, SCA) soumise à l'IS",
+   "Non cotée (ou capitalisation < 150 M€) et immatriculée depuis moins de 15 ans",
+   "Détenue à 15 % au moins par des personnes physiques",
+   "Cotée depuis plus de 20 ans"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les BSPCE (art. 163 bis G) sont réservés aux jeunes sociétés par actions à l'IS, non cotées (ou petites), de moins de 15 ans, détenues à ≥ 15 % par des personnes physiques (seuil abaissé de 25 % à 15 % par la LF 2026)."
+ },
+ {
+  "id": "pfu-041",
+  "q": "Le gain d'exercice d'un BSPCE (écart entre la valeur du titre à l'exercice et le prix de souscription) est imposé :",
+  "o": [
+   "Toujours à 45 %",
+   "Au PFU de 12,8 % (ou 30 % si moins de 3 ans d'ancienneté), + PS de 18,6 %",
+   "En revenus fonciers",
+   "Exonéré"
+  ],
+  "c": 1,
+  "e": "Depuis la LF 2025, le gain d'exercice suit le PFU à 12,8 % (ou 30 % si le bénéficiaire a exercé son activité moins de 3 ans dans la société), majoré des prélèvements sociaux de 18,6 %. La plus-value de cession ultérieure relève ensuite du régime des plus-values mobilières."
+ },
+ {
+  "id": "pfu-042",
+  "q": "Le gain d'acquisition d'actions gratuites (AGA) est imposé, jusqu'à 300 000 € par an :",
+  "o": [
+   "Au barème sans abattement",
+   "Après un abattement de 50 %, puis à la flat tax (taux effectif ≈ 15 %)",
+   "À 60 %",
+   "Exonéré"
+  ],
+  "c": 1,
+  "e": "Jusqu'à 300 000 €, le gain d'acquisition bénéficie d'un abattement de 50 % puis de la flat tax. Au-delà de 300 000 €, la fraction excédentaire est imposée comme un salaire (TMI) avec une contribution salariale spécifique."
+ },
+ {
+  "id": "pfu-043",
+  "q": "Comment se distinguent BSPCE, actions gratuites et stock-options ?",
+  "o": [
+   "Le BSPCE n'engendre aucun coût (contribution patronale) pour l'entreprise",
+   "L'AGA supporte une contribution patronale (30 %)",
+   "Le gain de levée des stock-options est imposé comme un salaire",
+   "Les trois sont identiques fiscalement"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le BSPCE est le plus léger pour l'entreprise (aucune contribution patronale) ; l'AGA supporte une contribution patronale (30 % depuis 2025) ; les stock-options taxent le gain de levée en salaires. Trois régimes bien distincts."
+ },
+ {
+  "id": "pfu-044",
+  "q": "Le gain de levée d'une stock-option (plans récents) est imposé :",
+  "o": [
+   "En plus-value mobilière",
+   "Comme un salaire (barème progressif, sans abattement de 50 %)",
+   "Exonéré après 4 ans",
+   "À 12,8 % forfaitaire"
+  ],
+  "c": 1,
+  "e": "Depuis 2017, le gain de levée (rabais + avantage) des stock-options est imposé dans la catégorie des traitements et salaires, au barème, sans l'abattement de 50 % réservé aux AGA. La plus-value de cession ultérieure relève, elle, du régime mobilier."
+ },
+ {
+  "id": "pfu-045",
+  "q": "Cas : une start-up (SAS non cotée, 3 ans d'existence) veut fidéliser un salarié clé en l'associant, SANS coût pour l'entreprise. Outil adapté ?",
+  "o": [
+   "Des actions gratuites (AGA)",
+   "Des BSPCE",
+   "Des stock-options",
+   "Une prime en numéraire"
+  ],
+  "c": 1,
+  "e": "Le BSPCE est taillé pour les jeunes sociétés par actions non cotées : il n'entraîne aucune contribution patronale (0 € de coût pour la société) et offre au salarié un cadre fiscal favorable (PFU sur le gain), à condition de remplir les critères d'éligibilité."
+ },
+ {
+  "id": "pfu-046",
+  "q": "Mini-cas : gain d'acquisition d'AGA de 200 000 € (sous le seuil de 300 000 €). Base imposable après l'abattement de 50 % ?",
+  "o": [
+   "200 000 €",
+   "100 000 €",
+   "150 000 €",
+   "60 000 €"
+  ],
+  "c": 1,
+  "e": "Sous 300 000 €, l'abattement de 50 % s'applique : 200 000 × 50 % = 100 000 € de gain d'acquisition imposable (puis flat tax), auxquels s'ajoutent les prélèvements sociaux."
+ },
+ {
+  "id": "pfu-047",
+  "q": "Les FCPR / FPCI dits « fiscaux » offrent :",
+  "o": [
+   "Une exonération d'IR sur les plus-values après 5 ans de conservation",
+   "Une exonération des prélèvements sociaux",
+   "Le respect d'un quota d'investissement en titres non cotés (art. 163 quinquies B)",
+   "Une réduction d'impôt immédiate de 50 %"
+  ],
+  "c": [
+   0,
+   2
+  ],
+  "e": "Le FCPR/FPCI fiscal exonère d'IR les plus-values si l'on conserve les parts 5 ans et si le fonds respecte son quota de titres non cotés. Les prélèvements sociaux (18,6 %) restent dus. Il n'ouvre pas de réduction d'impôt à l'entrée (contrairement à l'ex-FCPI)."
+ },
+ {
+  "id": "pfu-048",
+  "q": "Un FPCI qui ne respecte pas les critères « fiscaux » est imposé :",
+  "o": [
+   "En exonération totale",
+   "Selon le régime de droit commun des valeurs mobilières (PFU ≈ 31,4 %)",
+   "En revenus fonciers",
+   "Aux droits de succession"
+  ],
+  "c": 1,
+  "e": "Un fonds non fiscal (« juridique ») suit le régime des valeurs mobilières : plus-values et distributions au PFU de 31,4 % (12,8 % IR + 18,6 % PS), ou au barème sur option. L'avantage d'exonération est perdu."
+ },
+ {
+  "id": "pfu-049",
+  "q": "Le carried interest (intéressement des équipes de gestion aux plus-values du fonds) est imposé comme une plus-value (et non comme un salaire) si :",
+  "o": [
+   "Aucune condition n'est requise",
+   "Les membres investissent un minimum (≈ 1 % de l'actif du fonds) et conservent 5 ans",
+   "Une rémunération normale est par ailleurs perçue",
+   "Le fonds est coté"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "Le régime de faveur (PFU ≈ 31,4 %) suppose un investissement personnel minimum, une conservation de 5 ans et une rémunération normale de l'activité par ailleurs. À défaut, le carried est requalifié en traitements et salaires (barème)."
+ },
+ {
+  "id": "pfu-050",
+  "q": "Un produit structuré se caractérise par :",
+  "o": [
+   "Une combinaison d'une composante obligataire et de produits dérivés",
+   "Une formule de remboursement conditionnelle (barrière, coupon conditionnel)",
+   "Un risque de perte en capital et un risque émetteur",
+   "Une garantie totale du capital en toutes circonstances"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Un produit structuré associe une brique obligataire et des dérivés pour délivrer un rendement selon une formule (indice, barrière). Il comporte un risque de perte en capital (si la barrière est franchie) et un risque de défaut de l'émetteur. Les gains sont imposés au PFU."
+ },
+ {
+  "id": "pfu-051",
+  "q": "Mini-cas : plus-value de 50 000 € sur un FPCI fiscal, parts conservées plus de 5 ans. Imposition ?",
+  "o": [
+   "15 700 € (PFU plein)",
+   "9 300 € (prélèvements sociaux de 18,6 % seuls)",
+   "0 €",
+   "6 400 €"
+  ],
+  "c": 1,
+  "e": "Après 5 ans, la plus-value d'un FPCI fiscal est exonérée d'IR ; restent les prélèvements sociaux : 50 000 × 18,6 % = 9 300 €."
+ },
+ {
+  "id": "pfu-052",
+  "q": "Définition : qu'est-ce que le « private equity » (capital-investissement) ?",
+  "o": [
+   "L'investissement dans des sociétés NON cotées en bourse",
+   "L'achat d'actions cotées au CAC 40",
+   "Un placement garanti par l'État",
+   "Un compte d'épargne réglementé"
+  ],
+  "c": 0,
+  "e": "Le private equity consiste à investir dans le capital de sociétés non cotées (start-up, PME, ETI), le plus souvent via des fonds (FCPR, FPCI). C'est un placement long, illiquide et risqué, en contrepartie d'un rendement potentiel élevé."
+ },
+ {
+  "id": "pfu-053",
+  "q": "Définition : que désigne le PFU (« flat tax ») ?",
+  "o": [
+   "Un prélèvement forfaitaire unique sur les revenus du capital",
+   "Un impôt progressif par tranches",
+   "Une taxe sur la consommation",
+   "Une cotisation retraite"
+  ],
+  "c": 0,
+  "e": "Le PFU est un prélèvement forfaitaire unique appliqué par défaut aux revenus du capital (dividendes, intérêts, plus-values) : 31,4 % en 2026 (12,8 % d'IR + 18,6 % de PS). Le contribuable peut opter pour le barème progressif s'il y a intérêt."
+ },
+ {
+  "id": "pfu-054",
+  "q": "Définition : qu'est-ce que le revenu fiscal de référence (RFR) ?",
+  "o": [
+   "Le salaire net mensuel",
+   "Un revenu global recalculé (revenus + certains abattements et revenus exonérés) servant de seuil pour de nombreux dispositifs",
+   "Le montant de l'impôt payé",
+   "Le chiffre d'affaires d'une entreprise"
+  ],
+  "c": 1,
+  "e": "Le RFR, figurant sur l'avis d'imposition, part du revenu net imposable et y réintègre certains éléments (abattements, revenus exonérés…). Il sert de référence pour de nombreux seuils : exonérations, dispenses d'acompte, bourses, CEHR, etc."
+ },
+ {
+  "id": "pfu-055",
+  "q": "Définition : que sont les « prélèvements sociaux » sur les revenus du capital ?",
+  "o": [
+   "Des cotisations retraite",
+   "Un ensemble de contributions (CSG, CRDS, prélèvement de solidarité) frappant les revenus du patrimoine et de placement",
+   "La TVA",
+   "Un impôt local"
+  ],
+  "c": 1,
+  "e": "Les prélèvements sociaux (CSG, CRDS, prélèvement de solidarité) s'appliquent aux revenus du capital : 18,6 % en 2026 sur la plupart d'entre eux (17,2 % pour l'assurance-vie, les revenus fonciers et les plus-values immobilières). Ils s'ajoutent à l'impôt sur le revenu."
+ },
+ {
+  "id": "pfu-056",
+  "q": "Définition : qu'est-ce que le PASS (plafond annuel de la Sécurité sociale) ?",
+  "o": [
+   "Le plafond du Livret A",
+   "Un montant de référence annuel (48 060 € en 2026) servant au calcul de nombreux plafonds sociaux et fiscaux",
+   "Le SMIC annuel",
+   "Le plafond de l'assurance-vie"
+  ],
+  "c": 1,
+  "e": "Le PASS est un montant de référence réévalué chaque année (48 060 € en 2026). Il sert de base à de multiples plafonds : cotisations, déduction PER (10 % de 8 PASS), abondement PEE (8 %), plafonds d'épargne salariale, etc."
+ },
+ {
+  "id": "pfu-057",
+  "q": "Définition : qu'est-ce que le « carried interest » ?",
+  "o": [
+   "Un intérêt d'emprunt",
+   "La part des plus-values d'un fonds revenant à l'équipe de gestion, en rémunération de la performance",
+   "Un dividende prioritaire",
+   "Une commission de souscription"
+  ],
+  "c": 1,
+  "e": "Le carried interest (« intéressement à la performance ») est la fraction des plus-values d'un fonds de private equity attribuée à ses gérants au-delà d'un rendement minimum (hurdle). Fiscalement, il est imposé en plus-value si des conditions sont réunies, sinon en salaires."
+ },
+ {
+  "id": "pfu-058",
+  "q": "Définition : que sont les FCPR et FPCI ?",
+  "o": [
+   "Des comptes bancaires",
+   "Des fonds d'investissement en sociétés non cotées (private equity), l'un grand public, l'autre réservé aux investisseurs avertis",
+   "Des contrats d'assurance",
+   "Des livrets réglementés"
+  ],
+  "c": 1,
+  "e": "Le FCPR (Fonds Commun de Placement à Risques, accessible au grand public) et le FPCI (Fonds Professionnel de Capital Investissement, ticket ≥ 100 000 €) investissent dans des sociétés non cotées. Leurs versions « fiscales » exonèrent d'IR les plus-values après 5 ans."
+ },
+ {
+  "id": "pfu-059",
+  "q": "Définition : quelle différence entre une action et une obligation ?",
+  "o": [
+   "Aucune",
+   "L'action est une part du capital (associé, dividendes) ; l'obligation est une créance (prêteur, intérêts/coupons)",
+   "L'obligation donne un droit de vote",
+   "L'action est garantie en capital"
+  ],
+  "c": 1,
+  "e": "L'action fait de son détenteur un associé (participation au capital, dividendes, droit de vote, risque de perte). L'obligation fait de lui un créancier : il prête à l'émetteur et perçoit des intérêts (coupons), avec remboursement à l'échéance (hors défaut)."
+ },
+ {
+  "id": "pfu-060",
+  "q": "Définition : qu'est-ce qu'une plus-value mobilière ?",
+  "o": [
+   "Un loyer",
+   "Le gain réalisé lors de la cession de valeurs mobilières (actions, parts, titres), imposé au PFU ou au barème",
+   "Un dividende",
+   "Un intérêt d'obligation"
+  ],
+  "c": 1,
+  "e": "La plus-value mobilière est la différence positive entre le prix de cession et le prix d'acquisition de titres (actions, parts sociales, OPCVM). Elle est imposée au PFU (12,8 % + 18,6 % PS) ou, sur option, au barème (avec abattements pour les titres d'avant 2018)."
+ },
+ {
+  "id": "pfu-061",
+  "q": "Définition : qu'est-ce qu'un « coupon » (obligation) ?",
+  "o": [
+   "Une réduction commerciale",
+   "L'intérêt périodique versé au détenteur d'une obligation",
+   "Un dividende d'action",
+   "Une plus-value"
+  ],
+  "c": 1,
+  "e": "Le coupon est l'intérêt que verse régulièrement l'émetteur d'une obligation au prêteur (l'obligataire), calculé sur le nominal. C'est l'équivalent, pour une créance, de ce qu'est le dividende pour une action — imposé comme un revenu de placement (PFU)."
+ },
+ {
+  "id": "pfu-062",
+  "q": "Mini-cas : 3 000 € d'intérêts perçus sur un compte à terme, imposés au PFU. Prélèvement total (IR + PS) ?",
+  "o": [
+   "942 €",
+   "900 €",
+   "516 €",
+   "384 €"
+  ],
+  "c": 0,
+  "e": "PFU de 31,4 % (12,8 % IR + 18,6 % PS) : 3 000 × 31,4 % = 942 €. Les intérêts n'ouvrent aucun abattement (contrairement aux dividendes au barème)."
+ },
+ {
+  "id": "pfu-063",
+  "q": "Définition : qu'est-ce qu'un fonds ELTIF ?",
+  "o": [
+   "Un livret d'épargne",
+   "Un fonds européen d'investissement de long terme, orienté vers l'économie réelle (PME, infrastructures, non coté)",
+   "Une obligation d'État",
+   "Un contrat d'assurance"
+  ],
+  "c": 1,
+  "e": "L'ELTIF (European Long-Term Investment Fund), dans sa version « 2.0 » assouplie, est un cadre européen de fonds investissant dans l'économie réelle (non coté, infrastructures, dette privée). Il ouvre le private equity à une clientèle plus large, avec un horizon long et une liquidité réduite."
+ },
+ {
+  "id": "pfu-064",
+  "q": "Concernant le Livret A, lesquelles sont exactes ?",
+  "o": [
+   "Le plafond de versements est de 22 950 €",
+   "Les intérêts sont exonérés d'impôt sur le revenu ET de prélèvements sociaux",
+   "On ne peut en détenir qu'un seul par personne",
+   "Son taux est révisé deux fois par an (février et août)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Le Livret A : plafond de 22 950 €, intérêts totalement défiscalisés (ni IR ni PS), un seul par personne, taux fixé par l'État et révisé en février et août (1,70 % depuis le 1er août 2026). Épargne liquide et sans risque."
+ },
+ {
+  "id": "pfu-065",
+  "q": "Parmi les livrets réglementés, lesquelles sont exactes ?",
+  "o": [
+   "Le LDDS a un plafond de 12 000 € et le même taux que le Livret A",
+   "Le LEP (plafond 10 000 €) est réservé sous conditions de ressources et sert le meilleur taux",
+   "Le LEP est soumis à l'impôt sur le revenu",
+   "Le LDDS est imposable"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le LDDS (plafond 12 000 €) suit le taux du Livret A. Le LEP (plafond 10 000 €), soumis à conditions de ressources, offre le meilleur rendement de l'épargne réglementée (2,5 % en 2026). Tous deux sont totalement exonérés d'IR et de PS."
+ },
+ {
+  "id": "pfu-066",
+  "q": "La fiscalité d'un PEL ouvert depuis 2018 :",
+  "o": [
+   "Est totalement exonérée",
+   "Soumet les intérêts au PFU (flat tax de 30 %)",
+   "Est identique au Livret A",
+   "N'existe pas"
+  ],
+  "c": 1,
+  "e": "Depuis 2018, les intérêts des PEL (et CEL) sont soumis au PFU de 30 % dès la première année. Les plans ouverts avant 2018 conservaient une fiscalité plus douce (exonération d'IR pendant 12 ans). Le PEL 2026 sert 2 % brut, plafond 61 200 €."
+ },
+ {
+  "id": "pfu-067",
+  "q": "Mini-cas : 10 000 € placés sur un LEP rémunéré à 2,5 %. Intérêts annuels (nets) ?",
+  "o": [
+   "250 €",
+   "175 €",
+   "300 €",
+   "150 €"
+  ],
+  "c": 0,
+  "e": "10 000 × 2,5 % = 250 €. Les intérêts du LEP sont totalement défiscalisés (ni IR ni PS) : les 250 € sont nets. À taux égal de sécurité et de liquidité, le LEP surclasse le Livret A pour les foyers éligibles."
+ },
+ {
+  "id": "pfu-068",
+  "q": "Cas : vous constituez une épargne de précaution, disponible et sans risque. Dans quel ordre remplir vos supports défiscalisés ?",
+  "o": [
+   "PEL, puis actions",
+   "LEP (si éligible), puis Livret A, puis LDDS",
+   "Assurance-vie en UC uniquement",
+   "Compte-titres"
+  ],
+  "c": 1,
+  "e": "Priorité au LEP (meilleur taux) si l'on y est éligible, puis au Livret A et au LDDS (mêmes intérêts défiscalisés). Au-delà de ces enveloppes pleines (~45 000 €), on complète avec un fonds euros d'assurance-vie pour la sécurité."
+ },
+ {
+  "id": "pfu-069",
+  "q": "Définition : que sont les OAT (obligations assimilables du Trésor) ?",
+  "o": [
+   "Des actions cotées",
+   "Des obligations émises par l'État français, sur lesquelles l'investisseur perçoit des intérêts",
+   "Un livret d'épargne",
+   "Un contrat d'assurance"
+  ],
+  "c": 1,
+  "e": "Les OAT sont les obligations de l'État français : en les achetant, on lui prête de l'argent contre un intérêt (coupon) et un remboursement à l'échéance. Considérées comme peu risquées, elles servent de référence de taux ; leurs revenus sont imposés au PFU."
+ },
+ {
+  "id": "pfu-070",
+  "q": "Définition : qu'est-ce qu'un OPCVM (SICAV, FCP) ?",
+  "o": [
+   "Un compte bancaire",
+   "Un organisme de placement collectif qui investit l'argent de nombreux épargnants dans un portefeuille diversifié de titres",
+   "Une obligation d'État",
+   "Un contrat d'assurance"
+  ],
+  "c": 1,
+  "e": "Un OPCVM (SICAV ou FCP) mutualise l'épargne de plusieurs investisseurs pour l'investir dans un portefeuille diversifié (actions, obligations…), géré par des professionnels. L'épargnant détient des parts/actions dont la valeur suit celle du portefeuille."
+ },
+ {
+  "id": "pfu-071",
+  "q": "Définition : qu'est-ce qu'un ETF (« tracker ») ?",
+  "o": [
+   "Un livret réglementé",
+   "Un fonds coté en bourse qui réplique la performance d'un indice (ex. CAC 40, MSCI World), à frais réduits",
+   "Une action unique",
+   "Une assurance-vie"
+  ],
+  "c": 1,
+  "e": "L'ETF (Exchange-Traded Fund) est un fonds indiciel coté : il suit passivement un indice de référence, offrant une diversification immédiate à faibles frais. Certains ETF « Monde » sont éligibles au PEA."
+ },
+ {
+  "id": "pfu-072",
+  "q": "Définition : qu'est-ce que le « prélèvement de solidarité » ?",
+  "o": [
+   "Un impôt local",
+   "L'une des composantes des prélèvements sociaux (7,5 %) frappant les revenus du capital",
+   "Une taxe sur les dons",
+   "Une cotisation retraite"
+  ],
+  "c": 1,
+  "e": "Le prélèvement de solidarité (7,5 %) est, avec la CSG et la CRDS, l'une des trois briques des prélèvements sociaux sur les revenus du capital. Contrairement à la CSG, il n'est jamais déductible du revenu imposable."
+ },
+ {
+  "id": "pfu-073",
+  "q": "Définition : qu'est-ce que l'« effet de levier » (immobilier) ?",
+  "o": [
+   "Le fait de payer comptant",
+   "Utiliser l'emprunt pour investir davantage que son apport, amplifiant le rendement des fonds propres",
+   "Un impôt sur les crédits",
+   "Une garantie bancaire"
+  ],
+  "c": 1,
+  "e": "L'effet de levier consiste à financer un investissement par la dette : avec peu de fonds propres, on contrôle un actif plus important. Si le rendement de l'actif dépasse le coût du crédit, le rendement des capitaux investis est amplifié (le levier joue aussi à la baisse en cas de contre-performance)."
+ },
+ {
+  "id": "pfu-074",
+  "q": "Définition : qu'est-ce que le TRI (taux de rendement interne) ?",
+  "o": [
+   "Le taux d'un livret",
+   "Un indicateur mesurant la rentabilité annualisée d'un investissement, intégrant tous les flux et leur calendrier",
+   "Le taux d'imposition",
+   "Le taux d'inflation"
+  ],
+  "c": 1,
+  "e": "Le TRI exprime la performance annualisée d'un placement en tenant compte de l'ensemble des flux (mises, revenus, revente) et du moment où ils interviennent. Il permet de comparer des investissements aux profils de flux différents (immobilier, private equity…)."
+ },
+ {
+  "id": "pfu-075",
+  "q": "Définition : quelle différence entre un fonds de « capitalisation » et un fonds de « distribution » ?",
+  "o": [
+   "Aucune",
+   "Le fonds de capitalisation réinvestit automatiquement les revenus ; le fonds de distribution les reverse à l'investisseur",
+   "La capitalisation verse des dividendes",
+   "La distribution ne verse jamais rien"
+  ],
+  "c": 1,
+  "e": "Un fonds capitalisant réinvestit dividendes et coupons dans le fonds (la valeur de la part grossit, fiscalité différée à la revente) ; un fonds distribuant les verse périodiquement (revenus imposés à mesure). Le choix dépend du besoin de revenus ou de capitalisation."
+ },
+ {
+  "id": "pfu-076",
+  "q": "Définition : qu'est-ce que la « diversification » d'un patrimoine ?",
+  "o": [
+   "Concentrer tous ses avoirs sur un seul actif",
+   "Répartir ses placements sur des actifs variés pour réduire le risque global",
+   "Investir uniquement en immobilier",
+   "Emprunter davantage"
+  ],
+  "c": 1,
+  "e": "La diversification consiste à ne pas « mettre tous ses œufs dans le même panier » : en combinant des actifs peu corrélés (actions, immobilier, obligations, liquidités), on lisse les performances et on réduit le risque de perte lié à un seul placement."
+ },
+ {
+  "id": "pfu-077",
+  "q": "Définition : que traduit le couple « risque / rendement » ?",
+  "o": [
+   "Un placement sans risque rapporte le plus",
+   "En général, plus le rendement espéré est élevé, plus le risque de perte l'est aussi",
+   "Le rendement est garanti",
+   "Risque et rendement sont indépendants"
+  ],
+  "c": 1,
+  "e": "C'est un principe fondamental : espérer un rendement supérieur suppose d'accepter davantage de risque (volatilité, perte en capital). Un placement présenté comme « très rentable et sans risque » doit éveiller la méfiance."
+ },
+ {
+  "id": "pfu-078",
+  "q": "Définition : qu'est-ce que la « liquidité » d'un placement ?",
+  "o": [
+   "Son rendement",
+   "La facilité et la rapidité avec lesquelles on peut le revendre pour récupérer son argent sans perte de valeur",
+   "Son niveau de risque",
+   "Sa fiscalité"
+  ],
+  "c": 1,
+  "e": "Un placement liquide se revend vite et sans décote (livret, action cotée) ; un placement peu liquide (immobilier, private equity, SCPI) demande du temps et parfois une décote pour être cédé. La liquidité doit correspondre à son horizon de besoin."
+ },
+ {
+  "id": "pfu-079",
+  "q": "L'inflation, pour un épargnant, signifie que :",
+  "o": [
+   "Son argent gagne en valeur",
+   "La hausse générale des prix érode le pouvoir d'achat : un rendement inférieur à l'inflation appauvrit en termes réels",
+   "Elle n'a aucun effet",
+   "Les placements sont garantis contre elle"
+  ],
+  "c": 1,
+  "e": "L'inflation réduit ce que l'épargne permet d'acheter. Le rendement « réel » = rendement nominal − inflation : un livret à 2 % avec une inflation à 3 % fait perdre 1 % de pouvoir d'achat par an. D'où l'intérêt d'actifs susceptibles de battre l'inflation sur le long terme."
+ },
+ {
+  "id": "pfu-080",
+  "q": "En bourse, un actionnaire peut être rémunéré de deux façons :",
+  "o": [
+   "Par les dividendes (part des bénéfices distribués)",
+   "Par la plus-value (revente du titre plus cher qu'acheté)",
+   "Par un loyer",
+   "Par un coupon garanti"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Détenir une action rapporte de deux manières : les dividendes (si la société en verse) et la plus-value à la revente. Les deux sont imposés au PFU (ou au barème). Une obligation, elle, rapporte un coupon ; un bien loué, un loyer."
+ },
+ {
+  "id": "pfu-081",
+  "q": "Cas : classez ces enveloppes selon l'objectif. Laquelle est la mieux adaptée à chaque besoin ?",
+  "o": [
+   "Épargne de précaution disponible → livrets réglementés",
+   "Actions long terme → PEA",
+   "Transmission d'un capital → assurance-vie",
+   "Trésorerie à placer sans contrainte de titres → compte-titres"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "À chaque objectif son enveloppe : livrets (liquidité, sécurité), PEA (actions long terme, fiscalité douce après 5 ans), assurance-vie (souplesse, transmission hors succession), compte-titres (tous titres, sans plafond, gains au PFU). Bien les combiner est le cœur d'une stratégie patrimoniale."
+ },
+ {
+  "id": "pfu-082",
+  "q": "Le PFU (flat tax) de 31,4 % s'applique par défaut :",
+  "o": [
+   "Aux dividendes",
+   "Aux intérêts (comptes à terme, obligations, crowdfunding)",
+   "Aux plus-values de valeurs mobilières et d'actifs numériques",
+   "Aux salaires"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le PFU de 31,4 % (12,8 % IR + 18,6 % PS) frappe par défaut les revenus du capital : dividendes, intérêts, plus-values mobilières et crypto. Les salaires relèvent, eux, du barème. On peut opter pour le barème si c'est plus avantageux (TMI faible)."
+ },
+ {
+  "id": "pfu-083",
+  "q": "Mini-cas : 6 000 € de dividendes, imposition au PFU. Prélèvement total (IR + PS) ?",
+  "o": [
+   "1 800 €",
+   "1 884 €",
+   "768 €",
+   "1 116 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % : 6 000 × 31,4 % = 1 884 € (768 € d'IR + 1 116 € de PS). Sans abattement, contrairement à l'option barème (abattement de 40 %)."
+ },
+ {
+  "id": "pfu-084",
+  "q": "Définition : que signifient une position « longue » (long) et « courte » (short) ?",
+  "o": [
+   "Long = parier sur la hausse (on achète) ; short = parier sur la baisse (vente à découvert)",
+   "Long = placement de long terme ; short = de court terme",
+   "Les deux consistent à acheter",
+   "Long = vendre ; short = acheter"
+  ],
+  "c": 0,
+  "e": "Être « long » : on achète un actif en pariant sur sa hausse. Être « short » : on vend à découvert (on emprunte le titre pour le vendre, en espérant le racheter moins cher), en pariant sur la baisse. Le short expose à une perte théoriquement illimitée (le cours peut monter sans plafond)."
+ },
+ {
+  "id": "pfu-085",
+  "q": "Définition : qu'est-ce que la « vente à découvert » (short selling) ?",
+  "o": [
+   "Vendre un actif que l'on possède",
+   "Vendre un actif emprunté pour le racheter plus tard (idéalement moins cher), en pariant sur la baisse",
+   "Un achat à crédit",
+   "Une donation de titres"
+  ],
+  "c": 1,
+  "e": "En vente à découvert, on emprunte des titres, on les vend au prix actuel, puis on les rachète plus tard pour les rendre : le gain vient de la baisse du cours. Risque majeur : si le cours monte, la perte n'est pas plafonnée (contrairement à un achat, où l'on ne peut perdre que sa mise)."
+ },
+ {
+  "id": "pfu-086",
+  "q": "Définition : qu'est-ce qu'une option « call » ?",
+  "o": [
+   "L'obligation de vendre un actif",
+   "Le DROIT (non l'obligation) d'ACHETER un actif à un prix fixé (strike) jusqu'à une échéance, contre une prime",
+   "Le droit de vendre un actif",
+   "Un prêt d'argent"
+  ],
+  "c": 1,
+  "e": "Un call donne à son acheteur le droit d'acheter le sous-jacent au prix d'exercice (strike) jusqu'à l'échéance, moyennant une prime. L'acheteur de call est haussier : il gagne si le cours dépasse nettement le strike ; sa perte est limitée à la prime versée."
+ },
+ {
+  "id": "pfu-087",
+  "q": "Définition : qu'est-ce qu'une option « put » ?",
+  "o": [
+   "Le droit d'acheter un actif",
+   "Le DROIT de VENDRE un actif à un prix fixé (strike) jusqu'à l'échéance, contre une prime",
+   "Une obligation d'État",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Un put donne le droit de vendre le sous-jacent au prix d'exercice jusqu'à l'échéance, contre une prime. L'acheteur de put est baissier (il gagne si le cours chute) ou cherche à se couvrir. Sa perte est limitée à la prime."
+ },
+ {
+  "id": "pfu-088",
+  "q": "Définition : qu'est-ce que l'effet de levier (et la marge) en trading ?",
+  "o": [
+   "Un placement sans risque",
+   "Emprunter pour exposer un capital supérieur à sa mise (marge = dépôt de garantie) ; les gains ET les pertes sont amplifiés",
+   "Un impôt sur les gains",
+   "Une garantie de capital"
+  ],
+  "c": 1,
+  "e": "Le levier permet, avec une marge (dépôt de garantie), de prendre une position bien supérieure à son capital. Il amplifie les gains mais aussi les pertes : si la perte atteint la marge, la position est liquidée d'office. Un levier élevé est très risqué pour un particulier."
+ },
+ {
+  "id": "pfu-089",
+  "q": "Mini-cas : vous achetez un call de strike 100 € (prime 5 €). À l'échéance, le sous-jacent vaut 120 €. Gain net par action ?",
+  "o": [
+   "20 €",
+   "15 €",
+   "5 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Valeur intrinsèque à l'échéance = 120 − 100 = 20 €. En déduisant la prime payée (5 €) : gain net = 20 − 5 = 15 € par action. Si le cours était resté sous 100 €, la perte se serait limitée à la prime de 5 €."
+ },
+ {
+  "id": "pfu-090",
+  "q": "Mini-cas : vous achetez un put de strike 50 € (prime 3 €). À l'échéance, le sous-jacent vaut 40 €. Gain net par action ?",
+  "o": [
+   "10 €",
+   "7 €",
+   "3 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Le put permet de vendre à 50 € un actif qui n'en vaut que 40 € : valeur intrinsèque = 50 − 40 = 10 €. Net de la prime (3 €) : gain = 7 € par action. Si le cours était resté au-dessus de 50 €, la perte se serait limitée à la prime."
+ },
+ {
+  "id": "pfu-091",
+  "q": "Cas : vous détenez des actions et voulez encaisser un revenu supplémentaire, en acceptant de plafonner votre gain à la hausse. Stratégie adaptée ?",
+  "o": [
+   "Acheter un put",
+   "Vendre un call sur vos actions (« covered call ») pour toucher la prime",
+   "Vendre à découvert",
+   "Acheter un call"
+  ],
+  "c": 1,
+  "e": "Le covered call : on vend un call sur des actions que l'on détient, ce qui procure la prime immédiatement. En contrepartie, si le cours dépasse le strike, on devra vendre à ce prix : le gain à la hausse est plafonné. Stratégie de rendement sur un marché stable ou légèrement haussier."
+ },
+ {
+  "id": "pfu-092",
+  "q": "Cas : vous détenez une action et craignez une baisse à court terme, sans vouloir la vendre. Comment vous protéger ?",
+  "o": [
+   "Vendre un call",
+   "Acheter un put (« protective put ») : une assurance qui vous permet de vendre à un prix plancher",
+   "Acheter un autre lot de l'action",
+   "Ne rien faire"
+  ],
+  "c": 1,
+  "e": "Le protective put agit comme une assurance : en achetant un put, vous sécurisez un prix de vente plancher. Si l'action chute, le put prend de la valeur et compense la perte ; s'il ne se passe rien, vous perdez seulement la prime (le coût de l'assurance)."
+ },
+ {
+  "id": "pfu-093",
+  "q": "Définition : qu'est-ce qu'un ordre « stop-loss » ?",
+  "o": [
+   "Un ordre d'achat à tout prix",
+   "Un ordre déclenchant automatiquement la vente si le cours descend à un seuil, pour limiter la perte",
+   "Une garantie de gain",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le stop-loss est un ordre de protection : il vend automatiquement la position si le cours atteint un seuil défini, plafonnant la perte. Utile pour discipliner sa gestion du risque, notamment sur les actifs volatils — même s'il n'offre aucune garantie en cas de décrochage brutal (gap)."
+ },
+ {
+  "id": "pfu-094",
+  "q": "Définition : quelle différence entre un ordre « au marché » et un ordre « à cours limité » ?",
+  "o": [
+   "Aucune",
+   "Au marché = exécution immédiate au meilleur prix disponible ; à cours limité = seulement à un prix fixé (ou meilleur)",
+   "À cours limité = exécution immédiate",
+   "Au marché = exécution différée"
+  ],
+  "c": 1,
+  "e": "L'ordre au marché s'exécute tout de suite au meilleur prix disponible (rapidité, mais prix non garanti). L'ordre à cours limité ne s'exécute qu'à votre prix (ou mieux) : le prix est maîtrisé, mais l'exécution n'est pas garantie si le cours ne l'atteint pas."
+ },
+ {
+  "id": "pfu-095",
+  "q": "Définition : qu'est-ce que le « spread » bid-ask (fourchette) ?",
+  "o": [
+   "Un impôt",
+   "L'écart entre le meilleur prix acheteur (bid) et le meilleur prix vendeur (ask), un coût implicite de transaction",
+   "Un dividende",
+   "Un type d'option"
+  ],
+  "c": 1,
+  "e": "La fourchette bid-ask est l'écart entre le prix auquel on peut vendre (bid) et celui auquel on peut acheter (ask). Plus l'actif est liquide, plus elle est étroite. C'est un coût caché : on « perd » le spread à chaque aller-retour."
+ },
+ {
+  "id": "pfu-096",
+  "q": "Définition : qu'est-ce qu'une stratégie « straddle » ?",
+  "o": [
+   "Acheter uniquement un call",
+   "Acheter simultanément un call ET un put de même strike, pour parier sur un fort mouvement (à la hausse OU à la baisse)",
+   "Vendre à découvert",
+   "Acheter une obligation"
+  ],
+  "c": 1,
+  "e": "Le straddle (achat d'un call + d'un put au même strike/échéance) parie sur la volatilité : on gagne si le cours bouge fortement dans un sens ou l'autre, assez pour couvrir les deux primes. On perd (les primes) si le cours reste stable."
+ },
+ {
+  "id": "pfu-097",
+  "q": "Définition : qu'est-ce qu'un « bull call spread » (spread haussier) ?",
+  "o": [
+   "Vendre à découvert",
+   "Acheter un call et vendre un call de strike supérieur : coût réduit et gain plafonné, risque limité à la prime nette",
+   "Acheter deux puts",
+   "Un ordre stop"
+  ],
+  "c": 1,
+  "e": "Le bull call spread combine l'achat d'un call et la vente d'un call de strike plus haut : la prime encaissée réduit le coût, mais le gain est plafonné au-delà du strike vendu. Pari haussier modéré, à risque et à gain limités."
+ },
+ {
+  "id": "pfu-098",
+  "q": "Définition : quelle différence entre PnL « latent » et PnL « réalisé » ?",
+  "o": [
+   "Aucune",
+   "Le PnL latent est le gain/perte d'une position encore ouverte (non matérialisé) ; le réalisé est constaté à la clôture",
+   "Le latent est imposable",
+   "Le réalisé n'existe pas"
+  ],
+  "c": 1,
+  "e": "Le PnL (Profit and Loss) latent est le résultat « sur le papier » d'une position ouverte : il fluctue et n'est ni encaissé ni imposable. Le PnL réalisé est celui constaté quand on solde la position : c'est lui qui matérialise le gain ou la perte (et déclenche la fiscalité)."
+ },
+ {
+  "id": "pfu-099",
+  "q": "Définition : qu'est-ce que le « prix de liquidation » (trading à effet de levier) ?",
+  "o": [
+   "Le prix d'achat initial",
+   "Le niveau de cours où la perte atteint la marge déposée, entraînant la fermeture forcée de la position",
+   "Le prix cible",
+   "Le dividende"
+  ],
+  "c": 1,
+  "e": "Avec du levier, le prix de liquidation est le seuil où la perte égale la garantie (marge) : la position est alors fermée d'office. Plus le levier est élevé, plus ce prix est proche du cours d'entrée — d'où un risque de liquidation rapide sur les actifs volatils."
+ },
+ {
+  "id": "pfu-100",
+  "q": "Mini-cas : vous placez un stop à −50 € et un objectif à +150 € sur un trade. Quel est le ratio risque/rendement ?",
+  "o": [
+   "1 pour 1",
+   "1 pour 3 (on risque 50 pour viser 150)",
+   "3 pour 1",
+   "1 pour 2"
+  ],
+  "c": 1,
+  "e": "Ratio risque/rendement = perte potentielle / gain visé = 50 / 150 = 1 pour 3. Un ratio favorable (viser plus que ce que l'on risque) permet d'être gagnant sur la durée même avec un taux de réussite inférieur à 50 %."
+ },
+ {
+  "id": "pfu-101",
+  "q": "Définition : que sont un « support » et une « résistance » (analyse technique) ?",
+  "o": [
+   "Des taux d'intérêt",
+   "Des niveaux de prix où le cours a tendance, historiquement, à rebondir (support) ou à buter (résistance)",
+   "Des impôts",
+   "Des types d'ordres"
+  ],
+  "c": 1,
+  "e": "Le support est un niveau où la demande tend à faire rebondir le cours ; la résistance, un niveau où l'offre tend à le stopper. Ces repères d'analyse technique aident à situer des points d'entrée/sortie, sans garantie : ils peuvent être franchis (cassure)."
+ },
+ {
+  "id": "pfu-102",
+  "q": "Définition : qu'est-ce que le RSI (Relative Strength Index) ?",
+  "o": [
+   "Un impôt sur les gains",
+   "Un indicateur d'élan (0 à 100) signalant un possible surachat (>70) ou une survente (<30)",
+   "Un type d'obligation",
+   "Un ordre au marché"
+  ],
+  "c": 1,
+  "e": "Le RSI mesure la vitesse et l'ampleur des variations de prix sur une échelle de 0 à 100 : au-dessus de 70, l'actif est considéré en « surachat » (possible retournement à la baisse) ; sous 30, en « survente ». C'est un indicateur d'aide à la décision, pas une certitude."
+ },
+ {
+  "id": "pfu-103",
+  "q": "Cas : vous débutez et voulez survivre à d'inévitables séries de pertes. Quelle règle de gestion du risque appliquer ?",
+  "o": [
+   "Miser tout son capital sur un seul trade",
+   "Ne risquer qu'une petite fraction du capital (souvent 1-2 %) par position",
+   "Utiliser le levier maximum",
+   "Ne jamais placer de stop"
+  ],
+  "c": 1,
+  "e": "La règle d'or du money management : limiter la perte potentielle de chaque trade à 1-2 % du capital (via la taille de position et le stop). Ainsi, une succession de pertes n'entame pas durablement le capital et l'on reste dans le jeu. Le levier maximal et l'absence de stop sont les erreurs classiques des débutants."
+ },
+ {
+  "id": "pfu-104",
+  "q": "Définition : qu'est-ce qu'un « trailing stop » (stop suiveur) ?",
+  "o": [
+   "Un stop fixe",
+   "Un stop de protection qui suit le cours à distance : il monte avec les gains pour sécuriser une partie du profit, sans jamais redescendre",
+   "Un ordre d'achat",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le stop suiveur se décale automatiquement dans le sens favorable (à distance définie), verrouillant progressivement les gains tout en laissant courir la position. Il ne recule jamais : si le cours se retourne du montant fixé, la vente se déclenche."
+ },
+ {
+  "id": "pfu-105",
+  "q": "Définition : qu'est-ce qu'un ordre « OCO » (One Cancels the Other) ?",
+  "o": [
+   "Un seul ordre d'achat",
+   "Deux ordres liés (ex. un objectif de gain et un stop de perte) où l'exécution de l'un annule automatiquement l'autre",
+   "Un ordre au marché",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "L'OCO associe deux ordres opposés — typiquement un take-profit (objectif) et un stop-loss (protection). Dès que l'un est exécuté, l'autre est automatiquement annulé, ce qui permet d'encadrer une position sans surveillance constante."
+ },
+ {
+  "id": "pfu-106",
+  "q": "Définition : qu'est-ce que l'effet des « intérêts composés » ?",
+  "o": [
+   "Un impôt",
+   "Le fait de générer des gains sur les gains déjà accumulés, produisant une croissance exponentielle dans le temps",
+   "Un type d'ordre",
+   "Une perte"
+  ],
+  "c": 1,
+  "e": "Les intérêts composés font travailler non seulement le capital, mais aussi les gains réinvestis. Sur le long terme, l'effet « boule de neige » est spectaculaire : c'est le principal moteur de l'enrichissement patient (Einstein l'aurait qualifié de « 8e merveille du monde »)."
+ },
+ {
+  "id": "pfu-107",
+  "q": "Mini-cas : 1 000 € placés à 8 % par an, capitalisés pendant 10 ans. Capital final approximatif ?",
+  "o": [
+   "1 800 €",
+   "2 159 €",
+   "1 080 €",
+   "800 €"
+  ],
+  "c": 1,
+  "e": "Intérêts composés : 1 000 × (1,08)^10 ≈ 2 159 €. En intérêts simples (8 % × 10 = 80 %), on n'aurait eu que 1 800 € : la différence (359 €) est l'effet de la capitalisation des gains sur eux-mêmes."
+ },
+ {
+  "id": "pfu-108",
+  "q": "Définition : qu'est-ce que le « drawdown » (repli maximal) ?",
+  "o": [
+   "Un gain",
+   "La baisse maximale enregistrée entre un plus haut et un plus bas, mesurant l'ampleur des pertes subies",
+   "Un dividende",
+   "Un impôt"
+  ],
+  "c": 1,
+  "e": "Le drawdown mesure la perte maximale depuis un sommet jusqu'au creux suivant. C'est un indicateur clé du risque psychologique et financier : un placement peut afficher un bon rendement moyen mais un drawdown de −50 % difficile à supporter."
+ },
+ {
+  "id": "pfu-109",
+  "q": "Définition : qu'est-ce que la « volatilité » d'un actif ?",
+  "o": [
+   "Son rendement garanti",
+   "Une mesure de l'ampleur des variations de son cours (souvent l'écart-type des rendements) : plus elle est élevée, plus l'actif est risqué",
+   "Sa fiscalité",
+   "Sa liquidité"
+  ],
+  "c": 1,
+  "e": "La volatilité quantifie l'instabilité du cours (variations à la hausse comme à la baisse), généralement via l'écart-type des rendements. Une forte volatilité signifie des mouvements amples : potentiel de gain élevé, mais risque de perte accru. Les cryptos sont très volatiles."
+ },
+ {
+  "id": "pfu-110",
+  "q": "Quels biais psychologiques nuisent souvent à l'investisseur ?",
+  "o": [
+   "Le FOMO (peur de rater, qui pousse à acheter au plus haut)",
+   "L'aversion à la perte (garder trop longtemps une position perdante)",
+   "L'excès de confiance (surestimer ses capacités, sur-trader)",
+   "La discipline et le plan d'investissement"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le FOMO, l'aversion à la perte et l'excès de confiance sont des pièges comportementaux classiques qui dégradent la performance. À l'inverse, la discipline et un plan défini à l'avance (et suivi) sont des atouts, pas des biais."
+ },
+ {
+  "id": "pfu-111",
+  "q": "Définition : qu'est-ce que le « hedging » (couverture) ?",
+  "o": [
+   "Augmenter son risque",
+   "Prendre une position destinée à compenser le risque d'une autre (ex. acheter un put pour protéger des actions détenues)",
+   "Un impôt",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le hedging consiste à se couvrir en prenant une position inverse ou décorrélée qui amortit les pertes potentielles d'une exposition. Ce n'est pas gratuit (coût de la couverture) : c'est une assurance qui réduit à la fois le risque et le rendement espéré."
+ },
+ {
+  "id": "pfu-112",
+  "q": "Définition : qu'est-ce que le « carnet d'ordres » (order book) ?",
+  "o": [
+   "Un relevé bancaire",
+   "La liste, en temps réel, des ordres d'achat et de vente en attente à différents prix, reflétant l'offre, la demande et la liquidité",
+   "Un impôt",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le carnet d'ordres affiche les intentions d'achat (bids) et de vente (asks) à chaque niveau de prix. Sa « profondeur » renseigne sur la liquidité : un carnet épais absorbe les gros ordres sans faire bouger le cours ; un carnet mince expose au slippage (dérapage du prix d'exécution)."
+ },
+ {
+  "id": "pfu-113",
+  "q": "Définition : qu'est-ce que le « bêta » d'un actif ?",
+  "o": [
+   "Son rendement",
+   "Sa sensibilité aux mouvements du marché : un bêta de 1 suit le marché, > 1 amplifie ses variations, < 1 les atténue",
+   "Son taux d'imposition",
+   "Ses frais"
+  ],
+  "c": 1,
+  "e": "Le bêta mesure la réaction d'un actif aux variations du marché de référence. Bêta = 1 : il bouge comme le marché ; bêta = 1,5 : il amplifie de 50 % (plus risqué) ; bêta = 0,5 : il amortit. Utile pour calibrer le risque d'un portefeuille."
+ },
+ {
+  "id": "pfu-114",
+  "q": "Cas : vous anticipez une HAUSSE d'un actif. Quelles positions traduisent ce pari ?",
+  "o": [
+   "Aller « long » (acheter l'actif)",
+   "Acheter un call (droit d'acheter à un prix fixé)",
+   "Vendre à découvert (short)",
+   "Acheter un put"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Parier sur la hausse : on achète l'actif (position longue) ou on achète un call (levier, perte limitée à la prime). La vente à découvert et l'achat de put sont, eux, des paris baissiers."
+ },
+ {
+  "id": "pfu-115",
+  "q": "Quels risques spécifiques comporte le trading à effet de levier ?",
+  "o": [
+   "La liquidation forcée si la perte atteint la marge",
+   "Le coût du funding sur les contrats perpétuels",
+   "L'amplification des pertes (comme des gains)",
+   "La garantie du capital"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le levier amplifie les pertes, expose à une liquidation d'office (perte de la marge) et, sur les perpétuels, à un coût de funding récurrent. Il n'offre aucune garantie de capital : c'est l'un des moyens les plus rapides de perdre sa mise pour un particulier mal préparé."
+ },
+ {
+  "id": "pfu-116",
+  "q": "Définition : qu'est-ce qu'un ordre « take-profit » ?",
+  "o": [
+   "Un ordre de protection contre les pertes",
+   "Un ordre déclenchant automatiquement la vente à un objectif de gain défini à l'avance",
+   "Un ordre d'achat au marché",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le take-profit (ou « objectif ») clôture automatiquement la position dès qu'un niveau de gain visé est atteint, verrouillant le profit sans avoir à surveiller le marché. Il est souvent couplé à un stop-loss via un ordre OCO."
+ },
+ {
+  "id": "pfu-117",
+  "q": "Définition : qu'est-ce que le « slippage » (dérapage) ?",
+  "o": [
+   "Un impôt",
+   "L'écart entre le prix attendu et le prix réellement obtenu à l'exécution d'un ordre, fréquent sur les marchés peu liquides ou volatils",
+   "Un dividende",
+   "Un ordre stop"
+  ],
+  "c": 1,
+  "e": "Le slippage est la différence entre le prix espéré et le prix d'exécution effectif : sur un carnet d'ordres peu profond ou en cas de forte volatilité, un ordre au marché peut s'exécuter à un cours moins favorable que prévu. L'ordre à cours limité l'évite, au risque de ne pas être exécuté."
+ },
+ {
+  "id": "pfu-118",
+  "q": "Définition : qu'est-ce qu'un « market maker » (teneur de marché) ?",
+  "o": [
+   "Un régulateur",
+   "Un acteur qui affiche en continu des prix d'achat et de vente, apportant de la liquidité et se rémunérant sur le spread",
+   "Un impôt",
+   "Un particulier débutant"
+  ],
+  "c": 1,
+  "e": "Le market maker propose en permanence un prix acheteur et un prix vendeur : il facilite les échanges (liquidité) et gagne sa vie sur la fourchette (spread). Sa présence resserre le spread et fluidifie le marché."
+ },
+ {
+  "id": "pfu-119",
+  "q": "Cas : débutant en trading, pourquoi éviter un effet de levier élevé ?",
+  "o": [
+   "Il garantit les gains",
+   "Parce qu'il amplifie les pertes et rapproche le seuil de liquidation : une petite variation défavorable peut effacer toute la mise",
+   "Il supprime les frais",
+   "Il est obligatoire"
+  ],
+  "c": 1,
+  "e": "Un levier élevé rapproche le prix de liquidation du cours d'entrée : une variation minime en sens contraire suffit à liquider la position et perdre la marge. Pour un débutant, commencer sans levier (ou très faible) et travailler la gestion du risque est essentiel."
+ },
+ {
+  "id": "pfu-120",
+  "q": "Définition : qu'est-ce qu'un « hedge fund » (fonds spéculatif / alternatif) ?",
+  "o": [
+   "Un livret d'épargne garanti",
+   "Un fonds peu régulé, réservé aux investisseurs avertis, visant une performance absolue via des stratégies variées (levier, vente à découvert, dérivés)",
+   "Un fonds obligataire d'État",
+   "Une assurance-vie"
+  ],
+  "c": 1,
+  "e": "Le hedge fund cherche un rendement décorrélé des marchés (« performance absolue ») en usant de levier, de positions vendeuses et de dérivés. Réservé aux investisseurs qualifiés, peu liquide, il se rémunère souvent en « 2 et 20 » (2 % de frais de gestion + 20 % de la performance)."
+ },
+ {
+  "id": "pfu-121",
+  "q": "Quelles sont des stratégies classiques de hedge funds ?",
+  "o": [
+   "Long/short equity (acheter des titres sous-évalués, vendre à découvert les surévalués)",
+   "Global macro (paris sur les tendances macroéconomiques : taux, devises, matières premières)",
+   "Event-driven (fusions-acquisitions, situations spéciales)",
+   "Arbitrage (exploiter des écarts de prix)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Les hedge funds déploient des stratégies variées : long/short actions, global macro, event-driven (dont l'arbitrage de fusion), et arbitrages (statistique, obligataire…). Le point commun : viser un rendement peu corrélé au marché, quitte à user de levier et de dérivés."
+ },
+ {
+  "id": "pfu-122",
+  "q": "Définition : qu'est-ce qu'un « family office » ?",
+  "o": [
+   "Une agence bancaire",
+   "Une structure dédiée à la gestion globale du patrimoine d'une (ou plusieurs) famille(s) fortunée(s) : investissements, transmission, fiscalité, philanthropie",
+   "Un fonds coté",
+   "Un cabinet comptable"
+  ],
+  "c": 1,
+  "e": "Le family office pilote l'ensemble du patrimoine d'une famille très aisée. Un « single family office » sert une seule famille ; un « multi-family office » en regroupe plusieurs pour mutualiser les coûts et l'expertise (gestion financière, juridique, successorale, philanthropique)."
+ },
+ {
+  "id": "pfu-123",
+  "q": "Définition : qu'est-ce qu'un « bureau de trading » (trading desk) dans une banque ?",
+  "o": [
+   "Le service clientèle",
+   "Une équipe spécialisée qui exécute les opérations de marché, généralement organisée par produit (actions, taux, change, dérivés…)",
+   "Un distributeur automatique",
+   "Le service comptable"
+  ],
+  "c": 1,
+  "e": "Le trading desk regroupe les opérateurs de marché d'une salle des marchés, souvent segmentés par classe d'actifs (equity, fixed income, FX, dérivés…). Côté « sell-side » (banque), ils assurent l'exécution et la liquidité pour les clients — à distinguer de la gestion pour compte propre."
+ },
+ {
+  "id": "pfu-124",
+  "q": "Définition : qu'est-ce que le « proprietary trading » (trading pour compte propre) ?",
+  "o": [
+   "Le trading exécuté pour le compte des clients",
+   "Le trading réalisé par une institution avec son PROPRE capital, pour son propre profit",
+   "Un conseil en investissement",
+   "Une activité de dépôt"
+  ],
+  "c": 1,
+  "e": "Le prop trading consiste, pour une banque ou une société spécialisée, à négocier avec ses fonds propres pour son propre bénéfice, et non pour des clients. Fortement encadré pour les banques depuis la crise de 2008 (règle Volcker aux États-Unis), il subsiste surtout dans des firmes dédiées."
+ },
+ {
+  "id": "pfu-125",
+  "q": "Définition : qu'est-ce qu'un « fonds de pension » ?",
+  "o": [
+   "Un fonds d'État",
+   "Un investisseur institutionnel qui gère l'épargne retraite de salariés (cotisations) pour leur servir des pensions, avec un horizon long",
+   "Un hedge fund",
+   "Une banque de détail"
+  ],
+  "c": 1,
+  "e": "Le fonds de pension collecte les cotisations des salariés (et employeurs) et les investit sur le long terme pour financer les retraites futures. Très présents dans les pays à retraite par capitalisation, ce sont des investisseurs institutionnels majeurs (actions, obligations, immobilier, private equity)."
+ },
+ {
+  "id": "pfu-126",
+  "q": "Définition : qu'est-ce qu'un « fonds souverain » (sovereign wealth fund) ?",
+  "o": [
+   "Un fonds privé",
+   "Un fonds d'investissement détenu par un État, alimenté par des excédents (matières premières, réserves), investissant à long terme",
+   "Une banque centrale",
+   "Un hedge fund"
+  ],
+  "c": 1,
+  "e": "Le fonds souverain appartient à un État et place ses excédents (revenus pétroliers, réserves de change) dans des actifs mondiaux, sur un horizon très long. Exemples : le fonds norvégien (le plus gros au monde), ceux du Qatar, d'Abu Dhabi ou de Singapour."
+ },
+ {
+  "id": "pfu-127",
+  "q": "Définition : qu'est-ce que le « venture capital » (capital-risque) ?",
+  "o": [
+   "Le rachat d'entreprises matures",
+   "Le financement en fonds propres de jeunes entreprises innovantes à fort potentiel (et fort risque), contre une participation",
+   "Un prêt bancaire",
+   "Un placement obligataire"
+  ],
+  "c": 1,
+  "e": "Le capital-risque (venture capital) est le segment du private equity dédié aux start-up en phase de démarrage : l'investisseur apporte des fonds propres (et souvent un accompagnement) en pariant sur une forte croissance, en acceptant que beaucoup de participations échouent."
+ },
+ {
+  "id": "pfu-128",
+  "q": "Le private equity se décline en plusieurs stades. Lesquels ?",
+  "o": [
+   "Le capital-amorçage / venture (démarrage)",
+   "Le capital-développement / growth (croissance)",
+   "Le capital-transmission / LBO (rachat avec effet de levier)",
+   "Le capital-retournement (entreprises en difficulté)"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Le private equity couvre tout le cycle de vie : amorçage/venture (start-up), développement/growth (accélérer une PME rentable), transmission/LBO (racheter une société mature avec de la dette), et retournement (redresser une entreprise en difficulté). Chaque stade a son couple risque/rendement."
+ },
+ {
+  "id": "pfu-129",
+  "q": "Définition : quelle différence entre « buy-side » et « sell-side » ?",
+  "o": [
+   "Aucune",
+   "Le buy-side investit (gérants de fonds, family offices) ; le sell-side vend des services/produits financiers (banques, brokers, analystes)",
+   "Le buy-side vend, le sell-side achète",
+   "Ce sont des types d'ordres"
+  ],
+  "c": 1,
+  "e": "Le buy-side regroupe ceux qui achètent des actifs pour investir (asset managers, hedge funds, fonds de pension). Le sell-side désigne les intermédiaires qui structurent, vendent et exécutent (banques d'investissement, courtiers) et produisent des analyses/recommandations à destination du buy-side."
+ },
+ {
+  "id": "pfu-130",
+  "q": "Définition : qu'est-ce qu'une « société de gestion » (asset manager) ?",
+  "o": [
+   "Une banque de dépôt",
+   "Une société agréée qui gère des fonds ou des portefeuilles pour le compte d'investisseurs, rémunérée par des frais de gestion",
+   "Un fonds souverain",
+   "Un courtier"
+  ],
+  "c": 1,
+  "e": "La société de gestion (asset manager) crée et gère des OPCVM, des fonds ou des mandats pour le compte de ses clients (particuliers, institutionnels), moyennant des frais de gestion (et parfois de performance). Elle est agréée et supervisée par le régulateur (AMF en France)."
+ },
+ {
+  "id": "pfu-131",
+  "q": "Définition : quelle différence entre banque d'investissement et banque de détail ?",
+  "o": [
+   "Aucune",
+   "La banque d'investissement conseille entreprises/États (introductions, fusions, émissions, trading) ; la banque de détail sert les particuliers et PME (comptes, crédits, épargne)",
+   "La banque de détail fait du trading",
+   "Elles sont identiques"
+  ],
+  "c": 1,
+  "e": "La banque d'investissement (BFI) accompagne les grandes opérations de marché : introductions en bourse, fusions-acquisitions, émissions d'actions/obligations, financements structurés, activités de marché. La banque de détail gère le quotidien bancaire des particuliers et petites entreprises."
+ },
+ {
+  "id": "pfu-132",
+  "q": "Définition : qu'est-ce qu'un « courtier » (broker) ?",
+  "o": [
+   "Un régulateur",
+   "Un intermédiaire qui transmet et exécute les ordres d'achat/vente pour le compte de clients, contre une commission",
+   "Un émetteur d'actions",
+   "Une banque centrale"
+  ],
+  "c": 1,
+  "e": "Le courtier reçoit les ordres de ses clients et les exécute sur les marchés, moyennant des frais de courtage. Il ne fait qu'intermédier : les titres et espèces des clients doivent être conservés de façon séparée (chez un teneur de compte/dépositaire)."
+ },
+ {
+  "id": "pfu-133",
+  "q": "Définition : qu'est-ce qu'une « chambre de compensation » (clearing house) ?",
+  "o": [
+   "Un guichet bancaire",
+   "Une contrepartie centrale qui s'interpose entre acheteur et vendeur pour garantir la bonne fin des transactions et gérer le risque de défaut",
+   "Un fonds d'investissement",
+   "Un courtier"
+  ],
+  "c": 1,
+  "e": "La chambre de compensation devient l'acheteur de tout vendeur et le vendeur de tout acheteur : elle garantit l'exécution même si une partie fait défaut, en exigeant des dépôts de garantie (marges) et un fonds de défaillance. Elle réduit le risque systémique des marchés."
+ },
+ {
+  "id": "pfu-134",
+  "q": "Définition : qu'est-ce qu'un « fonds monétaire » ?",
+  "o": [
+   "Un fonds d'actions",
+   "Un fonds investi en titres de dette très courts et liquides (bons du Trésor, certificats de dépôt), à faible risque et faible rendement",
+   "Un hedge fund",
+   "Un fonds immobilier"
+  ],
+  "c": 1,
+  "e": "Le fonds monétaire place la trésorerie sur des instruments de très court terme, peu risqués : il vise à préserver le capital et offrir une liquidité quasi immédiate, avec un rendement modeste (proche des taux courts). Utilisé pour « parquer » du cash."
+ },
+ {
+  "id": "pfu-135",
+  "q": "Définition : qu'est-ce qu'un « fonds obligataire » ?",
+  "o": [
+   "Un fonds d'actions",
+   "Un fonds investi majoritairement en obligations, dont la performance dépend des coupons et de l'évolution des taux",
+   "Un livret réglementé",
+   "Un fonds monétaire"
+  ],
+  "c": 1,
+  "e": "Le fonds obligataire détient des obligations (d'États, d'entreprises) : il distribue/capitalise des coupons et subit un risque de taux (la valeur baisse quand les taux montent) et un risque de crédit (défaut de l'émetteur). Moins volatil que les actions, en général."
+ },
+ {
+  "id": "pfu-136",
+  "q": "Définition : qu'est-ce qu'un « fonds activiste » ?",
+  "o": [
+   "Un fonds passif indiciel",
+   "Un fonds qui prend des participations dans des sociétés cotées pour peser sur leur stratégie et leur gouvernance, afin d'en faire monter la valeur",
+   "Un fonds monétaire",
+   "Un fonds de pension"
+  ],
+  "c": 1,
+  "e": "Le fonds activiste acquiert une part significative du capital d'une société cotée puis fait pression sur la direction (changements de stratégie, cessions d'actifs, retour aux actionnaires, remplacement de dirigeants) pour créer de la valeur — parfois de façon conflictuelle."
+ },
+ {
+  "id": "pfu-137",
+  "q": "Définition : qu'est-ce qu'un « fonds vautour » (vulture fund) ?",
+  "o": [
+   "Un fonds éthique",
+   "Un fonds qui rachète à bas prix des dettes ou actifs d'entités en difficulté (entreprises, États) pour en tirer profit, souvent par voie judiciaire",
+   "Un fonds indiciel",
+   "Une banque de détail"
+  ],
+  "c": 1,
+  "e": "Le fonds vautour acquiert avec une forte décote des créances d'émetteurs en défaut ou en grande difficulté, en pariant sur un recouvrement supérieur au prix payé — quitte à multiplier les actions en justice. Terme souvent péjoratif, notamment pour les dettes souveraines."
+ },
+ {
+  "id": "pfu-138",
+  "q": "Définition : qu'est-ce qu'un « fonds indiciel » (index fund) ?",
+  "o": [
+   "Un fonds géré activement",
+   "Un fonds qui réplique passivement la composition et la performance d'un indice de référence, à frais réduits",
+   "Un hedge fund",
+   "Un fonds monétaire"
+  ],
+  "c": 1,
+  "e": "Le fonds indiciel suit mécaniquement un indice (CAC 40, MSCI World…) sans sélection active de titres, d'où des frais très bas. L'ETF en est la version cotée en bourse. La gestion passive bat statistiquement une large part des gérants actifs sur le long terme."
+ },
+ {
+  "id": "pfu-139",
+  "q": "Définition : qu'est-ce qu'un « dépositaire » (custodian) d'un fonds ?",
+  "o": [
+   "Le gérant du fonds",
+   "L'établissement qui conserve les actifs du fonds et contrôle la régularité des décisions de la société de gestion",
+   "Le courtier",
+   "Le régulateur"
+  ],
+  "c": 1,
+  "e": "Le dépositaire assure deux fonctions clés : la conservation des actifs du fonds (sécurité) et le contrôle de la conformité des opérations décidées par la société de gestion. Cette séparation gérant/dépositaire protège les investisseurs (elle a fait défaut dans l'affaire Madoff)."
+ },
+ {
+  "id": "pfu-140",
+  "q": "Définition : qu'est-ce qu'un « teneur de compte-conservateur » ?",
+  "o": [
+   "Un fonds",
+   "L'établissement qui tient les comptes-titres des investisseurs et conserve leurs titres financiers",
+   "Une chambre de compensation",
+   "Un analyste"
+  ],
+  "c": 1,
+  "e": "Le teneur de compte-conservateur enregistre les positions en titres des clients et en assure la conservation (garde). C'est souvent la banque ou le courtier chez qui l'on détient son PEA ou son compte-titres."
+ },
+ {
+  "id": "pfu-141",
+  "q": "Définition : quel est le rôle de l'AMF (Autorité des marchés financiers) ?",
+  "o": [
+   "Fixer les impôts",
+   "Réguler les marchés financiers français : protéger l'épargne, veiller à l'information des investisseurs et au bon fonctionnement des marchés",
+   "Gérer des fonds",
+   "Accorder des crédits"
+  ],
+  "c": 1,
+  "e": "L'AMF est le gendarme des marchés en France : elle agrée les sociétés de gestion et certains produits, contrôle l'information délivrée aux investisseurs, surveille les marchés et sanctionne les abus (délit d'initié, manipulation de cours). Elle protège l'épargne investie."
+ },
+ {
+  "id": "pfu-142",
+  "q": "Définition : qu'est-ce qu'un « robo-advisor » (gestion pilotée) ?",
+  "o": [
+   "Un trader humain",
+   "Un service de gestion automatisée en ligne qui alloue et arbitre l'épargne selon un profil de risque, via des algorithmes et à frais réduits",
+   "Une banque centrale",
+   "Un fonds vautour"
+  ],
+  "c": 1,
+  "e": "Le robo-advisor propose une gestion déléguée pilotée par algorithmes : après un questionnaire de profil, il construit et rééquilibre automatiquement un portefeuille (souvent d'ETF), moyennant des frais réduits. Accessible dès de petits montants, souvent au sein d'une assurance-vie."
+ },
+ {
+  "id": "pfu-143",
+  "q": "Cas : vous voulez acheter des actions en bourse. Quel acteur reçoit et exécute votre ordre sur le marché ?",
+  "o": [
+   "L'AMF",
+   "Le courtier (broker)",
+   "La chambre de compensation",
+   "Le dépositaire"
+  ],
+  "c": 1,
+  "e": "Le courtier est l'intermédiaire d'exécution : il transmet votre ordre au marché contre une commission. L'AMF régule, la chambre de compensation garantit le règlement, le dépositaire conserve les titres — chacun intervient à un autre maillon de la chaîne."
+ },
+ {
+  "id": "pfu-144",
+  "q": "Cas : votre ordre est exécuté. Qui s'interpose entre acheteur et vendeur pour garantir le règlement-livraison, même si une partie fait défaut ?",
+  "o": [
+   "Le courtier",
+   "La chambre de compensation (contrepartie centrale)",
+   "La banque de détail",
+   "L'AMF"
+  ],
+  "c": 1,
+  "e": "La chambre de compensation devient contrepartie de chaque partie et garantit la bonne fin de l'opération grâce aux appels de marge. Elle neutralise le risque de défaut d'une contrepartie — un rôle invisible mais essentiel à la stabilité du marché."
+ },
+ {
+  "id": "pfu-145",
+  "q": "Cas : vous détenez un PEA chez votre banque. Qui conserve concrètement vos titres et tient votre compte-titres ?",
+  "o": [
+   "L'AMF",
+   "Le teneur de compte-conservateur",
+   "La chambre de compensation",
+   "Un fonds souverain"
+  ],
+  "c": 1,
+  "e": "Le teneur de compte-conservateur (souvent votre banque/courtier) enregistre vos positions et garde vos titres. Point clé : ces avoirs sont séparés du bilan de l'établissement — s'il fait faillite, vos titres restent les vôtres."
+ },
+ {
+  "id": "pfu-146",
+  "q": "Dans un fonds, le gérant décide des investissements. Qui, indépendamment, conserve les actifs ET contrôle la régularité de ses décisions ?",
+  "o": [
+   "Le courtier",
+   "Le dépositaire",
+   "Le market maker",
+   "L'AMF"
+  ],
+  "c": 1,
+  "e": "Le dépositaire assure la garde des actifs et le contrôle de conformité des opérations du gérant. Cette séparation gérant/dépositaire protège les porteurs : son absence est l'un des ressorts de fraudes comme l'affaire Madoff."
+ },
+ {
+  "id": "pfu-147",
+  "q": "Cas : une PME veut s'introduire en bourse et lever des capitaux. Quel acteur structure et pilote l'opération ?",
+  "o": [
+   "La banque de détail",
+   "La banque d'investissement",
+   "La chambre de compensation",
+   "Le teneur de compte"
+  ],
+  "c": 1,
+  "e": "La banque d'investissement conseille et orchestre les opérations de haut de bilan : introduction en bourse, émission d'actions/obligations, fusions-acquisitions. La banque de détail, elle, s'occupe du quotidien bancaire des particuliers et petites entreprises."
+ },
+ {
+  "id": "pfu-148",
+  "q": "Qui, en France, agrée les sociétés de gestion, veille à l'information des investisseurs et sanctionne les abus de marché (délit d'initié) ?",
+  "o": [
+   "La chambre de compensation",
+   "L'AMF (Autorité des marchés financiers)",
+   "Le dépositaire",
+   "Le courtier"
+  ],
+  "c": 1,
+  "e": "L'AMF est le régulateur des marchés : elle agrée certains acteurs et produits, surveille l'information et les comportements, et sanctionne les manipulations de cours ou délits d'initié. Son rôle est de protéger l'épargne et la confiance dans les marchés."
+ },
+ {
+  "id": "pfu-149",
+  "q": "Cas : un fonds acquiert 6 % d'une société cotée puis réclame publiquement la cession d'une division et le départ du PDG. De quel type de fonds s'agit-il ?",
+  "o": [
+   "Un fonds indiciel",
+   "Un fonds activiste",
+   "Un fonds monétaire",
+   "Un fonds vautour"
+  ],
+  "c": 1,
+  "e": "C'est un fonds activiste : il prend une participation pour peser sur la stratégie et la gouvernance et faire monter la valeur. Le fonds indiciel est passif, le monétaire place de la trésorerie, le vautour rachète des dettes décotées d'entités en difficulté."
+ },
+ {
+  "id": "pfu-150",
+  "q": "Sur un marché, qui affiche en continu un prix d'achat et un prix de vente, apportant de la liquidité et se rémunérant sur le spread ?",
+  "o": [
+   "Le dépositaire",
+   "Le market maker (teneur de marché)",
+   "L'AMF",
+   "La banque de détail"
+  ],
+  "c": 1,
+  "e": "Le market maker cote en permanence bid et ask : il permet à chacun de trouver une contrepartie immédiate (liquidité) et gagne sa vie sur la fourchette. Sa présence resserre le spread et fluidifie les échanges."
+ },
+ {
+  "id": "pfu-151",
+  "q": "Cas : un pays exportateur de pétrole place ses excédents dans un portefeuille mondial d'actions et d'obligations, sur plusieurs décennies. Quel véhicule ?",
+  "o": [
+   "Un hedge fund",
+   "Un fonds souverain",
+   "Un fonds monétaire",
+   "Une banque centrale"
+  ],
+  "c": 1,
+  "e": "C'est un fonds souverain : propriété d'un État, alimenté par des excédents (pétrole, réserves), il investit à très long terme dans le monde entier. À ne pas confondre avec la banque centrale, qui conduit la politique monétaire."
+ },
+ {
+  "id": "pfu-152",
+  "q": "Un analyste qui publie des recommandations d'achat/vente pour le compte d'une banque, afin de servir ses clients investisseurs, relève :",
+  "o": [
+   "Du buy-side",
+   "Du sell-side",
+   "D'un fonds de pension",
+   "De la chambre de compensation"
+  ],
+  "c": 1,
+  "e": "Produire des analyses et vendre des services/exécution aux investisseurs, c'est le sell-side (banques, brokers). Le buy-side, ce sont les gérants qui, eux, achètent des actifs pour investir (et consomment ces analyses)."
+ },
+ {
+  "id": "pfu-153",
+  "q": "Cas : vous voulez déléguer la gestion de votre épargne à des algorithmes, à frais réduits, sans sélectionner vous-même les supports. Vers quoi vous tourner ?",
+  "o": [
+   "Un hedge fund",
+   "Un robo-advisor (gestion pilotée)",
+   "Un fonds vautour",
+   "Une chambre de compensation"
+  ],
+  "c": 1,
+  "e": "Le robo-advisor construit et rééquilibre automatiquement un portefeuille (souvent d'ETF) selon votre profil de risque, à frais réduits et dès de petits montants. Le hedge fund vise une clientèle avertie et le fonds vautour a une tout autre activité."
+ },
+ {
+  "id": "pfu-154",
+  "q": "Cas : vous disposez de trésorerie à placer quelques semaines, en cherchant sécurité et disponibilité immédiate, avant un achat. Quel type de fonds ?",
+  "o": [
+   "Un fonds actions",
+   "Un fonds monétaire",
+   "Un fonds activiste",
+   "Un hedge fund"
+  ],
+  "c": 1,
+  "e": "Le fonds monétaire est fait pour « parquer » de la trésorerie à court terme : titres très courts et liquides, risque faible, rendement modeste, disponibilité quasi immédiate. Un fonds actions serait bien trop volatil pour un horizon de quelques semaines."
+ },
+ {
+  "id": "pfu-155",
+  "q": "Cas : vous pensez qu'une action va BAISSER et voulez en profiter sans la détenir. Quelle position ?",
+  "o": [
+   "Acheter l'action (long)",
+   "Vendre à découvert (short) ou acheter un put",
+   "Vendre un call couvert",
+   "Acheter un call"
+  ],
+  "c": 1,
+  "e": "Pour parier sur la baisse : la vente à découvert (short) ou l'achat d'un put. L'achat de l'action et l'achat de call sont haussiers ; le covered call se pratique sur des titres qu'on détient déjà. Attention : le short expose à une perte non plafonnée."
+ },
+ {
+  "id": "pfu-156",
+  "q": "Cas : vous détenez des actions et craignez une correction à court terme, sans vouloir les vendre. Comment vous protéger temporairement ?",
+  "o": [
+   "Vendre à découvert d'autres titres",
+   "Acheter un put (protective put) sur vos actions",
+   "Acheter un call",
+   "Ne rien faire"
+  ],
+  "c": 1,
+  "e": "Le protective put agit comme une assurance : le put prend de la valeur si l'action chute, compensant la perte. Vous gardez vos titres et ne perdez, au pire, que la prime (le coût de la couverture) si rien ne se passe."
+ },
+ {
+  "id": "pfu-157",
+  "q": "Cas : vous détenez des actions stables et voulez en tirer un revenu récurrent, en acceptant de plafonner votre gain à la hausse. Stratégie ?",
+  "o": [
+   "Acheter un put",
+   "Vendre un call sur vos actions (covered call)",
+   "Acheter un call",
+   "Vendre à découvert"
+  ],
+  "c": 1,
+  "e": "Le covered call : vendre un call sur des titres détenus procure une prime immédiate (le revenu recherché). En contrepartie, si le cours dépasse le strike, vous devrez vendre à ce prix : le gain à la hausse est plafonné. Stratégie de rendement sur marché stable."
+ },
+ {
+  "id": "pfu-158",
+  "q": "Cas : vous voulez, en une seule ligne et à frais réduits, être exposé à des centaines d'entreprises mondiales. Quel instrument ?",
+  "o": [
+   "Une action unique",
+   "Un ETF « Monde » (fonds indiciel diversifié)",
+   "Une obligation d'entreprise",
+   "Un fonds monétaire"
+  ],
+  "c": 1,
+  "e": "L'ETF « Monde » réplique un indice large (des centaines de sociétés mondiales) : diversification immédiate, frais très bas, une seule ligne. Une action unique concentre le risque ; une obligation et un fonds monétaire ne visent pas la croissance actions."
+ },
+ {
+  "id": "pfu-159",
+  "q": "Mini-cas : plus-value de 4 000 € sur des actions détenues dans un compte-titres ordinaire, au PFU. Imposition ?",
+  "o": [
+   "512 €",
+   "1 256 €",
+   "1 800 €",
+   "688 €"
+  ],
+  "c": 1,
+  "e": "Sur un compte-titres, la plus-value mobilière est soumise au PFU de 31,4 % : 4 000 × 31,4 % = 1 256 €. Dans un PEA de plus de 5 ans, cette même plus-value n'aurait supporté que les prélèvements sociaux."
+ },
+ {
+  "id": "pfu-160",
+  "q": "Cas : vous détenez une position LONGUE sur un contrat perpétuel crypto, et le funding est positif. Quel en est l'effet pour vous ?",
+  "o": [
+   "Vous recevez le funding",
+   "Vous PAYEZ le funding (les longs paient les shorts) : c'est un coût qui grignote votre position",
+   "Aucun effet",
+   "Votre position est liquidée"
+  ],
+  "c": 1,
+  "e": "Sur un perpétuel, quand le funding est positif, les positions longues paient les positions courtes à intervalles réguliers. Détenir un long dans ce cas génère un coût récurrent : sur la durée, il peut sérieusement éroder le rendement, surtout avec du levier."
+ },
+ {
+  "id": "pfu-161",
+  "q": "Cas : sur un actif volatil, vous voulez limiter à l'avance votre perte maximale sur un trade. Quel outil ?",
+  "o": [
+   "Un ordre take-profit",
+   "Un ordre stop-loss (vente automatique à un seuil de perte défini)",
+   "Acheter un call",
+   "Augmenter le levier"
+  ],
+  "c": 1,
+  "e": "Le stop-loss vend automatiquement si le cours atteint un seuil, plafonnant la perte et imposant une discipline. Le take-profit fait l'inverse (sécuriser un gain) ; augmenter le levier ne ferait qu'accroître le risque."
+ },
+ {
+  "id": "pfu-162",
+  "q": "Mini-cas : capital de 500 €, position à effet de levier x10 (exposition 5 000 €). À partir de quelle variation défavorable, environ, êtes-vous liquidé ?",
+  "o": [
+   "−50 %",
+   "−10 % (soit 1 / levier)",
+   "−1 %",
+   "−100 %"
+  ],
+  "c": 1,
+  "e": "Avec un levier x10, une baisse d'environ 10 % du sous-jacent fait perdre 5 000 × 10 % = 500 €, soit la totalité de la marge : la position est liquidée. Plus le levier est élevé, plus le seuil de liquidation est proche du prix d'entrée."
+ },
+ {
+  "id": "pfu-163",
+  "q": "Cas : vous placez toute votre épargne bourse sur une seule action « coup de cœur ». Quel principe négligez-vous ?",
+  "o": [
+   "L'effet de levier",
+   "La diversification : concentrer sur un seul titre expose à un risque spécifique majeur (l'entreprise peut chuter ou faire faillite)",
+   "Le stop-loss",
+   "Le funding"
+  ],
+  "c": 1,
+  "e": "Miser tout sur une action, c'est ignorer la diversification : si cette entreprise décroche, la perte est massive. Répartir sur de nombreux titres (ou un ETF) dilue ce risque spécifique. « Ne pas mettre tous ses œufs dans le même panier » reste la règle de base."
+ },
+ {
+  "id": "pfu-164",
+  "q": "Définition : qu'est-ce que la « capitalisation boursière » d'une entreprise ?",
+  "o": [
+   "Son chiffre d'affaires",
+   "La valeur totale de ses actions en bourse = cours × nombre d'actions",
+   "Son bénéfice",
+   "Sa dette"
+  ],
+  "c": 1,
+  "e": "La capitalisation boursière = cours de l'action × nombre d'actions en circulation. Elle mesure la valeur que le marché attribue à l'entreprise et sert à la classer (grande, moyenne, petite capitalisation)."
+ },
+ {
+  "id": "pfu-165",
+  "q": "Définition : qu'est-ce que le PER (Price Earnings Ratio) ?",
+  "o": [
+   "Un plan d'épargne retraite",
+   "Le rapport cours / bénéfice par action : combien d'années de bénéfices on « paie » en achetant l'action",
+   "Un taux d'intérêt",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le PER (à ne pas confondre avec le Plan d'Épargne Retraite) = cours de l'action / bénéfice par action. Un PER de 15 signifie qu'on paie 15 fois le bénéfice annuel. Élevé = attentes de croissance fortes (ou survalorisation) ; faible = valorisation prudente (ou défiance)."
+ },
+ {
+  "id": "pfu-166",
+  "q": "Mini-cas : une action cote 50 €, le bénéfice par action est de 5 €. Quel est son PER ?",
+  "o": [
+   "5",
+   "10",
+   "25",
+   "2"
+  ],
+  "c": 1,
+  "e": "PER = cours / bénéfice par action = 50 / 5 = 10. On « paie » 10 années de bénéfices. À comparer aux PER du secteur pour juger si l'action est chère ou bon marché."
+ },
+ {
+  "id": "pfu-167",
+  "q": "Mini-cas : une action cote 60 € et verse 3 € de dividende par an. Quel est le rendement du dividende ?",
+  "o": [
+   "3 %",
+   "5 %",
+   "20 %",
+   "10 %"
+  ],
+  "c": 1,
+  "e": "Rendement du dividende = dividende / cours = 3 / 60 = 5 %. C'est le rendement « courant » de l'action via ses dividendes, distinct de la plus-value potentielle. Un rendement très élevé peut signaler un cours déprimé (donc un risque)."
+ },
+ {
+  "id": "pfu-168",
+  "q": "Cas : vous disposez d'une somme à investir en bourse mais craignez d'entrer « au mauvais moment ». Quelle approche réduit ce risque de timing ?",
+  "o": [
+   "Tout investir d'un coup au plus haut",
+   "Investir progressivement, par versements réguliers (DCA), pour lisser le prix d'entrée",
+   "Attendre indéfiniment",
+   "Utiliser le levier maximal"
+  ],
+  "c": 1,
+  "e": "L'investissement progressif (DCA) étale les achats dans le temps : on achète à des cours variés, ce qui réduit le risque de tout placer juste avant une baisse. Sur un marché durablement haussier, investir en une fois peut rapporter davantage, mais au prix d'un risque de timing plus élevé."
+ },
+ {
+  "id": "pfu-169",
+  "q": "Définition : quelle différence entre « small caps » et « large caps » (blue chips) ?",
+  "o": [
+   "Aucune",
+   "Les small caps sont de petites capitalisations (plus volatiles, potentiel élevé) ; les large caps sont de grandes sociétés établies (plus stables)",
+   "Les small caps sont plus grosses",
+   "Les large caps sont plus risquées"
+  ],
+  "c": 1,
+  "e": "Les large caps (blue chips) sont les grandes capitalisations, matures et relativement stables ; les small caps, plus petites, offrent un potentiel de croissance supérieur mais une volatilité et un risque plus élevés. Un portefeuille équilibré peut mêler les deux."
+ },
+ {
+  "id": "pfu-170",
+  "q": "Définition : qu'est-ce que la date de « détachement » (ex-dividende) ?",
+  "o": [
+   "La date de paiement du dividende",
+   "Le jour où l'action se négocie sans droit au prochain dividende (son cours baisse mécaniquement du montant du dividende)",
+   "La date de l'assemblée",
+   "La clôture annuelle"
+  ],
+  "c": 1,
+  "e": "À la date de détachement, l'acheteur de l'action n'a plus droit au dividende à venir : le cours s'ajuste à la baisse du montant détaché. Acheter juste avant pour « toucher le dividende » n'enrichit donc pas : le gain du coupon est compensé par la baisse du cours."
+ },
+ {
+  "id": "pfu-171",
+  "q": "Mini-cas : une action cote 40 € et verse 2 € de dividende. Rendement du dividende ?",
+  "o": [
+   "2 %",
+   "5 %",
+   "20 %",
+   "8 %"
+  ],
+  "c": 1,
+  "e": "Rendement = dividende / cours = 2 / 40 = 5 %. C'est le rendement courant via les dividendes, à distinguer de la performance totale (qui inclut la variation du cours)."
+ },
+ {
+  "id": "pfu-172",
+  "q": "Définition : qu'est-ce qu'un indice boursier (CAC 40, S&P 500) ?",
+  "o": [
+   "Une action unique",
+   "Un panier représentatif d'un ensemble de valeurs, dont l'évolution mesure la tendance d'un marché",
+   "Une obligation",
+   "Un impôt"
+  ],
+  "c": 1,
+  "e": "Un indice agrège un ensemble d'actions (les 40 plus grandes françaises pour le CAC 40, 500 américaines pour le S&P 500) et en suit la performance moyenne : c'est un baromètre du marché, que les ETF indiciels répliquent."
+ },
+ {
+  "id": "pfu-173",
+  "q": "Cas : dans votre PEA long terme, préférez-vous un ETF capitalisant ou distribuant ?",
+  "o": [
+   "Distribuant, pour toucher des revenus",
+   "Capitalisant, pour réinvestir automatiquement les dividendes et maximiser les intérêts composés",
+   "Peu importe",
+   "Ni l'un ni l'autre"
+  ],
+  "c": 1,
+  "e": "Pour faire croître un capital sur le long terme, l'ETF capitalisant réinvestit automatiquement les dividendes : les intérêts composés jouent à plein, sans frottement. Le distribuant convient plutôt à qui cherche des revenus réguliers."
+ },
+ {
+  "id": "pfu-174",
+  "q": "Mini-cas : capital 1 000 €, position à effet de levier x3 (exposition 3 000 €). Le sous-jacent monte de 5 %. Variation du capital ?",
+  "o": [
+   "+5 %",
+   "+15 %",
+   "+3 %",
+   "+50 %"
+  ],
+  "c": 1,
+  "e": "Exposition = 3 000 €. Gain = 3 000 × 5 % = 150 €, soit +15 % du capital. Le levier x3 triple la variation : une baisse de 5 % aurait fait perdre 15 %."
+ },
+ {
+  "id": "pfu-175",
+  "q": "Cas : pourquoi investir en actions sur un horizon LONG réduit-il le risque ?",
+  "o": [
+   "Le rendement est garanti",
+   "Le temps lisse la volatilité : les baisses temporaires ont statistiquement le temps d'être compensées par la tendance longue",
+   "Les actions ne baissent jamais",
+   "Le long terme supprime les krachs"
+  ],
+  "c": 1,
+  "e": "Sur longue période, les marchés actions ont historiquement progressé malgré les crises : un horizon long permet d'« encaisser » les baisses passagères et de bénéficier des intérêts composés. Rien n'est garanti, mais la probabilité de perte diminue avec la durée de détention."
+ },
+ {
+  "id": "pfu-176",
+  "q": "Mini-cas : 2 000 € d'intérêts perçus sur une obligation, imposés au PFU. Prélèvement total ?",
+  "o": [
+   "600 €",
+   "628 €",
+   "256 €",
+   "372 €"
+  ],
+  "c": 1,
+  "e": "PFU de 31,4 % : 2 000 × 31,4 % = 628 € (256 € d'IR + 372 € de PS). Les intérêts n'ouvrent aucun abattement."
+ },
+ {
+  "id": "pfu-177",
+  "q": "Cas : dans quel ordre construire son épargne, en général ?",
+  "o": [
+   "Actions d'abord, précaution ensuite",
+   "Épargne de précaution (livrets) d'abord, puis enveloppes long terme (PEA, assurance-vie), puis diversification (immobilier, non coté)",
+   "Tout en private equity",
+   "Tout en crypto"
+  ],
+  "c": 1,
+  "e": "La logique patrimoniale : sécuriser d'abord une épargne de précaution disponible (livrets), puis bâtir le long terme via des enveloppes efficaces (PEA, assurance-vie), et enfin diversifier vers l'immobilier ou le non coté. On part du socle sûr vers le plus risqué."
+ },
+ {
+  "id": "pfu-178",
+  "q": "Définition : qu'est-ce que le « patrimoine net » ?",
+  "o": [
+   "La somme de ses revenus",
+   "La valeur de tout ce que l'on possède (actifs) diminuée de tout ce que l'on doit (dettes)",
+   "Le montant de ses impôts",
+   "Son salaire annuel"
+  ],
+  "c": 1,
+  "e": "Patrimoine net = actifs (immobilier, placements, liquidités…) − passifs (crédits, dettes). C'est la mesure réelle de sa richesse : deux personnes au même patrimoine brut peuvent avoir des patrimoines nets très différents selon leur endettement."
+ },
+ {
+  "id": "pfu-179",
+  "q": "Définition : quel est le rôle d'un conseiller en gestion de patrimoine (CGP) ?",
+  "o": [
+   "Vendre uniquement des actions",
+   "Analyser la situation globale d'un client (patrimoine, objectifs, fiscalité) et proposer une stratégie et des placements adaptés",
+   "Gérer les impôts de l'État",
+   "Tenir la comptabilité d'une entreprise"
+  ],
+  "c": 1,
+  "e": "Le CGP dresse un bilan patrimonial (avoirs, revenus, objectifs, fiscalité, transmission) et recommande une stratégie et des solutions adaptées. Bien comprendre les notions de base permet de dialoguer avec lui d'égal à égal et de juger la pertinence de ses conseils."
+ },
+ {
+  "id": "pfu-180",
+  "q": "Cas : on vous propose un placement « à 12 % par an, garanti et sans risque ». Quel réflexe avoir ?",
+  "o": [
+   "Investir toute son épargne aussitôt",
+   "Se méfier fortement : un rendement élevé « garanti et sans risque » est incohérent (couple risque/rendement) et signale souvent une arnaque",
+   "Emprunter pour investir plus",
+   "Ne rien vérifier"
+  ],
+  "c": 1,
+  "e": "Un rendement élevé ET garanti ET sans risque n'existe pas : le couple risque/rendement l'interdit. C'est le marqueur classique des arnaques (Ponzi, faux placements). Réflexes : vérifier l'agrément (AMF/ACPR), la liste noire des autorités, et fuir la pression à investir vite."
+ },
+ {
+  "id": "pfu-181",
+  "q": "Définition : qu'est-ce que la « corrélation » entre deux actifs ?",
+  "o": [
+   "Leur rendement total",
+   "La mesure de la façon dont ils évoluent l'un par rapport à l'autre : peu ou négativement corrélés, ils se diversifient bien",
+   "Leur fiscalité",
+   "Leur liquidité"
+  ],
+  "c": 1,
+  "e": "La corrélation indique si deux actifs montent et baissent ensemble (corrélation positive) ou en sens inverse (négative). Combiner des actifs peu ou négativement corrélés est la clé d'une bonne diversification : quand l'un baisse, l'autre amortit."
+ },
+ {
+  "id": "pfu-182",
+  "q": "Cas : vous voulez réduire le risque global de votre portefeuille sans renoncer à tout rendement. Principe à appliquer ?",
+  "o": [
+   "Concentrer sur l'actif le plus performant",
+   "Diversifier entre classes d'actifs peu corrélées (actions, obligations, immobilier, liquidités)",
+   "Tout mettre en actions",
+   "Utiliser le levier"
+  ],
+  "c": 1,
+  "e": "La diversification entre classes d'actifs peu corrélées lisse les performances : les baisses des unes sont amorties par les autres, pour un couple risque/rendement plus favorable. C'est le principe fondateur de l'allocation d'actifs."
+ }
+]

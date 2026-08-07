@@ -1,0 +1,481 @@
+[
+ {
+  "id": "div-001",
+  "q": "Par défaut, les dividendes perçus par une personne physique sont soumis à :",
+  "o": [
+   "Barème progressif",
+   "PFU à 31,4 % (2026)",
+   "Cotisations sociales uniquement",
+   "Exonération"
+  ],
+  "c": 1,
+  "e": "Les dividendes relèvent du PFU par défaut : 12,8 % d'IR + 18,6 % de PS = 31,4 % en 2026."
+ },
+ {
+  "id": "div-002",
+  "q": "L'abattement de 40 % sur les dividendes :",
+  "o": [
+   "S'applique automatiquement",
+   "Ne s'applique QUE sur option pour le barème progressif",
+   "Vaut aussi avec le PFU",
+   "Est de 30 %"
+  ],
+  "c": 1,
+  "e": "L'abattement de 40 % sur les dividendes n'existe que si l'on opte pour le barème. Avec le PFU, aucun abattement."
+ },
+ {
+  "id": "div-003",
+  "q": "Pour un gérant majoritaire de SARL (TNS), la fraction des dividendes excédant 10 % du capital, primes et compte courant :",
+  "o": [
+   "Est exonérée",
+   "Est soumise aux cotisations sociales des travailleurs indépendants",
+   "Est déductible du résultat",
+   "Est imposée à 7,5 %"
+  ],
+  "c": 1,
+  "e": "Au-delà de 10 % du capital social + primes d'émission + sommes en compte courant, les dividendes du gérant majoritaire sont assujettis aux cotisations sociales TNS."
+ },
+ {
+  "id": "div-004",
+  "q": "Le président de SAS (assimilé salarié) qui se verse des dividendes :",
+  "o": [
+   "Paie des cotisations sociales sur la totalité",
+   "N'est pas soumis aux cotisations sociales sur ces dividendes",
+   "Est exonéré de PFU",
+   "Doit les réintégrer au résultat"
+  ],
+  "c": 1,
+  "e": "Contrairement au gérant majoritaire de SARL, le président de SAS échappe aux cotisations sociales sur les dividendes (seuls PFU/PS s'appliquent) — un arbitrage central dans le choix de la forme sociale."
+ },
+ {
+  "id": "div-005",
+  "q": "La rémunération versée au dirigeant est, pour la société :",
+  "o": [
+   "Non déductible",
+   "Une charge déductible du résultat imposable à l'IS",
+   "Un dividende",
+   "Exonérée d'IS"
+  ],
+  "c": 1,
+  "e": "La rémunération est une charge déductible (elle réduit la base IS), à la différence des dividendes."
+ },
+ {
+  "id": "div-006",
+  "q": "Les dividendes distribués par la société :",
+  "o": [
+   "Sont déductibles de son résultat",
+   "Ne sont pas déductibles : ils sont prélevés sur le bénéfice après IS",
+   "Réduisent l'IS dû",
+   "Sont exonérés de PS"
+  ],
+  "c": 1,
+  "e": "Les dividendes sont prélevés sur le bénéfice net (après IS) : ils ne réduisent pas l'assiette de l'IS, d'où la double imposition économique (IS puis PFU)."
+ },
+ {
+  "id": "div-007",
+  "q": "L'arbitrage rémunération / dividendes dépend principalement de :",
+  "o": [
+   "La seule fiscalité",
+   "La protection sociale, le coût des cotisations et la fiscalité comparée",
+   "La taille du capital uniquement",
+   "La date de clôture"
+  ],
+  "c": 1,
+  "e": "Il faut mettre en balance les cotisations (et droits sociaux acquis) de la rémunération contre le PFU sur les dividendes, sans droits sociaux mais souvent moins coûteux."
+ },
+ {
+  "id": "div-008",
+  "q": "Le dividende versé par une société à l'IS :",
+  "o": [
+   "Est déductible de son résultat",
+   "N'est pas déductible : il est prélevé sur le bénéfice après IS",
+   "Réduit l'IS",
+   "Est une charge sociale"
+  ],
+  "c": 1,
+  "e": "Le dividende rémunère le capital sur le résultat net d'IS : il n'est pas déductible, d'où une double imposition économique (IS puis flat tax)."
+ },
+ {
+  "id": "div-009",
+  "q": "La « double imposition économique » du dividende désigne :",
+  "o": [
+   "IS au niveau de la société puis flat tax au niveau de l'associé",
+   "Deux fois l'IR",
+   "TVA et IS",
+   "CSG et CRDS"
+  ],
+  "c": 0,
+  "e": "Le bénéfice est d'abord frappé par l'IS, puis le dividende distribué est imposé chez l'associé (PFU 31,4 % ou barème avec abattement 40 %)."
+ },
+ {
+  "id": "div-010",
+  "q": "Pour un gérant MAJORITAIRE de SARL (à l'IS), la fraction des dividendes excédant 10 % du capital social :",
+  "o": [
+   "Est exonérée",
+   "Est soumise aux cotisations sociales des indépendants",
+   "Est déductible",
+   "Relève de l'IFI"
+  ],
+  "c": 1,
+  "e": "La part de dividendes supérieure à 10 % (capital + primes + CCA) est assujettie aux cotisations sociales du régime des indépendants, ce qui réduit l'intérêt de la distribution."
+ },
+ {
+  "id": "div-011",
+  "q": "L'abattement de 40 % sur les dividendes vise à :",
+  "o": [
+   "Compenser partiellement la double imposition (uniquement au barème)",
+   "Supprimer l'IS",
+   "Doubler l'imposition",
+   "Exonérer la CSG"
+  ],
+  "c": 0,
+  "e": "Il atténue la double imposition en n'imposant que 60 % du dividende, mais seulement si l'on opte pour le barème progressif."
+ },
+ {
+  "id": "div-012",
+  "q": "Les intérêts versés sur un compte courant d'associé :",
+  "o": [
+   "Ne sont jamais déductibles",
+   "Sont déductibles pour la société dans la limite d'un taux plafond (capital libéré)",
+   "Sont exonérés chez l'associé",
+   "Constituent un dividende"
+  ],
+  "c": 1,
+  "e": "Les intérêts de CCA sont déductibles du résultat sous condition de libération intégrale du capital et dans la limite d'un taux de référence ; ils sont imposables chez l'associé (RCM)."
+ },
+ {
+  "id": "div-013",
+  "q": "Le boni de liquidation correspond :",
+  "o": [
+   "À une charge déductible",
+   "Au surplus réparti entre associés au-delà des apports, imposé comme un revenu distribué",
+   "À une plus-value immobilière",
+   "À un intérêt"
+  ],
+  "c": 1,
+  "e": "Lors de la dissolution, le boni (actif net excédant le capital) est taxé comme un revenu distribué chez les associés."
+ },
+ {
+  "id": "div-014",
+  "q": "Parmi ces affirmations sur l'arbitrage salaire / dividendes, lesquelles sont exactes ?",
+  "o": [
+   "Le salaire est déductible du résultat de la société",
+   "Le dividende ouvre des droits sociaux (retraite, prévoyance)",
+   "Le dividende n'est pas déductible du résultat",
+   "Le salaire supporte des cotisations sociales"
+  ],
+  "c": [
+   0,
+   2,
+   3
+  ],
+  "e": "Le salaire est déductible et cotisé (donc créateur de droits) ; le dividende n'est pas déductible et n'ouvre pas de droits sociaux. C'est le cœur de l'arbitrage."
+ },
+ {
+  "id": "div-015",
+  "q": "Une distribution de dividendes peut provenir :",
+  "o": [
+   "Uniquement du bénéfice de l'exercice",
+   "Du bénéfice de l'exercice ou des réserves / report à nouveau",
+   "Du capital social directement",
+   "Des dettes"
+  ],
+  "c": 1,
+  "e": "On distribue le bénéfice distribuable : résultat de l'exercice augmenté du report à nouveau et des réserves libres, diminué des pertes et de la réserve légale."
+ },
+ {
+  "id": "div-016",
+  "q": "Verser un dividende à une société holding mère plutôt qu'à une personne physique permet, sous conditions :",
+  "o": [
+   "D'éviter tout impôt à vie",
+   "De bénéficier du régime mère-fille (quasi-exonération) pour réinvestir",
+   "De supprimer l'IS",
+   "D'échapper à la TVA"
+  ],
+  "c": 1,
+  "e": "La remontée de dividendes vers la holding sous mère-fille n'est taxée que sur une quote-part de 5 %, laissant ~95 % disponible pour réinvestir sans frottement de flat tax."
+ },
+ {
+  "id": "div-017",
+  "q": "La réserve légale impose d'affecter chaque année une fraction du bénéfice, à hauteur de :",
+  "o": [
+   "5 % jusqu'à atteindre 10 % du capital",
+   "10 % sans limite",
+   "1 % du chiffre d'affaires",
+   "Rien"
+  ],
+  "c": 0,
+  "e": "SARL et sociétés par actions doivent doter la réserve légale de 5 % du bénéfice jusqu'à ce qu'elle atteigne 10 % du capital social ; cette part n'est pas distribuable."
+ },
+ {
+  "id": "div-018",
+  "q": "Le versement d'un acompte sur dividende en cours d'exercice suppose :",
+  "o": [
+   "Rien de particulier",
+   "L'établissement d'un bilan intermédiaire certifié faisant apparaître un bénéfice distribuable",
+   "L'accord de l'administration fiscale",
+   "Une AG à l'unanimité"
+  ],
+  "c": 1,
+  "e": "L'acompte sur dividende n'est possible que si un bilan intermédiaire (attesté par le commissaire aux comptes) montre un bénéfice distribuable suffisant."
+ },
+ {
+  "id": "div-019",
+  "q": "Un bénéfice non distribué est :",
+  "o": [
+   "Perdu",
+   "Affecté en report à nouveau ou en réserves",
+   "Automatiquement réinvesti par l'État",
+   "Soumis au PFU immédiatement"
+  ],
+  "c": 1,
+  "e": "À défaut de distribution, le bénéfice est mis en réserves ou en report à nouveau ; il pourra être distribué ultérieurement (fiscalité chez l'associé au moment de la distribution)."
+ },
+ {
+  "id": "div-020",
+  "q": "En cas d'option pour le barème, les dividendes bénéficient :",
+  "o": [
+   "D'un abattement de 40 %",
+   "D'un abattement de 10 %",
+   "D'aucun abattement",
+   "D'une exonération totale"
+  ],
+  "c": 0,
+  "e": "L'abattement de 40 % ne s'applique QUE sur option pour le barème progressif. Au PFU, les dividendes sont taxés sur leur montant brut, sans abattement."
+ },
+ {
+  "id": "div-021",
+  "q": "Pour un gérant majoritaire de SARL à l'IS, la fraction de dividendes soumise aux cotisations sociales est celle qui excède :",
+  "o": [
+   "10 % du capital social, primes d'émission et sommes en compte courant",
+   "50 % du bénéfice",
+   "23 000 €",
+   "Le PASS"
+  ],
+  "c": 0,
+  "e": "Au-delà de 10 % du capital + primes + apports en compte courant, les dividendes du gérant majoritaire (TNS) sont assujettis aux cotisations sociales, et non aux seuls prélèvements sociaux."
+ },
+ {
+  "id": "div-022",
+  "q": "Quels arbitrages un dirigeant compare-t-il entre rémunération et dividendes ?",
+  "o": [
+   "Les dividendes ne génèrent pas de droits à la retraite",
+   "La rémunération est déductible du résultat de la société",
+   "Les dividendes du gérant majoritaire peuvent supporter des cotisations sociales",
+   "La rémunération échappe toujours à l'impôt"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La rémunération est déductible et ouvre des droits sociaux mais coûte des charges ; les dividendes n'ouvrent pas de droits retraite et, pour le gérant majoritaire, peuvent être socialisés au-delà de 10 %. La rémunération reste imposable à l'IR."
+ },
+ {
+  "id": "div-023",
+  "q": "La dispense de l'acompte de 12,8 % (PFNL) sur les dividendes peut être demandée si le RFR de l'avant-dernière année est inférieur à :",
+  "o": [
+   "50 000 € (seul) / 75 000 € (couple)",
+   "25 000 € / 50 000 €",
+   "10 000 € / 20 000 €",
+   "Aucune condition de revenu"
+  ],
+  "c": 0,
+  "e": "Pour les dividendes, la dispense d'acompte est ouverte si le RFR N-2 est inférieur à 50 000 € (personne seule) ou 75 000 € (couple). La demande doit être formulée avant le 30 novembre de l'année précédant le versement."
+ },
+ {
+  "id": "div-024",
+  "q": "Les dividendes de source étrangère perçus par un résident français :",
+  "o": [
+   "Ne sont jamais imposés en France",
+   "Sont imposables en France, avec en principe un crédit d'impôt conventionnel imputable",
+   "Sont exonérés par principe",
+   "Relèvent des revenus fonciers"
+  ],
+  "c": 1,
+  "e": "Ils sont imposables en France (PFU ou barème) ; la convention fiscale prévoit généralement un crédit d'impôt correspondant à la retenue à la source étrangère, imputable sur l'impôt français pour éviter la double imposition."
+ },
+ {
+  "id": "div-025",
+  "q": "Sur un dividende soumis au PFU, quels prélèvements sont opérés lors du versement (avant régularisation) ?",
+  "o": [
+   "Un acompte d'IR de 12,8 % (PFNL)",
+   "Les prélèvements sociaux de 18,6 %",
+   "La TVA",
+   "Rien avant la déclaration"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "À la source sont prélevés l'acompte d'IR de 12,8 % (sauf dispense) et les prélèvements sociaux de 18,6 %. L'acompte s'impute ensuite sur l'impôt définitif, l'excédent étant restitué."
+ },
+ {
+  "id": "div-026",
+  "q": "Le rachat par une société de ses propres titres à un associé (réduction de capital) est imposé, chez l'associé, :",
+  "o": [
+   "Comme un dividende (RCM)",
+   "Selon le régime unique des plus-values de cession de valeurs mobilières",
+   "Aux droits de succession",
+   "En BIC"
+  ],
+  "c": 1,
+  "e": "Depuis 2015, le gain retiré d'un rachat de titres par la société (y compris réduction de capital non motivée par des pertes) relève d'un régime UNIQUE : celui des plus-values de cession de valeurs mobilières (PFU ou barème), et non plus du régime des distributions."
+ },
+ {
+  "id": "div-027",
+  "q": "L'option pour le paiement du dividende en actions (au lieu d'espèces) :",
+  "o": [
+   "Est interdite",
+   "Permet à l'actionnaire de recevoir de nouveaux titres, le dividende restant imposable",
+   "Exonère le dividende",
+   "Transforme le dividende en plus-value"
+  ],
+  "c": 1,
+  "e": "Le dividende peut, si les statuts et l'AG le prévoient, être payé en actions nouvelles. L'actionnaire reste imposé sur le dividende (PFU ou barème) comme s'il l'avait perçu en numéraire."
+ },
+ {
+  "id": "div-028",
+  "q": "Une distribution prélevée sur les RÉSERVES (et non sur le bénéfice de l'exercice) :",
+  "o": [
+   "N'est pas imposable",
+   "Est imposable comme un dividende (RCM) chez l'associé",
+   "Est exonérée après 2 ans",
+   "Relève des plus-values"
+  ],
+  "c": 1,
+  "e": "Peu importe l'origine (bénéfice de l'exercice ou réserves antérieures) : une distribution décidée par l'AG constitue un revenu distribué, imposable comme un dividende (PFU par défaut, ou barème sur option avec abattement de 40 %)."
+ },
+ {
+  "id": "div-029",
+  "q": "Les sommes mises à disposition des associés (avances, prêts, acomptes) sont, en principe :",
+  "o": [
+   "Sans incidence fiscale",
+   "Présumées être des revenus distribués imposables (art. 111 a du CGI)",
+   "Des charges déductibles pour la société",
+   "Des plus-values"
+  ],
+  "c": 1,
+  "e": "L'art. 111 a présume que les avances, prêts ou acomptes consentis aux associés constituent des revenus distribués, imposables comme des dividendes — sauf preuve d'un remboursement effectif faisant disparaître la présomption."
+ },
+ {
+  "id": "div-030",
+  "q": "La fraction d'intérêts de compte courant d'associé excédant le taux maximal déductible :",
+  "o": [
+   "Reste déductible",
+   "N'est pas déductible et peut être requalifiée en revenu distribué",
+   "Est exonérée chez l'associé",
+   "Ouvre un crédit d'impôt"
+  ],
+  "c": 1,
+  "e": "Au-delà du taux plafond (art. 39-1-3°), la fraction excédentaire des intérêts de CCA n'est pas déductible du résultat de la société et peut être requalifiée en revenu distribué imposable chez l'associé."
+ },
+ {
+  "id": "div-031",
+  "q": "Mini-cas : gérant majoritaire, capital social 50 000 €, dividendes perçus 20 000 €. Fraction soumise aux cotisations sociales ?",
+  "o": [
+   "20 000 €",
+   "15 000 €",
+   "5 000 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Seule la part excédant 10 % du capital (+ primes + compte courant) est socialisée : 10 % × 50 000 = 5 000 € ; part soumise aux cotisations = 20 000 − 5 000 = 15 000 €."
+ },
+ {
+  "id": "div-032",
+  "q": "Cas : vous avez apporté 40 000 € en compte courant à votre société et souhaitez récupérer des liquidités avec le moins d'impôt. Solution la plus efficace ?",
+  "o": [
+   "Vous verser un dividende (PFU 31,4 %)",
+   "Vous faire rembourser votre compte courant d'associé (non imposable)",
+   "Augmenter votre salaire",
+   "Une prime exceptionnelle"
+  ],
+  "c": 1,
+  "e": "Le remboursement d'un compte courant d'associé n'est pas un revenu : c'est la restitution d'une créance, donc non imposable (seuls les intérêts éventuels le sont). À privilégier avant de se verser dividendes ou salaire, qui supportent impôt et/ou cotisations."
+ },
+ {
+  "id": "div-033",
+  "q": "Cas : dirigeant, vous arbitrez entre vous verser davantage de RÉMUNÉRATION ou de DIVIDENDES. Quel est l'intérêt d'une rémunération plus élevée ?",
+  "o": [
+   "Elle n'a aucun intérêt",
+   "Elle est déductible du résultat de la société et ouvre des droits sociaux (retraite, prévoyance)",
+   "Elle échappe à l'impôt",
+   "Elle n'est jamais soumise à cotisations"
+  ],
+  "c": 1,
+  "e": "La rémunération est déductible du résultat (baisse l'IS) et génère des droits sociaux, mais supporte des cotisations. Les dividendes n'ouvrent pas de droits retraite et, pour le gérant majoritaire, sont socialisés au-delà de 10 % du capital. L'arbitrage dépend du besoin de couverture sociale et de la situation globale."
+ },
+ {
+  "id": "div-034",
+  "q": "Définition : qu'est-ce que le « boni de liquidation » ?",
+  "o": [
+   "Une dette de la société",
+   "Le surplus réparti aux associés à la dissolution, au-delà de leurs apports (imposé comme un revenu distribué)",
+   "Une prime d'assurance",
+   "Un intérêt d'emprunt"
+  ],
+  "c": 1,
+  "e": "À la dissolution d'une société, le boni de liquidation est ce qui reste à partager entre associés au-delà du remboursement de leurs apports. Il correspond à des réserves/bénéfices non distribués et est imposé comme un revenu distribué (dividende)."
+ },
+ {
+  "id": "div-035",
+  "q": "Définition : qu'est-ce qu'un « compte courant d'associé » ?",
+  "o": [
+   "Un compte bancaire personnel",
+   "Une avance de fonds consentie par un associé à sa société, remboursable et pouvant porter intérêts",
+   "Une part du capital social",
+   "Un dividende"
+  ],
+  "c": 1,
+  "e": "Le compte courant d'associé est un prêt de l'associé à la société : il n'entre pas dans le capital, est remboursable à tout moment (son remboursement n'est pas imposable) et peut être rémunéré par des intérêts (déductibles pour la société sous un taux plafond)."
+ },
+ {
+  "id": "div-036",
+  "q": "Définition : qu'est-ce qu'un dividende ?",
+  "o": [
+   "Un intérêt d'emprunt",
+   "La part des bénéfices d'une société distribuée à ses actionnaires",
+   "Un remboursement de capital",
+   "Une plus-value de cession"
+  ],
+  "c": 1,
+  "e": "Le dividende est la fraction du bénéfice (ou des réserves) qu'une société décide de distribuer à ses associés, en proportion de leur participation. Chez le bénéficiaire, il est imposé au PFU (ou au barème avec abattement de 40 %)."
+ },
+ {
+  "id": "div-037",
+  "q": "Mini-cas : 10 000 € de dividendes, option barème (TMI 30 %). Impôt sur le revenu dû (hors PS) ?",
+  "o": [
+   "3 000 €",
+   "1 800 €",
+   "1 280 €",
+   "4 000 €"
+  ],
+  "c": 1,
+  "e": "Abattement de 40 % : base = 6 000 €. IR = 6 000 × 30 % = 1 800 € (auxquels s'ajoutent 18,6 % de PS sur les 10 000 € bruts). Au PFU, l'IR aurait été de 1 280 € (12,8 % sans abattement) : ici le barème est moins favorable côté IR."
+ },
+ {
+  "id": "div-038",
+  "q": "Cas : vous percevez des dividendes et votre TMI est de 11 %. Barème ou PFU ?",
+  "o": [
+   "Toujours le PFU",
+   "Plutôt le barème : à TMI faible, l'IR (11 % après abattement de 40 %) est inférieur aux 12,8 % du PFU",
+   "Peu importe",
+   "Toujours le barème"
+  ],
+  "c": 1,
+  "e": "À TMI 11 %, l'option barème est souvent gagnante : après l'abattement de 40 %, la base n'est taxée qu'à 11 %, contre 12,8 % au PFU (les PS de 18,6 % étant dus dans les deux cas). L'option 2OP est globale : elle vaut pour tous les revenus du capital de l'année."
+ },
+ {
+  "id": "div-039",
+  "q": "Mini-cas : 10 000 € de dividendes, TMI 30 %. Part IR au PFU vs au barème ?",
+  "o": [
+   "PFU 1 280 € / barème 1 800 € : le PFU est plus avantageux",
+   "PFU 3 000 € / barème 1 280 €",
+   "Identiques",
+   "PFU 0 €"
+  ],
+  "c": 0,
+  "e": "Au PFU : IR = 12,8 % × 10 000 = 1 280 €. Au barème (TMI 30 %) : base après abattement de 40 % = 6 000 €, IR = 1 800 €. À TMI 30 %, le PFU l'emporte côté IR. L'option barème ne devient gagnante qu'à TMI faible (0 ou 11 %)."
+ }
+]

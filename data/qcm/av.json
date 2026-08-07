@@ -1,0 +1,747 @@
+[
+ {
+  "id": "av-001",
+  "q": "Après 8 ans, les rachats d'assurance-vie bénéficient d'un abattement annuel sur les produits de :",
+  "o": [
+   "4 600 € (seul) / 9 200 € (couple)",
+   "152 500 €",
+   "30 500 €",
+   "100 000 €"
+  ],
+  "c": 0,
+  "e": "Abattement annuel de 4 600 € (personne seule) ou 9 200 € (couple) sur la part de produits comprise dans les rachats, au-delà de 8 ans."
+ },
+ {
+  "id": "av-002",
+  "q": "Après 8 ans, le taux d'IR sur les produits (primes < 150 000 € versées depuis 09/2017) est de :",
+  "o": [
+   "7,5 %",
+   "12,8 %",
+   "19 %",
+   "30 %"
+  ],
+  "c": 0,
+  "e": "7,5 % d'IR (+ 17,2 % de PS) sur les produits correspondant aux primes n'excédant pas 150 000 €, après application de l'abattement annuel."
+ },
+ {
+  "id": "av-003",
+  "q": "Les prélèvements sociaux sur l'assurance-vie en 2026 :",
+  "o": [
+   "Passent à 18,6 %",
+   "Restent à 17,2 %",
+   "Sont supprimés",
+   "Passent à 30 %"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie a été exclue de la hausse de la LFSS 2026 : ses PS restent à 17,2 %, ce qui accentue son attrait relatif face au compte-titres."
+ },
+ {
+  "id": "av-004",
+  "q": "Au décès, pour les primes versées AVANT 70 ans (art. 990 I), l'abattement est de :",
+  "o": [
+   "30 500 € global",
+   "152 500 € par bénéficiaire",
+   "100 000 € par bénéficiaire",
+   "4 600 €"
+  ],
+  "c": 1,
+  "e": "Abattement de 152 500 € par bénéficiaire ; au-delà, prélèvement de 20 % jusqu'à 700 000 € de fraction taxable, puis 31,25 %."
+ },
+ {
+  "id": "av-005",
+  "q": "Pour les primes versées APRÈS 70 ans (art. 757 B), l'abattement global est de :",
+  "o": [
+   "152 500 €",
+   "30 500 € tous bénéficiaires confondus",
+   "100 000 €",
+   "9 200 €"
+  ],
+  "c": 1,
+  "e": "Abattement global de 30 500 € (partagé entre bénéficiaires) sur les seules primes ; les produits (intérêts) restent exonérés."
+ },
+ {
+  "id": "av-006",
+  "q": "Civilement, le capital d'assurance-vie transmis au bénéficiaire désigné est :",
+  "o": [
+   "Intégré à la succession",
+   "En principe « hors succession »",
+   "Soumis à la réserve héréditaire dans tous les cas",
+   "Bloqué 5 ans"
+  ],
+  "c": 1,
+  "e": "Le capital est en principe hors succession et échappe aux règles civiles de dévolution, sauf primes manifestement exagérées."
+ },
+ {
+  "id": "av-007",
+  "q": "Avant 8 ans, les produits rachetés sont soumis à :",
+  "o": [
+   "7,5 % + PS",
+   "PFU 12,8 % + PS 17,2 % = 30 % (ou barème)",
+   "31,4 %",
+   "Exonération"
+  ],
+  "c": 1,
+  "e": "Avant 8 ans : PFU de 12,8 % + 17,2 % de PS = 30 %. Les PS de l'assurance-vie restant à 17,2 %, le total demeure 30 % même après 2026."
+ },
+ {
+  "id": "av-008",
+  "q": "Le taux de 7,5 % après 8 ans est réservé aux produits attachés à des primes n'excédant pas :",
+  "o": [
+   "30 500 €",
+   "150 000 €",
+   "152 500 €",
+   "300 000 €"
+  ],
+  "c": 1,
+  "e": "Au-delà de 150 000 € de primes nettes (versées depuis le 27/09/2017), la fraction excédentaire est taxée à 12,8 % au lieu de 7,5 %."
+ },
+ {
+  "id": "av-009",
+  "q": "L'intérêt successoral majeur de l'assurance-vie est :",
+  "o": [
+   "L'absence de fiscalité en cas de rachat",
+   "Une transmission hors droits de succession classiques, dans les limites des abattements 990 I / 757 B",
+   "Une exonération d'IFI",
+   "Le déblocage anticipé garanti"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie permet de transmettre des capitaux avec une fiscalité propre (990 I / 757 B), souvent plus douce que les droits de succession de droit commun."
+ },
+ {
+  "id": "av-010",
+  "q": "Sur un contrat d'assurance-vie de plus de 8 ans, le rachat bénéficie d'un abattement annuel sur les produits de :",
+  "o": [
+   "4 600 € (célibataire) / 9 200 € (couple)",
+   "152 500 €",
+   "30 500 €",
+   "10 000 €"
+  ],
+  "c": 0,
+  "e": "Après 8 ans, les produits rachetés profitent d'un abattement annuel de 4 600 € (personne seule) ou 9 200 € (couple soumis à imposition commune)."
+ },
+ {
+  "id": "av-011",
+  "q": "Après 8 ans, la fraction des produits correspondant à des primes inférieures à 150 000 € est imposée (au-delà de l'abattement) au taux de :",
+  "o": [
+   "7,5 %",
+   "12,8 %",
+   "30 %",
+   "0 %"
+  ],
+  "c": 0,
+  "e": "Taux réduit de 7,5 % (+ PS) sur les produits liés aux primes n'excédant pas 150 000 € ; 12,8 % au-delà de ce seuil."
+ },
+ {
+  "id": "av-012",
+  "q": "Les prélèvements sociaux sur les gains d'assurance-vie, après la LFSS 2026, sont de :",
+  "o": [
+   "18,6 %",
+   "17,2 % (exception maintenue)",
+   "31,4 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie fait partie des exceptions : les PS restent à 17,2 %, contrairement aux autres revenus mobiliers passés à 18,6 %."
+ },
+ {
+  "id": "av-013",
+  "q": "Au décès, pour les primes versées AVANT 70 ans, l'article 990 I prévoit un abattement de :",
+  "o": [
+   "30 500 € global",
+   "152 500 € par bénéficiaire",
+   "100 000 €",
+   "4 600 €"
+  ],
+  "c": 1,
+  "e": "Chaque bénéficiaire profite d'un abattement de 152 500 € ; au-delà, prélèvement de 20 % puis 31,25 % (fraction supérieure à 700 000 € par bénéficiaire)."
+ },
+ {
+  "id": "av-014",
+  "q": "Pour les primes versées APRÈS 70 ans, l'article 757 B prévoit :",
+  "o": [
+   "Un abattement de 152 500 € par bénéficiaire",
+   "Un abattement global de 30 500 €, seules les primes (hors gains) étant taxables aux droits de succession",
+   "Une exonération totale",
+   "Le PFU"
+  ],
+  "c": 1,
+  "e": "Au-delà d'un abattement global de 30 500 € (tous bénéficiaires confondus), seules les PRIMES versées après 70 ans sont soumises aux droits de succession ; les gains restent exonérés."
+ },
+ {
+  "id": "av-015",
+  "q": "Le capital d'assurance-vie versé au bénéficiaire désigné :",
+  "o": [
+   "Entre dans l'actif successoral civil",
+   "Est en principe hors succession civile (bénéficie au bénéficiaire désigné par la clause)",
+   "Est bloqué 5 ans",
+   "Revient aux seuls héritiers réservataires"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie est en principe « hors succession » sur le plan civil : le capital est transmis au bénéficiaire désigné, avec une fiscalité propre (990 I / 757 B)."
+ },
+ {
+  "id": "av-016",
+  "q": "L'antériorité fiscale d'un contrat d'assurance-vie se compte à partir de :",
+  "o": [
+   "Chaque versement",
+   "La date d'ouverture (premier versement) du contrat",
+   "La date du rachat",
+   "70 ans"
+  ],
+  "c": 1,
+  "e": "C'est la date d'ouverture du contrat qui fixe l'antériorité : les 8 ans se comptent depuis le premier versement, d'où l'intérêt de « prendre date » tôt."
+ },
+ {
+  "id": "av-017",
+  "q": "En cas de rachat partiel, la part imposable correspond :",
+  "o": [
+   "À la totalité du montant racheté",
+   "À la seule quote-part de produits comprise dans le rachat",
+   "Aux seules primes",
+   "À rien avant 8 ans"
+  ],
+  "c": 1,
+  "e": "Le rachat est réputé comprendre une part de capital (non taxée) et une part de produits (taxée) au prorata : seule cette dernière est imposée."
+ },
+ {
+  "id": "av-018",
+  "q": "Parmi ces affirmations sur la fiscalité DÉCÈS de l'assurance-vie, lesquelles sont exactes ?",
+  "o": [
+   "Primes avant 70 ans : abattement de 152 500 € par bénéficiaire (990 I)",
+   "Primes après 70 ans : abattement global de 30 500 € (757 B)",
+   "Les gains des primes versées après 70 ans sont exonérés de droits",
+   "Le conjoint bénéficiaire est exonéré"
+  ],
+  "c": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "e": "Les quatre propositions sont exactes : c'est le régime combiné 990 I / 757 B, et le conjoint (ou partenaire de PACS) bénéficiaire est totalement exonéré (loi TEPA)."
+ },
+ {
+  "id": "av-019",
+  "q": "Un contrat de CAPITALISATION se distingue de l'assurance-vie en ce que :",
+  "o": [
+   "Il n'existe pas de bénéficiaire ; il entre dans l'actif successoral",
+   "Il est totalement exonéré",
+   "Il ne peut pas être racheté",
+   "Il relève de l'IFI"
+  ],
+  "c": 0,
+  "e": "Le contrat de capitalisation n'a pas de clause bénéficiaire : au décès, il intègre l'actif successoral (mais conserve son antériorité fiscale, transmissible)."
+ },
+ {
+  "id": "av-020",
+  "q": "Sur un contrat d'assurance-vie, les produits du fonds en euros supportent les prélèvements sociaux :",
+  "o": [
+   "Seulement au rachat",
+   "Chaque année, au fil de l'eau, lors de l'inscription en compte",
+   "Jamais",
+   "Au décès uniquement"
+  ],
+  "c": 1,
+  "e": "Sur le fonds en euros, les PS (17,2 %) sont prélevés annuellement lors de l'inscription des intérêts ; sur les unités de compte, ils sont dus au rachat/dénouement."
+ },
+ {
+  "id": "av-021",
+  "q": "La clause bénéficiaire d'un contrat d'assurance-vie peut être démembrée pour :",
+  "o": [
+   "Attribuer l'usufruit au conjoint et la nue-propriété aux enfants",
+   "Doubler les abattements sans limite",
+   "Exonérer d'IR les rachats",
+   "Éviter toute déclaration"
+  ],
+  "c": 0,
+  "e": "Le démembrement de la clause (usufruit au conjoint, nue-propriété aux enfants) optimise la transmission : le conjoint dispose du capital (quasi-usufruit), les enfants recueillant la nue-propriété."
+ },
+ {
+  "id": "av-022",
+  "q": "Après 8 ans de détention, les rachats sur un contrat d'assurance-vie bénéficient d'un abattement annuel sur les gains de :",
+  "o": [
+   "4 600 € (personne seule) / 9 200 € (couple)",
+   "152 500 €",
+   "30 500 €",
+   "10 000 €"
+  ],
+  "c": 0,
+  "e": "Après 8 ans, un abattement de 4 600 € (seul) ou 9 200 € (couple) s'applique chaque année sur la part de gains comprise dans les rachats, avant imposition."
+ },
+ {
+  "id": "av-023",
+  "q": "Concernant la fiscalité successorale de l'assurance-vie, lesquelles sont exactes ?",
+  "o": [
+   "Primes versées avant 70 ans : abattement de 152 500 € par bénéficiaire (art. 990 I)",
+   "Primes versées après 70 ans : abattement global de 30 500 € (art. 757 B)",
+   "Les gains des primes versées après 70 ans sont taxables",
+   "Le conjoint bénéficiaire est exonéré"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Avant 70 ans : 152 500 € par bénéficiaire (art. 990 I). Après 70 ans : abattement global de 30 500 € sur les primes (art. 757 B), mais les intérêts restent exonérés. Le conjoint/partenaire de PACS bénéficiaire est totalement exonéré."
+ },
+ {
+  "id": "av-024",
+  "q": "Les prélèvements sociaux sur les produits d'assurance-vie s'établissent à :",
+  "o": [
+   "18,6 %",
+   "17,2 %",
+   "15,5 %",
+   "12,8 %"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie fait partie des exceptions maintenues à 17,2 % après la LFSS 2026, contrairement aux dividendes et intérêts passés à 18,6 %."
+ },
+ {
+  "id": "av-025",
+  "q": "Pour les primes versées après le 27/09/2017 sur un contrat de plus de 8 ans, au-delà de 150 000 € d'encours, les gains sont taxés à l'IR (hors PS) au taux de :",
+  "o": [
+   "7,5 %",
+   "12,8 %",
+   "24,7 %",
+   "30 %"
+  ],
+  "c": 1,
+  "e": "Au-delà du seuil de 150 000 € d'encours (par assuré), la fraction correspondante des gains subit 12,8 % d'IR ; en deçà, le taux réduit de 7,5 % s'applique après 8 ans. Les PS de 17,2 % s'ajoutent dans tous les cas."
+ },
+ {
+  "id": "av-026",
+  "q": "Au décès, après l'abattement de 152 500 € (art. 990 I), le capital transmis est taxé au taux de :",
+  "o": [
+   "20 % jusqu'à 700 000 €, puis 31,25 % au-delà",
+   "60 % dès le premier euro",
+   "7,5 % uniquement",
+   "Exonéré en totalité"
+  ],
+  "c": 0,
+  "e": "Le prélèvement de l'art. 990 I (primes avant 70 ans) s'applique, après abattement de 152 500 € par bénéficiaire, au taux de 20 % jusqu'à 700 000 € de part nette taxable, puis 31,25 % au-delà."
+ },
+ {
+  "id": "av-027",
+  "q": "Pour les produits attachés à des primes versées AVANT le 27/09/2017, le prélèvement forfaitaire libératoire (sur option) est :",
+  "o": [
+   "Toujours de 12,8 %",
+   "Dégressif : 35 % (< 4 ans), 15 % (4 à 8 ans), 7,5 % (> 8 ans)",
+   "De 30 % quelle que soit la durée",
+   "Nul"
+  ],
+  "c": 1,
+  "e": "L'ancien régime (primes avant le 27/09/2017) applique, sur option, un PFL dégressif selon l'ancienneté : 35 % avant 4 ans, 15 % de 4 à 8 ans, 7,5 % au-delà de 8 ans (+ PS). Le PFU de 12,8 % vise les primes postérieures."
+ },
+ {
+  "id": "av-028",
+  "q": "Un contrat « vie-génération » procure, en matière de transmission :",
+  "o": [
+   "Une exonération totale",
+   "Un abattement supplémentaire de 20 % appliqué avant l'abattement de 152 500 €",
+   "Une réduction des prélèvements sociaux",
+   "Aucun avantage"
+  ],
+  "c": 1,
+  "e": "Le contrat vie-génération (investi dans des actifs ciblés : PME, ETI, logement social...) ouvre un abattement d'assiette de 20 % appliqué avant l'abattement de 152 500 € de l'art. 990 I."
+ },
+ {
+  "id": "av-029",
+  "q": "Lors d'un rachat sur un contrat récent (primes depuis 09/2017), l'assureur opère à la source :",
+  "o": [
+   "Rien avant la déclaration",
+   "Un prélèvement forfaitaire (acompte) et les prélèvements sociaux, régularisés ensuite",
+   "La totalité de l'impôt de manière définitive",
+   "La TVA"
+  ],
+  "c": 1,
+  "e": "L'assureur prélève à la source un prélèvement forfaitaire non libératoire (7,5 % ou 12,8 % selon l'ancienneté/l'encours) et les prélèvements sociaux ; l'acompte d'IR s'impute ensuite sur l'impôt définitif, l'excédent étant restitué."
+ },
+ {
+  "id": "av-030",
+  "q": "Une clause bénéficiaire démembrée (usufruit au conjoint, nue-propriété aux enfants) entraîne, au dénouement :",
+  "o": [
+   "Un partage immédiat du capital entre eux",
+   "Un quasi-usufruit du conjoint sur le capital, avec une créance de restitution au profit des enfants",
+   "La perte de tout droit pour les enfants",
+   "Une exonération totale"
+  ],
+  "c": 1,
+  "e": "Le conjoint usufruitier reçoit le capital en quasi-usufruit (il peut l'utiliser) ; les enfants nus-propriétaires disposent d'une créance de restitution, en principe déductible à la succession de l'usufruitier (sous les limites de l'art. 774 bis pour les sommes d'argent)."
+ },
+ {
+  "id": "av-031",
+  "q": "Une avance consentie par l'assureur sur un contrat d'assurance-vie :",
+  "o": [
+   "Constitue un rachat imposable",
+   "N'est pas un rachat : elle n'entraîne pas d'imposition (c'est un prêt à rembourser)",
+   "Clôture le contrat",
+   "Est soumise aux droits de succession"
+  ],
+  "c": 1,
+  "e": "L'avance est un prêt garanti par le contrat, remboursable avec intérêts : elle n'emporte pas désinvestissement, donc pas d'imposition — à la différence d'un rachat, qui déclenche la taxation des produits compris dans le retrait."
+ },
+ {
+  "id": "av-032",
+  "q": "Un contrat de capitalisation (à la différence de l'assurance-vie) :",
+  "o": [
+   "Se denoue au décès hors succession",
+   "N'est pas dénoué par le décès : il est transmis aux héritiers et entre dans l'actif successoral",
+   "Est exonéré de droits de succession",
+   "Perd son antériorité fiscale à la transmission"
+  ],
+  "c": 1,
+  "e": "Le contrat de capitalisation n'a pas de bénéficiaire en cas de décès : il intègre la succession (droits de mutation selon le lien de parenté), mais conserve son antériorité fiscale — les héritiers reprennent le contrat avec sa date d'origine."
+ },
+ {
+  "id": "av-033",
+  "q": "Pour un rachat AVANT 8 ans sur des primes versées depuis le 27/09/2017, les produits sont imposés à l'IR au taux de :",
+  "o": [
+   "7,5 %",
+   "12,8 % (PFU), sauf option barème",
+   "0 %",
+   "35 %"
+  ],
+  "c": 1,
+  "e": "Avant 8 ans, les produits des primes récentes relèvent du PFU à 12,8 % (+ 17,2 % de PS), sauf option pour le barème. Le taux réduit de 7,5 % et l'abattement de 4 600/9 200 € ne s'appliquent qu'après 8 ans."
+ },
+ {
+  "id": "av-034",
+  "q": "En l'absence de bénéficiaire désigné (ou en cas de clause caduque), le capital d'assurance-vie :",
+  "o": [
+   "Est perdu",
+   "Réintègre la succession de l'assuré et est soumis aux droits de succession",
+   "Revient à l'assureur",
+   "Est exonéré"
+  ],
+  "c": 1,
+  "e": "Faute de bénéficiaire déterminé, le capital perd le bénéfice du régime hors succession de l'assurance-vie : il réintègre l'actif successoral et suit le régime des droits de succession de droit commun. D'où l'importance d'une clause bénéficiaire soigneusement rédigée."
+ },
+ {
+  "id": "av-035",
+  "q": "Mini-cas : contrat de plus de 8 ans, rachat comprenant 7 000 € de gains (personne seule). Part de gains imposable après abattement ?",
+  "o": [
+   "7 000 €",
+   "2 400 €",
+   "4 600 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Après 8 ans, l'abattement annuel est de 4 600 € (personne seule) : 7 000 − 4 600 = 2 400 € de gains imposables (au taux de 7,5 % ou 12,8 % selon l'encours, + 17,2 % de PS)."
+ },
+ {
+  "id": "av-036",
+  "q": "Cas : vous voulez transmettre un capital financier à un proche (hors héritier réservataire) en optimisant les droits, en versant avant vos 70 ans. Outil le plus adapté ?",
+  "o": [
+   "Un compte-titres transmis par succession",
+   "Une assurance-vie (art. 990 I : 152 500 € par bénéficiaire)",
+   "Une donation notariée simple",
+   "Un PEA"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie alimentée avant 70 ans permet de transmettre, hors succession, 152 500 € par bénéficiaire en franchise (art. 990 I), puis 20 %/31,25 %. C'est l'outil de prédilection pour désigner librement un bénéficiaire et réduire les droits, là où un CTO ou un PEA intègrent la succession."
+ },
+ {
+  "id": "av-037",
+  "q": "Cas : sur votre assurance-vie, vous hésitez entre fonds euros et unités de compte. Quel arbitrage selon l'horizon ?",
+  "o": [
+   "UC pour une épargne de court terme",
+   "Fonds euros pour la sécurité (capital garanti), UC pour viser un meilleur rendement sur le long terme",
+   "Fonds euros uniquement, quel que soit l'horizon",
+   "UC systématiquement"
+  ],
+  "c": 1,
+  "e": "Le fonds euros garantit le capital mais rapporte peu : adapté au court terme et à la sécurité. Les unités de compte offrent un potentiel supérieur mais un risque de perte : pertinentes sur un horizon long, qui permet de lisser la volatilité. L'allocation se règle selon horizon et tolérance au risque."
+ },
+ {
+  "id": "av-038",
+  "q": "Cas : votre banquier propose d'arbitrer votre vieux contrat d'assurance-vie (12 ans) vers un contrat neuf. Point de vigilance ?",
+  "o": [
+   "Aucun, c'est neutre",
+   "L'ouverture d'un nouveau contrat fait repartir le compteur des 8 ans (perte de l'antériorité fiscale)",
+   "Le nouveau contrat est exonéré d'impôt",
+   "Cela double l'abattement"
+  ],
+  "c": 1,
+  "e": "L'antériorité fiscale (le seuil des 8 ans ouvrant l'abattement de 4 600/9 200 € et le taux réduit) est attachée au contrat, pas à l'assuré : ouvrir un contrat neuf la remet à zéro. Souvent, mieux vaut faire évoluer le contrat existant (nouveaux supports, versements) que le clôturer."
+ },
+ {
+  "id": "av-039",
+  "q": "Cas : votre objectif premier est de TRANSMETTRE un capital financier à vos proches en cas de décès, avec une fiscalité douce. Entre assurance-vie et PER, lequel privilégier ?",
+  "o": [
+   "Le PER, dans tous les cas",
+   "L'assurance-vie (152 500 € par bénéficiaire hors succession, art. 990 I)",
+   "Un compte-titres",
+   "Un Livret A"
+  ],
+  "c": 1,
+  "e": "Pour la transmission, l'assurance-vie (primes avant 70 ans) offre un cadre très favorable : 152 500 € par bénéficiaire hors succession. Le PER a d'abord une vocation retraite ; sa fiscalité au décès dépend de l'âge et peut être moins lisible. L'AV reste l'outil de transmission de référence."
+ },
+ {
+  "id": "av-040",
+  "q": "Cas : contrat d'assurance-vie de plus de 8 ans, vous avez besoin de 15 000 € mais voulez préserver l'avantage fiscal du contrat. Que faire ?",
+  "o": [
+   "Clôturer le contrat",
+   "Effectuer un rachat PARTIEL (le contrat garde son antériorité et l'abattement annuel de 4 600/9 200 €)",
+   "Ouvrir un nouveau contrat",
+   "Faire une avance de 100 % du contrat"
+  ],
+  "c": 1,
+  "e": "Un rachat partiel laisse le contrat vivant : il conserve son antériorité (plus de 8 ans) et vous profitez chaque année de l'abattement de 4 600 € (seul) / 9 200 € (couple) sur les gains rachetés. Clôturer perdrait cet acquis."
+ },
+ {
+  "id": "av-041",
+  "q": "Investir en private equity (FCPR/FPCI) via un contrat d'ASSURANCE-VIE plutôt qu'en direct :",
+  "o": [
+   "N'a aucun intérêt",
+   "Fait bénéficier les gains de la fiscalité de l'assurance-vie (et des PS à 17,2 %)",
+   "Est interdit",
+   "Supprime tout risque"
+  ],
+  "c": 1,
+  "e": "Logé dans une assurance-vie, un fonds de private equity profite du cadre fiscal du contrat (abattement après 8 ans, transmission 990 I) et les produits conservent les prélèvements sociaux à 17,2 % (exception maintenue). En direct, l'exonération FCPR fiscal s'accompagne de PS à 18,6 %."
+ },
+ {
+  "id": "av-042",
+  "q": "Définition : quelle différence entre « fonds euros » et « unités de compte » dans un contrat d'assurance-vie ?",
+  "o": [
+   "Aucune",
+   "Le fonds euros garantit le capital (rendement modéré) ; les unités de compte sont investies sur les marchés (potentiel supérieur, mais risque de perte)",
+   "Les unités de compte sont garanties",
+   "Le fonds euros est plus risqué"
+  ],
+  "c": 1,
+  "e": "Le fonds euros offre une garantie en capital et un rendement modéré. Les unités de compte (actions, SCPI, ETF…) suivent les marchés : potentiel de gain plus élevé, mais capital non garanti. L'allocation entre les deux se règle selon l'horizon et la tolérance au risque."
+ },
+ {
+  "id": "av-043",
+  "q": "Cas : vous ouvrez une assurance-vie. Pourquoi la rédaction de la clause bénéficiaire est-elle capitale ?",
+  "o": [
+   "Elle n'a aucune importance",
+   "Elle détermine qui recevra le capital au décès et conditionne l'application du régime fiscal avantageux (hors succession)",
+   "Elle fixe le rendement",
+   "Elle bloque les rachats"
+  ],
+  "c": 1,
+  "e": "La clause bénéficiaire désigne la ou les personnes qui recevront le capital au décès : bien rédigée, elle assure la transmission hors succession (152 500 € par bénéficiaire avant 70 ans). Mal rédigée ou caduque, le capital réintègre la succession et perd cet avantage."
+ },
+ {
+  "id": "av-044",
+  "q": "Cas : vous placez une somme dont vous pourriez avoir besoin dans 3-4 ans, en cherchant un peu de rendement et de la sécurité. Support adapté ?",
+  "o": [
+   "Un PEA (horizon 5 ans+)",
+   "Une assurance-vie en fonds euros (capital garanti, disponible)",
+   "Des actions en direct",
+   "Un FPCI (illiquide 8-10 ans)"
+  ],
+  "c": 1,
+  "e": "Pour un horizon de 3-4 ans avec sécurité et liquidité, le fonds euros d'une assurance-vie est adapté : capital garanti, rachat possible à tout moment. Le PEA et les actions visent le long terme ; le private equity est bloqué et risqué."
+ },
+ {
+  "id": "av-045",
+  "q": "Définition : qu'est-ce qu'un contrat d'assurance-vie « multisupport » ?",
+  "o": [
+   "Un contrat à fonds euros uniquement",
+   "Un contrat permettant de répartir l'épargne entre un fonds euros (garanti) et des unités de compte (marchés)",
+   "Un contrat sans risque",
+   "Un livret bancaire"
+  ],
+  "c": 1,
+  "e": "Le contrat multisupport combine, au sein d'une même assurance-vie, le fonds euros (capital garanti) et des unités de compte (actions, SCPI, ETF…). L'assuré module l'allocation et peut arbitrer entre supports selon son horizon et sa tolérance au risque."
+ },
+ {
+  "id": "av-046",
+  "q": "Investir par versements programmés réguliers (ex. tous les mois) permet :",
+  "o": [
+   "De garantir un gain",
+   "De lisser le prix d'entrée et de réduire l'impact de la volatilité (on achète à des cours variés)",
+   "D'éviter tout risque",
+   "De doubler le rendement"
+  ],
+  "c": 1,
+  "e": "Les versements programmés (investissement progressif) lissent le point d'entrée : on achète régulièrement, à des cours tantôt hauts tantôt bas, ce qui réduit le risque de mal « timer » le marché. Utile sur les supports volatils (actions, UC), sur le long terme."
+ },
+ {
+  "id": "av-047",
+  "q": "Cas : votre assurance-vie a plus de 8 ans et vous avez besoin de 20 000 €. Pourquoi privilégier un rachat partiel ?",
+  "o": [
+   "Pour clôturer le contrat",
+   "Pour ne prélever que ce dont vous avez besoin, en profitant de l'abattement annuel (4 600 €/9 200 €) et en gardant l'antériorité",
+   "Pour perdre l'avantage fiscal",
+   "Pour éviter les prélèvements sociaux"
+  ],
+  "c": 1,
+  "e": "Le rachat partiel laisse le contrat vivant : seule la part de gains comprise dans les 20 000 € est taxée, après application de l'abattement annuel de 4 600 € (seul) ou 9 200 € (couple). L'antériorité (plus de 8 ans) et le reste de l'épargne sont préservés."
+ },
+ {
+  "id": "av-048",
+  "q": "Mini-cas : contrat de plus de 8 ans, un couple rachète une somme comprenant 8 000 € de gains. Gains imposables après abattement ?",
+  "o": [
+   "8 000 €",
+   "0 €",
+   "3 400 €",
+   "4 600 €"
+  ],
+  "c": 1,
+  "e": "Pour un couple, l'abattement après 8 ans est de 9 200 € : les 8 000 € de gains sont entièrement absorbés → 0 € imposable à l'IR (les prélèvements sociaux de 17,2 % restent toutefois dus sur les gains)."
+ },
+ {
+  "id": "av-049",
+  "q": "Concernant l'assurance-vie, lesquelles sont exactes ?",
+  "o": [
+   "Après 8 ans, un abattement annuel de 4 600 € (seul) / 9 200 € (couple) s'applique sur les gains rachetés",
+   "Elle permet de transmettre 152 500 € par bénéficiaire hors succession (primes avant 70 ans)",
+   "Un contrat multisupport combine fonds euros et unités de compte",
+   "Les fonds y sont bloqués jusqu'à la retraite"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'assurance-vie : abattement après 8 ans, transmission avantageuse (152 500 € par bénéficiaire avant 70 ans), et souplesse d'allocation (multisupport). L'épargne reste disponible à tout moment (rachat) — elle n'est pas bloquée, contrairement au PER."
+ },
+ {
+  "id": "av-050",
+  "q": "Cas : vous placez sur assurance-vie une somme dont vous aurez besoin dans 2 ans, sans vouloir risquer votre capital. Quel support ?",
+  "o": [
+   "100 % unités de compte actions",
+   "Le fonds euros (capital garanti, disponible à tout moment)",
+   "Un ETF émergents",
+   "Du private equity"
+  ],
+  "c": 1,
+  "e": "Pour un horizon court et un besoin de sécurité, le fonds euros s'impose : capital garanti et épargne disponible. Les unités de compte (actions, etc.) exposent à une perte en capital sur un horizon aussi court : à réserver au long terme."
+ },
+ {
+  "id": "av-051",
+  "q": "Mini-cas : au décès, un bénéficiaire reçoit 200 000 € (primes versées avant 70 ans). Montant taxable après abattement (art. 990 I) ?",
+  "o": [
+   "200 000 €",
+   "47 500 €",
+   "152 500 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Abattement de 152 500 € par bénéficiaire : 200 000 − 152 500 = 47 500 € taxables (au taux de 20 % jusqu'à 700 000 €), soit 9 500 € de prélèvement. Le reste est transmis hors droits de succession."
+ },
+ {
+  "id": "av-052",
+  "q": "Cas : sur votre assurance-vie, vous voulez sécuriser une partie de l'épargne tout en cherchant du rendement sur le reste. Allocation adaptée ?",
+  "o": [
+   "100 % fonds euros",
+   "Répartir entre fonds euros (sécurité) et unités de compte (rendement/risque), selon votre horizon",
+   "100 % unités de compte actions",
+   "100 % private equity"
+  ],
+  "c": 1,
+  "e": "Une allocation équilibrée fonds euros / unités de compte permet de sécuriser une part du capital (fonds euros garanti) tout en visant de la performance sur l'autre (UC). Le curseur dépend de l'horizon et de la tolérance au risque : plus l'horizon est long, plus la part d'UC peut être élevée."
+ },
+ {
+  "id": "av-053",
+  "q": "Cas : contrat de plus de 8 ans, vous avez besoin de la TOTALITÉ des fonds. Rachat total ou partiel ?",
+  "o": [
+   "Rachat partiel obligatoirement",
+   "Rachat total, si vous n'avez plus besoin du contrat (mais vous perdez l'antériorité et le contrat est clôturé)",
+   "Ni l'un ni l'autre",
+   "Une avance"
+  ],
+  "c": 1,
+  "e": "Si vous avez besoin de tout, le rachat total est logique — mais il clôture le contrat et efface l'antériorité fiscale acquise. Si un besoin partiel suffit, mieux vaut un rachat partiel pour garder le contrat vivant et son ancienneté."
+ },
+ {
+  "id": "av-054",
+  "q": "Cas : vous voulez désigner librement qui recevra un capital à votre décès, hors succession, jusqu'à 152 500 € par bénéficiaire en franchise. Quel outil ?",
+  "o": [
+   "Un PEA",
+   "Une assurance-vie (primes versées avant 70 ans)",
+   "Un compte-titres",
+   "Un livret A"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie est l'outil de transmission par excellence : clause bénéficiaire libre, capital transmis hors succession, abattement de 152 500 € par bénéficiaire (primes avant 70 ans). PEA et compte-titres, eux, intègrent la succession."
+ },
+ {
+  "id": "av-055",
+  "q": "Cas : vous placez à horizon long (8 ans+), en voulant à la fois une fiscalité qui s'allège avec le temps et un cadre de transmission avantageux. Enveloppe ?",
+  "o": [
+   "Un compte-titres",
+   "L'assurance-vie",
+   "Un livret A",
+   "Un fonds monétaire"
+  ],
+  "c": 1,
+  "e": "L'assurance-vie coche ces deux cases : après 8 ans, abattement annuel de 4 600 €/9 200 € sur les gains rachetés, et transmission hors succession (152 500 € par bénéficiaire avant 70 ans). Le compte-titres n'offre ni l'un ni l'autre."
+ },
+ {
+  "id": "av-056",
+  "q": "Mini-cas : contrat de plus de 8 ans, personne seule, rachat comprenant 5 000 € de gains. Gains imposables à l'IR après abattement ?",
+  "o": [
+   "5 000 €",
+   "400 €",
+   "4 600 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Abattement annuel de 4 600 € (personne seule) après 8 ans : 5 000 − 4 600 = 400 € imposables (au taux réduit), les prélèvements sociaux de 17,2 % restant dus sur la totalité des gains."
+ },
+ {
+  "id": "av-057",
+  "q": "Cas : un couple souhaite ouvrir une assurance-vie commune dont le dénouement n'interviendrait qu'au décès du second. Solution ?",
+  "o": [
+   "Deux contrats séparés obligatoirement",
+   "Une co-souscription (dénouement au second décès), souvent avec des fonds communs",
+   "Un PEA joint",
+   "Un compte-titres indivis"
+  ],
+  "c": 1,
+  "e": "La co-souscription permet à deux personnes (souvent mariées sous communauté) de souscrire ensemble un contrat, avec un dénouement au premier ou au second décès selon la clause. Le dénouement au second décès protège le conjoint survivant, qui garde la main sur le contrat."
+ },
+ {
+  "id": "av-058",
+  "q": "Mini-cas : au décès, un bénéficiaire reçoit 300 000 € (primes versées avant 70 ans). Montant taxable après abattement (990 I) ?",
+  "o": [
+   "300 000 €",
+   "147 500 €",
+   "152 500 €",
+   "0 €"
+  ],
+  "c": 1,
+  "e": "Abattement de 152 500 € par bénéficiaire : 300 000 − 152 500 = 147 500 € taxables (à 20 % jusqu'à 700 000 €), soit 29 500 € de prélèvement. Le reste est transmis hors droits de succession."
+ },
+ {
+  "id": "av-059",
+  "q": "Définition : qu'est-ce qu'un « arbitrage » dans un contrat d'assurance-vie ?",
+  "o": [
+   "Un litige",
+   "L'opération consistant à transférer une partie de l'épargne d'un support à un autre (ex. du fonds euros vers des unités de compte), au sein du contrat",
+   "Un rachat total",
+   "Un versement"
+  ],
+  "c": 1,
+  "e": "L'arbitrage réalloue l'épargne entre supports du contrat (fonds euros, UC) sans le clôturer : il permet d'ajuster le risque au fil du temps. Réalisé à l'intérieur de l'enveloppe, il n'est pas imposable (pas de rachat), même s'il génère parfois des frais."
+ },
+ {
+  "id": "av-060",
+  "q": "Cas : vous avez besoin de trésorerie mais ne voulez ni racheter ni casser votre assurance-vie. Solution méconnue ?",
+  "o": [
+   "Le rachat total",
+   "Demander une AVANCE (un prêt de l'assureur garanti par le contrat, non imposable)",
+   "Un arbitrage",
+   "Clôturer le contrat"
+  ],
+  "c": 1,
+  "e": "L'avance est un prêt consenti par l'assureur, garanti par l'épargne du contrat : elle procure des liquidités sans désinvestir ni déclencher d'imposition (ce n'est pas un rachat). Elle se rembourse avec intérêts, l'épargne continuant à travailler."
+ },
+ {
+  "id": "av-061",
+  "q": "Mini-cas : contrat de plus de 8 ans, un couple rachète une somme comprenant 9 000 € de gains. Gains imposables à l'IR après abattement ?",
+  "o": [
+   "9 000 €",
+   "0 €",
+   "4 400 €",
+   "4 600 €"
+  ],
+  "c": 1,
+  "e": "Abattement de 9 200 € pour un couple après 8 ans : les 9 000 € de gains sont entièrement absorbés → 0 € imposable à l'IR (les prélèvements sociaux restant dus)."
+ }
+]

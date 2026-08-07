@@ -1,0 +1,608 @@
+[
+ {
+  "id": "pvimmo-001",
+  "q": "La plus-value immobilière des particuliers est globalement taxée à :",
+  "o": [
+   "30 %",
+   "36,2 % (19 % IR + 17,2 % PS)",
+   "31,4 %",
+   "19 %"
+  ],
+  "c": 1,
+  "e": "Taux forfaitaire de 19 % au titre de l'IR + 17,2 % de prélèvements sociaux = 36,2 % (hors surtaxe éventuelle)."
+ },
+ {
+  "id": "pvimmo-002",
+  "q": "La cession de la résidence principale génère :",
+  "o": [
+   "Une taxation à 36,2 %",
+   "Une exonération totale de plus-value",
+   "Une exonération après 22 ans seulement",
+   "Un abattement de 30 %"
+  ],
+  "c": 1,
+  "e": "La résidence principale (et ses dépendances immédiates) est totalement exonérée de plus-value au jour de la vente."
+ },
+ {
+  "id": "pvimmo-003",
+  "q": "L'exonération totale d'IR sur la plus-value immobilière est acquise après :",
+  "o": [
+   "15 ans",
+   "22 ans de détention",
+   "30 ans",
+   "5 ans"
+  ],
+  "c": 1,
+  "e": "Pour l'IR : abattement progressif dès la 6e année, exonération totale à 22 ans de détention."
+ },
+ {
+  "id": "pvimmo-004",
+  "q": "L'exonération totale des prélèvements sociaux sur la plus-value immobilière intervient après :",
+  "o": [
+   "22 ans",
+   "30 ans de détention",
+   "15 ans",
+   "Jamais"
+  ],
+  "c": 1,
+  "e": "Le rythme d'abattement des PS est plus lent : exonération complète seulement à 30 ans de détention."
+ },
+ {
+  "id": "pvimmo-005",
+  "q": "Une surtaxe s'applique aux plus-values immobilières supérieures à :",
+  "o": [
+   "15 000 €",
+   "50 000 €",
+   "100 000 €",
+   "150 000 €"
+  ],
+  "c": 1,
+  "e": "Une taxe additionnelle de 2 % à 6 % frappe la fraction de plus-value imposable supérieure à 50 000 € (hors terrains à bâtir)."
+ },
+ {
+  "id": "pvimmo-006",
+  "q": "Pour le calcul de la plus-value, le prix d'acquisition peut être majoré :",
+  "o": [
+   "Des loyers perçus",
+   "D'un forfait de frais (7,5 %) et de travaux (15 % après 5 ans)",
+   "De la taxe foncière",
+   "Des intérêts d'emprunt"
+  ],
+  "c": 1,
+  "e": "On peut retenir un forfait de 7,5 % pour les frais d'acquisition et, après 5 ans de détention, un forfait de 15 % pour travaux (sans justificatifs), ce qui réduit la plus-value."
+ },
+ {
+  "id": "pvimmo-007",
+  "q": "Un bien détenu depuis 10 ans bénéficie, pour l'IR :",
+  "o": [
+   "D'aucun abattement",
+   "D'un abattement partiel (6 %/an de la 6e à la 21e année)",
+   "D'une exonération totale",
+   "D'un abattement de 50 %"
+  ],
+  "c": 1,
+  "e": "L'abattement IR est de 6 % par an de la 6e à la 21e année, puis 4 % la 22e ; à 10 ans, l'abattement est donc partiel (5 années pleines à 6 %)."
+ },
+ {
+  "id": "pvimmo-008",
+  "q": "La plus-value immobilière des particuliers est imposée à :",
+  "o": [
+   "19 % d'IR + 17,2 % de PS = 36,2 %",
+   "31,4 %",
+   "30 %",
+   "25 %"
+  ],
+  "c": 0,
+  "e": "Taux forfaitaire de 19 % d'IR + 17,2 % de PS = 36,2 %, avant abattements pour durée et éventuelle surtaxe."
+ },
+ {
+  "id": "pvimmo-009",
+  "q": "L'exonération totale d'une plus-value immobilière au titre de la durée est acquise après :",
+  "o": [
+   "22 ans pour l'IR et 30 ans pour les PS",
+   "30 ans pour tout",
+   "15 ans",
+   "Jamais"
+  ],
+  "c": 0,
+  "e": "Exonération d'IR au bout de 22 ans, mais l'exonération des prélèvements sociaux n'intervient qu'à 30 ans (cadences d'abattement différentes)."
+ },
+ {
+  "id": "pvimmo-010",
+  "q": "La plus-value de cession de la RÉSIDENCE PRINCIPALE est :",
+  "o": [
+   "Imposée à 36,2 %",
+   "Exonérée",
+   "Exonérée seulement après 22 ans",
+   "Soumise au PFU"
+  ],
+  "c": 1,
+  "e": "La cession de la résidence principale (et de ses dépendances) au jour de la vente est totalement exonérée, sans condition de durée."
+ },
+ {
+  "id": "pvimmo-011",
+  "q": "Une surtaxe s'ajoute lorsque la plus-value imposable (hors terrains à bâtir) excède :",
+  "o": [
+   "10 000 €",
+   "50 000 € (taux de 2 % à 6 %)",
+   "100 000 €",
+   "500 000 €"
+  ],
+  "c": 1,
+  "e": "Au-delà de 50 000 € de plus-value nette imposable, une taxe supplémentaire progressive de 2 % à 6 % s'applique."
+ },
+ {
+  "id": "pvimmo-012",
+  "q": "Pour le calcul de la plus-value, après 5 ans de détention, on peut retenir un forfait travaux de :",
+  "o": [
+   "7,5 %",
+   "15 % du prix d'acquisition",
+   "30 %",
+   "50 %"
+  ],
+  "c": 1,
+  "e": "À défaut de justificatifs, un forfait de 15 % du prix d'acquisition est admis pour les travaux (détention > 5 ans) ; s'y ajoute le forfait de 7,5 % pour les frais d'acquisition."
+ },
+ {
+  "id": "pvimmo-013",
+  "q": "Les prélèvements sociaux sur la plus-value immobilière, après la LFSS 2026, restent à :",
+  "o": [
+   "18,6 %",
+   "17,2 %",
+   "31,4 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Comme l'assurance-vie et les revenus fonciers, la plus-value immobilière échappe à la hausse : PS maintenus à 17,2 %."
+ },
+ {
+  "id": "pvimmo-014",
+  "q": "Parmi ces cas, lesquels peuvent ouvrir droit à une exonération de plus-value immobilière ?",
+  "o": [
+   "Cession de la résidence principale",
+   "Première cession d'un logement autre que la RP, avec remploi dans une RP",
+   "Détention supérieure à 30 ans",
+   "Cession d'une résidence secondaire détenue 5 ans"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "RP, première cession avec remploi, et détention > 30 ans exonèrent. Une résidence secondaire vendue après seulement 5 ans reste imposée (abattements partiels)."
+ },
+ {
+  "id": "pvimmo-015",
+  "q": "La cession d'un bien détenu depuis moins de 6 ans :",
+  "o": [
+   "Bénéficie d'un abattement de 50 %",
+   "Ne bénéficie d'aucun abattement pour durée (0 % avant 6 ans)",
+   "Est exonérée",
+   "Est taxée à 30 %"
+  ],
+  "c": 1,
+  "e": "Les abattements pour durée ne commencent qu'à partir de la 6e année ; avant, la plus-value est pleinement imposable."
+ },
+ {
+  "id": "pvimmo-016",
+  "q": "Le prix d'acquisition retenu peut être majoré des frais d'acquisition, pour un forfait de :",
+  "o": [
+   "7,5 %",
+   "15 %",
+   "10 %",
+   "20 %"
+  ],
+  "c": 0,
+  "e": "À défaut de justificatifs, les frais d'acquisition (notaire, droits) sont retenus forfaitairement pour 7,5 % du prix d'achat."
+ },
+ {
+  "id": "pvimmo-017",
+  "q": "La cession d'un bien pour un prix inférieur ou égal à 15 000 € :",
+  "o": [
+   "Est toujours imposée",
+   "Est exonérée de plus-value (petite cession)",
+   "Bénéficie d'un abattement de 50 %",
+   "Relève du PFU"
+  ],
+  "c": 1,
+  "e": "Les cessions dont le prix n'excède pas 15 000 € (apprécié par bien et par cédant) sont exonérées de plus-value immobilière."
+ },
+ {
+  "id": "pvimmo-018",
+  "q": "La plus-value immobilière d'un non-résident sur un bien situé en France :",
+  "o": [
+   "N'est pas imposable en France",
+   "Est imposable en France (lieu de situation de l'immeuble)",
+   "Est soumise au PFU",
+   "Est exonérée après 5 ans"
+  ],
+  "c": 1,
+  "e": "Le bien étant situé en France, la plus-value y est imposable (prélèvement spécifique), sous réserve des conventions fiscales."
+ },
+ {
+  "id": "pvimmo-019",
+  "q": "Un terrain à bâtir cédé par un particulier :",
+  "o": [
+   "Est exonéré",
+   "Suit le régime des plus-values immobilières (19 % + PS, abattements de durée)",
+   "Relève des BIC",
+   "Est soumis au PFU"
+  ],
+  "c": 1,
+  "e": "Depuis 2014, les terrains à bâtir suivent le régime de droit commun des plus-values immobilières (mêmes cadences d'abattement que le bâti)."
+ },
+ {
+  "id": "pvimmo-020",
+  "q": "La plus-value immobilière d'un particulier est en principe imposée à :",
+  "o": [
+   "19 % d'IR + 17,2 % de PS",
+   "31,4 %",
+   "30 %",
+   "25 %"
+  ],
+  "c": 0,
+  "e": "Taxation à 19 % (IR) + 17,2 % de prélèvements sociaux. Les PV immobilières restent à 17,2 % malgré la hausse LFSS 2026. Une surtaxe s'ajoute au-delà de 50 000 € de plus-value."
+ },
+ {
+  "id": "pvimmo-021",
+  "q": "L'exonération totale d'IR sur la plus-value immobilière (hors résidence principale) est acquise après une détention de :",
+  "o": [
+   "15 ans",
+   "22 ans",
+   "30 ans",
+   "5 ans"
+  ],
+  "c": 1,
+  "e": "L'abattement pour durée de détention conduit à l'exonération d'IR à 22 ans. Pour les prélèvements sociaux, l'exonération n'est totale qu'à 30 ans."
+ },
+ {
+  "id": "pvimmo-022",
+  "q": "Quelles cessions sont exonérées de plus-value immobilière ?",
+  "o": [
+   "La résidence principale",
+   "La première cession d'un logement autre que la RP (sous conditions de remploi)",
+   "Un bien détenu depuis plus de 30 ans",
+   "Tout bien vendu à perte"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La RP est exonérée ; la première cession d'un logement autre que la RP l'est sous condition de remploi dans une RP ; et la durée de 30 ans efface IR et PS. Une vente à perte ne génère pas de plus-value mais n'est pas un cas d'« exonération »."
+ },
+ {
+  "id": "pvimmo-023",
+  "q": "La surtaxe sur les plus-values immobilières élevées s'applique à partir de :",
+  "o": [
+   "30 000 € de plus-value nette",
+   "50 000 € de plus-value nette imposable",
+   "100 000 €",
+   "250 000 €"
+  ],
+  "c": 1,
+  "e": "Au-delà de 50 000 € de plus-value nette imposable (hors cession de terrains à bâtir), une taxe additionnelle progressive de 2 % à 6 % s'ajoute."
+ },
+ {
+  "id": "pvimmo-024",
+  "q": "Quel est le rythme exact de l'abattement pour durée de détention à l'IMPÔT SUR LE REVENU ?",
+  "o": [
+   "6 % par an de la 6e à la 21e année",
+   "4 % pour la 22e année",
+   "2 % par an dès la 1re année",
+   "Exonération totale à 22 ans"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "IR : 0 % les 5 premières années, 6 %/an de la 6e à la 21e, puis 4 % la 22e → exonération à 22 ans. Aucun abattement avant la 6e année."
+ },
+ {
+  "id": "pvimmo-025",
+  "q": "Le forfait de 7,5 % pour frais d'acquisition (majoration du prix d'achat) :",
+  "o": [
+   "S'applique toujours",
+   "N'est pas applicable si le bien a été acquis à titre gratuit (succession, donation)",
+   "Se cumule avec le forfait travaux de 15 %",
+   "Remplace l'abattement pour durée"
+  ],
+  "c": 1,
+  "e": "Pour une acquisition à titre onéreux, on peut retenir les frais réels OU le forfait de 7,5 %. Pour une acquisition à titre gratuit, seul le montant réel des frais (droits, honoraires) est retenu — pas de forfait."
+ },
+ {
+  "id": "pvimmo-026",
+  "q": "Concernant la surtaxe sur les plus-values immobilières élevées, lesquelles sont exactes ?",
+  "o": [
+   "Elle s'applique au-delà de 50 000 € de plus-value nette imposable",
+   "Son taux est progressif de 2 % à 6 %",
+   "Elle ne concerne pas les terrains à bâtir",
+   "Elle s'ajoute aux prélèvements sociaux"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La surtaxe frappe la PV nette imposable supérieure à 50 000 € (hors terrains à bâtir), à un taux progressif de 2 % à 6 %. Elle s'ajoute à l'IR seulement, pas aux prélèvements sociaux."
+ },
+ {
+  "id": "pvimmo-027",
+  "q": "L'exonération de la première cession d'un logement autre que la résidence principale suppose :",
+  "o": [
+   "Le remploi du prix dans l'acquisition d'une résidence principale dans les 24 mois",
+   "De ne pas avoir été propriétaire de sa RP au cours des 4 années précédentes",
+   "Une détention d'au moins 22 ans",
+   "Un prix inférieur à 15 000 €"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "L'exonération (art. 150 U II 1° bis) exige de remployer le prix dans une résidence principale dans les 24 mois et de ne pas avoir été propriétaire de sa RP durant les 4 ans précédant la cession."
+ },
+ {
+  "id": "pvimmo-028",
+  "q": "La plus-value immobilière d'un non-résident sur son ancien logement situé en France peut être exonérée à hauteur de :",
+  "o": [
+   "150 000 € (première cession, sous conditions)",
+   "Totalement, sans condition",
+   "50 000 €",
+   "Jamais"
+  ],
+  "c": 0,
+  "e": "Un non-résident (ressortissant UE/EEE, sous conditions de délai et de libre disposition) bénéficie d'une exonération plafonnée à 150 000 € de plus-value nette sur la première cession d'un logement en France."
+ },
+ {
+  "id": "pvimmo-029",
+  "q": "L'exonération de la résidence principale couvre :",
+  "o": [
+   "Le logement effectivement occupé au jour de la cession",
+   "Ses dépendances immédiates et nécessaires vendues simultanément",
+   "Une vente intervenue dans un délai normal après le déménagement (env. 1 an)",
+   "Une résidence secondaire louée"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "L'exonération vise la RP occupée à la date de cession, ses dépendances immédiates et nécessaires cédées en même temps, et tolère un délai normal de vente (environ un an) lorsque le bien était la RP mais a été quitté avant la signature."
+ },
+ {
+  "id": "pvimmo-030",
+  "q": "La plus-value réalisée à l'occasion d'une expropriation pour cause d'utilité publique :",
+  "o": [
+   "Est toujours taxée normalement",
+   "Peut être exonérée sous condition de remploi de l'indemnité dans les 12 mois",
+   "Est soumise à une surtaxe de 6 %",
+   "Relève des BIC"
+  ],
+  "c": 1,
+  "e": "La plus-value d'expropriation est exonérée à condition de remployer l'intégralité de l'indemnité dans l'acquisition, la construction, la reconstruction ou l'agrandissement d'un ou plusieurs immeubles dans les 12 mois."
+ },
+ {
+  "id": "pvimmo-031",
+  "q": "La cession de parts d'une société à prépondérance immobilière (SCI à l'IR) par un particulier relève :",
+  "o": [
+   "Du régime des plus-values mobilières (PFU)",
+   "Du régime des plus-values immobilières des particuliers (abattements 22/30 ans)",
+   "Des BIC",
+   "D'une exonération après 5 ans"
+  ],
+  "c": 1,
+  "e": "Les parts de sociétés à prépondérance immobilière relevant de l'IR suivent le régime des plus-values immobilières des particuliers : taux de 19 % + 17,2 %, avec abattements pour durée de détention (exonération IR à 22 ans, PS à 30 ans)."
+ },
+ {
+  "id": "pvimmo-032",
+  "q": "Les titulaires de pensions de retraite ou d'une carte d'invalidité, de condition modeste, peuvent être exonérés de plus-value immobilière :",
+  "o": [
+   "Jamais",
+   "Sous conditions de revenu de référence (RFR) et de non-assujettissement à l'IFI",
+   "Toujours",
+   "Seulement après 30 ans"
+  ],
+  "c": 1,
+  "e": "Une exonération spécifique bénéficie aux retraités et invalides dont le RFR n'excède pas un plafond et qui ne sont pas redevables de l'IFI, pour la cession de leur logement — indépendamment de la durée de détention."
+ },
+ {
+  "id": "pvimmo-033",
+  "q": "La cession isolée d'un usufruit ou d'une nue-propriété par un particulier :",
+  "o": [
+   "N'est jamais imposable",
+   "Génère une plus-value immobilière calculée sur la valeur du droit cédé (prix de cession − valeur d'acquisition du droit)",
+   "Relève du PFU",
+   "Est exonérée après 5 ans"
+  ],
+  "c": 1,
+  "e": "La cession d'un droit démembré suit le régime des plus-values immobilières : on compare le prix de cession du droit à son prix (ou sa valeur) d'acquisition, avec application des abattements pour durée de détention."
+ },
+ {
+  "id": "pvimmo-034",
+  "q": "Mini-cas : plus-value immobilière, bien détenu 11 ans. Quel est le taux d'abattement pour durée à l'IMPÔT SUR LE REVENU ?",
+  "o": [
+   "30 %",
+   "36 %",
+   "44 %",
+   "66 %"
+  ],
+  "c": 1,
+  "e": "L'abattement IR est de 6 %/an de la 6e à la 21e année. Sur 11 ans, seules les années 6 à 11 comptent, soit 6 années × 6 % = 36 %."
+ },
+ {
+  "id": "pvimmo-035",
+  "q": "Cas : vous vendez le logement que vous occupez comme résidence principale pour en acheter un plus grand. Fiscalité de la plus-value ?",
+  "o": [
+   "Taxée à 36,2 %",
+   "Exonérée (résidence principale)",
+   "Abattement de 30 %",
+   "PFU de 31,4 %"
+  ],
+  "c": 1,
+  "e": "La cession de la résidence principale (et de ses dépendances immédiates vendues en même temps) est totalement exonérée de plus-value, sans condition de durée. Un délai normal de vente (environ un an) est toléré si vous l'avez quittée avant la signature."
+ },
+ {
+  "id": "pvimmo-036",
+  "q": "Définition : quelle différence entre plus-value « latente » et « réalisée » ?",
+  "o": [
+   "Aucune, c'est identique",
+   "La latente n'existe que sur le papier (le bien n'est pas vendu) ; la réalisée résulte d'une cession effective et devient imposable",
+   "La latente est imposée, pas la réalisée",
+   "La réalisée concerne uniquement l'immobilier"
+  ],
+  "c": 1,
+  "e": "La plus-value latente est le gain « papier » tant que le bien n'est pas cédé (non imposable en principe) ; la plus-value réalisée résulte d'une vente effective : c'est elle qui constitue le fait générateur de l'imposition."
+ },
+ {
+  "id": "pvimmo-037",
+  "q": "Définition : plus-value « professionnelle » vs plus-value « des particuliers » ?",
+  "o": [
+   "C'est la même chose",
+   "La professionnelle porte sur un actif affecté à une activité (régime BIC/IS) ; celle des particuliers porte sur le patrimoine privé (abattements pour durée)",
+   "La professionnelle est exonérée",
+   "Celle des particuliers concerne les entreprises"
+  ],
+  "c": 1,
+  "e": "La plus-value des particuliers (immobilier privé, titres) bénéficie d'abattements pour durée / du PFU ; la plus-value professionnelle (bien inscrit à l'actif d'une entreprise) relève des régimes BIC/IS, avec ses propres règles (court/long terme, 151 septies…)."
+ },
+ {
+  "id": "pvimmo-038",
+  "q": "Définition : qu'est-ce que la « résidence principale » au sens fiscal ?",
+  "o": [
+   "N'importe quel logement possédé",
+   "Le logement où le contribuable réside habituellement et effectivement la majeure partie de l'année",
+   "Une résidence secondaire",
+   "Un local commercial"
+  ],
+  "c": 1,
+  "e": "La résidence principale est le logement occupé de façon habituelle et effective par le foyer la majeure partie de l'année. Sa cession est exonérée de plus-value immobilière, et elle bénéficie d'un abattement de 30 % à l'IFI."
+ },
+ {
+  "id": "pvimmo-039",
+  "q": "Mini-cas : plus-value immobilière, bien détenu 15 ans. Taux d'abattement pour durée à l'IMPÔT SUR LE REVENU ?",
+  "o": [
+   "45 %",
+   "60 %",
+   "54 %",
+   "30 %"
+  ],
+  "c": 1,
+  "e": "Abattement IR de 6 %/an de la 6e à la 21e année : sur 15 ans, années 6 à 15 = 10 ans × 6 % = 60 %. Il resterait 40 % de la plus-value soumise à l'IR (l'exonération totale n'étant atteinte qu'à 22 ans)."
+ },
+ {
+  "id": "pvimmo-040",
+  "q": "Les droits de mutation (DMTO) lors de l'achat d'un logement ANCIEN s'élèvent, en 2026, à environ :",
+  "o": [
+   "0,7 %",
+   "5,8 %, porté à ~6,3 % dans les départements ayant relevé leur taux",
+   "10 %",
+   "20 %"
+  ],
+  "c": 1,
+  "e": "Dans l'ancien, les DMTO (l'essentiel des « frais de notaire ») avoisinent 5,8 %, portés à environ 6,3 % dans la majorité des départements ayant voté la hausse (2025-2028 ; primo-accédants de leur RP exonérés de la hausse). Dans le neuf, seule une taxe de 0,715 % s'applique, mais avec TVA à 20 %."
+ },
+ {
+  "id": "pvimmo-041",
+  "q": "Définition : qu'est-ce qu'une plus-value immobilière (des particuliers) ?",
+  "o": [
+   "Un loyer perçu",
+   "Le gain réalisé lors de la vente d'un bien immobilier, égal au prix de cession moins le prix d'acquisition (majoré de frais et travaux)",
+   "La valeur du bien au cadastre",
+   "Un revenu foncier"
+  ],
+  "c": 1,
+  "e": "La plus-value immobilière est le gain dégagé à la revente d'un bien (hors résidence principale exonérée). Elle se calcule par différence entre le prix de vente et le prix d'achat majoré des frais et travaux, puis bénéficie d'abattements pour durée (exonération à 22 ans d'IR, 30 ans de PS)."
+ },
+ {
+  "id": "pvimmo-042",
+  "q": "Pour calculer une plus-value immobilière, le prix d'acquisition peut être majoré :",
+  "o": [
+   "Des frais d'acquisition (forfait 7,5 % ou réel)",
+   "Des travaux (réels, ou forfait de 15 % si détention > 5 ans)",
+   "Des loyers perçus",
+   "De la taxe foncière payée"
+  ],
+  "c": [
+   0,
+   1
+  ],
+  "e": "Le prix d'acquisition est majoré des frais d'acquisition (forfait 7,5 % ou réel) et des travaux (réels justifiés, ou forfait de 15 % si le bien est détenu depuis plus de 5 ans). Cela réduit la plus-value imposable. Loyers et taxe foncière n'entrent pas dans ce calcul."
+ },
+ {
+  "id": "pvimmo-043",
+  "q": "Cas : à 20 ans de la retraite, vous voulez préparer un capital immobilier avec une décote à l'achat et sans gestion locative. Solution adaptée ?",
+  "o": [
+   "Acheter en pleine propriété et louer",
+   "Acheter la NUE-PROPRIÉTÉ d'un bien (démembrement temporaire) : prix décoté, pas de gestion ni de fiscalité pendant la période",
+   "Acheter une résidence secondaire",
+   "Un compte-titres"
+  ],
+  "c": 1,
+  "e": "En achetant la nue-propriété (l'usufruit étant cédé à un bailleur institutionnel pour ~15-20 ans), on paie un prix décoté, sans loyers à gérer ni fiscalité foncière/IFI pendant le démembrement, et l'on récupère la pleine propriété au terme, pile pour la retraite."
+ },
+ {
+  "id": "pvimmo-044",
+  "q": "Mini-cas : cession d'un bien (hors RP) détenu depuis 22 ans révolus. Imposition de la plus-value à l'IMPÔT SUR LE REVENU ?",
+  "o": [
+   "19 %",
+   "0 % (exonération d'IR acquise à 22 ans)",
+   "36,2 %",
+   "9 %"
+  ],
+  "c": 1,
+  "e": "À 22 ans de détention, l'abattement pour durée atteint 100 % à l'IR : la plus-value est exonérée d'impôt sur le revenu. Les prélèvements sociaux, eux, ne sont totalement effacés qu'à 30 ans de détention."
+ },
+ {
+  "id": "pvimmo-045",
+  "q": "Cas : votre patrimoine est composé à 90 % d'immobilier. Quel principe de gestion appliquer ?",
+  "o": [
+   "Acheter encore plus d'immobilier",
+   "Diversifier vers d'autres classes d'actifs (actions, obligations, liquidités) pour réduire le risque de concentration",
+   "Tout vendre",
+   "Ne rien changer"
+  ],
+  "c": 1,
+  "e": "Une trop forte concentration expose à un risque spécifique (marché immobilier local, illiquidité, fiscalité). Diversifier vers des actifs financiers (via PEA, assurance-vie…) équilibre le patrimoine, améliore la liquidité et lisse les performances."
+ },
+ {
+  "id": "pvimmo-046",
+  "q": "Concernant la plus-value immobilière d'un particulier, lesquelles sont exactes ?",
+  "o": [
+   "La vente de la résidence principale est exonérée",
+   "Un bien autre que la RP bénéficie d'abattements pour durée (exonération d'IR à 22 ans)",
+   "L'exonération de prélèvements sociaux est acquise à 30 ans",
+   "La location meublée relève de ce régime"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "La RP est exonérée ; les autres biens bénéficient d'abattements pour durée (IR à 22 ans, PS à 30 ans). La location meublée relève, elle, des BIC (plus-values professionnelles depuis la LF 2025 pour la réintégration des amortissements)."
+ },
+ {
+  "id": "pvimmo-047",
+  "q": "Cas : jeune actif mobile, vous hésitez entre acheter votre résidence principale ou rester locataire et investir votre épargne. Quel raisonnement ?",
+  "o": [
+   "Acheter est toujours gagnant",
+   "Comparer coût de la propriété (crédit, charges, frais ~8 %, mobilité réduite) et le fait de louer en investissant par ailleurs, selon la durée de détention prévue",
+   "Louer est toujours gagnant",
+   "C'est indifférent"
+  ],
+  "c": 1,
+  "e": "Il n'y a pas de réponse universelle : l'achat devient intéressant au-delà d'une certaine durée de détention (les frais d'acquisition ~8 % s'amortissent dans le temps), mais réduit la mobilité et immobilise l'épargne. Rester locataire et investir peut être pertinent si l'on déménage souvent ou si le placement rapporte plus."
+ },
+ {
+  "id": "pvimmo-048",
+  "q": "Cas : vous déménagez et hésitez à vendre votre ancienne résidence principale ou à la mettre en location. Impact fiscal à connaître ?",
+  "o": [
+   "Aucun",
+   "Vendue rapidement (délai normal ~1 an), elle reste exonérée ; mise en location, une future vente perdra l'exonération RP et deviendra imposable (avec abattements)",
+   "La location est toujours exonérée",
+   "La vente est toujours taxée"
+  ],
+  "c": 1,
+  "e": "Tant qu'elle est votre RP (ou vendue dans un délai normal après le départ), la plus-value est exonérée. Si vous la louez, elle devient un bien locatif : sa vente ultérieure sera une plus-value immobilière imposable (sous réserve des abattements pour durée). Un arbitrage revenus locatifs vs exonération à préserver."
+ }
+]

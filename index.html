@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0B0D11">
+<meta name="description" content="Formation gratuite à la finance et à la fiscalité françaises : 33 chapitres téléchargeables, 1 000 questions et des simulateurs, toutes sources datées.">
+<title>Formation Finance &amp; Fiscalité</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="accueil">
+
+<section class="hero">
+  <div class="hero-txt">
+    <p class="eyebrow">Millésime 2026 · revenus 2025</p>
+    <h1>La fiscalité française,<br>apprise <em>pour de bon</em>.</h1>
+    <p class="pitch">Un cours complet, mille questions corrigées et des simulateurs qui montrent
+      leur calcul. Chaque chiffre porte sa base légale et sa date de vérification.</p>
+
+    <div class="hero-liens">
+      <a class="tuile" href="cours.html" data-face="0">
+        <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 4.5h6a2 2 0 012 2V17a2 2 0 00-2-2H3zM17 4.5h-6a2 2 0 00-2 2V17a2 2 0 012-2h6z" stroke-linejoin="round"/></svg></span>
+        <span class="tx"><span class="tt">Le cours</span><span class="td">33 chapitres, lisibles en ligne et téléchargeables</span></span>
+        <span class="fl">→</span>
+      </a>
+      <a class="tuile" href="qcm.html" data-face="1">
+        <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7.4 7.2a2.6 2.6 0 115 1c0 1.7-2.5 2-2.5 3.6" stroke-linecap="round"/><circle cx="10" cy="15.2" r="1" fill="currentColor" stroke="none"/><circle cx="10" cy="10" r="8"/></svg></span>
+        <span class="tx"><span class="tt">Les QCM</span><span class="td">1 000 questions · par thème, en révision ou en partiel</span></span>
+        <span class="fl">→</span>
+      </a>
+      <a class="tuile" href="outils.html" data-face="2">
+        <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 16l4-5 3.5 3L17 5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 5H17v4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="tx"><span class="tt">Les simulateurs</span><span class="td">Impôt sur le revenu · dividendes · plus-value immobilière</span></span>
+        <span class="fl">→</span>
+      </a>
+    </div>
+
+    <div class="hero-stats" id="stats">
+      <div><div class="n">33</div><div class="l">chapitres</div></div>
+      <div><div class="n">1 000</div><div class="l">questions</div></div>
+      <div><div class="n">3</div><div class="l">simulateurs</div></div>
+      <div><div class="n">29</div><div class="l">paramètres sourcés</div></div>
+    </div>
+  </div>
+
+  <div class="hero-viz">
+    <canvas id="viz" aria-hidden="true"></canvas>
+    <ul class="viz-legende" id="legende"></ul>
+  </div>
+</section>
+
+<div class="hero-bas"><div class="hero-bas-in">
+  <span>Contenu pédagogique — ne constitue pas un conseil personnalisé.</span>
+  <span><a href="parametres.html">Paramètres &amp; sources</a> · <a href="mentions-legales.html">Mentions légales</a></span>
+</div></div>
+
+<script type="module">
+  import { pyramide, BRANCHES } from "./assets/js/pyramide.js";
+  import { etat } from "./assets/js/store.js";
+
+  const vue = pyramide(document.getElementById("viz"));
+
+  document.getElementById("legende").innerHTML = BRANCHES.map((b, i) =>
+    `<li data-face="${i}"><span class="pt" style="background:rgb(${b.couleur.join(",")})"></span>${b.nom}</li>`).join("");
+
+  const lier = el => {
+    const i = Number(el.dataset.face);
+    el.addEventListener("mouseenter", () => vue.eclairer(i));
+    el.addEventListener("focus", () => vue.eclairer(i));
+    el.addEventListener("mouseleave", () => vue.eclairer(-1));
+    el.addEventListener("blur", () => vue.eclairer(-1));
+  };
+  document.querySelectorAll("[data-face]").forEach(lier);
+
+  const e = etat();
+  const vues = Object.values(e.qcm).reduce((s, t) => s + t.vues, 0);
+  if (e.chapitresLus.length || vues) {
+    document.getElementById("stats").innerHTML = `
+      <div><div class="n">${e.chapitresLus.length} <span style="color:var(--muted);font-size:14px">/ 33</span></div><div class="l">chapitres lus</div></div>
+      <div><div class="n">${vues}</div><div class="l">questions traitées</div></div>
+      <div><div class="n">${vues ? Math.round(Object.values(e.qcm).reduce((s,t)=>s+t.justes,0) / vues * 100) : 0} %</div><div class="l">de réussite</div></div>
+      <div><div class="n">${e.erreurs.length}</div><div class="l">à retravailler</div></div>`;
+  }
+</script>
+<script>
+  if ("serviceWorker" in navigator) {
+    addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+</script>
+</body>
+</html>

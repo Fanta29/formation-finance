@@ -1,0 +1,14 @@
+{
+  "name": "Formation Finance & Fiscalité",
+  "short_name": "Formation Finance",
+  "description": "Cours, QCM et simulateurs de finance et de fiscalité françaises.",
+  "lang": "fr",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B0D11",
+  "theme_color": "#0B0D11",
+  "icons": [
+    { "src": "assets/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

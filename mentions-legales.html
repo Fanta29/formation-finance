@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0B0D11">
+<meta name="robots" content="noindex">
+<title>Mentions légales — Formation Finance &amp; Fiscalité</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<main class="wrap">
+  <h2>Mentions légales</h2>
+
+  <div class="alerte">
+    <b>À compléter avant la mise en ligne.</b> Les mentions ci-dessous sont un gabarit :
+    les champs entre crochets doivent être renseignés, et la partie « nature du contenu »
+    relue au regard de votre situation. Ce texte n'a pas été rédigé par un juriste.
+  </div>
+
+  <div class="card">
+    <h3>Éditeur</h3>
+    <p>[Nom et prénom de l'éditeur] — [statut : particulier, auto-entrepreneur, société]<br>
+       [Adresse]<br>
+       Contact : [adresse électronique]<br>
+       Directeur de la publication : [nom]</p>
+    <h3>Hébergement</h3>
+    <p>[Nom de l'hébergeur, par exemple Cloudflare, Inc. ou Netlify, Inc.]<br>
+       [Adresse de l'hébergeur]</p>
+  </div>
+
+  <div class="card">
+    <h3>Nature du contenu</h3>
+    <p>Ce site propose un contenu <strong>pédagogique et informatif</strong> sur la finance et
+       la fiscalité françaises. Il ne constitue ni un conseil en investissement au sens de
+       l'article L. 533-13 du code monétaire et financier, ni une consultation juridique ou
+       fiscale, ni une recommandation personnalisée.</p>
+    <p>Les simulateurs sont des outils d'illustration : ils ne traitent que des cas généraux,
+       ignorent volontairement de nombreuses situations particulières, et ne remplacent ni le
+       simulateur officiel de la DGFiP ni l'analyse d'un professionnel (avocat fiscaliste,
+       notaire, expert-comptable, conseiller en gestion de patrimoine).</p>
+    <p>La fiscalité évolue au moins une fois par an. Chaque paramètre utilisé porte sa date de
+       vérification sur la page <a href="parametres.html">Paramètres</a>. Malgré le soin
+       apporté à ces vérifications, aucune garantie d'exactitude ou d'exhaustivité n'est
+       donnée, et la responsabilité de l'éditeur ne saurait être engagée à raison d'une
+       décision prise sur la base de ce contenu.</p>
+  </div>
+
+  <div class="card">
+    <h3>Données personnelles</h3>
+    <p>Le site ne demande aucune inscription, ne collecte aucune donnée personnelle et ne
+       dépose aucun cookie de mesure d'audience ou de publicité.</p>
+    <p>Votre progression (chapitres lus, réponses aux questions) est enregistrée dans le
+       stockage local de votre navigateur, sur votre appareil uniquement. Elle n'est jamais
+       transmise. Vider les données du site dans votre navigateur l'efface définitivement.</p>
+    <p>Les polices de caractères sont chargées depuis Google Fonts, ce qui transmet votre
+       adresse IP à Google. [À revoir si vous souhaitez héberger les polices localement pour
+       supprimer cette dépendance.]</p>
+  </div>
+
+  <div class="card">
+    <h3>Propriété intellectuelle</h3>
+    <p>Les textes du cours et les questions sont l'œuvre de l'éditeur. [Préciser la licence
+       retenue : tous droits réservés, ou une licence Creative Commons si vous souhaitez
+       autoriser la réutilisation.]</p>
+    <p>Les références aux textes officiels (Légifrance, BOFiP, service-public.fr) sont citées
+       à titre de source et renvoient vers les sites publics correspondants.</p>
+  </div>
+</main>
+<script type="module">
+  import { chrome } from "./assets/js/ui.js";
+  chrome();
+</script>
+<script>
+  if ("serviceWorker" in navigator) {
+    addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+</script>
+</body>
+</html>

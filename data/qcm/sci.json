@@ -1,0 +1,442 @@
+[
+ {
+  "id": "sci-001",
+  "q": "Par défaut, une SCI est soumise à :",
+  "o": [
+   "L'IS",
+   "L'IR (transparence fiscale)",
+   "La TVA",
+   "Aucun impôt"
+  ],
+  "c": 1,
+  "e": "Une SCI est « translucide » : par défaut, chaque associé est imposé à l'IR sur sa quote-part de résultat."
+ },
+ {
+  "id": "sci-002",
+  "q": "Les revenus d'une SCI à l'IR qui loue nu relèvent de la catégorie :",
+  "o": [
+   "BIC",
+   "Revenus fonciers",
+   "BNC",
+   "Traitements et salaires"
+  ],
+  "c": 1,
+  "e": "La location nue via une SCI à l'IR génère des revenus fonciers imposés chez chaque associé."
+ },
+ {
+  "id": "sci-003",
+  "q": "Une SCI qui pratique la location meublée de façon habituelle :",
+  "o": [
+   "Reste à l'IR",
+   "Risque de basculer à l'IS (activité commerciale)",
+   "Devient LMNP",
+   "Est exonérée"
+  ],
+  "c": 1,
+  "e": "La location meublée est une activité commerciale : exercée de façon habituelle par une SCI, elle rend la société passible de l'IS (avec toutes ses conséquences à la revente)."
+ },
+ {
+  "id": "sci-004",
+  "q": "La plus-value de cession d'un immeuble par une SCI à l'IR relève :",
+  "o": [
+   "Du régime des plus-values professionnelles",
+   "Du régime des plus-values immobilières des particuliers (avec abattements de durée)",
+   "D'une exonération totale",
+   "De l'IS à 25 %"
+  ],
+  "c": 1,
+  "e": "La SCI à l'IR étant transparente, la plus-value suit le régime des particuliers : abattements pour durée de détention (22 ans IR / 30 ans PS)."
+ },
+ {
+  "id": "sci-005",
+  "q": "L'avantage majeur d'une SCI à l'IS est :",
+  "o": [
+   "L'absence de comptabilité",
+   "La possibilité d'amortir l'immeuble et de déduire davantage de charges",
+   "Une exonération de plus-value",
+   "Un taux d'IR réduit"
+  ],
+  "c": 1,
+  "e": "À l'IS, l'immeuble s'amortit et davantage de charges sont déductibles : le résultat imposable pendant l'exploitation est fortement réduit."
+ },
+ {
+  "id": "sci-006",
+  "q": "Le principal inconvénient de la SCI à l'IS survient :",
+  "o": [
+   "Au moment des travaux",
+   "À la revente : plus-value professionnelle, réintégration des amortissements, pas d'abattement",
+   "À la création",
+   "Lors des distributions"
+  ],
+  "c": 1,
+  "e": "Les amortissements déduits réduisent la valeur nette comptable, gonflant la plus-value professionnelle à la revente, sans aucun abattement pour durée de détention."
+ },
+ {
+  "id": "sci-007",
+  "q": "Les déficits d'une SCI à l'IR (location nue) :",
+  "o": [
+   "Ne sont jamais imputables",
+   "S'imputent chez les associés selon le régime du déficit foncier",
+   "S'imputent sur les BIC",
+   "Sont reportés 30 ans"
+  ],
+  "c": 1,
+  "e": "Les déficits remontent aux associés et suivent les règles du déficit foncier (imputation sur le revenu global plafonnée à 10 700 €, hors intérêts)."
+ },
+ {
+  "id": "sci-008",
+  "q": "Choisir l'IS pour une SCI est pertinent surtout pour :",
+  "o": [
+   "Une revente rapide du bien",
+   "Une détention longue avec cash-flow réinvesti et pas de revente prévue à court terme",
+   "Un bien détenu 2 ans",
+   "Une résidence principale"
+  ],
+  "c": 1,
+  "e": "L'IS optimise la phase de détention (amortissement) mais pénalise la sortie : il convient à une logique patrimoniale longue, pas à une revente rapide."
+ },
+ {
+  "id": "sci-009",
+  "q": "Une SCI n'ayant pas opté pour l'IS est dite :",
+  "o": [
+   "Opaque",
+   "Translucide (semi-transparente, art. 8 CGI)",
+   "Exonérée",
+   "Assujettie à la TVA"
+  ],
+  "c": 1,
+  "e": "La SCI relève par défaut de la translucidité : elle ne paie pas l'impôt, le résultat étant imposé entre les mains des associés selon leur quote-part."
+ },
+ {
+  "id": "sci-010",
+  "q": "Dans une SCI à l'IR détenant un immeuble loué nu, le résultat est imposé chez l'associé en :",
+  "o": [
+   "BIC",
+   "Revenus fonciers",
+   "Plus-values mobilières",
+   "Traitements et salaires"
+  ],
+  "c": 1,
+  "e": "La location nue via une SCI translucide génère des revenus fonciers imposés au barème chez chaque associé."
+ },
+ {
+  "id": "sci-011",
+  "q": "Principal atout d'une SCI ayant opté pour l'IS :",
+  "o": [
+   "L'amortissement de l'immeuble, qui réduit le résultat imposable",
+   "L'exonération de PV à la revente",
+   "L'absence de comptabilité",
+   "Le taux de 5 %"
+  ],
+  "c": 0,
+  "e": "À l'IS, on amortit l'immeuble (hors terrain), ce qui diminue fortement le résultat imposable pendant la détention."
+ },
+ {
+  "id": "sci-012",
+  "q": "L'inconvénient majeur d'une SCI à l'IS se manifeste :",
+  "o": [
+   "Pendant la détention",
+   "À la revente : réintégration des amortissements et absence d'abattement pour durée",
+   "Sur les loyers",
+   "Sur la TVA"
+  ],
+  "c": 1,
+  "e": "À la sortie, la plus-value professionnelle est majorée par la reprise des amortissements et ne bénéficie d'aucun abattement de durée, d'où une facture souvent lourde."
+ },
+ {
+  "id": "sci-013",
+  "q": "Si une SCI à l'IR se met à louer en MEUBLÉ de façon habituelle :",
+  "o": [
+   "Rien ne change",
+   "Elle exerce une activité commerciale entraînant en principe l'assujettissement à l'IS",
+   "Elle devient exonérée",
+   "Elle passe en micro-foncier"
+  ],
+  "c": 1,
+  "e": "La location meublée est une activité commerciale : exercée de façon habituelle par une SCI, elle entraîne son passage à l'IS de plein droit (avec ses conséquences à la revente)."
+ },
+ {
+  "id": "sci-014",
+  "q": "La responsabilité des associés d'une SCI pour les dettes sociales est :",
+  "o": [
+   "Limitée aux apports",
+   "Indéfinie et proportionnelle à leur part dans le capital",
+   "Nulle",
+   "Solidaire et illimitée"
+  ],
+  "c": 1,
+  "e": "Les associés répondent des dettes de manière INDÉFINIE (au-delà des apports) mais NON solidaire : à proportion de leur part dans le capital."
+ },
+ {
+  "id": "sci-015",
+  "q": "La cession de parts d'une SCI à l'IR relève, pour la plus-value, du régime :",
+  "o": [
+   "Des plus-values mobilières",
+   "Des plus-values immobilières des particuliers",
+   "Des BIC",
+   "De l'IFI"
+  ],
+  "c": 1,
+  "e": "La cession de parts d'une SCI à prépondérance immobilière soumise à l'IR suit le régime des plus-values immobilières (abattements de durée, exonération 22/30 ans)."
+ },
+ {
+  "id": "sci-016",
+  "q": "Les droits d'enregistrement sur la cession de parts de SCI sont en principe de :",
+  "o": [
+   "0,1 %",
+   "5 %",
+   "3 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "La cession de parts de société à prépondérance immobilière supporte un droit d'enregistrement de 5 %."
+ },
+ {
+  "id": "sci-017",
+  "q": "Parmi ces affirmations, lesquelles plaident pour une SCI à l'IR plutôt qu'à l'IS ?",
+  "o": [
+   "On souhaite imputer un déficit foncier",
+   "On vise une revente avec abattement pour durée de détention",
+   "On veut maximiser l'amortissement pendant la détention",
+   "On veut une fiscalité de sortie allégée"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "L'IR permet le déficit foncier, les abattements de durée et une sortie plus douce. L'amortissement (avantage de détention) est propre à l'IS, au prix d'une sortie coûteuse."
+ },
+ {
+  "id": "sci-018",
+  "q": "La SCI est fréquemment utilisée pour :",
+  "o": [
+   "Exercer une activité commerciale",
+   "Détenir et transmettre un patrimoine immobilier (démembrement, donation de parts)",
+   "Faire du négoce",
+   "Émettre des obligations"
+  ],
+  "c": 1,
+  "e": "Outil patrimonial par excellence : gestion à plusieurs, démembrement et transmission progressive des parts (abattements renouvelables)."
+ },
+ {
+  "id": "sci-019",
+  "q": "L'option d'une SCI pour l'IS peut être révoquée :",
+  "o": [
+   "Jamais",
+   "Jusqu'au 5e exercice suivant celui de l'option, puis elle devient irrévocable",
+   "À tout moment",
+   "Chaque année"
+  ],
+  "c": 1,
+  "e": "Depuis 2019, la renonciation est possible jusqu'au 5e exercice suivant le début de l'option. Passé ce délai, l'IS est définitif."
+ },
+ {
+  "id": "sci-020",
+  "q": "Une SCI doit comporter au minimum :",
+  "o": [
+   "1 associé",
+   "2 associés",
+   "7 associés",
+   "50 associés"
+  ],
+  "c": 1,
+  "e": "La SCI est une société : elle requiert au moins deux associés (à la différence, par ex., d'une SASU unipersonnelle)."
+ },
+ {
+  "id": "sci-021",
+  "q": "Une SCI à l'IR est dite « translucide » : cela signifie que :",
+  "o": [
+   "Elle paie l'IS",
+   "Les résultats sont imposés directement entre les mains des associés",
+   "Elle est exonérée",
+   "Elle relève des BIC"
+  ],
+  "c": 1,
+  "e": "La SCI à l'IR n'est pas elle-même redevable ; chaque associé est imposé sur sa quote-part de résultat foncier, selon son régime propre."
+ },
+ {
+  "id": "sci-022",
+  "q": "Quels sont les inconvénients d'une SCI à l'IS à la revente de l'immeuble ?",
+  "o": [
+   "Réintégration des amortissements pratiqués",
+   "Absence d'abattement pour durée de détention",
+   "Plus-value calculée sur une valeur nette comptable faible",
+   "Exonération totale après 22 ans"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "À l'IS, la plus-value est professionnelle : la valeur nette comptable est diminuée des amortissements déduits, ce qui gonfle la plus-value, sans abattement pour durée. L'exonération des particuliers après 22/30 ans ne s'applique pas."
+ },
+ {
+  "id": "sci-023",
+  "q": "L'option d'une SCI pour l'IS est intéressante surtout pour :",
+  "o": [
+   "Maximiser la fiscalité à la revente",
+   "Amortir l'immeuble et lisser l'imposition pendant la détention",
+   "Bénéficier du micro-foncier",
+   "Éviter toute imposition des loyers"
+  ],
+  "c": 1,
+  "e": "L'IS permet de déduire l'amortissement du bâti, réduisant fortement le résultat imposable pendant la phase de détention — au prix d'une fiscalité plus lourde à la sortie."
+ },
+ {
+  "id": "sci-024",
+  "q": "La location meublée exercée par une SCI à l'IR :",
+  "o": [
+   "Est neutre fiscalement",
+   "Relève des BIC et peut entraîner l'assujettissement de la SCI à l'IS",
+   "Reste en revenus fonciers",
+   "Est interdite par la loi"
+  ],
+  "c": 1,
+  "e": "La location meublée est une activité commerciale (BIC). Exercée de façon habituelle par une SCI à l'IR, elle peut la faire basculer à l'IS de plein droit — un piège classique."
+ },
+ {
+  "id": "sci-025",
+  "q": "La cession de parts d'une SCI ayant opté pour l'IS relève, pour la plus-value du cédant personne physique :",
+  "o": [
+   "Du régime des plus-values immobilières des particuliers",
+   "Du régime des plus-values sur valeurs mobilières (PFU)",
+   "D'une exonération après 22 ans",
+   "Des BIC"
+  ],
+  "c": 1,
+  "e": "Parts de SCI à l'IS = plus-value sur titres, imposée au PFU (12,8 % + 18,6 %), calculée sur le prix d'acquisition des parts, sans abattement pour durée immobilière. Parts de SCI à l'IR = plus-value immobilière des particuliers (abattements 22/30 ans)."
+ },
+ {
+  "id": "sci-026",
+  "q": "Dans une SCI à l'IS, les intérêts servis sur le compte courant d'un associé :",
+  "o": [
+   "Ne sont jamais déductibles",
+   "Sont déductibles dans la limite d'un taux plafond (art. 39-1-3°), capital entièrement libéré",
+   "Sont exonérés chez l'associé",
+   "Doublent la base IS"
+  ],
+  "c": 1,
+  "e": "Les intérêts de compte courant sont déductibles du résultat de la SCI sous conditions (capital libéré, taux plafonné par l'art. 39-1-3° du CGI). Ils constituent un revenu imposable chez l'associé (RCM)."
+ },
+ {
+  "id": "sci-027",
+  "q": "À l'IFI, les comptes courants d'associés au sein d'une SCI :",
+  "o": [
+   "Sont toujours déductibles de la valeur des parts",
+   "Voient leur déductibilité encadrée par des règles anti-abus",
+   "Réduisent l'assiette sans limite",
+   "Sont exonérés"
+  ],
+  "c": 1,
+  "e": "Depuis la réforme de l'IFI, la déduction des dettes (dont certains comptes courants d'associés) pour valoriser les parts est plafonnée par des dispositifs anti-abus, afin d'éviter de minorer artificiellement l'assiette."
+ },
+ {
+  "id": "sci-028",
+  "q": "Lorsqu'un associé d'une SCI à l'IR est une société soumise à l'IS, sa quote-part de résultat :",
+  "o": [
+   "Reste imposée en revenus fonciers",
+   "Est déterminée selon les règles de l'IS (avec amortissement de l'immeuble)",
+   "Est exonérée",
+   "Relève des BIC de l'associé personne physique"
+  ],
+  "c": 1,
+  "e": "Dans une SCI translucide, chaque associé est imposé selon son propre régime : un associé à l'IS calcule sa quote-part selon les règles de l'IS, en amortissant sa fraction de l'immeuble."
+ },
+ {
+  "id": "sci-029",
+  "q": "En cas de démembrement des parts de SCI (usufruit / nue-propriété), en principe :",
+  "o": [
+   "Le nu-propriétaire est imposé sur les revenus courants",
+   "L'usufruitier est imposé sur les bénéfices courants (revenus fonciers)",
+   "L'usufruitier est exonéré",
+   "Le résultat n'est jamais réparti"
+  ],
+  "c": 1,
+  "e": "À défaut de convention contraire, l'usufruitier des parts est imposé sur le résultat courant (revenus fonciers en SCI à l'IR) ; le nu-propriétaire supporte, lui, les résultats exceptionnels/plus-values."
+ },
+ {
+  "id": "sci-030",
+  "q": "Une société civile de construction-vente (SCCV) relève :",
+  "o": [
+   "Des revenus fonciers",
+   "Des BIC (activité commerciale), sans option possible pour la translucidité foncière",
+   "De l'IFI uniquement",
+   "D'une exonération"
+  ],
+  "c": 1,
+  "e": "La SCCV a une activité commerciale (construire pour vendre) : ses résultats relèvent des BIC. Elle échappe au régime translucide « foncier » des SCI classiques, chaque associé étant imposé sur sa quote-part de bénéfice commercial."
+ },
+ {
+  "id": "sci-031",
+  "q": "Dans une SCI à l'IS, la remontée des bénéfices aux associés personnes physiques :",
+  "o": [
+   "N'est jamais imposée",
+   "Constitue un dividende (RCM), imposé après l'IS déjà acquitté — d'où une double imposition économique",
+   "Relève des revenus fonciers",
+   "Est exonérée après 22 ans"
+  ],
+  "c": 1,
+  "e": "La SCI à l'IS paie l'IS sur son résultat ; la distribution du bénéfice net aux associés est ensuite imposée comme un dividende (PFU ou barème). C'est la double couche d'imposition propre à l'IS, à mettre en balance avec l'avantage de l'amortissement."
+ },
+ {
+  "id": "sci-032",
+  "q": "Cas : vous investissez dans un immeuble locatif NU que vous comptez revendre dans 25 ans, en visant l'exonération de plus-value. Structure la plus adaptée ?",
+  "o": [
+   "SCI à l'IS",
+   "Détention en direct ou SCI à l'IR",
+   "SAS à l'IS",
+   "Holding"
+  ],
+  "c": 1,
+  "e": "À l'IR (direct ou SCI translucide), la plus-value des particuliers bénéficie des abattements pour durée : exonération d'IR à 22 ans, de PS à 30 ans. À l'IS, il n'y a pas d'abattement pour durée et les amortissements déduits gonflent la plus-value à la revente : mauvais choix pour une sortie lointaine à gain."
+ },
+ {
+  "id": "sci-033",
+  "q": "Cas : fort TMI, vous ne voulez PAS percevoir les loyers (réinvestissement), horizon long, sans projet de revente rapide. Choix le plus cohérent ?",
+  "o": [
+   "SCI à l'IR (revenus fonciers taxés à votre TMI)",
+   "SCI à l'IS (amortissement, IS modéré, pas de flux imposé personnellement)",
+   "Location meublée au micro-BIC",
+   "Achat en direct"
+  ],
+  "c": 1,
+  "e": "La SCI à l'IS permet d'amortir le bien et de n'être imposé (à l'IS) que sur un résultat réduit, sans taxer de flux à votre TMI tant que rien n'est distribué : idéal pour capitaliser. Contrepartie assumée ici : une plus-value professionnelle lourde si vous revendez un jour."
+ },
+ {
+  "id": "sci-034",
+  "q": "Cas : vous investissez dans l'immobilier locatif à plusieurs (couple, enfants) et voulez organiser une transmission progressive et souple. Structure adaptée ?",
+  "o": [
+   "L'indivision",
+   "La SCI (société civile immobilière)",
+   "L'achat en direct au nom d'un seul",
+   "Une SAS"
+  ],
+  "c": 1,
+  "e": "La SCI évite les blocages de l'indivision (gérance, statuts) et permet de donner les PARTS par tranches en profitant de l'abattement de 100 000 € reconstitué tous les 15 ans : idéale pour transmettre en douceur tout en gardant la main via la gérance."
+ },
+ {
+  "id": "sci-035",
+  "q": "Cas : profession libérale, vous achetez les MURS de votre cabinet. Comment séparer l'immobilier de l'activité et vous protéger ?",
+  "o": [
+   "Acheter les murs au nom de la société d'exploitation",
+   "Détenir les murs via une SCI qui les loue à la société d'exploitation",
+   "Acheter en indivision avec vos associés d'exploitation",
+   "Louer à un tiers"
+  ],
+  "c": 1,
+  "e": "Loger les murs dans une SCI distincte, qui les donne à bail à la structure d'exploitation, isole l'immobilier des aléas de l'activité (en cas de difficulté, les murs sont protégés), génère des loyers et facilite la transmission séparée du patrimoine immobilier."
+ },
+ {
+  "id": "sci-036",
+  "q": "Définition : qu'est-ce qu'une SCI (société civile immobilière) ?",
+  "o": [
+   "Une société commerciale d'achat-revente",
+   "Une société civile constituée pour détenir et gérer un patrimoine immobilier",
+   "Un fonds coté en bourse",
+   "Un contrat d'assurance"
+  ],
+  "c": 1,
+  "e": "La SCI est une société civile (au moins 2 associés) dédiée à la détention et la gestion d'immeubles. Translucide à l'IR par défaut, elle peut opter pour l'IS. Elle facilite la gestion à plusieurs et la transmission par parts."
+ }
+]

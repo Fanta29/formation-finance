@@ -1,0 +1,933 @@
+[
+ {
+  "id": "foncier-001",
+  "q": "Le régime micro-foncier applique un abattement forfaitaire de :",
+  "o": [
+   "30 %",
+   "40 %",
+   "50 %",
+   "71 %"
+  ],
+  "c": 0,
+  "e": "Le micro-foncier offre un abattement de 30 % sur les loyers bruts, sans possibilité de déduire les charges réelles."
+ },
+ {
+  "id": "foncier-002",
+  "q": "Le micro-foncier est ouvert tant que les recettes brutes annuelles ne dépassent pas :",
+  "o": [
+   "15 000 €",
+   "23 000 €",
+   "72 600 €",
+   "77 700 €"
+  ],
+  "c": 0,
+  "e": "Le seuil du micro-foncier est de 15 000 € de loyers bruts par an. Au-delà, régime réel obligatoire."
+ },
+ {
+  "id": "foncier-003",
+  "q": "Le déficit foncier s'impute sur le revenu global dans la limite annuelle de :",
+  "o": [
+   "5 350 €",
+   "10 700 €",
+   "21 400 €",
+   "Sans limite"
+  ],
+  "c": 1,
+  "e": "Le déficit foncier (hors intérêts d'emprunt) s'impute sur le revenu global jusqu'à 10 700 €/an. L'excédent est reporté sur les revenus fonciers des 10 années suivantes."
+ },
+ {
+  "id": "foncier-004",
+  "q": "La part du déficit foncier provenant des intérêts d'emprunt :",
+  "o": [
+   "S'impute sur le revenu global",
+   "S'impute uniquement sur les revenus fonciers",
+   "N'est jamais déductible",
+   "Double le plafond"
+  ],
+  "c": 1,
+  "e": "Les intérêts d'emprunt ne s'imputent que sur les revenus fonciers (et le report éventuel sur 10 ans), jamais sur le revenu global."
+ },
+ {
+  "id": "foncier-005",
+  "q": "Au régime réel foncier, ne sont PAS déductibles :",
+  "o": [
+   "Les intérêts d'emprunt",
+   "Les travaux d'entretien et de réparation",
+   "Les dépenses de construction, reconstruction et agrandissement",
+   "La taxe foncière"
+  ],
+  "c": 2,
+  "e": "Les dépenses de construction, reconstruction ou agrandissement sont exclues des charges déductibles (elles s'ajoutent au prix d'acquisition pour la plus-value)."
+ },
+ {
+  "id": "foncier-006",
+  "q": "Le plafond d'imputation du déficit foncier est porté à 21 400 € :",
+  "o": [
+   "Pour tous les biens",
+   "Pour les travaux de rénovation énergétique sortant le bien du statut de passoire thermique",
+   "Pour les résidences secondaires",
+   "Jamais"
+  ],
+  "c": 1,
+  "e": "Un dispositif temporaire double le plafond (21 400 €) pour les travaux permettant à un logement de passer d'une classe DPE E, F ou G à une classe A, B, C ou D."
+ },
+ {
+  "id": "foncier-007",
+  "q": "Les revenus fonciers échappent-ils à la hausse des PS de 2026 ?",
+  "o": [
+   "Non, ils passent à 18,6 %",
+   "Oui, ils restent à 17,2 %",
+   "Ils sont exonérés de PS",
+   "Ils passent à 30 %"
+  ],
+  "c": 1,
+  "e": "Les revenus fonciers font partie des revenus explicitement maintenus à 17,2 % de prélèvements sociaux malgré la LFSS 2026."
+ },
+ {
+  "id": "foncier-008",
+  "q": "Le régime micro-foncier s'applique de plein droit lorsque les revenus fonciers bruts annuels n'excèdent pas :",
+  "o": [
+   "15 000 €",
+   "23 000 €",
+   "77 700 €",
+   "30 000 €"
+  ],
+  "c": 0,
+  "e": "En dessous de 15 000 € de revenus fonciers bruts, le micro-foncier s'applique avec un abattement forfaitaire de 30 %."
+ },
+ {
+  "id": "foncier-009",
+  "q": "L'abattement du micro-foncier est de :",
+  "o": [
+   "50 %",
+   "30 %",
+   "71 %",
+   "34 %"
+  ],
+  "c": 1,
+  "e": "Le micro-foncier applique un abattement forfaitaire de 30 %, censé couvrir toutes les charges. Au-delà de 15 000 € (ou sur option), le régime réel s'impose."
+ },
+ {
+  "id": "foncier-010",
+  "q": "Au régime réel foncier, le déficit (hors intérêts d'emprunt) s'impute sur le revenu global dans la limite annuelle de :",
+  "o": [
+   "10 700 €",
+   "21 400 €",
+   "15 000 €",
+   "Sans limite"
+  ],
+  "c": 0,
+  "e": "Le déficit foncier « ordinaire » s'impute sur le revenu global jusqu'à 10 700 €/an ; l'excédent et la part liée aux intérêts sont reportables sur les revenus fonciers."
+ },
+ {
+  "id": "foncier-011",
+  "q": "Le plafond de déficit foncier imputable est porté à 21 400 € :",
+  "o": [
+   "Pour tout bien loué",
+   "En cas de travaux de rénovation énergétique sortant le logement du statut de passoire (F/G)",
+   "Pour les meublés",
+   "Jamais"
+  ],
+  "c": 1,
+  "e": "Le déficit foncier « majoré » à 21 400 € vise les travaux de rénovation énergétique permettant à une passoire (DPE F ou G) d'atteindre au moins la classe E, dispositif prolongé."
+ },
+ {
+  "id": "foncier-012",
+  "q": "Depuis la fin du Pinel (31/12/2024), le principal dispositif de RÉDUCTION d'impôt pour l'investissement locatif est :",
+  "o": [
+   "Le Censi-Bouvard",
+   "Le Denormandie (ancien à rénover), prolongé jusqu'en 2027",
+   "Le Scellier",
+   "La loi Malraux"
+  ],
+  "c": 1,
+  "e": "Le Pinel a disparu sans successeur direct ; le Denormandie (immobilier ancien avec ≥ 25 % de travaux, communes Action Cœur de Ville) est reconduit jusqu'au 31 décembre 2027."
+ },
+ {
+  "id": "foncier-013",
+  "q": "Le dispositif Loc'Avantages repose sur :",
+  "o": [
+   "Un amortissement du bien",
+   "Une convention avec l'Anah et un loyer sous le marché en échange d'une réduction d'impôt (15 à 65 %)",
+   "Une exonération de taxe foncière",
+   "Un crédit d'impôt travaux"
+  ],
+  "c": 1,
+  "e": "En signant une convention Anah et en louant 15 %, 30 % ou 45 % sous le marché, le bailleur obtient une réduction calculée sur les loyers bruts, jusqu'à 65 % (avec intermédiation)."
+ },
+ {
+  "id": "foncier-014",
+  "q": "Le régime des Monuments Historiques permet notamment :",
+  "o": [
+   "Un abattement de 30 %",
+   "La déduction des charges et travaux du revenu global, sans plafond, sous conditions",
+   "Une exonération de PV",
+   "Un amortissement"
+  ],
+  "c": 1,
+  "e": "Les charges et travaux d'un immeuble classé/inscrit peuvent, sous conditions (conservation, ouverture au public...), s'imputer sur le revenu global sans plafonnement."
+ },
+ {
+  "id": "foncier-015",
+  "q": "La loi Malraux ouvre droit à :",
+  "o": [
+   "Une déduction du revenu global",
+   "Une réduction d'impôt calculée sur les travaux de restauration en secteur protégé",
+   "Un amortissement",
+   "Une exonération de taxe foncière"
+  ],
+  "c": 1,
+  "e": "Malraux accorde une réduction d'impôt (22 % ou 30 % selon le secteur) sur les dépenses de restauration, dans une limite pluriannuelle, hors plafond global des niches."
+ },
+ {
+  "id": "foncier-016",
+  "q": "Les parts de SCPI de rendement génèrent, pour l'associé personne physique, des :",
+  "o": [
+   "BIC",
+   "Revenus fonciers (quote-part)",
+   "Plus-values mobilières",
+   "Dividendes"
+  ],
+  "c": 1,
+  "e": "Les revenus distribués par une SCPI de rendement sont majoritairement des revenus fonciers imposés au barème (+ PS 17,2 %)."
+ },
+ {
+  "id": "foncier-017",
+  "q": "Parmi ces charges, lesquelles sont déductibles des revenus fonciers au régime réel ?",
+  "o": [
+   "Les dépenses de réparation et d'entretien",
+   "Les primes d'assurance",
+   "Les intérêts d'emprunt",
+   "Les dépenses de construction ou d'agrandissement"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Réparations, entretien, assurances, taxe foncière, intérêts et frais de gestion sont déductibles. Les travaux de construction/agrandissement/reconstruction ne le sont pas."
+ },
+ {
+  "id": "foncier-018",
+  "q": "Le plafonnement global des niches fiscales est en principe de :",
+  "o": [
+   "10 000 € par an (avantages confondus)",
+   "5 000 €",
+   "18 000 €",
+   "Sans limite"
+  ],
+  "c": 0,
+  "e": "La plupart des avantages fiscaux (dont Denormandie) sont plafonnés à 10 000 €/an (18 000 € avec certains investissements outre-mer/Sofica)."
+ },
+ {
+  "id": "foncier-019",
+  "q": "Les prélèvements sociaux sur les revenus fonciers, après la LFSS 2026, sont de :",
+  "o": [
+   "18,6 %",
+   "17,2 % (exception maintenue)",
+   "31,4 %",
+   "0 %"
+  ],
+  "c": 1,
+  "e": "Les revenus fonciers figurent parmi les exceptions : les PS y restent à 17,2 %, contrairement aux revenus mobiliers passés à 18,6 %."
+ },
+ {
+  "id": "foncier-020",
+  "q": "L'option pour le régime réel foncier (au lieu du micro) engage le contribuable pour :",
+  "o": [
+   "1 an",
+   "3 ans (puis reconduction tacite)",
+   "10 ans",
+   "À vie"
+  ],
+  "c": 1,
+  "e": "L'option pour le réel est exercée pour 3 ans, période durant laquelle elle est irrévocable, puis reconduite tacitement d'année en année."
+ },
+ {
+  "id": "foncier-021",
+  "q": "La taxe foncière d'un immeuble locatif nu est :",
+  "o": [
+   "Non déductible",
+   "Déductible des revenus fonciers au régime réel",
+   "Un crédit d'impôt",
+   "Déductible du revenu global"
+  ],
+  "c": 1,
+  "e": "La taxe foncière (hors taxe d'enlèvement des ordures ménagères récupérable sur le locataire) figure parmi les charges déductibles au régime réel foncier."
+ },
+ {
+  "id": "foncier-022",
+  "q": "Le régime micro-foncier s'applique de plein droit si les revenus fonciers bruts annuels n'excèdent pas :",
+  "o": [
+   "15 000 €",
+   "23 000 €",
+   "30 000 €",
+   "72 600 €"
+  ],
+  "c": 0,
+  "e": "En deçà de 15 000 € de loyers bruts (location nue), le micro-foncier s'applique avec un abattement forfaitaire de 30 %. Au-delà, ou sur option, c'est le régime réel."
+ },
+ {
+  "id": "foncier-023",
+  "q": "Au régime réel foncier, quelles charges sont déductibles des loyers ?",
+  "o": [
+   "Les intérêts d'emprunt",
+   "Les travaux d'entretien et de réparation",
+   "Les travaux de construction ou d'agrandissement",
+   "La taxe foncière"
+  ],
+  "c": [
+   0,
+   1,
+   3
+  ],
+  "e": "Intérêts, travaux d'entretien/réparation/amélioration et taxe foncière sont déductibles. Les travaux de construction, reconstruction ou agrandissement ne le sont pas."
+ },
+ {
+  "id": "foncier-024",
+  "q": "S'agissant du déficit foncier, lesquelles de ces affirmations sont exactes ?",
+  "o": [
+   "La part due aux intérêts d'emprunt ne s'impute que sur les revenus fonciers",
+   "Le surplus au-delà du plafond est reportable 10 ans sur les revenus fonciers",
+   "Il faut louer 3 ans pour conserver l'imputation sur le revenu global",
+   "Le déficit s'impute d'abord sur les salaires"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les intérêts ne s'imputent que sur les revenus fonciers ; l'excédent est reportable 10 ans sur ces mêmes revenus ; et l'immeuble doit rester loué jusqu'au 31 décembre de la 3e année suivant l'imputation sur le revenu global."
+ },
+ {
+  "id": "foncier-025",
+  "q": "Mini-cas : 12 000 € de loyers bruts, 4 000 € de charges déductibles. Au réel, le revenu foncier net imposable est de :",
+  "o": [
+   "12 000 €",
+   "8 000 €",
+   "8 400 €",
+   "4 000 €"
+  ],
+  "c": 1,
+  "e": "Au réel : 12 000 − 4 000 = 8 000 €. Le micro-foncier aurait donné 12 000 × 70 % = 8 400 € : ici le réel est plus favorable car les charges dépassent 30 %."
+ },
+ {
+  "id": "foncier-026",
+  "q": "Le dispositif Denormandie (rénovation dans l'ancien) :",
+  "o": [
+   "A été supprimé en 2024 comme le Pinel",
+   "Est prorogé jusqu'en 2027",
+   "Concerne uniquement le neuf",
+   "Ouvre une déduction du revenu global"
+  ],
+  "c": 1,
+  "e": "Contrairement au Pinel (éteint fin 2024), le Denormandie — réduction d'impôt pour l'ancien rénové en zone éligible — a été prorogé jusqu'en 2027."
+ },
+ {
+  "id": "foncier-027",
+  "q": "Le plafond majoré de déficit foncier à 21 400 € (rénovation énergétique de passoire) est, après la LF 2026 :",
+  "o": [
+   "Supprimé",
+   "Prorogé pour les dépenses payées jusqu'au 31 décembre 2027",
+   "Limité à 2025",
+   "Porté à 30 000 €"
+  ],
+  "c": 1,
+  "e": "La LF 2026 a prorogé le doublement du plafond (21 400 €) jusqu'au 31/12/2027, pour un logement passant d'un DPE E/F/G à A/B/C/D, loué nu au réel. Seule la fraction « travaux énergétiques » ouvre le rehaussement."
+ },
+ {
+  "id": "foncier-028",
+  "q": "Le déficit foncier imputable sur le revenu global :",
+  "o": [
+   "Entre dans le plafonnement global des niches (10 000 €)",
+   "Échappe au plafonnement global des niches fiscales",
+   "Ouvre une réduction d'impôt",
+   "Est plafonné à 10 000 €"
+  ],
+  "c": 1,
+  "e": "Le déficit foncier est une modalité de détermination du revenu net (une charge), non une réduction d'impôt : il échappe au plafond global des niches de 10 000 €, ce qui en fait un levier puissant."
+ },
+ {
+  "id": "foncier-029",
+  "q": "Quels régimes excluent l'application du micro-foncier (réel obligatoire) ?",
+  "o": [
+   "Les immeubles en loi Malraux",
+   "Les Monuments Historiques",
+   "Certains dispositifs d'amortissement/déduction spécifiques",
+   "Une location nue ordinaire de 8 000 € de loyers"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le micro-foncier est écarté lorsque le contribuable détient un bien relevant d'un régime particulier (Malraux, Monuments Historiques, anciens dispositifs d'amortissement…) : le réel devient alors obligatoire. Une location nue ordinaire sous 15 000 € reste éligible au micro."
+ },
+ {
+  "id": "foncier-030",
+  "q": "Les provisions pour charges de copropriété versées au syndic :",
+  "o": [
+   "Ne sont jamais déductibles",
+   "Sont déductibles l'année de leur versement, avec régularisation l'année suivante",
+   "Sont déductibles à 50 %",
+   "Relèvent des BIC"
+  ],
+  "c": 1,
+  "e": "Le bailleur déduit les provisions pour charges de copropriété l'année de leur paiement ; une régularisation intervient l'année suivante pour réintégrer les charges non déductibles (ex. dépenses récupérables sur le locataire)."
+ },
+ {
+  "id": "foncier-031",
+  "q": "Les charges foncières des immeubles classés Monuments Historiques :",
+  "o": [
+   "Ne sont pas déductibles",
+   "Peuvent être déduites (selon les cas sur le revenu foncier et/ou le revenu global), hors plafonnement des niches",
+   "Ouvrent une réduction de 18 %",
+   "Sont plafonnées à 10 700 €"
+  ],
+  "c": 1,
+  "e": "Le régime des Monuments Historiques autorise une déduction élargie des charges (travaux, intérêts), imputable selon l'occupation/l'ouverture au public sur le revenu foncier et/ou le revenu global. Cet avantage échappe au plafonnement global des niches."
+ },
+ {
+  "id": "foncier-032",
+  "q": "Le dispositif Malraux (restauration d'immeubles en secteur protégé) procure :",
+  "o": [
+   "Une déduction sur le revenu global",
+   "Une réduction d'impôt calculée sur les travaux de restauration, hors plafond des niches de 10 000 €",
+   "Un abattement de 30 %",
+   "Un crédit d'impôt de 50 %"
+  ],
+  "c": 1,
+  "e": "Le Malraux ouvre une réduction d'impôt assise sur les dépenses de restauration (taux selon la zone), plafonnée en base, et — avantage notable — placée hors du plafonnement global des niches fiscales."
+ },
+ {
+  "id": "foncier-033",
+  "q": "La réduction d'impôt Denormandie (ancien rénové) est de 12 %, 18 % ou 21 % selon :",
+  "o": [
+   "La zone géographique",
+   "L'engagement de location de 6, 9 ou 12 ans",
+   "Le montant des travaux",
+   "L'âge du bailleur"
+  ],
+  "c": 1,
+  "e": "Comme l'ex-Pinel (art. 199 novovicies), le taux dépend de la durée d'engagement : 12 % (6 ans), 18 % (9 ans), 21 % (12 ans). Le Denormandie impose en outre des travaux d'au moins 25 % du coût total, dans une commune éligible, et court jusqu'au 31/12/2027."
+ },
+ {
+  "id": "foncier-034",
+  "q": "Le dispositif Loc'Avantages :",
+  "o": [
+   "Accorde une réduction d'impôt croissant avec l'effort de modération du loyer",
+   "Peut atteindre 65 % en cas d'intermédiation locative (niveau très social)",
+   "Suppose une convention avec l'Anah",
+   "Est un régime d'amortissement"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Loc'Avantages conditionne la réduction au niveau de loyer conventionné avec l'Anah (intermédiaire, social, très social) : plus la décote de loyer est forte, plus la réduction est élevée, jusqu'à 65 % avec intermédiation. Ce n'est pas un amortissement mais une réduction d'impôt."
+ },
+ {
+  "id": "foncier-035",
+  "q": "Le « statut du bailleur privé » (dispositif Jeanbrun) instauré par la LF 2026 :",
+  "o": [
+   "Reconduit le Pinel à l'identique",
+   "Crée un régime d'AMORTISSEMENT du logement loué en secteur intermédiaire",
+   "S'applique aux investissements réalisés à compter du 21/02/2026",
+   "Concerne la location meublée de tourisme"
+  ],
+  "c": [
+   1,
+   2
+  ],
+  "e": "Le dispositif Jeanbrun (LF 2026, applicable du 21/02/2026 au 31/12/2028) remplace le Pinel : il ouvre un amortissement déductible du bien loué nu en intermédiaire (environ 3 à 5,5 %/an), unifiant neuf et ancien avec travaux. Ce n'est ni le Pinel, ni un régime de meublé."
+ },
+ {
+  "id": "foncier-036",
+  "q": "Mini-cas : micro-foncier, 12 000 € de loyers bruts. Revenu foncier imposable ?",
+  "o": [
+   "12 000 €",
+   "8 400 €",
+   "3 600 €",
+   "6 000 €"
+  ],
+  "c": 1,
+  "e": "Le micro-foncier applique un abattement forfaitaire de 30 % : 12 000 × 70 % = 8 400 €. Aucune autre charge n'est déductible dans ce régime."
+ },
+ {
+  "id": "foncier-037",
+  "q": "Mini-cas : 6 000 € de loyers, 24 000 € de charges déductibles (hors intérêts). Déficit foncier imputable sur le revenu global, et report ?",
+  "o": [
+   "18 000 € imputables en totalité",
+   "10 700 € sur le revenu global, 7 300 € reportables 10 ans",
+   "6 000 € seulement",
+   "Aucun déficit"
+  ],
+  "c": 1,
+  "e": "Déficit = 24 000 − 6 000 = 18 000 €. Imputation sur le revenu global plafonnée à 10 700 € ; le surplus (7 300 €) est reportable 10 ans sur les revenus fonciers."
+ },
+ {
+  "id": "foncier-038",
+  "q": "Cas : vous achetez un bien NU nécessitant d'importants travaux de rénovation, et vous avez par ailleurs de gros revenus fonciers et un TMI élevé. Régime le plus intéressant ?",
+  "o": [
+   "Micro-foncier (abattement 30 %)",
+   "Régime réel foncier (création d'un déficit foncier)",
+   "LMNP",
+   "Denormandie"
+  ],
+  "c": 1,
+  "e": "Au réel, les travaux déductibles créent un déficit foncier : il s'impute sur vos autres revenus fonciers, et jusqu'à 10 700 € sur le revenu global, le surplus étant reportable 10 ans. Le micro-foncier, plafonné à un abattement de 30 %, serait ici très sous-optimal."
+ },
+ {
+  "id": "foncier-039",
+  "q": "Cas : TMI à 30 %, vous voulez une RÉDUCTION D'IMPÔT immédiate en achetant dans l'ancien à rénover d'une ville moyenne éligible, en louant nu. Dispositif adapté ?",
+  "o": [
+   "LMNP",
+   "Denormandie",
+   "Déficit foncier seul",
+   "SCI à l'IS"
+  ],
+  "c": 1,
+  "e": "Le Denormandie procure une réduction d'impôt directe de 12/18/21 % (selon 6/9/12 ans) sur un logement ancien rénové (travaux ≥ 25 %) en commune éligible : c'est le levier pertinent quand l'objectif premier est une réduction d'IR visible, à condition de ne pas avoir saturé le plafond des niches."
+ },
+ {
+  "id": "foncier-040",
+  "q": "Cas : TMI à 41 %, vous voulez vous constituer un patrimoine immobilier via des SCPI SANS percevoir de revenus taxés dont vous n'avez pas besoin aujourd'hui. Solution adaptée ?",
+  "o": [
+   "Acheter des SCPI en pleine propriété",
+   "Acheter la NUE-PROPRIÉTÉ de SCPI (démembrement temporaire)",
+   "Emprunter pour acheter davantage de SCPI",
+   "Loger les SCPI sur un PEA"
+  ],
+  "c": 1,
+  "e": "En achetant la nue-propriété de parts de SCPI (avec une décote), vous ne percevez aucun revenu pendant le démembrement — donc rien à déclarer à votre TMI élevé — et récupérez la pleine propriété au terme sans fiscalité. Les SCPI ne sont, par ailleurs, pas éligibles au PEA."
+ },
+ {
+  "id": "foncier-041",
+  "q": "Cas : vous financez un investissement locatif nu et hésitez entre payer comptant ou emprunter, au régime réel. Quel est l'intérêt fiscal de l'emprunt ?",
+  "o": [
+   "Aucun",
+   "Les intérêts d'emprunt sont déductibles des revenus fonciers (effet de levier)",
+   "Ils ouvrent un crédit d'impôt",
+   "Ils sont déductibles du revenu global"
+  ],
+  "c": 1,
+  "e": "Au réel, les intérêts d'emprunt se déduisent des revenus fonciers (et, s'ils créent un déficit, cette part ne s'impute que sur les revenus fonciers). L'emprunt combine effet de levier et déductibilité — souvent plus efficace que d'immobiliser son épargne."
+ },
+ {
+  "id": "foncier-042",
+  "q": "Cas : vous louez un bien nu ; vos charges déductibles réelles représentent environ 45 % des loyers. Quel régime foncier choisir ?",
+  "o": [
+   "Le micro-foncier (abattement de 30 %)",
+   "Le régime réel (déduction des charges réelles, ici plus favorable)",
+   "Peu importe, c'est identique",
+   "La location meublée"
+  ],
+  "c": 1,
+  "e": "Quand les charges réelles dépassent l'abattement forfaitaire de 30 % du micro-foncier (ici 45 %), le régime réel est plus avantageux : il déduit les charges effectives et peut générer un déficit foncier. Le micro reste préférable si les charges sont faibles."
+ },
+ {
+  "id": "foncier-043",
+  "q": "Définition : qu'est-ce qu'une SCPI (société civile de placement immobilier) ?",
+  "o": [
+   "Une société d'achat-revente de biens",
+   "Un placement collectif « pierre-papier » : on détient des parts d'un parc immobilier géré, et on perçoit une quote-part de loyers",
+   "Un crédit immobilier",
+   "Une assurance habitation"
+  ],
+  "c": 1,
+  "e": "La SCPI collecte l'épargne pour acquérir et gérer un parc immobilier locatif ; l'investisseur détient des parts et perçoit des revenus (fonciers) au prorata, sans gérer les biens. C'est de la « pierre-papier », mutualisée et déléguée."
+ },
+ {
+  "id": "foncier-044",
+  "q": "Définition : qu'est-ce qu'un « déficit foncier » ?",
+  "o": [
+   "Une dette envers l'État",
+   "L'excédent des charges déductibles sur les loyers d'un bien loué nu (au réel)",
+   "Un loyer impayé",
+   "Une plus-value négative"
+  ],
+  "c": 1,
+  "e": "Le déficit foncier naît lorsque, au régime réel, les charges déductibles (travaux, intérêts…) dépassent les loyers. Il s'impute sur les autres revenus fonciers et, dans la limite de 10 700 €, sur le revenu global, le surplus étant reportable 10 ans."
+ },
+ {
+  "id": "foncier-045",
+  "q": "Définition : qu'est-ce que la « valeur locative cadastrale » ?",
+  "o": [
+   "Le loyer réel du bien",
+   "Un loyer théorique annuel, base de calcul des impôts locaux (taxe foncière, CFE)",
+   "Le prix de vente du bien",
+   "La valeur assurée du bien"
+  ],
+  "c": 1,
+  "e": "La valeur locative cadastrale est un loyer annuel théorique déterminé par l'administration ; elle sert d'assiette aux impôts locaux (taxe foncière, taxe d'habitation résiduelle, CFE des entreprises)."
+ },
+ {
+  "id": "foncier-046",
+  "q": "Définition : que sont les « revenus fonciers » ?",
+  "o": [
+   "Les revenus d'un compte-titres",
+   "Les revenus tirés de la location de biens immobiliers NUS (non meublés)",
+   "Les loyers de locations meublées",
+   "Les dividendes de SCPI en assurance-vie"
+  ],
+  "c": 1,
+  "e": "Les revenus fonciers proviennent de la location de biens nus (immeubles, parts de SCI à l'IR…). Ils relèvent du micro-foncier (abattement 30 %) ou du réel. La location meublée relève, elle, des BIC, pas des revenus fonciers."
+ },
+ {
+  "id": "foncier-047",
+  "q": "Définition : qu'est-ce qu'une « passoire thermique » ?",
+  "o": [
+   "Un logement neuf",
+   "Un logement dont le diagnostic de performance énergétique (DPE) est classé F ou G (très énergivore)",
+   "Un local commercial",
+   "Un logement classé A"
+  ],
+  "c": 1,
+  "e": "Une passoire thermique est un logement mal isolé, classé F ou G au DPE. Ces biens font l'objet de restrictions locatives progressives et d'incitations à la rénovation (ex. déficit foncier majoré à 21 400 € pour les faire remonter en classe A à D)."
+ },
+ {
+  "id": "foncier-048",
+  "q": "Définition : qu'est-ce que le dispositif Loc'Avantages ?",
+  "o": [
+   "Un prêt immobilier aidé",
+   "Une réduction d'impôt accordée au bailleur qui loue sous les prix du marché, via une convention avec l'Anah",
+   "Un régime d'amortissement",
+   "Une exonération de taxe foncière"
+  ],
+  "c": 1,
+  "e": "Loc'Avantages octroie une réduction d'IR au propriétaire qui s'engage à louer en dessous des loyers de marché (convention Anah) : plus la décote de loyer est forte, plus la réduction est élevée (jusqu'à 65 % avec intermédiation locative)."
+ },
+ {
+  "id": "foncier-049",
+  "q": "Qui est redevable de la taxe foncière pour l'année ?",
+  "o": [
+   "Le locataire",
+   "Le propriétaire du bien au 1er janvier de l'année d'imposition",
+   "L'acquéreur en cas de vente en cours d'année",
+   "La commune"
+  ],
+  "c": 1,
+  "e": "La taxe foncière est due par le propriétaire du bien au 1er janvier de l'année. En cas de vente en cours d'année, un prorata est souvent prévu entre vendeur et acquéreur dans l'acte, mais l'administration réclame la taxe au propriétaire du 1er janvier."
+ },
+ {
+  "id": "foncier-050",
+  "q": "Cas : vous voulez investir dans l'immobilier locatif mais sans gérer de locataires ni de travaux, avec un petit budget et de la diversification. Solution adaptée ?",
+  "o": [
+   "Acheter un immeuble entier en direct",
+   "Investir dans des parts de SCPI (pierre-papier gérée)",
+   "Devenir marchand de biens",
+   "Acheter une résidence secondaire"
+  ],
+  "c": 1,
+  "e": "La SCPI permet d'investir dans un parc immobilier diversifié, dès quelques centaines d'euros, sans aucune gestion (déléguée à la société de gestion) : idéale pour qui veut de l'immobilier « sans les contraintes ». En contrepartie : des frais et une liquidité limitée."
+ },
+ {
+  "id": "foncier-051",
+  "q": "La taxe d'habitation, depuis sa réforme :",
+  "o": [
+   "A été supprimée pour toutes les habitations",
+   "A été supprimée sur les résidences principales, mais est maintenue sur les résidences secondaires",
+   "N'existe plus du tout",
+   "Concerne uniquement les locataires"
+  ],
+  "c": 1,
+  "e": "La taxe d'habitation a été supprimée sur les résidences principales, mais demeure due sur les résidences secondaires (et les logements meublés non affectés à l'habitation principale). Certaines communes appliquent en outre une majoration en zone tendue."
+ },
+ {
+  "id": "foncier-052",
+  "q": "Cas : vous voulez de l'immobilier de rendement (SCPI) mais votre TMI est élevé et vous privilégiez la capitalisation. Meilleure enveloppe ?",
+  "o": [
+   "Les SCPI en direct (revenus fonciers taxés à votre TMI + PS)",
+   "Les SCPI logées dans une assurance-vie (fiscalité du contrat, capitalisation)",
+   "Un compte-titres",
+   "Un Livret A"
+  ],
+  "c": 1,
+  "e": "Détenues en direct, les SCPI génèrent des revenus fonciers taxés à votre TMI (élevé) + prélèvements sociaux. Logées dans une assurance-vie, les revenus sont capitalisés dans le contrat et ne subissent la fiscalité (douce) qu'aux rachats : plus efficace pour capitaliser à fort TMI."
+ },
+ {
+  "id": "foncier-053",
+  "q": "Définition : quelle différence entre rendement locatif « brut » et « net » ?",
+  "o": [
+   "Aucune",
+   "Le brut = loyers / prix ; le net déduit les charges, la fiscalité et la vacance",
+   "Le net est toujours plus élevé",
+   "Le brut inclut les charges"
+  ],
+  "c": 1,
+  "e": "Le rendement brut rapporte les loyers annuels au prix d'achat (loyers / prix × 100). Le rendement net en déduit les charges (taxe foncière, gestion, travaux), la fiscalité et la vacance locative : c'est lui qui reflète la rentabilité réelle."
+ },
+ {
+  "id": "foncier-054",
+  "q": "Les SCPI investies dans l'immobilier situé à l'ÉTRANGER (zone euro) présentent souvent l'intérêt fiscal :",
+  "o": [
+   "D'être totalement exonérées",
+   "De voir leurs revenus supporter une fiscalité allégée (imposition dans le pays de situation, souvent sans prélèvements sociaux français)",
+   "D'être soumises au PFU",
+   "D'échapper à toute déclaration"
+  ],
+  "c": 1,
+  "e": "Pour les SCPI européennes, les revenus fonciers sont imposés selon les règles du pays où se trouvent les immeubles ; grâce aux conventions (taux effectif ou crédit d'impôt), la fiscalité française est souvent allégée et, fréquemment, sans prélèvements sociaux — un atout pour les TMI élevés."
+ },
+ {
+  "id": "foncier-055",
+  "q": "Mini-cas : un bien acheté 200 000 € rapporte 9 600 € de loyers annuels. Rendement locatif BRUT ?",
+  "o": [
+   "4,8 %",
+   "9,6 %",
+   "2,4 %",
+   "6 %"
+  ],
+  "c": 0,
+  "e": "Rendement brut = loyers annuels / prix = 9 600 / 200 000 = 4,8 %. Le rendement net (après charges, fiscalité, vacance) sera sensiblement inférieur."
+ },
+ {
+  "id": "foncier-056",
+  "q": "Définition : qu'est-ce que le crowdfunding immobilier ?",
+  "o": [
+   "Un prêt bancaire classique",
+   "Un financement participatif où des particuliers prêtent à un promoteur, en échange d'un intérêt (souvent 8-12 %), sur une courte durée",
+   "Un achat de SCPI",
+   "Une assurance"
+  ],
+  "c": 1,
+  "e": "Le crowdfunding immobilier permet de prêter (souvent via des obligations) à un promoteur pour financer une opération, contre un intérêt élevé sur 12-36 mois. Rendement attractif mais risque de retard ou de perte en capital ; les intérêts sont imposés au PFU."
+ },
+ {
+  "id": "foncier-057",
+  "q": "Concernant les SCPI (« pierre-papier »), lesquelles sont exactes ?",
+  "o": [
+   "Elles mutualisent l'investissement immobilier et délèguent la gestion",
+   "Les revenus perçus en direct sont des revenus fonciers (imposés au TMI + PS)",
+   "Les frais de souscription sont élevés (souvent ~8-12 %), à amortir sur le long terme",
+   "La liquidité est immédiate et garantie"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Les SCPI permettent d'investir dans un parc immobilier géré, sans souci de gestion. En direct, les loyers sont des revenus fonciers (TMI + prélèvements sociaux). Les frais d'entrée élevés imposent un horizon long, et la revente des parts peut prendre du temps : la liquidité n'est pas garantie."
+ },
+ {
+  "id": "foncier-058",
+  "q": "Mini-cas : crowdfunding immobilier, vous prêtez 5 000 € à 10 % sur 12 mois. Intérêts nets après PFU ?",
+  "o": [
+   "500 €",
+   "343 €",
+   "350 €",
+   "157 €"
+  ],
+  "c": 1,
+  "e": "Intérêts bruts = 5 000 × 10 % = 500 €. Ce sont des revenus de créance, imposés au PFU de 31,4 % : impôt = 157 €, soit 343 € nets. Rendement attractif, mais risque de retard ou de perte en capital si le promoteur fait défaut."
+ },
+ {
+  "id": "foncier-059",
+  "q": "Cas : vous louez un appartement NU. Vos charges réelles sont faibles (moins de 30 % des loyers). Quel régime choisir ?",
+  "o": [
+   "Le régime réel",
+   "Le micro-foncier (abattement forfaitaire de 30 %, plus simple et ici plus avantageux)",
+   "La location meublée",
+   "Aucune imposition"
+  ],
+  "c": 1,
+  "e": "Quand les charges réelles sont inférieures à l'abattement forfaitaire de 30 %, le micro-foncier est plus avantageux (et plus simple) : il suffit que les loyers bruts ne dépassent pas 15 000 €/an. Au-delà, ou si les charges sont élevées, on passe au réel."
+ },
+ {
+  "id": "foncier-060",
+  "q": "Mini-cas : vous percevez 5 000 € de revenus de SCPI (en direct), TMI 30 %, PS 17,2 %. Impôt total approximatif ?",
+  "o": [
+   "1 500 €",
+   "2 360 €",
+   "860 €",
+   "3 000 €"
+  ],
+  "c": 1,
+  "e": "Revenus fonciers : IR = 5 000 × 30 % = 1 500 € ; PS = 5 000 × 17,2 % = 860 €. Total ≈ 2 360 €, soit près de 47 % de prélèvements. D'où l'intérêt, à fort TMI, de loger les SCPI en assurance-vie ou de viser des SCPI européennes."
+ },
+ {
+  "id": "foncier-061",
+  "q": "En crowdfunding immobilier, quel est le principal risque à connaître ?",
+  "o": [
+   "Aucun, le capital est garanti",
+   "Le retard ou le défaut du promoteur, entraînant un retard de remboursement voire une perte en capital",
+   "Une fiscalité confiscatoire",
+   "L'obligation de gérer des locataires"
+  ],
+  "c": 1,
+  "e": "Le crowdfunding immobilier offre un rendement élevé (8-12 %) mais n'est pas garanti : si l'opération prend du retard ou échoue, le remboursement peut être différé, réduit, voire perdu. À diversifier sur plusieurs projets et à réserver à une part limitée de son patrimoine."
+ },
+ {
+  "id": "foncier-062",
+  "q": "Mini-cas : une part de SCPI vaut 200 € et distribue 9 € de revenu annuel. Taux de distribution ?",
+  "o": [
+   "9 %",
+   "4,5 %",
+   "2,25 %",
+   "18 %"
+  ],
+  "c": 1,
+  "e": "Taux de distribution = revenu annuel / prix de la part = 9 / 200 = 4,5 %. C'est un rendement brut (avant fiscalité) : à fort TMI, la fiscalité foncière (TMI + PS) en réduit fortement le net."
+ },
+ {
+  "id": "foncier-063",
+  "q": "Concernant le crowdfunding immobilier, lesquelles sont exactes ?",
+  "o": [
+   "On prête à un promoteur contre un intérêt (souvent 8-12 %)",
+   "La durée est courte (12 à 36 mois)",
+   "Les intérêts sont imposés au PFU",
+   "Le capital est garanti"
+  ],
+  "c": [
+   0,
+   1,
+   2
+  ],
+  "e": "Le crowdfunding immobilier : prêt à un promoteur, rendement élevé, durée courte, intérêts au PFU. Mais le capital n'est PAS garanti (risque de retard ou de défaut) : à diversifier et à limiter à une part raisonnable du patrimoine."
+ },
+ {
+  "id": "foncier-064",
+  "q": "Cas : à fort TMI, vous visez des revenus immobiliers avec une fiscalité allégée. SCPI françaises ou européennes ?",
+  "o": [
+   "Françaises (revenus fonciers taxés au TMI + PS)",
+   "Européennes : revenus imposés dans le pays de situation, souvent sans prélèvements sociaux français et à fiscalité réduite",
+   "Peu importe",
+   "Ni l'une ni l'autre"
+  ],
+  "c": 1,
+  "e": "Les SCPI européennes distribuent des revenus imposés selon les règles étrangères ; grâce aux conventions (taux effectif ou crédit d'impôt), la note française est allégée et, souvent, sans les 17,2 % de prélèvements sociaux. Un atout pour les TMI élevés."
+ },
+ {
+  "id": "foncier-065",
+  "q": "Cas : vous voulez percevoir des revenus immobiliers réguliers, sans acheter ni gérer un bien entier, dès quelques milliers d'euros. Quelle solution ?",
+  "o": [
+   "Devenir marchand de biens",
+   "Investir en SCPI",
+   "Acheter un immeuble en direct",
+   "Un fonds monétaire"
+  ],
+  "c": 1,
+  "e": "La SCPI mutualise l'investissement immobilier et délègue la gestion : on perçoit une quote-part de loyers sans souci de locataires, dès un petit ticket. Le marchand de biens et l'achat en direct supposent, eux, gestion et capitaux importants."
+ },
+ {
+  "id": "foncier-066",
+  "q": "Cas : vous voulez prêter votre argent à un promoteur pour financer un chantier, contre un intérêt élevé sur 18 mois. Quel placement ?",
+  "o": [
+   "Une SCPI",
+   "Le crowdfunding immobilier",
+   "Une assurance-vie",
+   "Un PEA"
+  ],
+  "c": 1,
+  "e": "Le crowdfunding immobilier est un prêt (souvent obligataire) à un promoteur : rendement élevé (8-12 %), durée courte, mais capital non garanti. La SCPI, elle, vous rend copropriétaire d'un parc locatif (pas un prêt)."
+ },
+ {
+  "id": "foncier-067",
+  "q": "Mini-cas : 4 000 € de revenus de SCPI perçus en direct, TMI 30 %, PS 17,2 %. Revenu net après impôts ?",
+  "o": [
+   "4 000 €",
+   "2 112 €",
+   "2 800 €",
+   "1 200 €"
+  ],
+  "c": 1,
+  "e": "Prélèvements = 4 000 × (30 % + 17,2 %) = 4 000 × 47,2 % = 1 888 €. Net = 4 000 − 1 888 = 2 112 €. À fort TMI, près de la moitié part en impôts : d'où l'intérêt des SCPI en assurance-vie ou européennes."
+ },
+ {
+  "id": "foncier-068",
+  "q": "Cas : une SCPI facture ~10 % de frais de souscription. Quelle conséquence sur votre stratégie ?",
+  "o": [
+   "Aucune",
+   "Il faut viser un horizon long (8-10 ans+) pour amortir ces frais : la SCPI est un placement de moyen/long terme",
+   "Il faut revendre au bout d'un an",
+   "Les frais sont remboursés"
+  ],
+  "c": 1,
+  "e": "Les frais d'entrée élevés des SCPI (souvent prélevés à la revente via le prix de retrait) rendent le placement pénalisant à court terme : il faut plusieurs années de revenus pour les absorber. La SCPI se pense sur le long terme, avec une liquidité limitée."
+ },
+ {
+  "id": "foncier-069",
+  "q": "Définition : qu'est-ce que le « cash-flow » d'un investissement locatif ?",
+  "o": [
+   "Le prix d'achat",
+   "Le solde entre les loyers encaissés et l'ensemble des sorties (crédit, charges, taxes, gestion) : positif = l'investissement s'autofinance",
+   "La plus-value",
+   "Le loyer brut"
+  ],
+  "c": 1,
+  "e": "Le cash-flow est ce qu'il reste (ou manque) chaque mois une fois toutes les dépenses payées. Positif, le bien s'autofinance, voire dégage un excédent ; négatif, il faut compléter de sa poche. C'est l'indicateur clé de la soutenabilité d'un investissement locatif à crédit."
+ },
+ {
+  "id": "foncier-070",
+  "q": "Définition : qu'est-ce que la « vacance locative » ?",
+  "o": [
+   "Un congé du locataire",
+   "La période pendant laquelle un logement reste sans locataire (donc sans loyer), qui réduit le rendement réel",
+   "Une exonération d'impôt",
+   "Un type de bail"
+  ],
+  "c": 1,
+  "e": "La vacance locative correspond aux mois sans locataire (entre deux baux, travaux, difficulté à louer). Elle ampute les loyers perçus : un rendement « brut » calculé sur 12 mois de loyers est trompeur s'il ne tient pas compte de cette vacance."
+ },
+ {
+  "id": "foncier-071",
+  "q": "Mini-cas : bien acheté 250 000 €, loyers 12 000 €/an, charges 3 000 €/an. Rendement locatif NET (avant impôts) ?",
+  "o": [
+   "4,8 %",
+   "3,6 %",
+   "2,4 %",
+   "6 %"
+  ],
+  "c": 1,
+  "e": "Rendement net = (loyers − charges) / prix = (12 000 − 3 000) / 250 000 = 9 000 / 250 000 = 3,6 %. Sensiblement inférieur au brut (4,8 %), et encore réduit par la fiscalité."
+ },
+ {
+  "id": "foncier-072",
+  "q": "Définition : qu'est-ce que le « taux d'occupation financier » (TOF) d'une SCPI ?",
+  "o": [
+   "Le rendement",
+   "La part des loyers effectivement facturés par rapport au potentiel si tout le parc était loué : un indicateur de la vacance",
+   "Le prix de la part",
+   "Les frais de gestion"
+  ],
+  "c": 1,
+  "e": "Le TOF mesure le remplissage effectif du parc d'une SCPI (loyers facturés / loyers potentiels). Un TOF élevé (proche de 95-100 %) signale peu de vacance ; un TOF faible pèse sur les revenus distribués. C'est un indicateur de qualité de gestion."
+ },
+ {
+  "id": "foncier-073",
+  "q": "Cas : vous investissez 10 000 € en crowdfunding immobilier. Bon réflexe pour maîtriser le risque ?",
+  "o": [
+   "Tout mettre sur un seul projet",
+   "Répartir sur plusieurs projets (et promoteurs) pour diluer le risque de défaut",
+   "Choisir le rendement le plus élevé sans regarder le reste",
+   "Investir toute son épargne"
+  ],
+  "c": 1,
+  "e": "Le capital n'étant pas garanti, la diversification est essentielle : répartir la mise sur plusieurs projets et promoteurs limite l'impact d'un défaut isolé. Et le crowdfunding ne doit rester qu'une part limitée d'un patrimoine, aux côtés d'actifs plus sûrs."
+ },
+ {
+  "id": "foncier-074",
+  "q": "Mini-cas : loyer 800 €/mois ; crédit + charges + taxe = 900 €/mois. Cash-flow mensuel ?",
+  "o": [
+   "+100 €",
+   "−100 €",
+   "0 €",
+   "+800 €"
+  ],
+  "c": 1,
+  "e": "Cash-flow = 800 − 900 = −100 €/mois : l'investissement ne s'autofinance pas, il faut compléter de 100 € par mois. Un effort d'épargne acceptable s'il est compensé par le remboursement du capital et une plus-value espérée — à intégrer dans le calcul."
+ },
+ {
+  "id": "foncier-075",
+  "q": "Définition : quelle différence entre une SCPI « de rendement » et une SCPI « fiscale » ?",
+  "o": [
+   "Aucune",
+   "La SCPI de rendement vise des revenus locatifs réguliers ; la SCPI fiscale procure surtout un avantage d'impôt (via un dispositif), avec un horizon imposé",
+   "La fiscale distribue plus",
+   "La de rendement est défiscalisante"
+  ],
+  "c": 1,
+  "e": "La SCPI de rendement cherche à distribuer des loyers (immobilier d'entreprise, commerces…). La SCPI fiscale investit dans des biens éligibles à un dispositif (ex. déficit foncier) pour offrir une réduction d'impôt, en contrepartie d'une durée de détention imposée et d'une liquidité faible."
+ }
+]
