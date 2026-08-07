@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0B0D11">
+<meta name="description" content="1 000 questions corrigées de fiscalité et de gestion de patrimoine, réparties en 17 thèmes.">
+<title>QCM — Formation Finance &amp; Fiscalité</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<main class="wrap" id="app"><p class="score">Chargement des questions…</p></main>
+<script type="module" src="assets/js/qcm.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+</script>
+</body>
+</html>
