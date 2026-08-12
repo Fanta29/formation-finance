@@ -2,11 +2,12 @@
    Stratégie : « network first » sur les données et les scripts (pour que la
    mise à jour des paramètres fiscaux se propage immédiatement), repli sur le
    cache si le réseau manque. */
-const VERSION = "ff-2026-08-12-f";
+const VERSION = "ff-2026-08-12-g";
 const SOCLE = [
   "./", "index.html", "cours.html", "qcm.html", "outils.html",
   "parametres.html", "mentions-legales.html",
-  "assets/css/app.css", "assets/icone.svg", "manifest.webmanifest",
+  "assets/css/app.css", "manifest.webmanifest",
+  "assets/icone.svg", "assets/icone-180.png", "assets/icone-512.png",
   "assets/js/params.js", "assets/js/calculs.js", "assets/js/ui.js",
   "assets/js/store.js", "assets/js/cours.js", "assets/js/qcm.js",
   "assets/js/outils.js", "assets/js/parametres.js", "assets/js/pyramide.js",

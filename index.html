@@ -7,6 +7,7 @@
 <meta name="description" content="Formation gratuite à la finance et à la fiscalité françaises : 33 chapitres téléchargeables, 1 000 questions et des simulateurs, toutes sources datées.">
 <title>Formation Finance &amp; Fiscalité</title>
 <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -147,12 +148,12 @@
   import { pyramide, BRANCHES } from "./assets/js/pyramide.js";
   import { etat } from "./assets/js/store.js";
 
-  /* Le canvas déborde volontairement de sa colonne (voir app.css) : on donne à
-     la pyramide le côté de la colonne comme cadre de référence, pour que sa
-     taille au repos ne dépende pas de cette largeur de débordement. */
+  /* Le canvas est cadré sur la fenêtre (voir app.css) : c'est la colonne qui
+     sert de repère pour la pose de repos, et de prise pour le glissement. */
   const boite = document.querySelector(".hero-viz");
   const vue = pyramide(document.getElementById("viz"), {
-    cadre: () => Math.min(boite.clientWidth, boite.clientHeight)
+    repere: () => boite.getBoundingClientRect(),
+    prise: boite
   });
 
   document.getElementById("legende").innerHTML = BRANCHES.map((b, i) =>
@@ -168,19 +169,17 @@
   document.querySelectorAll("[data-face]").forEach(lier);
 
   /* Traversée de la pyramide : la progression court sur la hauteur du premier
-     écran. À 1, la caméra est passée au travers et l'objet a disparu ; la
-     légende s'efface plus tôt. La traversée n'a lieu que sur écran large — en
-     une seule colonne la pyramide est au-dessus du texte et la page défile
-     normalement — et jamais si l'utilisateur demande moins d'animations. */
+     écran, sur écran large comme sur écran étroit. À 1, la caméra est passée au
+     travers et l'objet a disparu ; la légende s'efface plus tôt. Jamais si
+     l'utilisateur demande moins d'animations. */
   const sobre = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const large = matchMedia("(min-width: 901px)");
   const legende = document.getElementById("legende");
 
   if (!sobre) {
     let enAttente = false;
     const suivre = () => {
       enAttente = false;
-      const p = large.matches ? Math.min(1, Math.max(0, scrollY / innerHeight)) : 0;
+      const p = Math.min(1, Math.max(0, scrollY / innerHeight));
       vue.traverser(p);
       legende.style.opacity = String(Math.max(0, 1 - p * 3));
     };

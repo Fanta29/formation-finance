@@ -15,15 +15,21 @@ const H = 1.15;                       // hauteur de la pyramide
 const R = 0.95;                       // rayon de la base
 const LIGNES = 26;                    // densité de la trame
 
-/** `opts.cadre` : fonction rendant le côté de référence, en pixels, dont
-    dépendent la taille de la pyramide au repos. Par défaut le plus petit côté
-    du canvas. La page d'accueil donne au canvas une largeur supérieure à sa
-    colonne — pour que la traversée déborde sur toute la fenêtre — et impose
-    donc son propre cadre, sinon la pose de repos grossirait d'autant. */
+/** Options :
+    — `repere()` rend le rectangle de repos, en coordonnées de fenêtre : son
+      centre est celui de la pyramide au repos, son plus petit côté fixe la
+      taille. Le canvas couvrant toute la fenêtre pour que la traversée ne soit
+      bornée que par elle, c'est ce rectangle — et non le canvas — qui décide de
+      la pose de repos. Par défaut, le canvas lui-même.
+    — `prise` : élément qui reçoit le glissement. Par défaut le canvas ; la page
+      d'accueil désigne la colonne, le canvas étant en pointer-events:none. */
 export function pyramide(canvas, opts = {}) {
   const ctx = canvas.getContext("2d");
   const sobre = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const cadre = typeof opts.cadre === "function" ? opts.cadre : () => Math.min(l, h);
+  const repere = typeof opts.repere === "function"
+    ? opts.repere
+    : () => canvas.getBoundingClientRect();
+  const prise = opts.prise || canvas;
 
   const sommet = { x: 0, y: -H * 0.62, z: 0 };
   const base = [0, 1, 2].map(i => {
@@ -110,10 +116,16 @@ export function pyramide(canvas, opts = {}) {
 
   function peindre() {
     ctx.clearRect(0, 0, l, h);
-    /* La colonne de texte est centrée sur la hauteur de la fenêtre : la scène
-       l'est donc aussi, sans décalage vers le bas. */
-    const cx = l / 2, cy = h / 2;
-    const E0 = cadre() * 0.40;                // échelle au repos
+
+    /* Le canvas couvre la fenêtre ; la pose de repos, elle, se lit sur le
+       rectangle de repère — la colonne sur écran large, le bloc de tête sur
+       écran étroit. La scène glisse ensuite vers le centre de la fenêtre à
+       mesure que la caméra avance : l'objet enfle alors symétriquement, borné
+       par la fenêtre en largeur comme en hauteur, sans déborder d'un côté. */
+    const rep = repere();
+    const cx = (rep.left + rep.width / 2) * (1 - trav) + (l / 2) * trav;
+    const cy = (rep.top + rep.height / 2) * (1 - trav) + (h / 2) * trav;
+    const E0 = Math.min(rep.width, rep.height) * 0.40;   // échelle au repos
 
     /* Traversée : la caméra se rapproche, donc le facteur d'échelle enfle.
        La croissance est quadratique — lente d'abord, puis très rapide — pour
@@ -193,12 +205,12 @@ export function pyramide(canvas, opts = {}) {
     if (e.cancelable) e.preventDefault();
   };
 
-  canvas.addEventListener("mousedown", debut);
+  prise.addEventListener("mousedown", debut);
   addEventListener("mouseup", fin);
   addEventListener("mousemove", bouge);
-  canvas.addEventListener("touchstart", debut, { passive: true });
+  prise.addEventListener("touchstart", debut, { passive: true });
   addEventListener("touchend", fin);
-  canvas.addEventListener("touchmove", bouge, { passive: false });
+  prise.addEventListener("touchmove", bouge, { passive: false });
   addEventListener("resize", () => { dimensionner(); peindre(); });
 
   dimensionner();

@@ -17,7 +17,10 @@ async function charger(theme) {
 
 const melanger = a => a.map(v => [Math.random(), v]).sort((x, y) => x[0] - y[0]).map(v => v[1]);
 const LETTRES = "ABCDEF";
-let selection = new Set();
+/* Tous les thèmes cochés d'emblée : arriver sur « Sélectionnez au moins un
+   thème » sans avoir rien fait se lit comme une panne, pas comme une invite.
+   On restreint en décochant, on ne part pas de rien. */
+let selection = new Set(idx.themes.map(t => t.id));
 let mode = "themes";                    // "themes" | "revision" | "partiel"
 let serie = [], pos = 0, choix = new Set(), corrige = false;
 let partiel = null;                     // { debut, duree, minuteur }
