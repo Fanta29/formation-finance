@@ -117,14 +117,16 @@ body.accueil{overflow-x:clip}
 .hero-stats div{min-width:0}
 .hero-stats .n{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:500;color:var(--ink)}
 .hero-stats .l{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
-.hero-viz{order:2;position:sticky;top:0;height:100dvh;display:grid;place-items:center}
-/* Le canvas est deux fois plus large que sa colonne, centré sur elle : au repos
-   la pyramide occupe la colonne comme avant, mais la traversée peut déborder
-   sur toute la largeur de la fenêtre. Le cadre de référence passé à pyramide()
-   garde la taille de repos indépendante de cette largeur. */
-.hero-viz canvas{position:absolute;top:0;left:50%;transform:translateX(-50%);
-  width:200%;height:100%;display:block;cursor:grab}
-.hero-viz canvas:active{cursor:grabbing}
+.hero-viz{order:2;position:sticky;top:0;height:100dvh;display:grid;place-items:center;cursor:grab}
+.hero-viz:active{cursor:grabbing}
+/* Le canvas est cadré exactement sur la fenêtre : la traversée ne peut donc
+   déborder ni à gauche ni à droite, quelle que soit la largeur. C'est le
+   rectangle de .hero-viz, passé à pyramide() comme repère, qui fixe la pose de
+   repos — la pyramide occupe sa colonne comme avant. Le canvas ne reçoit aucun
+   clic : le glissement est pris par .hero-viz, qui couvre la bonne zone et
+   disparaît avec le hero. */
+.hero-viz canvas{position:fixed;top:0;left:0;width:100vw;height:100dvh;
+  display:block;pointer-events:none}
 .viz-legende{position:absolute;bottom:14%;left:50%;transform:translateX(-50%);display:flex;gap:18px;
   list-style:none;margin:0;padding:0;flex-wrap:wrap;justify-content:center;
   font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
@@ -142,16 +144,18 @@ body.accueil{overflow-x:clip}
 .accueil main.wrap .tuile{margin-top:14px}
 
 @media (max-width:900px){
-  /* Écran étroit : une seule colonne, la pyramide reprend sa place au-dessus
-     du texte et ne sert plus de traversée — la page défile simplement. */
-  .hero{min-height:100dvh;grid-template-columns:1fr;align-items:center;
+  /* Écran étroit : une seule colonne, la pyramide au-dessus du texte. Elle
+     reste collée en haut pendant que la page défile, et la traversée a lieu
+     comme sur écran large — le canvas étant cadré sur la fenêtre, elle ne peut
+     pas déborder. Le bloc garde sa hauteur : c'est lui qui fixe la taille de
+     repos, inchangée. */
+  .hero{min-height:100dvh;grid-template-columns:1fr;align-items:start;
     padding-top:26px;padding-bottom:40px;gap:22px}
   .hero-txt{order:2;min-height:0;display:block}
-  /* relative, et non sticky : la légende s'y positionne, et la traversée
-     n'a pas lieu sur une seule colonne. */
-  .hero-viz{order:1;position:relative;top:auto;height:min(42vh,300px)}
-  .hero-viz canvas{position:static;width:100%;transform:none}
+  .hero-viz{order:1;height:min(42vh,300px)}
   .viz-legende{bottom:2px}
+  /* Les sections ne remontent pas : en une colonne le texte occupe déjà la
+     course de la traversée, il n'y a pas d'écran vide à combler. */
   .accueil main.wrap{margin-top:0}
   .hero-bas{position:static}
 }
