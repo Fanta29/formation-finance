@@ -63,7 +63,7 @@ function rendre() {
     <div class="lede">
       <p class="eyebrow">Registre des paramètres · millésime ${MILLESIME.annee}</p>
       <p class="h">Chaque chiffre du site, avec sa source et sa date</p>
-      <p>Les simulateurs et le cours ne lisent que ce registre. Un paramètre marqué
+      <p>Les simulateurs et les cours ne lisent que ce registre. Un paramètre marqué
          « à vérifier » n'a pas de valeur publiée et n'entre dans aucun calcul : il vaut mieux
          un trou signalé qu'un chiffre plausible.</p>
       ${millesime()}

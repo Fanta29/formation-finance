@@ -2,7 +2,7 @@
    params.js — FICHIER CENTRAL DES PARAMÈTRES FISCAUX
    -----------------------------------------------------------------------------
    RÈGLE ABSOLUE : aucun chiffre fiscal ne doit apparaître ailleurs que dans ce
-   fichier. Les simulateurs, la page « Paramètres » et les fiches du cours le
+   fichier. Les simulateurs, la page « Paramètres » et les fiches des cours le
    consomment. Mettre à jour la fiscalité = éditer ce seul fichier.
 
    Chaque entrée porte obligatoirement :
