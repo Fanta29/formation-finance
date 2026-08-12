@@ -19,9 +19,16 @@ const melanger = a => a.map(v => [Math.random(), v]).sort((x, y) => x[0] - y[0])
 const LETTRES = "ABCDEF";
 let selection = new Set();
 let mode = "themes";                    // "themes" | "revision" | "partiel"
-let serie = [], pos = 0, justes = 0, choix = new Set(), corrige = false;
+let serie = [], pos = 0, choix = new Set(), corrige = false;
 let partiel = null;                     // { debut, duree, minuteur }
-let copie = [];                         // réponses données, pour la correction finale
+/* Réponses données, indexées sur la position dans la série — et non empilées :
+   revenir sur une question doit remplacer la réponse à sa place, pas en ajouter
+   une seconde. Le score et l'enregistrement en découlent, ce qui garantit
+   qu'une question revue ne soit jamais comptée deux fois. */
+let copie = [];
+
+const compterJustes = () => copie.reduce((s, r) => s + (r && r.juste ? 1 : 0), 0);
+const compterRepondues = () => copie.filter(Boolean).length;
 
 const PARTIEL = { questions: 30, minutes: 30 };
 
@@ -163,16 +170,36 @@ function peindreChrono() {
 
 function demarrer() {
   if (!serie.length) return accueil();
-  pos = 0; justes = 0; copie = [];
+  pos = 0; copie = [];
   question();
+}
+
+/** Affiche la correction d'une réponse déjà donnée : bonnes et mauvaises
+    options marquées, explication dépliée. */
+function montrerCorrection(r) {
+  document.querySelectorAll(".opt").forEach(b => {
+    const i = Number(b.dataset.i);
+    if (r.bonnes.includes(i)) b.classList.add("correct");
+    else if (r.donnees.includes(i)) b.classList.add("wrong");
+  });
+  $("#apres").innerHTML = `<div class="expl">
+      <strong>${r.juste ? "Juste." : "Réponse attendue : " + r.bonnes.map(i => LETTRES[i]).join(", ") + "."}</strong>
+      ${r.q.e}</div>`;
 }
 
 function question() {
   if (pos >= serie.length) return bilan();
   const q = serie[pos];
-  choix = new Set(); corrige = false;
   const multiple = Array.isArray(q.c);
+  const deja = copie[pos];              // réponse déjà donnée à cette position
+  /* Hors épreuve, une question déjà corrigée se rouvre en lecture seule : la
+     réponse a été corrigée et comptée, on ne la rejoue pas. En épreuve rien
+     n'est corrigé avant la fin, donc elle reste modifiable. */
+  const relecture = !!deja && !partiel;
+  choix = new Set(deja ? deja.donnees : []);
+  corrige = relecture;
   const theme = idx.themes.find(t => t.id === q.theme);
+  const justes = compterJustes();
 
   app.innerHTML = `
     <div class="bar"><i style="width:${pos / serie.length * 100}%"></i></div>
@@ -183,10 +210,11 @@ function question() {
       </div>
       <p class="qtext">${q.q}</p>
       <div class="opts">${q.o.map((o, i) =>
-        `<button class="opt" data-i="${i}" aria-pressed="false">
+        `<button class="opt" data-i="${i}" aria-pressed="${choix.has(i)}"${relecture ? " disabled" : ""}>
            <span class="k">${LETTRES[i]}</span><span>${o}</span></button>`).join("")}</div>
       <div id="apres"></div>
       <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+        ${pos > 0 ? '<button class="btn ghost" id="precedente">← Précédente</button>' : ""}
         <button class="btn" id="valider">${multiple ? "Valider mes réponses" : "Valider"}</button>
         <button class="btn ghost" id="quitter">Arrêter la série</button>
       </div>
@@ -205,31 +233,37 @@ function question() {
       b.setAttribute("aria-pressed", choix.has(i));
     };
   });
+
+  if (relecture) montrerCorrection(deja);
+
   $("#valider").onclick = () => corrige ? (pos++, question()) : valider(q, multiple);
   if (partiel) $("#valider").textContent = pos + 1 < serie.length ? "Question suivante" : "Terminer l'épreuve";
+  else if (corrige) $("#valider").textContent = pos + 1 < serie.length ? "Question suivante" : "Voir le bilan";
+  if (pos > 0) $("#precedente").onclick = () => { pos--; question(); };
   $("#quitter").onclick = () => bilan();
+  if (partiel) peindreChrono();
 }
 
 function valider(q, multiple) {
   if (!choix.size) return;
   const bonnes = new Set(multiple ? q.c : [q.c]);
   const juste = bonnes.size === choix.size && [...bonnes].every(i => choix.has(i));
-  if (juste) justes++;
-  repondre(q.theme, q.id, juste);
-  copie.push({ q, donnees: [...choix], bonnes: [...bonnes], juste });
 
-  /* En épreuve, aucune correction n'est montrée avant la fin : on enchaîne. */
+  /* Écriture à la position courante, jamais un ajout en fin de tableau :
+     revenir sur une question remplace sa réponse au lieu d'en créer une
+     deuxième. Le score se déduit ensuite de ce tableau, donc il ne peut pas
+     compter la même question deux fois. */
+  const premiere = !copie[pos];
+  copie[pos] = { q, donnees: [...choix], bonnes: [...bonnes], juste };
+
+  /* En épreuve, aucune correction n'est montrée et rien n'est enregistré : les
+     réponses restent modifiables jusqu'à la fin, où elles sont comptées d'un
+     coup par bilan(). On enchaîne. */
   if (partiel) { pos++; return question(); }
 
+  if (premiere) repondre(q.theme, q.id, juste);
   corrige = true;
-  document.querySelectorAll(".opt").forEach(b => {
-    const i = Number(b.dataset.i);
-    if (bonnes.has(i)) b.classList.add("correct");
-    else if (choix.has(i)) b.classList.add("wrong");
-  });
-  $("#apres").innerHTML = `<div class="expl">
-      <strong>${juste ? "Juste." : "Réponse attendue : " + [...bonnes].map(i => LETTRES[i]).join(", ") + "."}</strong>
-      ${q.e}</div>`;
+  montrerCorrection(copie[pos]);
   $("#valider").textContent = pos + 1 < serie.length ? "Question suivante" : "Voir le bilan";
 }
 
@@ -237,7 +271,14 @@ function bilan() {
   const etaitPartiel = !!partiel;
   const ecoule = partiel ? Math.round((Date.now() - partiel.debut) / 1000) : 0;
   arreterChrono();
-  const total = pos + (corrige ? 1 : 0);
+
+  /* L'épreuve n'enregistrait rien au fil des questions, pour que les réponses
+     restent modifiables : c'est ici qu'on les verse dans store.js, une seule
+     fois chacune, avec la réponse finalement retenue. */
+  if (etaitPartiel) copie.forEach(r => { if (r) repondre(r.q.theme, r.q.id, r.juste); });
+
+  const justes = compterJustes();
+  const total = compterRepondues();
   const restants = erreurs().length;
   app.innerHTML = `
     <div class="card">
