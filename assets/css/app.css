@@ -131,9 +131,17 @@ body.accueil{overflow-x:clip}
    repos — la pyramide occupe sa colonne comme avant. Le canvas ne reçoit aucun
    clic : le glissement est pris par .hero-viz, qui couvre la bonne zone et
    disparaît avec le hero. */
-.hero-viz canvas{position:fixed;top:0;left:0;width:100vw;height:100dvh;
-  display:block;pointer-events:none}
-.viz-legende{position:absolute;bottom:14%;left:50%;transform:translateX(-50%);display:flex;gap:18px;
+/* Au repos le canvas reste calé sur sa colonne : la pyramide y est donc
+   physiquement enfermée et ne peut pas mordre sur le texte, quoi qu'il arrive
+   au calcul d'échelle. Il ne passe en plein écran que pendant la traversée,
+   où l'objet doit justement dépasser son cadre — bascule pilotée par
+   traverser() dans pyramide.js, qui pose et retire la classe « plein ». */
+.hero-viz canvas{position:absolute;top:0;left:0;width:100%;height:100%;
+  display:block;pointer-events:none;z-index:0}
+.hero-viz canvas.plein{position:fixed;width:100vw;height:100dvh}
+/* z-index au-dessus du canvas : la légende ne doit jamais passer sous les
+   points ni sous les arêtes de la pyramide. */
+.viz-legende{position:absolute;z-index:1;bottom:14%;left:50%;transform:translateX(-50%);display:flex;gap:18px;
   list-style:none;margin:0;padding:0;flex-wrap:wrap;justify-content:center;
   font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .viz-legende li{display:flex;align-items:center;gap:7px;cursor:default}

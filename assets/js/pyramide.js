@@ -122,9 +122,15 @@ export function pyramide(canvas, opts = {}) {
        écran étroit. La scène glisse ensuite vers le centre de la fenêtre à
        mesure que la caméra avance : l'objet enfle alors symétriquement, borné
        par la fenêtre en largeur comme en hauteur, sans déborder d'un côté. */
+    /* Le repère est donné en coordonnées de fenêtre ; on le ramène à celles du
+       canvas, qui est tantôt calé sur la colonne (au repos), tantôt sur la
+       fenêtre (pendant la traversée). Au repos les deux rectangles coïncident,
+       et la pyramide se retrouve simplement au centre de sa colonne. */
     const rep = repere();
-    const cx = (rep.left + rep.width / 2) * (1 - trav) + (l / 2) * trav;
-    const cy = (rep.top + rep.height / 2) * (1 - trav) + (h / 2) * trav;
+    const cvr = canvas.getBoundingClientRect();
+    const gx = rep.left - cvr.left, gy = rep.top - cvr.top;
+    const cx = (gx + rep.width / 2) * (1 - trav) + (l / 2) * trav;
+    const cy = (gy + rep.height / 2) * (1 - trav) + (h / 2) * trav;
     const E0 = Math.min(rep.width, rep.height) * 0.40;   // échelle au repos
 
     /* Traversée : la caméra se rapproche, donc le facteur d'échelle enfle.
@@ -226,7 +232,16 @@ export function pyramide(canvas, opts = {}) {
         l'utilisateur demande moins d'animations : l'objet reste au repos. */
     traverser(p) {
       if (sobre) return;
-      trav = Math.max(0, Math.min(1, Number(p) || 0));
+      const v = Math.max(0, Math.min(1, Number(p) || 0));
+      /* Le canvas ne s'étend à toute la fenêtre que pendant la traversée. Au
+         repos il revient sur sa colonne, où il enferme la pyramide. Sa boîte
+         changeant de taille, il faut le redimensionner à chaque bascule. */
+      const plein = v > 0;
+      if (plein !== canvas.classList.contains("plein")) {
+        canvas.classList.toggle("plein", plein);
+        dimensionner();
+      }
+      trav = v;
     }
   };
 }
