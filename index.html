@@ -15,6 +15,14 @@
 <body class="accueil">
 
 <section class="hero">
+  <!-- La visualisation vient en premier dans le document pour que le texte se
+       peigne par-dessus : le canvas déborde de sa colonne pendant la traversée.
+       Les colonnes sont remises dans l'ordre visuel par « order » en CSS. -->
+  <div class="hero-viz">
+    <canvas id="viz" aria-hidden="true"></canvas>
+    <ul class="viz-legende" id="legende" aria-hidden="true"></ul>
+  </div>
+
   <div class="hero-txt">
     <p class="eyebrow">Millésime 2026 · revenus 2025</p>
     <h1>La fiscalité française,<br>apprise <em>pour de bon</em>.</h1>
@@ -46,12 +54,88 @@
       <div><div class="n">29</div><div class="l">paramètres sourcés</div></div>
     </div>
   </div>
-
-  <div class="hero-viz">
-    <canvas id="viz" aria-hidden="true"></canvas>
-    <ul class="viz-legende" id="legende"></ul>
-  </div>
 </section>
+
+<main class="wrap">
+
+  <section class="lede">
+    <p class="eyebrow">Le cours</p>
+    <p class="h">Trente-trois chapitres, des fondations à la transmission</p>
+    <p>Le cours part des notions de base — revenu, patrimoine, barème progressif — et va
+      jusqu'aux montages de détention et à la transmission. Chaque chapitre se lit en ligne
+      dans une mise en page de document, et se télécharge en PDF pour être travaillé hors
+      connexion.</p>
+    <p>Les chiffres cités dans le corps du cours proviennent du livre d'origine : ils sont
+      relus à chaque changement de millésime, et ne sont pas encore branchés sur le registre
+      des paramètres.</p>
+  </section>
+  <div class="result">
+    <div class="head"><span class="k">Le cours en chiffres</span><span class="v">33 chapitres</span></div>
+    <ul class="steps">
+      <li><span class="lbl">Sections d'ouverture et annexes</span><span class="val">14</span></li>
+      <li><span class="lbl">Documents PDF téléchargeables</span><span class="val">39</span></li>
+      <li><span class="lbl">Chapitres lus</span><span class="val">mémorisés sur votre appareil</span></li>
+    </ul>
+  </div>
+  <a class="tuile" href="cours.html">
+    <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 4.5h6a2 2 0 012 2V17a2 2 0 00-2-2H3zM17 4.5h-6a2 2 0 00-2 2V17a2 2 0 012-2h6z" stroke-linejoin="round"/></svg></span>
+    <span class="tx"><span class="tt">Ouvrir le cours</span><span class="td">Sommaire des 33 chapitres et téléchargements</span></span>
+    <span class="fl">→</span>
+  </a>
+
+  <section class="lede">
+    <p class="eyebrow">Les QCM</p>
+    <p class="h">Mille questions corrigées, et trois façons de les travailler</p>
+    <p>Le <b>partiel</b> tire 30 questions au hasard dans tout le corpus et les chronomètre
+      sur 30 minutes : aucune correction n'apparaît pendant l'épreuve, la note, le résultat
+      par thème et le corrigé complet arrivent à la fin. L'<b>entraînement</b> vous laisse
+      choisir les thèmes et la longueur de la série, avec correction immédiate après chaque
+      question. <b>Mes erreurs</b> rejoue les seules questions ratées jusqu'ici ; une question
+      quitte la liste dès que vous y répondez correctement.</p>
+    <p>Chaque question porte son explication. Les réponses sont conservées sur votre appareil :
+      il n'y a ni compte, ni serveur.</p>
+  </section>
+  <div class="result">
+    <div class="head"><span class="k">Les QCM en chiffres</span><span class="v">1 000 questions</span></div>
+    <ul class="steps">
+      <li><span class="lbl">Thèmes</span><span class="val">17</span></li>
+      <li><span class="lbl">Format du partiel</span><span class="val">30 questions · 30 min</span></li>
+      <li><span class="lbl">Longueurs d'entraînement</span><span class="val">10 · 20 · 40 · tout</span></li>
+    </ul>
+  </div>
+  <a class="tuile" href="qcm.html">
+    <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7.4 7.2a2.6 2.6 0 115 1c0 1.7-2.5 2-2.5 3.6" stroke-linecap="round"/><circle cx="10" cy="15.2" r="1" fill="currentColor" stroke="none"/><circle cx="10" cy="10" r="8"/></svg></span>
+    <span class="tx"><span class="tt">Commencer un QCM</span><span class="td">Partiel chronométré, entraînement par thème ou reprise des erreurs</span></span>
+    <span class="fl">→</span>
+  </a>
+
+  <section class="lede">
+    <p class="eyebrow">Les simulateurs</p>
+    <p class="h">Trois calculs, décomposés étape par étape</p>
+    <p>Impôt sur le revenu, arbitrage entre flat tax et barème pour les dividendes,
+      plus-value immobilière. Chaque résultat est détaillé ligne à ligne — quotient familial,
+      tranches, abattements, prélèvements sociaux — et porte le cartouche des sources
+      utilisées, avec la base légale et la date de vérification de chaque paramètre.</p>
+    <p>Chaque simulateur énonce aussi ce qu'il ne calcule pas. Un paramètre encore non vérifié
+      est signalé comme tel dans le registre et ne peut alimenter aucun calcul : le site refuse
+      de produire un chiffre qu'il ne sait pas justifier. Ces calculs sont pédagogiques et ne
+      constituent pas un conseil personnalisé.</p>
+  </section>
+  <div class="result">
+    <div class="head"><span class="k">Les simulateurs en chiffres</span><span class="v">3 simulateurs</span></div>
+    <ul class="steps">
+      <li><span class="lbl">Paramètres au registre public</span><span class="val">29</span></li>
+      <li><span class="lbl">Millésime</span><span class="val">2026 · revenus 2025</span></li>
+      <li><span class="lbl">Chaque paramètre porte</span><span class="val">base légale, source, date</span></li>
+    </ul>
+  </div>
+  <a class="tuile" href="outils.html">
+    <span class="ico"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 16l4-5 3.5 3L17 5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 5H17v4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <span class="tx"><span class="tt">Ouvrir les simulateurs</span><span class="td">Impôt sur le revenu · dividendes · plus-value immobilière</span></span>
+    <span class="fl">→</span>
+  </a>
+
+</main>
 
 <div class="hero-bas"><div class="hero-bas-in">
   <span>Contenu pédagogique — ne constitue pas un conseil personnalisé.</span>
@@ -62,7 +146,13 @@
   import { pyramide, BRANCHES } from "./assets/js/pyramide.js";
   import { etat } from "./assets/js/store.js";
 
-  const vue = pyramide(document.getElementById("viz"));
+  /* Le canvas déborde volontairement de sa colonne (voir app.css) : on donne à
+     la pyramide le côté de la colonne comme cadre de référence, pour que sa
+     taille au repos ne dépende pas de cette largeur de débordement. */
+  const boite = document.querySelector(".hero-viz");
+  const vue = pyramide(document.getElementById("viz"), {
+    cadre: () => Math.min(boite.clientWidth, boite.clientHeight)
+  });
 
   document.getElementById("legende").innerHTML = BRANCHES.map((b, i) =>
     `<li data-face="${i}"><span class="pt" style="background:rgb(${b.couleur.join(",")})"></span>${b.nom}</li>`).join("");
@@ -75,6 +165,33 @@
     el.addEventListener("blur", () => vue.eclairer(-1));
   };
   document.querySelectorAll("[data-face]").forEach(lier);
+
+  /* Traversée de la pyramide : la progression court sur la hauteur du premier
+     écran. À 1, la caméra est passée au travers et l'objet a disparu ; la
+     légende s'efface plus tôt. La traversée n'a lieu que sur écran large — en
+     une seule colonne la pyramide est au-dessus du texte et la page défile
+     normalement — et jamais si l'utilisateur demande moins d'animations. */
+  const sobre = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const large = matchMedia("(min-width: 901px)");
+  const legende = document.getElementById("legende");
+
+  if (!sobre) {
+    let enAttente = false;
+    const suivre = () => {
+      enAttente = false;
+      const p = large.matches ? Math.min(1, Math.max(0, scrollY / innerHeight)) : 0;
+      vue.traverser(p);
+      legende.style.opacity = String(Math.max(0, 1 - p * 3));
+    };
+    const planifier = () => {
+      if (enAttente) return;
+      enAttente = true;
+      requestAnimationFrame(suivre);
+    };
+    addEventListener("scroll", planifier, { passive: true });
+    addEventListener("resize", planifier);
+    suivre();
+  }
 
   const e = etat();
   const vues = Object.values(e.qcm).reduce((s, t) => s + t.vues, 0);
