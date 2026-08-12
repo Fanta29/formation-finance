@@ -224,6 +224,14 @@ button.btn.ghost:hover{background:var(--surface-2);color:var(--ink)}
 .toc-list .ti{flex:1;font-size:15.5px}
 .toc-list .meta{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--muted)}
 .toc-list .lu{font-size:10.5px;color:var(--ok);font-family:"JetBrains Mono",monospace;letter-spacing:.1em;text-transform:uppercase}
+/* Intertitre de volume : une ligne de repère dans la liste, pas une entrée
+   cliquable pleine largeur. Sans cette remise à plat, ses deux liens héritent
+   du display:flex et du padding de « .toc-list a », prévus pour les lignes de
+   chapitre, et s'empilent chacun sur sa propre ligne. */
+.toc-list li.toc-vol{border:0;padding:18px 8px 6px;font-family:"JetBrains Mono",monospace;
+  font-size:10.5px;letter-spacing:.06em;color:var(--muted)}
+.toc-list li.toc-vol a{display:inline;padding:0;font:inherit;letter-spacing:inherit;color:var(--accent-2)}
+.toc-list li.toc-vol a:hover{color:#fff}
 
 /* mode lecture : feuille claire, comme un document imprimé */
 article.chapitre{background:#FBFBFC;color:#14171D;border-radius:var(--r);padding:52px 58px;

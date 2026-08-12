@@ -8,12 +8,19 @@ const PAGES = [
   { href: "parametres.html", label: "Paramètres" }
 ];
 
-/* Pyramide vue de face : l'écho, en petit, de l'objet de la page d'accueil.
-   Les trois couleurs sont celles des trois branches du site. */
+/* Médaillon : une pyramide pleine, l'écho en petit de l'objet de la page
+   d'accueil. Le dégradé enchaîne les trois couleurs de branche du site —
+   indigo pour les cours, menthe pour les QCM, ambre pour les simulateurs. */
 const LOGO = `<svg class="mast-mark" viewBox="0 0 32 32" aria-hidden="true">
-  <path d="M16 4 L28 26 L16 26 Z" fill="#4ADE9B" opacity=".85"/>
-  <path d="M16 4 L16 26 L4 26 Z" fill="#7C8CFF" opacity=".9"/>
-  <path d="M4 26 L28 26" stroke="#F5B84A" stroke-width="2" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C8CFF"/>
+      <stop offset=".55" stop-color="#4ADE9B"/>
+      <stop offset="1" stop-color="#F5B84A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="15" fill="#161A21" stroke="#232935"/>
+  <path d="M16 6 L25.5 24 L6.5 24 Z" fill="url(#logoGrad)"/>
 </svg>`;
 
 export function chrome() {
