@@ -100,6 +100,7 @@ tools/verifier-tout.sh        lance tous les contrôles d'un coup
 tools/audit.mjs               cohérence paramètres, données, références, classes CSS
 tools/build-pdf.py            (re)génère les PDF depuis les fragments de cours
 tools/verif-calculs.mjs       contrôle des calculs contre des cas de référence
+tools/biais-longueur.mjs      la bonne réponse est-elle devinable à sa longueur ?
 tools/extract-qcm.js          extraction depuis l'ancien fichier HTML monolithique
 tools/build-cours.py          conversion du livre Word en fragments HTML
 ```
@@ -136,6 +137,33 @@ Contraintes techniques volontaires, à respecter :
 multiples. Les identifiants doivent rester uniques et suivre le motif `<theme>-<numéro>`.
 Après ajout : mettre à jour `total` et le `count` du thème dans `data/qcm/index.json`, puis
 lancer le contrôle du § 5.
+
+**La bonne réponse ne doit pas être identifiable à sa longueur.** C'est le défaut de
+conception le plus répandu dans le corpus actuel, et le plus coûteux : il permet de
+répondre juste sans aucune connaissance fiscale. Un audit a montré que, sur les questions
+existantes à réponse unique, la proposition la plus longue est la bonne dans environ 80 %
+des cas — et dans 97 % des cas où elle est nettement plus longue que les autres.
+
+Toute nouvelle question doit donc porter des propositions de **longueurs comparables**,
+l'écart entre la plus courte et la plus longue restant modéré. Repère chiffré : la bonne
+réponse ne doit pas dépasser de plus de 40 % la deuxième proposition la plus longue. Le
+piège vient presque toujours des réserves — la bonne réponse est complétée d'une condition
+(« … sauf si le bien est détenu depuis plus de vingt-deux ans ») que les distracteurs ne
+portent pas. Écris alors les distracteurs avec une précision de même poids, ou déplace la
+réserve dans l'énoncé.
+
+```bash
+node tools/biais-longueur.mjs            # taux sur tout le corpus + questions au-delà du seuil
+node tools/biais-longueur.mjs --max 20   # limiter la liste
+```
+
+L'outil mesure ce taux et liste les questions où la bonne réponse dépasse de plus de 40 %
+la deuxième plus longue. Le lancer après tout ajout de questions, et vérifier que les
+nouvelles n'y figurent pas. Il n'est pas dans `verifier-tout.sh` et ne fait échouer aucun
+contrôle : le corpus existant dépasse massivement le seuil.
+
+**Ne corrige pas les questions existantes pour faire baisser ce taux.** La reprise du
+corpus est un chantier distinct, à décider séparément.
 
 Trois formats de questions sont attendus et doivent rester représentés dans chaque thème :
 les **mini-cas** chiffrés qui exigent un calcul, les **cas pratiques** (« Cas : … ») qui
