@@ -91,10 +91,16 @@ nav.mast-nav a[aria-current="page"]{color:var(--ink);background:var(--surface-2)
 body.accueil{overflow-x:clip}
 .hero{min-height:200dvh;display:grid;grid-template-columns:1.02fr .98fr;align-items:start;gap:40px;
   max-width:var(--wrap);margin:0 auto;padding:0 24px}
-/* position:relative + z-index sur les contenus : la visualisation est collée
-   (position:sticky), donc positionnée, et se peindrait sinon par-dessus le
-   texte quand elle déborde de sa colonne pendant la traversée. */
-.hero-txt{order:1;position:relative;z-index:1;max-width:520px;min-height:100dvh;
+/* Empilement de l'accueil, déclaré explicitement plutôt que laissé à
+   « z-index: auto » : la visualisation est collée (position:sticky) et son
+   canvas est fixé à la fenêtre, deux positionnements dont l'ordre de peinture
+   varie d'un navigateur à l'autre. Trois niveaux, du fond vers l'avant :
+       0  la visualisation et son canvas   (.hero-viz)
+       2  le texte du premier écran et les sections   (.hero-txt, main.wrap)
+       5  le bandeau de bas de page   (.hero-bas)
+   Le z-index de .hero-viz en fait un contexte d'empilement : son canvas, quoi
+   qu'il arrive, ne peut plus passer devant le texte. */
+.hero-txt{order:1;position:relative;z-index:2;max-width:520px;min-height:100dvh;
   display:flex;flex-direction:column;justify-content:center}
 .hero h1{font-size:clamp(34px,4.4vw,54px);letter-spacing:-.04em;line-height:1.04;margin:0 0 18px}
 .hero h1 em{font-style:normal;color:var(--accent-2)}
@@ -117,7 +123,7 @@ body.accueil{overflow-x:clip}
 .hero-stats div{min-width:0}
 .hero-stats .n{font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:500;color:var(--ink)}
 .hero-stats .l{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
-.hero-viz{order:2;position:sticky;top:0;height:100dvh;display:grid;place-items:center;cursor:grab}
+.hero-viz{order:2;position:sticky;top:0;z-index:0;height:100dvh;display:grid;place-items:center;cursor:grab}
 .hero-viz:active{cursor:grabbing}
 /* Le canvas est cadré exactement sur la fenêtre : la traversée ne peut donc
    déborder ni à gauche ni à droite, quelle que soit la largeur. C'est le
@@ -140,7 +146,7 @@ body.accueil{overflow-x:clip}
    traversée : sans cela le second écran du hero, une fois la pyramide franchie,
    resterait entièrement vide. Elles arrivent donc par-dessus la traversée, et
    le premier écran n'en montre toujours rien. */
-.accueil main.wrap{position:relative;z-index:1;margin-top:-100dvh;padding-top:10px}
+.accueil main.wrap{position:relative;z-index:2;margin-top:-100dvh;padding-top:10px}
 .accueil main.wrap .tuile{margin-top:14px}
 
 @media (max-width:900px){
@@ -152,7 +158,7 @@ body.accueil{overflow-x:clip}
   .hero{min-height:100dvh;grid-template-columns:1fr;align-items:start;
     padding-top:26px;padding-bottom:40px;gap:22px}
   .hero-txt{order:2;min-height:0;display:block}
-  .hero-viz{order:1;height:min(42vh,300px)}
+  .hero-viz{order:1;height:min(42vh,300px)}   /* z-index:0 conservé */
   .viz-legende{bottom:2px}
   /* Les sections ne remontent pas : en une colonne le texte occupe déjà la
      course de la traversée, il n'y a pas d'écran vide à combler. */
