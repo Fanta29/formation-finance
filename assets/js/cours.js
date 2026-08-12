@@ -44,9 +44,15 @@ function sommaire() {
         volCourant = c.volume;
         const vi = idx.sections.find(s => s.type === "intro" && s.cle === "v" + c.volume);
         const vs = idx.sections.find(s => s.type === "synthese" && s.cle === "v" + c.volume);
-        html += `<li style="border:0;padding-top:10px"><span class="meta">Volume ${c.volume}</span>
-          ${vi ? ` · <a href="?sec=${vi.cle}&t=intro">introduction</a>` : ""}
-          ${vs ? ` · <a href="?sec=${vs.cle}&t=synthese">synthèse</a>` : ""}</li>`;
+        /* Intertitre de volume : mise en forme portée par « .toc-vol », et non
+           par un style en ligne, pour que ses liens échappent au display:flex
+           des entrées de chapitre. Les liens sont assemblés sur une seule ligne,
+           sans séparateur orphelin si l'une des deux sections manque. */
+        const liens = [
+          vi ? `<a href="?sec=${vi.cle}&t=intro">introduction</a>` : "",
+          vs ? `<a href="?sec=${vs.cle}&t=synthese">synthèse</a>` : ""
+        ].filter(Boolean).join(" · ");
+        html += `<li class="toc-vol"><span class="meta">Volume ${c.volume}</span>${liens ? " · " + liens : ""}</li>`;
       }
       html += `<li><a href="?ch=${c.num}">
         <span class="num">${c.num}</span>

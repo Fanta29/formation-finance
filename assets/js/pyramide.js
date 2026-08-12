@@ -110,7 +110,9 @@ export function pyramide(canvas, opts = {}) {
 
   function peindre() {
     ctx.clearRect(0, 0, l, h);
-    const cx = l / 2, cy = h / 2 + h * 0.03;
+    /* La colonne de texte est centrée sur la hauteur de la fenêtre : la scène
+       l'est donc aussi, sans décalage vers le bas. */
+    const cx = l / 2, cy = h / 2;
     const E0 = cadre() * 0.40;                // échelle au repos
 
     /* Traversée : la caméra se rapproche, donc le facteur d'échelle enfle.
@@ -126,13 +128,6 @@ export function pyramide(canvas, opts = {}) {
     });
 
     ctx.globalAlpha = voile;
-
-    /* halo — reste à l'échelle de repos, sinon il inonde l'écran en fin de course */
-    const g = ctx.createRadialGradient(cx, cy, E0 * 0.15, cx, cy, E0 * 1.5);
-    g.addColorStop(0, "rgba(124,140,255,0.13)");
-    g.addColorStop(1, "rgba(124,140,255,0)");
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, l, h);
 
     /* arêtes, en arrière-plan */
     ctx.lineWidth = 1 + trav * 2;
