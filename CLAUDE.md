@@ -232,6 +232,16 @@ navigation ainsi qu'un décalage avec les clés de cache du service worker.
 Après toute modification de la liste des fichiers du socle, penser à incrémenter `VERSION`
 dans `sw.js`, sinon les navigateurs continueront de servir l'ancienne version en cache.
 
+**`/assets/` est servi en `max-age=0, must-revalidate`, et doit le rester.** Le site n'a
+aucune étape de build, donc aucun condensat dans les noms de fichiers : `app.css`,
+`params.js` et les icônes gardent la même URL d'une version à l'autre. Un cache `immutable`
+y est une promesse intenable — il l'a été jusqu'en août 2026, avec pour effet qu'une mise à
+jour de barème dans `params.js` pouvait rester invisible un an pour un visiteur déjà venu,
+le `fetch` du service worker passant lui aussi par le cache HTTP. Avec `must-revalidate`, le
+navigateur garde le fichier mais le revalide : Vercel répond 304 tant que rien n'a changé,
+et le contenu n'est retransmis qu'en cas de modification réelle. Ne pas rallonger cette
+durée sans introduire d'abord des noms de fichiers versionnés.
+
 ---
 
 ## 7. Ton et écriture
