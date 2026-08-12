@@ -105,9 +105,12 @@ body.accueil{overflow-x:clip}
 .tuile:hover{border-color:var(--line-2);background:var(--surface-2);transform:translateX(3px)}
 .tuile .ico{width:34px;height:34px;flex:0 0 auto;border-radius:var(--r-s);background:var(--accent-glow);
   display:grid;place-items:center;color:var(--accent-2)}
+/* .tt et .td sont des <span> : sans display:block ils restent en ligne et le
+   titre se colle à sa description sur une seule ligne. Le margin-top de .td,
+   ignoré sur une boîte en ligne, ne prenait pas effet non plus. */
 .tuile .tx{flex:1;min-width:0}
-.tuile .tt{font-weight:600;font-size:15.5px;color:var(--ink);letter-spacing:-.015em}
-.tuile .td{font-size:13px;color:var(--muted);margin-top:1px}
+.tuile .tt{display:block;font-weight:600;font-size:15.5px;color:var(--ink);letter-spacing:-.015em}
+.tuile .td{display:block;font-size:13px;color:var(--muted);margin-top:1px}
 .tuile .fl{color:var(--muted);font-size:18px}
 .tuile:hover .fl{color:var(--accent-2)}
 .hero-stats{display:flex;gap:26px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:16px}
