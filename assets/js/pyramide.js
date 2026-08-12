@@ -45,11 +45,30 @@ export function pyramide(canvas) {
     aretes.push([A, B], [B, C]);
   });
 
-  let ry = 0.5, rx = -0.16, vy = 0.0026, glisse = false, dernier = null;
+  let vy = 0.0026, glisse = false, dernier = null;
   let actif = -1, eclat = [0, 0, 0];
   let t = Math.random() * 100;          // départ aléatoire du balancement
-  let rz = 0;                           // roulis
   let l = 0, h = 0, dpr = 1;
+
+  /* La pose se décompose en deux termes indépendants :
+       — le mouvement automatique, fonction de l'horloge t (tangage et roulis)
+         et de l'angle de lacet baseY qui avance seul ;
+       — les décalages offX / offY / offZ, imposés au glissement et conservés
+         ensuite.
+     Rien ne réécrit jamais l'un à partir de l'autre : au relâchement le
+     balancement reprend depuis la pose courante, sans retour brusque. */
+  let baseY = 0.5;                      // lacet automatique
+  let offX = 0, offY = 0, offZ = 0;     // décalages persistants du glissement
+  const LIMITE_X = 1.2;                 // amplitude maximale du tangage manuel
+  let rx = 0, ry = 0, rz = 0;           // pose composée, recalculée à l'image
+
+  function poser() {
+    // deux oscillations lentes, de périodes différentes, pour un mouvement
+    // qui ne repasse pas deux fois par la même pose : la pyramide culbute.
+    rx = -0.16 + Math.sin(t * 0.34) * 0.5 + offX;
+    ry = baseY + offY;
+    rz = Math.sin(t * 0.21) * 0.28 + offZ;
+  }
 
   function dimensionner() {
     dpr = Math.min(devicePixelRatio || 1, 2);
@@ -120,14 +139,8 @@ export function pyramide(canvas) {
   }
 
   function boucle() {
-    if (!glisse) {
-      t += 0.016;
-      ry += vy;
-      // deux oscillations lentes, de périodes différentes, pour un mouvement
-      // qui ne repasse pas deux fois par la même pose : la pyramide culbute.
-      rx = -0.16 + Math.sin(t * 0.34) * 0.5;
-      rz = Math.sin(t * 0.21) * 0.28;
-    }
+    if (!glisse) { t += 0.016; baseY += vy; }
+    poser();
     peindre();
     if (!sobre) requestAnimationFrame(boucle);
   }
@@ -138,25 +151,21 @@ export function pyramide(canvas) {
   const bouge = e => {
     if (!glisse || !dernier) return;
     const p = pos(e);
-    ry += (p.clientX - dernier.clientX) * 0.007;
-    rx += (p.clientY - dernier.clientY) * 0.004;
-    rx = Math.max(-1.2, Math.min(1.2, rx));
+    // le glissement ne touche qu'aux décalages : l'oscillation reste intacte.
+    offY += (p.clientX - dernier.clientX) * 0.007;
+    offX += (p.clientY - dernier.clientY) * 0.004;
+    offX = Math.max(-LIMITE_X, Math.min(LIMITE_X, offX));
     dernier = p;
+    poser();
     if (sobre) peindre();
     if (e.cancelable) e.preventDefault();
   };
-  // au relâcher, on réaligne l'horloge sur le tangage courant pour éviter
-  // un saut brusque quand le balancement automatique reprend.
-  const finGlisse = () => {
-    if (glisse) t = Math.asin(Math.max(-1, Math.min(1, (rx + 0.16) / 0.5))) / 0.34;
-    fin();
-  };
 
   canvas.addEventListener("mousedown", debut);
-  addEventListener("mouseup", finGlisse);
+  addEventListener("mouseup", fin);
   addEventListener("mousemove", bouge);
   canvas.addEventListener("touchstart", debut, { passive: true });
-  addEventListener("touchend", finGlisse);
+  addEventListener("touchend", fin);
   canvas.addEventListener("touchmove", bouge, { passive: false });
   addEventListener("resize", () => { dimensionner(); peindre(); });
 
