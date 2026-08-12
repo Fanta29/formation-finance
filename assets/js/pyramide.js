@@ -15,9 +15,15 @@ const H = 1.15;                       // hauteur de la pyramide
 const R = 0.95;                       // rayon de la base
 const LIGNES = 26;                    // densité de la trame
 
-export function pyramide(canvas) {
+/** `opts.cadre` : fonction rendant le côté de référence, en pixels, dont
+    dépendent la taille de la pyramide au repos. Par défaut le plus petit côté
+    du canvas. La page d'accueil donne au canvas une largeur supérieure à sa
+    colonne — pour que la traversée déborde sur toute la fenêtre — et impose
+    donc son propre cadre, sinon la pose de repos grossirait d'autant. */
+export function pyramide(canvas, opts = {}) {
   const ctx = canvas.getContext("2d");
   const sobre = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cadre = typeof opts.cadre === "function" ? opts.cadre : () => Math.min(l, h);
 
   const sommet = { x: 0, y: -H * 0.62, z: 0 };
   const base = [0, 1, 2].map(i => {
@@ -62,6 +68,11 @@ export function pyramide(canvas) {
   const LIMITE_X = 1.2;                 // amplitude maximale du tangage manuel
   let rx = 0, ry = 0, rz = 0;           // pose composée, recalculée à l'image
 
+  /* Traversée au défilement : 0 = pose de repos, 1 = caméra passée au travers. */
+  let trav = 0;
+  const FUITE = 26;                     // ampleur du rapprochement de la caméra
+  const SEUIL_FONDU = 0.62;             // à partir d'où l'objet s'efface
+
   function poser() {
     // deux oscillations lentes, de périodes différentes, pour un mouvement
     // qui ne repasse pas deux fois par la même pose : la pyramide culbute.
@@ -99,22 +110,32 @@ export function pyramide(canvas) {
 
   function peindre() {
     ctx.clearRect(0, 0, l, h);
-    const cx = l / 2, cy = h / 2 + h * 0.03, E = Math.min(l, h) * 0.40;
+    const cx = l / 2, cy = h / 2 + h * 0.03;
+    const E0 = cadre() * 0.40;                // échelle au repos
+
+    /* Traversée : la caméra se rapproche, donc le facteur d'échelle enfle.
+       La croissance est quadratique — lente d'abord, puis très rapide — pour
+       donner la sensation d'entrer dans l'objet plutôt que de le grossir. */
+    const E = E0 * (1 + trav * trav * FUITE);
+    const voile = 1 - Math.max(0, (trav - SEUIL_FONDU) / (1 - SEUIL_FONDU));
+    if (voile <= 0) return;                   // caméra passée au travers
 
     BRANCHES.forEach((_, i) => {
       const cible = actif === i ? 1 : (actif === -1 ? 0.35 : 0);
       eclat[i] += (cible - eclat[i]) * 0.12;
     });
 
-    /* halo */
-    const g = ctx.createRadialGradient(cx, cy, E * 0.15, cx, cy, E * 1.5);
+    ctx.globalAlpha = voile;
+
+    /* halo — reste à l'échelle de repos, sinon il inonde l'écran en fin de course */
+    const g = ctx.createRadialGradient(cx, cy, E0 * 0.15, cx, cy, E0 * 1.5);
     g.addColorStop(0, "rgba(124,140,255,0.13)");
     g.addColorStop(1, "rgba(124,140,255,0)");
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, l, h);
 
     /* arêtes, en arrière-plan */
-    ctx.lineWidth = 1;
+    ctx.lineWidth = 1 + trav * 2;
     for (const [a, b] of aretes) {
       const pa = projeter(a, cx, cy, E), pb = projeter(b, cx, cy, E);
       ctx.strokeStyle = "rgba(195,202,214,0.22)";
@@ -127,15 +148,18 @@ export function pyramide(canvas) {
       return q;
     }).sort((a, b) => a.z - b.z);
 
+    const gros = 1 + trav * 2.4;              // les points enflent avec l'approche
     for (const p of proj) {
       const prof = (p.z + 1.2) / 2.4;
       const [r, v, b] = BRANCHES[p.f].couleur;
       const a = (0.10 + prof * 0.62) * (0.55 + eclat[p.f] * 0.45);
       ctx.fillStyle = `rgba(${r},${v},${b},${a.toFixed(3)})`;
       ctx.beginPath();
-      ctx.arc(p.x, p.y, (p.bord ? 1.5 : 0.85) + prof * (p.bord ? 1.1 : 1.4), 0, Math.PI * 2);
+      ctx.arc(p.x, p.y, ((p.bord ? 1.5 : 0.85) + prof * (p.bord ? 1.1 : 1.4)) * gros, 0, Math.PI * 2);
       ctx.fill();
     }
+
+    ctx.globalAlpha = 1;
   }
 
   function boucle() {
@@ -146,14 +170,27 @@ export function pyramide(canvas) {
   }
 
   const pos = e => (e.touches ? e.touches[0] : e);
-  const debut = e => { glisse = true; dernier = pos(e); };
-  const fin = () => { glisse = false; dernier = null; };
+  /* sens du geste tactile : 0 indéterminé, 1 entraînement, -1 défilement */
+  let sens = 1;
+  const debut = e => { glisse = true; dernier = pos(e); sens = e.touches ? 0 : 1; };
+  const fin = () => { glisse = false; dernier = null; sens = 1; };
   const bouge = e => {
     if (!glisse || !dernier) return;
     const p = pos(e);
+    const dx = p.clientX - dernier.clientX, dy = p.clientY - dernier.clientY;
+
+    /* La page défile : au doigt, un geste franchement vertical doit traverser
+       le canvas pour faire défiler, au lieu d'entraîner la pyramide. On tranche
+       au premier déplacement net, puis on s'y tient jusqu'au relâchement. */
+    if (sens === 0) {
+      if (Math.abs(dx) < 4 && Math.abs(dy) < 4) return;
+      sens = Math.abs(dy) > Math.abs(dx) ? -1 : 1;
+      if (sens === -1) return fin();
+    }
+
     // le glissement ne touche qu'aux décalages : l'oscillation reste intacte.
-    offY += (p.clientX - dernier.clientX) * 0.007;
-    offX += (p.clientY - dernier.clientY) * 0.004;
+    offY += dx * 0.007;
+    offX += dy * 0.004;
     offX = Math.max(-LIMITE_X, Math.min(LIMITE_X, offX));
     dernier = p;
     poser();
@@ -173,6 +210,16 @@ export function pyramide(canvas) {
   boucle();
   if (sobre) peindre();
 
-  /** Met en avant une face : 0 le cours, 1 les QCM, 2 les simulateurs, -1 aucune. */
-  return { eclairer(i) { actif = i; if (sobre) peindre(); } };
+  return {
+    /** Met en avant une face : 0 le cours, 1 les QCM, 2 les simulateurs, -1 aucune. */
+    eclairer(i) { actif = i; if (sobre) peindre(); },
+
+    /** Avancée de la caméra dans l'objet, de 0 (repos) à 1 (traversé, invisible).
+        Branché sur le défilement de la page d'accueil. Sans effet si
+        l'utilisateur demande moins d'animations : l'objet reste au repos. */
+    traverser(p) {
+      if (sobre) return;
+      trav = Math.max(0, Math.min(1, Number(p) || 0));
+    }
+  };
 }
