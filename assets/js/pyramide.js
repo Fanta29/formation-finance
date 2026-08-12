@@ -1,12 +1,12 @@
 /* pyramide.js — élément signature de la page d'accueil.
    Une pyramide à base triangulaire : trois faces, une par branche du site
-   (le cours, les QCM, les simulateurs). Chaque face est constituée de points
+   (les cours, les QCM, les simulateurs). Chaque face est constituée de points
    sur une trame barycentrique. Rotation continue, entraînable à la souris ou
    au doigt ; une face s'allume quand on survole l'entrée correspondante.
    Se fige si l'utilisateur demande moins d'animations. */
 
 export const BRANCHES = [
-  { cle: "cours",       nom: "Le cours",         couleur: [124, 140, 255] },
+  { cle: "cours",       nom: "Les cours",        couleur: [124, 140, 255] },
   { cle: "qcm",         nom: "Les QCM",          couleur: [74, 222, 155] },
   { cle: "simulateurs", nom: "Les simulateurs",  couleur: [245, 184, 74] }
 ];
@@ -211,7 +211,7 @@ export function pyramide(canvas, opts = {}) {
   if (sobre) peindre();
 
   return {
-    /** Met en avant une face : 0 le cours, 1 les QCM, 2 les simulateurs, -1 aucune. */
+    /** Met en avant une face : 0 les cours, 1 les QCM, 2 les simulateurs, -1 aucune. */
     eclairer(i) { actif = i; if (sobre) peindre(); },
 
     /** Avancée de la caméra dans l'objet, de 0 (repos) à 1 (traversé, invisible).
