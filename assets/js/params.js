@@ -289,7 +289,7 @@ export const P = {
     libelle: "Abattement en ligne directe (par parent et par enfant)",
     valeur: 100000, unite: "€",
     base: "CGI art. 779, I", doctrine: null,
-    source: "https://advizexperts.fr/code-general-impots/article-779-cgi-abattements-droits-donation-succession/",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000026292566",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Abattement individuel : par enfant ET par parent. Rappel fiscal 15 ans (CGI art. 784). Non revalorisé depuis 2011, gelé jusqu'au 31/12/2028."
   },
@@ -297,7 +297,7 @@ export const P = {
     libelle: "Abattement supplémentaire pour héritier handicapé",
     valeur: 159325, unite: "€",
     base: "CGI art. 779, II", doctrine: null,
-    source: "https://advizexperts.fr/code-general-impots/article-779-cgi-abattements-droits-donation-succession/",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000026292566",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Cumulable avec l'abattement de lien de parenté (enfant handicapé : 100 000 + 159 325 = 259 325 €)."
   },
@@ -312,16 +312,18 @@ export const P = {
       { jusqua: 1805677, taux: 0.40 },
       { jusqua: Infinity, taux: 0.45 }
     ],
-    base: "CGI art. 777, Tableau I", doctrine: null,
-    source: "https://advizexperts.fr/code-general-impots/article-777-cgi-bareme-droits-donation-succession/",
+    base: "CGI art. 777, Tableau I",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/1501-PGP.html/identifiant=BOI-ENR-DMTG-10-50-30-20140929",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030061736",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Barème marginal appliqué à la part nette taxable APRÈS abattement. 7 tranches, gelées jusqu'au 31/12/2028. Tableaux II (époux/PACS) et III (collatéraux/non-parents) non inclus."
   },
   av_abattement_rachat: {
     libelle: "Abattement annuel sur les rachats d'assurance-vie après 8 ans",
     valeur: { celibataire: 4600, couple: 9200 }, unite: "€",
-    base: "CGI art. 125-0 A, I-1° quater", doctrine: null,
-    source: "https://www.france-epargne.fr/academy/assurance-vie/rachat-partiel-assurance-vie",
+    base: "CGI art. 125-0 A, I-1° quater",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20140211",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044989424",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "S'applique sur la seule part de gains du rachat (jamais le capital), contrats > 8 ans. PS 17,2 % maintenus sur l'AV. Réf. service-public F22414."
   },
@@ -329,7 +331,8 @@ export const P = {
     libelle: "Transmission AV — capitaux décès, primes versées avant 70 ans",
     valeur: { abattementParBeneficiaire: 152500, taux1: 0.20, seuilTaux2: 700000, taux2: 0.3125 },
     unite: "€",
-    base: "CGI art. 990 I", doctrine: "BOI-TCAS-AUT-60",
+    base: "CGI art. 990 I",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/1335-PGP.html/identifiant=BOI-TCAS-AUT-60-20180516",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047288653",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "152 500 € par bénéficiaire (tous contrats du même assuré). Au-delà : 20 % ≤ 700 000 €, 31,25 % au-delà. Vérifié sur le texte Légifrance de l'art. 990 I."
@@ -338,23 +341,24 @@ export const P = {
     libelle: "Transmission AV — primes versées après 70 ans",
     valeur: { abattementGlobal: 30500 }, unite: "€",
     base: "CGI art. 757 B", doctrine: null,
-    source: "https://beneficiaire.cardif.fr/les-articles-990i-757b-et-la-loi-tepa",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047288569",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Abattement global 30 500 € réparti entre TOUS les bénéficiaires. Porte sur les seules primes après 70 ans ; intérêts exonérés. Au-delà : barème succession."
   },
   pea_plafond: {
     libelle: "Plafond de versement du PEA",
     valeur: { peaClassique: 150000, cumulAvecPeaPme: 225000, peaJeune: 20000 }, unite: "€",
-    base: "CoMoFi art. L. 221-30", doctrine: null,
-    source: "https://www.france-epargne.fr/academy/placements-financiers/pea",
+    base: "CoMoFi art. L. 221-30 (PEA) et L. 221-32-1 (PEA-PME, cumul)", doctrine: null,
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038591630",
     verifieLe: "2026-08-16", statut: "confirme",
-    note: "Versements nets. Cumul PEA + PEA-PME ≤ 225 000 €. PS sur gains de PEA à 18,6 % depuis le 01/01/2026 (LFSS 2026). Plafond du PEA-PME seul incertain selon les sources ; seul le cumul 225 000 € est certain."
+    note: "Versements nets. Cumul PEA + PEA-PME ≤ 225 000 €. PS sur gains de PEA à 18,6 % depuis le 01/01/2026 (LFSS 2026). Plafond du PEA-PME seul fixé à 225 000 € (CoMoFi art. L. 221-32-1) ; le cumul PEA classique + PEA-PME ne peut excéder 225 000 €."
   },
   microfoncier: {
     libelle: "Micro-foncier : plafond de recettes et abattement",
     valeur: { plafondRecettes: 15000, abattement: 0.30 }, unite: "€",
-    base: "CGI art. 32", doctrine: null,
-    source: "https://www.trackstone.fr/blog/finance/micro-foncier-2026-abattement-de-50-ou-30",
+    base: "CGI art. 32",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/3973-PGP.html/identifiant=BOI-RFPI-DECLA-10-20120912",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048847610",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Location NUE. 15 000 € de revenu BRUT foncier, abattement 30 % (relèvement à 50 % non abouti). Distinct du micro-BIC."
   },
@@ -371,16 +375,18 @@ export const P = {
         { jusqua: Infinity, taux: 0.015 }
       ]
     },
-    base: "CGI art. 977, 1", doctrine: null,
-    source: "https://advizexperts.fr/code-general-impots/article-977-cgi-bareme-ifi-calcul-impot/",
+    base: "CGI art. 964 (seuil) et art. 977, 1 (barème)",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/11319-PGP.html/identifiant=BOI-PAT-IFI-40-10-20180608",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036385041",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Redevable si patrimoine immo net > 1 300 000 € au 1er janvier, mais barème dès 800 000 €. Inchangé LF 2026. Abattement 30 % RP (art. 973), plafonnement 75 % (art. 979)."
   },
   ifi_decote: {
     libelle: "Décote IFI (lissage de l'entrée dans le barème)",
     valeur: { forfait: 17500, taux: 0.0125, seuilBas: 1300000, seuilHaut: 1400000 },
-    base: "CGI art. 977, 2", doctrine: null,
-    source: "https://advizexperts.fr/code-general-impots/article-977-cgi-bareme-ifi-calcul-impot/",
+    base: "CGI art. 977, 2",
+    doctrine: "https://bofip.impots.gouv.fr/bofip/11319-PGP.html/identifiant=BOI-PAT-IFI-40-10-20180608",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036385041",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Décote = 17 500 € − (1,25 % × P) pour 1 300 000 ≤ P < 1 400 000 €. S'annule à 1 400 000 €."
   },
