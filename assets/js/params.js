@@ -312,8 +312,7 @@ export const P = {
       { jusqua: 1805677, taux: 0.40 },
       { jusqua: Infinity, taux: 0.45 }
     ],
-    base: "CGI art. 777, Tableau I",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/1501-PGP.html/identifiant=BOI-ENR-DMTG-10-50-30-20140929",
+    base: "CGI art. 777, Tableau I", doctrine: "BOI-ENR-DMTG-10-50-30",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030061736",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Barème marginal appliqué à la part nette taxable APRÈS abattement. 7 tranches, gelées jusqu'au 31/12/2028. Tableaux II (époux/PACS) et III (collatéraux/non-parents) non inclus."
@@ -321,8 +320,7 @@ export const P = {
   av_abattement_rachat: {
     libelle: "Abattement annuel sur les rachats d'assurance-vie après 8 ans",
     valeur: { celibataire: 4600, couple: 9200 }, unite: "€",
-    base: "CGI art. 125-0 A, I-1° quater",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant=BOI-RPPM-RCM-20-10-20-50-20140211",
+    base: "CGI art. 125-0 A, I-1° quater", doctrine: "BOI-RPPM-RCM-20-10-20-50",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044989424",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "S'applique sur la seule part de gains du rachat (jamais le capital), contrats > 8 ans. PS 17,2 % maintenus sur l'AV. Réf. service-public F22414."
@@ -331,8 +329,7 @@ export const P = {
     libelle: "Transmission AV — capitaux décès, primes versées avant 70 ans",
     valeur: { abattementParBeneficiaire: 152500, taux1: 0.20, seuilTaux2: 700000, taux2: 0.3125 },
     unite: "€",
-    base: "CGI art. 990 I",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/1335-PGP.html/identifiant=BOI-TCAS-AUT-60-20180516",
+    base: "CGI art. 990 I", doctrine: "BOI-TCAS-AUT-60",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047288653",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "152 500 € par bénéficiaire (tous contrats du même assuré). Au-delà : 20 % ≤ 700 000 €, 31,25 % au-delà. Vérifié sur le texte Légifrance de l'art. 990 I."
@@ -356,8 +353,7 @@ export const P = {
   microfoncier: {
     libelle: "Micro-foncier : plafond de recettes et abattement",
     valeur: { plafondRecettes: 15000, abattement: 0.30 }, unite: "€",
-    base: "CGI art. 32",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/3973-PGP.html/identifiant=BOI-RFPI-DECLA-10-20120912",
+    base: "CGI art. 32", doctrine: "BOI-RFPI-DECLA-10",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048847610",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Location NUE. 15 000 € de revenu BRUT foncier, abattement 30 % (relèvement à 50 % non abouti). Distinct du micro-BIC."
@@ -375,8 +371,7 @@ export const P = {
         { jusqua: Infinity, taux: 0.015 }
       ]
     },
-    base: "CGI art. 964 (seuil) et art. 977, 1 (barème)",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/11319-PGP.html/identifiant=BOI-PAT-IFI-40-10-20180608",
+    base: "CGI art. 964 (seuil) et art. 977, 1 (barème)", doctrine: "BOI-PAT-IFI-40-10",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036385041",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Redevable si patrimoine immo net > 1 300 000 € au 1er janvier, mais barème dès 800 000 €. Inchangé LF 2026. Abattement 30 % RP (art. 973), plafonnement 75 % (art. 979)."
@@ -384,8 +379,7 @@ export const P = {
   ifi_decote: {
     libelle: "Décote IFI (lissage de l'entrée dans le barème)",
     valeur: { forfait: 17500, taux: 0.0125, seuilBas: 1300000, seuilHaut: 1400000 },
-    base: "CGI art. 977, 2",
-    doctrine: "https://bofip.impots.gouv.fr/bofip/11319-PGP.html/identifiant=BOI-PAT-IFI-40-10-20180608",
+    base: "CGI art. 977, 2", doctrine: "BOI-PAT-IFI-40-10",
     source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036385041",
     verifieLe: "2026-08-16", statut: "confirme",
     note: "Décote = 17 500 € − (1,25 % × P) pour 1 300 000 ≤ P < 1 400 000 €. S'annule à 1 400 000 €."
