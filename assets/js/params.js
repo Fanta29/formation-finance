@@ -284,48 +284,112 @@ export const P = {
     note: "Conditions cumulatives : CA HT ≤ 10 M€, capital entièrement libéré, détenu à 75 % au moins par des personnes physiques. Au-delà de 42 500 € de bénéfice : 25 %."
   },
 
+  /* ----------------------------- transmission, épargne, patrimoine --- */
+  succession_abattement_enfant: {
+    libelle: "Abattement en ligne directe (par parent et par enfant)",
+    valeur: 100000, unite: "€",
+    base: "CGI art. 779, I", doctrine: null,
+    source: "https://advizexperts.fr/code-general-impots/article-779-cgi-abattements-droits-donation-succession/",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Abattement individuel : par enfant ET par parent. Rappel fiscal 15 ans (CGI art. 784). Non revalorisé depuis 2011, gelé jusqu'au 31/12/2028."
+  },
+  succession_abattement_handicap: {
+    libelle: "Abattement supplémentaire pour héritier handicapé",
+    valeur: 159325, unite: "€",
+    base: "CGI art. 779, II", doctrine: null,
+    source: "https://advizexperts.fr/code-general-impots/article-779-cgi-abattements-droits-donation-succession/",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Cumulable avec l'abattement de lien de parenté (enfant handicapé : 100 000 + 159 325 = 259 325 €)."
+  },
+  succession_bareme_ligne_directe: {
+    libelle: "Barème des droits de succession en ligne directe",
+    valeur: [
+      { jusqua: 8072, taux: 0.05 },
+      { jusqua: 12109, taux: 0.10 },
+      { jusqua: 15932, taux: 0.15 },
+      { jusqua: 552324, taux: 0.20 },
+      { jusqua: 902838, taux: 0.30 },
+      { jusqua: 1805677, taux: 0.40 },
+      { jusqua: Infinity, taux: 0.45 }
+    ],
+    base: "CGI art. 777, Tableau I", doctrine: null,
+    source: "https://advizexperts.fr/code-general-impots/article-777-cgi-bareme-droits-donation-succession/",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Barème marginal appliqué à la part nette taxable APRÈS abattement. 7 tranches, gelées jusqu'au 31/12/2028. Tableaux II (époux/PACS) et III (collatéraux/non-parents) non inclus."
+  },
+  av_abattement_rachat: {
+    libelle: "Abattement annuel sur les rachats d'assurance-vie après 8 ans",
+    valeur: { celibataire: 4600, couple: 9200 }, unite: "€",
+    base: "CGI art. 125-0 A, I-1° quater", doctrine: null,
+    source: "https://www.france-epargne.fr/academy/assurance-vie/rachat-partiel-assurance-vie",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "S'applique sur la seule part de gains du rachat (jamais le capital), contrats > 8 ans. PS 17,2 % maintenus sur l'AV. Réf. service-public F22414."
+  },
+  av_990i: {
+    libelle: "Transmission AV — capitaux décès, primes versées avant 70 ans",
+    valeur: { abattementParBeneficiaire: 152500, taux1: 0.20, seuilTaux2: 700000, taux2: 0.3125 },
+    unite: "€",
+    base: "CGI art. 990 I", doctrine: "BOI-TCAS-AUT-60",
+    source: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047288653",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "152 500 € par bénéficiaire (tous contrats du même assuré). Au-delà : 20 % ≤ 700 000 €, 31,25 % au-delà. Vérifié sur le texte Légifrance de l'art. 990 I."
+  },
+  av_757b: {
+    libelle: "Transmission AV — primes versées après 70 ans",
+    valeur: { abattementGlobal: 30500 }, unite: "€",
+    base: "CGI art. 757 B", doctrine: null,
+    source: "https://beneficiaire.cardif.fr/les-articles-990i-757b-et-la-loi-tepa",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Abattement global 30 500 € réparti entre TOUS les bénéficiaires. Porte sur les seules primes après 70 ans ; intérêts exonérés. Au-delà : barème succession."
+  },
+  pea_plafond: {
+    libelle: "Plafond de versement du PEA",
+    valeur: { peaClassique: 150000, cumulAvecPeaPme: 225000, peaJeune: 20000 }, unite: "€",
+    base: "CoMoFi art. L. 221-30", doctrine: null,
+    source: "https://www.france-epargne.fr/academy/placements-financiers/pea",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Versements nets. Cumul PEA + PEA-PME ≤ 225 000 €. PS sur gains de PEA à 18,6 % depuis le 01/01/2026 (LFSS 2026). Plafond du PEA-PME seul incertain selon les sources ; seul le cumul 225 000 € est certain."
+  },
+  microfoncier: {
+    libelle: "Micro-foncier : plafond de recettes et abattement",
+    valeur: { plafondRecettes: 15000, abattement: 0.30 }, unite: "€",
+    base: "CGI art. 32", doctrine: null,
+    source: "https://www.trackstone.fr/blog/finance/micro-foncier-2026-abattement-de-50-ou-30",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Location NUE. 15 000 € de revenu BRUT foncier, abattement 30 % (relèvement à 50 % non abouti). Distinct du micro-BIC."
+  },
+  ifi_seuil_bareme: {
+    libelle: "Seuil d'assujettissement et barème de l'IFI",
+    valeur: {
+      seuilAssujettissement: 1300000,
+      bareme: [
+        { jusqua: 800000, taux: 0.00 },
+        { jusqua: 1300000, taux: 0.005 },
+        { jusqua: 2570000, taux: 0.007 },
+        { jusqua: 5000000, taux: 0.01 },
+        { jusqua: 10000000, taux: 0.0125 },
+        { jusqua: Infinity, taux: 0.015 }
+      ]
+    },
+    base: "CGI art. 977, 1", doctrine: null,
+    source: "https://advizexperts.fr/code-general-impots/article-977-cgi-bareme-ifi-calcul-impot/",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Redevable si patrimoine immo net > 1 300 000 € au 1er janvier, mais barème dès 800 000 €. Inchangé LF 2026. Abattement 30 % RP (art. 973), plafonnement 75 % (art. 979)."
+  },
+  ifi_decote: {
+    libelle: "Décote IFI (lissage de l'entrée dans le barème)",
+    valeur: { forfait: 17500, taux: 0.0125, seuilBas: 1300000, seuilHaut: 1400000 },
+    base: "CGI art. 977, 2", doctrine: null,
+    source: "https://advizexperts.fr/code-general-impots/article-977-cgi-bareme-ifi-calcul-impot/",
+    verifieLe: "2026-08-16", statut: "confirme",
+    note: "Décote = 17 500 € − (1,25 % × P) pour 1 300 000 ≤ P < 1 400 000 €. S'annule à 1 400 000 €."
+  },
+
   /* ------------------------------------------------------- À VÉRIFIER --- */
   /* Ces paramètres sont attendus par le site mais n'ont PAS encore été vérifiés
      dans les conditions du protocole (deux sources concordantes dont une
      officielle, barèmes relus ligne par ligne). Ils restent à null : la page
      Paramètres les affiche comme « à vérifier » et aucun calcul ne les utilise. */
-  succession_bareme_ligne_directe: {
-    libelle: "Barème des droits de succession en ligne directe",
-    valeur: null, base: "CGI art. 777", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier",
-    note: "Barème à 7 tranches — à copier ligne par ligne depuis Légifrance ou le BOFiP, puis à relire tranche par tranche."
-  },
-  succession_abattement_enfant: {
-    libelle: "Abattement en ligne directe (par parent et par enfant)",
-    valeur: null, base: "CGI art. 779", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier", note: null
-  },
-  av_abattement_rachat: {
-    libelle: "Abattement annuel sur les rachats d'assurance-vie après 8 ans",
-    valeur: null, base: "CGI art. 125-0 A", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier", note: null
-  },
-  av_990i: {
-    libelle: "Abattement par bénéficiaire — capitaux décès versés avant 70 ans",
-    valeur: null, base: "CGI art. 990 I", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier", note: null
-  },
-  pea_plafond: {
-    libelle: "Plafond de versement du PEA",
-    valeur: null, base: "CoMoFi art. L. 221-30", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier",
-    note: "Vérifier également le traitement des prélèvements sociaux sur les gains de PEA en 2026 : les sources consultées se contredisent sur le maintien des taux historiques."
-  },
-  ifi_seuil_bareme: {
-    libelle: "Seuil d'assujettissement et barème de l'IFI",
-    valeur: null, base: "CGI art. 964 à 983", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier", note: null
-  },
-  microfoncier: {
-    libelle: "Micro-foncier : plafond de recettes et abattement",
-    valeur: null, base: "CGI art. 32", doctrine: null, source: null,
-    verifieLe: null, statut: "a_verifier", note: null
-  },
   microbic_meuble: {
     libelle: "Micro-BIC location meublée : plafonds et abattements",
     valeur: null, base: "CGI art. 50-0", doctrine: null, source: null,
