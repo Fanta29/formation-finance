@@ -8,28 +8,64 @@ chrome();
 const cles = Object.keys(P);
 const compte = s => cles.filter(k => P[k].statut === s).length;
 
-function afficherValeur(p) {
+/* Une valeur peut être un nombre, un barème par tranches, ou un objet dont les
+   entrées sont elles-mêmes des nombres ou des barèmes — c'est le cas de l'IFI,
+   qui porte son seuil et son barème dans le même objet. Le formateur descend
+   donc dans la structure au lieu de la convertir en chaîne à l'aveugle. */
+const estBareme = v => Array.isArray(v)
+  && v.length > 0
+  && v.every(t => t && typeof t === "object" && "jusqua" in t && "taux" in t);
+
+/* Intitulé de la colonne des tranches : ce que le barème découpe, qui n'est pas
+   la même chose d'un impôt à l'autre. */
+const ENTETE_TRANCHES = {
+  ir_bareme: "Fraction par part",
+  succession_bareme_ligne_directe: "Part nette taxable après abattement",
+  ifi_seuil_bareme: "Fraction de patrimoine net taxable"
+};
+const entete = cle => ENTETE_TRANCHES[cle] || "Tranche";
+
+function tableauTranches(v, intitule) {
+  return `<div class="tbl"><table><thead><tr><th>${intitule}</th><th>Taux</th></tr></thead>
+    <tbody>${v.map((t, i) => {
+      const bas = i === 0 ? 0 : v[i - 1].jusqua;
+      const haut = t.jusqua === Infinity ? null : t.jusqua;
+      return `<tr><td>${haut === null
+        ? `Au-delà de ${eur(bas)}`
+        : (i === 0 ? `Jusqu'à ${eur(haut)}` : `De ${eur(bas + 1)} à ${eur(haut)}`)}</td>
+        <td>${pct(t.taux)}</td></tr>`;
+    }).join("")}</tbody></table></div>`;
+}
+
+const tableauPaires = (paires, brut) =>
+  `<div class="tbl"><table><tbody>${paires.map(([k, x]) =>
+    `<tr><td>${libelleCle(k)}</td><td>${formatSimple(x, brut)}</td></tr>`).join("")}</tbody></table></div>`;
+
+function afficherValeur(p, cle) {
   const v = p.valeur;
   if (v === null || v === undefined) return `<div class="val none">Non publié — à vérifier</div>`;
-  if (Array.isArray(v)) {
-    return `<div class="tbl"><table><thead><tr><th>Fraction par part</th><th>Taux</th></tr></thead>
-      <tbody>${v.map((t, i) => {
-        const bas = i === 0 ? 0 : v[i - 1].jusqua;
-        const haut = t.jusqua === Infinity ? null : t.jusqua;
-        return `<tr><td>${haut === null
-          ? `Au-delà de ${eur(bas)}`
-          : (i === 0 ? `Jusqu'à ${eur(haut)}` : `De ${eur(bas + 1)} à ${eur(haut)}`)}</td>
-          <td>${pct(t.taux)}</td></tr>`;
-      }).join("")}</tbody></table></div>`;
-  }
+  if (estBareme(v)) return tableauTranches(v, entete(cle));
   if (typeof v === "object") {
-    return `<div class="tbl"><table><tbody>${Object.entries(v).map(([k, x]) =>
-      `<tr><td>${libelleCle(k)}</td><td>${formatSimple(x, p.format === "parts")}</td></tr>`).join("")}</tbody></table></div>`;
+    /* Les barèmes imbriqués sortent du tableau de paires et sont rendus à la
+       suite, sous leur propre en-tête : un barème n'a pas sa place dans une
+       cellule. */
+    const entrees = Object.entries(v);
+    const paires = entrees.filter(([, x]) => !estBareme(x));
+    const baremes = entrees.filter(([, x]) => estBareme(x));
+    return (paires.length ? tableauPaires(paires, p.format === "parts") : "")
+      + baremes.map(([, x]) => tableauTranches(x, entete(cle))).join("");
   }
   return `<div class="val">${formatSimple(v)}</div>`;
 }
 
 function formatSimple(x, brut = false) {
+  if (x === null || x === undefined) return "—";
+  if (typeof x === "boolean") return x ? "oui" : "non";
+  /* Garde-fou : sans cette branche, un objet imbriqué s'affichait
+     « [object Object] ». */
+  if (typeof x === "object") {
+    return Object.entries(x).map(([k, y]) => `${libelleCle(k)} ${formatSimple(y)}`).join(" · ");
+  }
   if (typeof x !== "number") return String(x);
   if (brut) return x.toLocaleString("fr-FR") + (x > 1 ? " parts" : " part");
   if (x > 0 && x < 1) return pct(x);
@@ -51,7 +87,15 @@ const LIB = {
   debutAnnee: "Première année d'abattement", tauxCourant: "Taux annuel courant",
   anneeFinale: "Année du taux final", tauxFinal: "Taux de la dernière période",
   anneeIntermediaire: "Année du taux intermédiaire", tauxIntermediaire: "Taux intermédiaire",
-  exonerationA: "Exonération totale à"
+  exonerationA: "Exonération totale à",
+  /* transmission, épargne, patrimoine */
+  abattementParBeneficiaire: "Abattement par bénéficiaire",
+  taux1: "Taux jusqu'au seuil", seuilTaux2: "Seuil du taux majoré", taux2: "Taux au-delà du seuil",
+  abattementGlobal: "Abattement global, tous bénéficiaires confondus",
+  peaClassique: "PEA classique", cumulAvecPeaPme: "Cumul PEA + PEA-PME", peaJeune: "PEA jeunes",
+  plafondRecettes: "Plafond de recettes brutes", abattement: "Abattement forfaitaire",
+  seuilAssujettissement: "Seuil d'assujettissement", bareme: "Barème",
+  forfait: "Forfait de la formule", seuilBas: "Seuil d'entrée", seuilHaut: "Seuil d'extinction"
 };
 const libelleCle = k => LIB[k] || k;
 
@@ -80,7 +124,7 @@ function rendre() {
       return `<div class="param">
         <span class="chip ${s.classe}">${s.label}</span>
         <h3>${p.libelle}</h3>
-        ${afficherValeur(p)}
+        ${afficherValeur(p, k)}
         ${p.categories ? `<p class="note">Catégories concernées : ${p.categories.join(" · ")}.</p>` : ""}
         ${p.note ? `<p class="note">${p.note}</p>` : ""}
         <div class="source-tag">
