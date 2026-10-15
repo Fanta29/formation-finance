@@ -100,6 +100,7 @@ tools/verifier-tout.sh        lance tous les contrôles d'un coup
 tools/audit.mjs               cohérence paramètres, données, références, classes CSS
 tools/build-pdf.py            (re)génère les PDF depuis les fragments de cours
 tools/verif-calculs.mjs       contrôle des calculs contre des cas de référence
+tools/sources-officielles.mjs quelles sources ne sont pas encore officielles (§ 1.1)
 tools/biais-longueur.mjs      la bonne réponse est-elle devinable à sa longueur ?
 tools/extract-qcm.js          extraction depuis l'ancien fichier HTML monolithique
 tools/build-cours.py          conversion du livre Word en fragments HTML
@@ -214,6 +215,21 @@ Puis, manuellement :
 2. Vérifier que la page `parametres.html` n'affiche aucune valeur sans `verifieLe`.
 3. Vérifier que les entrées `a_verifier` ont bien `valeur: null`.
 4. Relire les `note` : une réserve périmée est aussi trompeuse qu'un chiffre faux.
+
+**Qualité des sources.** `node tools/sources-officielles.mjs` dit quelles entrées reposent
+encore sur une source secondaire — cabinet, blog, site d'actualité fiscale — là où le § 1.1
+demande Légifrance, le BOFiP, impots.gouv.fr, service-public ou economie.gouv.fr. Le champ
+`source` est publié tel quel par `parametres.html` : il tient lieu de preuve pour le lecteur.
+L'outil regroupe le travail restant par article de loi, plusieurs paramètres partageant
+souvent le même texte. Il ne corrige rien, sort toujours en code 0 et n'est pas branché sur
+`verifier-tout.sh` : un contrôle bloquant resterait rouge tant que la reprise n'est pas faite,
+et pousserait à écrire des URL plausibles plutôt qu'à les ouvrir.
+
+**N'écris jamais une URL de source sans l'avoir consultée**, et cela vaut aussi pour un
+identifiant d'article Légifrance (`LEGIARTI…`) ou une référence BOFiP. Un lien qui pointe
+vers le mauvais texte est publié tel quel et vaut moins que la source secondaire qu'il
+remplace : il donne l'apparence de la vérification sans la vérification. Si l'accès au réseau
+manque, laisse la source en l'état et signale-le — c'est le § 1.8.
 
 Quand tu ajoutes un cas de référence à `verif-calculs.mjs`, indique en commentaire la source
 publiée dont provient le résultat attendu.
